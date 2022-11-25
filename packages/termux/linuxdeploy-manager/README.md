@@ -9,5 +9,4 @@ wget https://github.com/ArieSR91/user91-repo/raw/main/packages/termux/linuxdeplo
 
 After the installation complete type:\
 $ linuxdeploy --help
- 
 to see the command.
