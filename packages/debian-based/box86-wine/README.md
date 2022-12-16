@@ -1,5 +1,5 @@
 # Box86-wine manager
-run in termux:
+run:
 ```
 wget https://github.com/ArieSR91/user91-repo/raw/main/packages/debian-based/box86-wine/winebuild.sh && chmod +x winebuild.sh && bash winebuild.sh
 ```
