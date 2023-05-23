@@ -1,0 +1,14 @@
+Package: winebox
+Version: 1.0.0-SR
+Architecture: armhf
+Maintainer: name <syahri.ramadhan2022@gmail.com>
+Depends: cmake
+Installed-Size: 100 KB
+Description: box86 wine
+Filename: dists/metaverse/main/binary-armhf/winebox_1.0.0-SR_armhf.deb
+Size: 1564
+MD5Sum: 0c6894eedec020e035365a0ed72ff099
+SHA1: 81316e83cb33fe8dd59d97b6e7c8ce0fae291628
+SHA256: c8643f843b5ba0218d7f821d73d7f17c3eac4cdc9ef00ae1218d8762948700ae
+SHA512: 1a80ce27fbd6def94f0874dba3c99f8747c75155775dc3bbdf7668301255904e52dabdd13369469dfde2f1fe513fc8ba6d7a350188501422996842a5673713fe
+
