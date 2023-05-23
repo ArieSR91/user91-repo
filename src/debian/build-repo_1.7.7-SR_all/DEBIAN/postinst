@@ -1,3 +1,0 @@
-#!/bin/bash
-chmod 775 /usr/local/bin/build-repo
-chmod 775 /usr/local/bin/build-deb

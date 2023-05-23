@@ -1,5 +1,0 @@
-#!/data/data/com.termux/files/usr/bin/bash
-chmod 644 $HOME/bash.bashrc
-mv $PREFIX/etc/bash.bashrc $PREFIX/etc/bash.bashrc.bak
-mv $HOME/bash.bashrc $PREFIX/etc/bash.bashrc
-chmod 777 $PREFIX/etc/bash.bashrc
