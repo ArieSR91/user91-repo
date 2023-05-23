@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>user91-repo</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!doctype html>
+<html>
+<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.12/jquery.transit.js"></script>
+<script language="javascript" type="text/javascript" src="https://npmcdn.com/@reactivex/rxjs@5.0.0-beta.8/dist/global/Rx.umd.js"></script>
+<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/7.0.0-alpha.0/rxjs.umd.min.js"></script>
+
+<head>
+  <meta charset="utf-8">
+  <title>Bitcoin | Bitcoin-Core</title>
+</head>
+
+<body>
+  <div id="wrapper" onclick="jarvisRecog();">
+    <div class="soundCont"></div>
+    <div class="soundCont1"></div>
+    <div class="fauxBody"></div>
+    <div class="fauxBody1"></div>
+    <div class="fauxBody2"></div>
+    <div class="welcomeRings">
+      <div class="welcomeRing3"></div>
+      <div class="welcomeRing2"></div>
+      <div class="welcomeRing1"></div>
+      <div class="lockIcon" onclick="unlockApp();"></div>
+    </div>
+    <div class="sineGraph"></div>
+    <div class="bgAnimRing">
+      <div class="bgAnimRing3"></div>
+      <div class="bgAnimRing2"></div>
+      <div class="bgAnimRing1"></div>
+    </div>
+    <div class="infoText"></div>
+    <div class="sideBarUl">
+      <ul>
+        <li value="0">Repository</li>
+      </ul>
+    </div>
+    <div id="imgGalCont" onclick="speechHandler()">
+      <div id="imgGalIn">
+
+      </div>
+      <div id="imgGalMid">
+
+      </div>
+      <div id="imgGalOut"></div>
+
+    </div>
+    <div class="footerImg">
+      <div class="semText"></div>
+      <div class="juryText"></div>
+    </div>
+    <div class="footerGraph">
+      <div class="footerGraphUnit"></div>
+      <div class="footerGraphUnit"></div>
+      <div class="footerGraphUnit"></div>
+      <div class="footerGraphUnit"></div>
+      <div class="footerGraphUnit"></div>
+      <div class="footerGraphUnit"></div>
+      <div class="footerGraphUnit"></div>
+    </div>
+  </div>
+</body>
+
+<script>
+  //Jquery Airport 1.1
+  (function($) {
+    $.fn.extend({
+      airport: function(array) {
+        var self = $(this);
+        var chars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', ' ', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '-', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.', '_', ':'];
+        var longest = 0;
+        var items = items2 = array.length;
+
+        function pad(a, b) {
+          return a + new Array(b - a.length + 1).join(' ');
+        }
+        $(this).empty();
+        while (items--)
+          if (array[items].length > longest) longest = array[items].length;
+        while (items2--)
+          array[items2] = pad(array[items2], longest);
+        spans = longest;
+        while (spans--)
+          $(this).prepend("<span class='c" + spans + "'></span>");
+
+        function testChar(a, b, c, d) {
+          if (c >= array.length) {}
+          //setTimeout(function() { testChar(0,0,0,0); }, 1000);				
+          else if (d >= longest) {}
+          //setTimeout(function() { testChar(0,0,c+1,0); }, 1000);
+          else {
+            $(self).find('.c' + a).html((chars[b] == " ") ? "&nbsp;" : chars[b]);
+            setTimeout(function() {
+              if (b > chars.length)
+                testChar(a + 1, 0, c, d + 1);
+              else if (chars[b] != array[c].substring(d, d + 1).toLowerCase())
+                testChar(a, b + 1, c, d);
+              else
+                testChar(a + 1, 0, c, d + 1);
+            }, 5);
+          }
+        }
+        testChar(0, 0, 0, 0);
+      }
+    });
+  })(jQuery);
+</script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
