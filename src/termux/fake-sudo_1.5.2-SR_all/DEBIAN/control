@@ -1,0 +1,8 @@
+Package: fake-sudo
+Version: 1.5.2-SR
+Architecture: all
+Maintainer: Syahri Ramadhan <syahri.ramadhan2022@gmail.com>
+Depends: proot, which
+Installed-Size: 2465
+Homepage: https://ariesr91.github.io/user91-repo
+Description: Sudo is a simple bash script that provides sudo privilliges to a normal user.

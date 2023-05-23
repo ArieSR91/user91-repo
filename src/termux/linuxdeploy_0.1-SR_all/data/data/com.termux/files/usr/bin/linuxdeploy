@@ -1,0 +1,94 @@
+#!/usr/bin/env bash
+## Linux Deploy Assistant
+## Author Arie-SR91
+
+red='\033[1;91m'
+green='\033[1;92m'
+yellow='\033[1;93m'
+blue='\033[1;96m'
+white='\033[1;97m'
+crrenttime="$(date +'%r')"
+crrentdatenow=$(date +'%a %d/%m/%Y')
+lxuser=$('whoami')
+
+function help() {
+    echo "Run your Linux Deploy via Termux.
+
+Usage: linuxdeploy [options]
+
+options:
+    -s, --shell      Start/mount linux deploy cli from termux.
+    -m, --mount      Start/mount containers from termux.
+    -u, --umount     Stop/umount containers from termux.
+    -v, --vnc        Start Linux Deploy and VNC app.
+    -h, --help       Show this screen.
+
+For more info about update visit my github.
+https://github.com/ArieSR91
+"
+}
+
+function login() {
+    pulseaudio --start
+    clear
+    echo -e "$green
+╭───────────────────────────────╮    ╭────────────╮    ╭───────────────────────────────╮
+│ ┬   Linux Deploy Manager   ╭──┴────┤  WELLCOME  ├────┴──╮    Username: @$lxuser    ┬ │
+│ ╰──────────────────────────╯    ╭──┴─────┬┬─────┴──╮    ╰──────────────────────────╯ │
+╰─────────────────────────────────╯   ┬ ├──┼┼──┤ ┬   ╰─────────────────────────────────╯
+  ├────────────────────┤  ╭───────────┴──╮ ││ ╭──┴───────────╮  ├────────────────────┤
+╭─────────────────────────╯ ╭─────┬──────╯ ││ ╰──────┬─────╮ ╰─────────────────────────╮
+│ ┬     $crrenttime      ╭──┴──╮  ╰────────┴┴────────╯  ╭──┴──╮    $crrentdatenow    ┬ │
+│ ╰──────────────────────╯  ┬ ├┼┤ Login to your linuxs ├┼┤ ┬  ╰──────────────────────╯ │
+╰───────────────────────────╯  ╰────────────────────────╯  ╰───────────────────────────╯"
+    read -p "                                  [@] Username: " username;
+    if [ "$username" = "" ]; then
+        username=Arie-SR91
+    fi
+    read -p "                                  [*] Password: " password;
+    return 0
+}
+
+function shell() {
+    login
+    pulseaudio --start
+    su -c /data/data/ru.meefik.linuxdeploy/files/bin/linuxdeploy shell -u $username
+    umount
+    return 0
+}
+
+function mount() {
+    pulseaudio --start
+    su -c /data/data/ru.meefik.linuxdeploy/files/bin/linuxdeploy start -m
+    return 0
+}
+
+function umount() {
+    su -c /data/data/ru.meefik.linuxdeploy/files/bin/linuxdeploy stop -u
+    pulseaudio --kill
+    return 0
+}
+
+function desktop() {
+    termux-open vnc://127.0.0.1:5900
+    mount
+    return 0
+}
+
+case $1 in
+    -s | --shell)
+        shell
+        ;;
+    -m | --mount)
+        mount
+        ;;
+    -u | --umount)
+        umount
+        ;;
+    -v | --vnc)
+        desktop
+        ;;
+    * | -h | --help)
+        help
+        ;;
+esac

@@ -1,0 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+chmod 600 /data/data/com.termux/files/usr/etc/proot-distro/kali.sh
+

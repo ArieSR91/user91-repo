@@ -1,0 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/bash
+chmod 777 /data/data/com.termux/files/usr/bin/sudo
+chmod 777 /data/data/com.termux/files/usr/etc/sudoers.d/
+chmod 777 /data/data/com.termux/files/usr/etc/sudoers

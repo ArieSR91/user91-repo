@@ -1,0 +1,2 @@
+#!/data/data/com.termux/files/usr/bin/bash
+mv $PREFIX/etc/bash.bashrc.bak $PREFIX/etc/bash.bashrc

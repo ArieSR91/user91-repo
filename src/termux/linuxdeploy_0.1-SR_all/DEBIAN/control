@@ -1,0 +1,7 @@
+Package: linuxdeploy
+Version: 0.1-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: tsu, pulseaudio
+Installed-Size: 100 KB
+Description: Run linux deploy via termux

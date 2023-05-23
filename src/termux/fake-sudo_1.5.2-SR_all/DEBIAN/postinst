@@ -1,0 +1,6 @@
+#!/data/data/com.termux/files/usr/bin/bash
+USR="$(whoami)"
+chmod 775 /data/data/com.termux/files/usr/bin/sudo
+chmod 555 /data/data/com.termux/files/usr/etc/sudoers.d/
+echo "$USR|All|termux" >> /data/data/com.termux/files/usr/etc/sudoers
+chmod 555 /data/data/com.termux/files/usr/etc/sudoers

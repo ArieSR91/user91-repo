@@ -1,0 +1,202 @@
+#!/bin/bash
+
+if [ -f ~/.config/git-repo.conf ]; then
+    source ~/.config/git-repo.conf
+fi
+
+function generate-repo() {
+    echo -e "deb https://(username).github.io/(repository)/(os type) (code name) (component)\n"
+    if [ ! -f ~/.config/git-repo.conf ]; then
+        touch ~/.config/git-repo.conf
+    fi
+    ## Checking username
+    if grep -q "USERNAME" ~/.config/git-repo.conf; then
+        echo "git username: ${USERNAME}"
+    else
+        read -p "git username: " username;
+    fi
+    ## Checking repository
+    if grep -q "REPOSITORY" ~/.config/git-repo.conf; then
+        echo "git repo: ${REPOSITORY}"
+    else
+        read -p "git repo: " repository;
+    fi
+    ## Checking ostype
+    if grep -q "OSTYPE" ~/.config/git-repo.conf; then
+        echo "os type: ${OSTYPE}"
+    else
+        read -p "os type: " ostype;
+    fi
+    ## Checking code name
+    if grep -q "CODENAME" ~/.config/git-repo.conf; then
+        echo "code name: ${CODENAME}"
+    else
+        read -p "code name: " codename;
+    fi
+    ## Checking component
+    if grep -q "COMPONENT" ~/.config/git-repo.conf; then
+        echo "component: ${COMPONENT}"
+    else
+        read -p "component: " component;
+    fi
+    echo ""
+    ## Using previous username
+    if grep -q "USERNAME" ~/.config/git-repo.conf; then
+        read -p "Use the previous username: ${USERNAME} [Y/n]" input1;
+        if [ "$input1" == "Y" ] || [ "$input1" == "y" ]; then
+            echo "Using previous username"
+            if [ "$username" == "" ]; then
+                username=${USERNAME}
+            fi
+        else
+            read -p "[must filled] git username: " username;
+            sed -i "s/${USERNAME}/${username}/" ~/.config/git-repo.conf
+        fi
+    else
+        echo "USERNAME=$username" >> ~/.config/git-repo.conf
+    fi
+    ## Using previous repository
+    if grep -q "REPOSITORY" ~/.config/git-repo.conf; then
+        read -p "Use the previous repository: ${REPOSITORY} [Y/n]" input2;
+        if [ "$input2" == "Y" ] || [ "$input2" == "y" ]; then
+            echo "Using previous repository"
+            if [ "$repository" == "" ]; then
+                repository=${REPOSITORY}
+            fi
+        else
+            read -p "[must filled] git repo: " repository;
+            sed -i "s/${REPOSITORY}/${repository}/" ~/.config/git-repo.conf
+        fi
+    else
+        echo "REPOSITORY=$repository" >> ~/.config/git-repo.conf
+    fi
+    ## Using previous ostype
+    if grep -q "OSTYPE" ~/.config/git-repo.conf; then
+        read -p "Use the previous ostype: ${OSTYPE} [Y/n]" input3;
+        if [ "$input3" == "Y" ] || [ "$input3" == "y" ]; then
+            echo "Using previous ostype"
+            if [ "$ostype" == "" ]; then
+                ostype=${OSTYPE}
+            fi
+        else
+            read -p "[must filled] os type: " ostype;
+            sed -i "s/${OSTYPE}/${ostype}/" ~/.config/git-repo.conf
+        fi
+    else
+        echo "OSTYPE=$ostype" >> ~/.config/git-repo.conf
+    fi
+    ## Using previous codename
+    if grep -q "CODENAME" ~/.config/git-repo.conf; then
+        read -p "Use the previous codename: ${CODENAME} [Y/n]" input4;
+        if [ "$input4" == "Y" ] || [ "$input4" == "y" ]; then
+            echo "Using previous codename"
+            if [ "$codename" == "" ]; then
+                codename=${CODENAME}
+            fi
+        else
+            read -p "[must filled] code name: " codename;
+            sed -i "s/${CODENAME}/${codename}/" ~/.config/git-repo.conf
+        fi
+    else
+        echo "CODENAME=$codename" >> ~/.config/git-repo.conf
+    fi
+    ## Using previous component
+    if grep -q "COMPONENT" ~/.config/git-repo.conf; then
+        read -p "Use the previous component: ${COMPONENT} [Y/n]" input5;
+        if [ "$input5" == "Y" ] || [ "$input5" == "y" ]; then
+            echo "Using previous component"
+            if [ "$component" == "" ]; then
+                component=${COMPONENT}
+            fi
+        else
+            read -p "[must filled] component: " component;
+            sed -i "s/${COMPONENT}/${component}/" ~/.config/git-repo.conf
+        fi
+    else
+        echo "COMPONENT=$component" >> ~/.config/git-repo.conf
+    fi
+    ## print the result
+    export REPO_URL="deb [arch=all] https://$username.github.io/$repository/$ostype $codename $component\n"
+    echo -e "\nResult:\n${REPO_URL}"
+      echo -e "Generating config..."
+    sleep 0.5
+    cat ~/.config/git-repo.conf
+    echo -e "\nThese results will be written to ~/.config/git-repo.conf\n"
+    if [ $ostype == "termux" ]; then
+        debtype=termux-deb
+    else
+        debtype=debian-deb
+    fi
+    ## building repository
+    echo "Your system will build the repository using this config."
+    read -p "Do you want to continue? [Y/n]" input6;
+    if [ "$input6" == "Y" ] || [ "$input6" == "y" ]; then
+        if [ ! -d .git ]; then
+            echo -e "\nGo to the repository folder and run again"
+        else
+            echo ""
+            if grep -q "core" .git/config; then
+                start-build
+            else
+                echo -e "clone your git repository or run this command:\n    git init\n    git add .\n    git commit -m 'newcommit'\n    git branch -M [gitbranck]\n    git remote add origin https://github.com/[gituser]/[gitrepo].git"
+                exit
+            fi
+        fi
+    else
+        generate-repo
+    fi
+    return 0
+}
+
+function start-build() {
+    build-repo ./$debtype/$contribe $ostype $codename $component
+    gpg --clearsign -o $ostype/dists/$codename/InRelease $ostype/dists/$codename/Release
+    gpg -abs -o $ostype/dists/$codename/Release.gpg $ostype/dists/$codename/Release
+}
+
+function git-push() {
+    git add .
+    git commit -m "update"
+    echo ""
+    read -p "git branch: " branch;
+    git branch -M $branch
+    git push -u origin $branch
+    return 0
+}
+
+function show-help() {
+    echo -e "Build Git Repository
+
+Usage: git-repo [command]
+                [options]
+Command:
+        build         : Build Repository
+        push          : Push Repository
+
+Options:
+        -h, --help    : Show this help
+        -v, --version : Show the Version
+
+try: [build-deb -h] to create package deb
+
+for more info visit: https://github.com/ArieSR91
+"
+}
+
+function show-version() {
+    echo "2.0.3-SR"
+}
+case $1 in
+    build)
+        generate-repo
+        ;;
+    push)
+        git-push
+        ;;
+    -v | --version)
+        show-version
+        ;;
+    *)
+        show-help
+        ;;
+esac

@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+
+function help() {
+    echo "
+Download music and video from YouTube.
+
+Usage:
+    download [options]
+    url: (paste url)
+options:
+    -m, --music             Download music from Youtube.
+    -v, --video             Download video from Youtube.
+    -V, --video-hd          Download video best quality.
+    -h, --help              Show this screen.
+
+for more info about update visit my github
+https://github.com/ArieSR91/user91-repo/packages/debian-based
+"
+}
+function video-yt() {
+    read -p 'Enter video url: ' url;
+    youtube-dl --recode-video mp4 $url
+    return 0
+}
+
+function video-high() {
+    read -p 'Enter video url: ' url;
+    youtube-dl -f 'bestvideo+bestaudio' $url
+    return 0
+}
+
+function music-yt() {
+    read -p 'Enter music url: ' url;
+    youtube-dl -x --audio-format mp3 $url
+    return 0
+}
+
+case $1 in
+    -v | --video)
+        video-yt
+        ;;
+    -V | --video-hd)
+        video-high
+        ;;
+    -m | --music)
+        music-yt
+        ;;
+    * | -h | --help)
+        help
+        ;;
+esac

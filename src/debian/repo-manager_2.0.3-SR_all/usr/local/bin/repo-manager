@@ -1,0 +1,73 @@
+#!/bin/bash
+
+function generate_source() {
+    build-deb source
+}
+
+function generate_deb() {
+    build-deb start
+}
+
+function generate_repo() {
+    git-repo build
+}
+
+function push_repo() {
+    git-repo push
+}
+
+function update_source() {
+    build-deb update
+}
+
+function show_help() {
+    echo -e "Repository Manager by Arie-SR91
+Goto your repository folder and run the command
+
+Usage: repo-manager [options]
+
+Command:
+         source-build     : Build source of deb
+         deb-build        : Build deb from source
+         build-repo       : Build repository tree
+         push-repo        : Push repository to Github
+         update-pkg       : Update source package version
+
+Options:
+         -h, --help       : Show this help screen
+         -v, --version    : Show the version
+
+Manual: build-deb [command] [options]
+        git-repo [command] [options]
+
+for more info visit: https://github.com/ArieSR91
+"
+}
+
+function show_version() {
+    echo "2.0.3-SR"
+}
+
+case $1 in
+    source-build)
+        generate_source
+        ;;
+    deb-build)
+        generate_deb
+        ;;
+    build-repo)
+        generate_repo
+        ;;
+    push-repo)
+        push_repo
+        ;;
+    update-pkg)
+        update_source
+        ;;
+    -v | --version)
+        show_version
+        ;;
+    -h | --help | *)
+        show_help
+        ;;
+esac

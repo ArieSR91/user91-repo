@@ -1,0 +1,8 @@
+Package: repo-manager
+Version: 2.0.3-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, sudo, git, build-repo
+Installed-Size: 1024
+Homepage: https://github.com/ArieSR91
+Description: Repository manager

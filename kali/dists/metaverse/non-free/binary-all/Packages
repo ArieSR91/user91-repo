@@ -1,0 +1,87 @@
+Package: build-repo
+Version: 1.7.6-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git, sudo, repo-manager
+Installed-Size: 1000 KB
+Description: Build git repository with deb files
+Filename: dists/metaverse/non-free/binary-all/build-repo_1.7.6-SR_all.deb
+Size: 4796
+MD5Sum: 589b4e0a6588fc0dfec35a1b5f564f6c
+SHA1: 3106b714d792b3ce8aa88de02252323f4787e5fc
+SHA256: 79a72488b2bbb52799e26877fa7986e84dc53a52b1164a85d32eac2e8fb525c8
+SHA512: aed48798f7835b004a413feecbea0e701b091acf791c40b233ef081452b5e6f3d0aea658ff66305c981b7d00e35995f9e81bfadc3435289d11f01923989b8a09
+
+Package: build-repo
+Version: 1.7.7-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git, sudo, repo-manager
+Installed-Size: 1000 KB
+Description: Build git repository with deb files
+Filename: dists/metaverse/non-free/binary-all/build-repo_1.7.7-SR_all.deb
+Size: 4792
+MD5Sum: 7f2f6234179fe5541e4b5afbac57c25d
+SHA1: 3a28c847a07ed9e05194a2bb0969bc21cb20d4e6
+SHA256: a45331caba71d5ac08ab2ecf0d8b1607ca41edfa449e4083b0cb0b338eafff13
+SHA512: 84f06874152dd8c93ddaf0034882014e6c993847cb7e2c46e36fd8d43a35e8fb564563662af657c0a56fc6955e3a91b295efb9e0e54bdf8497a11abd30fb9a2a
+
+Package: ddos
+Version: 1.0.0-SR
+Architecture: all
+Maintainer: name <syahri.ramadhan2022@gmail.com>
+Depends: python3, python3-colorama, python3-termcolor
+Installed-Size: 786 KB
+Description: ddos attack
+Filename: dists/metaverse/non-free/binary-all/ddos_1.0.0-SR_all.deb
+Size: 3108
+MD5Sum: 9c2baf7072c25fc831ec1e609addcb45
+SHA1: 9f612c45ab6860a11414f69d61f1306653c855ef
+SHA256: 078d79e7ff8e30c4a1688c7d218723ad90a56d05be0d7be754d86b9dd57f9737
+SHA512: ee34ac3d8c7d126babb8bfd4f5b3a8277649466170c3d8d92fe759a5678b14b49456d80bd4e760015b46b98c1310b7cbad74e27f02c13d724424c55c885b82db
+
+Package: iptracker
+Version: 1.0.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: curl
+Installed-Size: 100
+Homepage: https://github.com/ArieSR91
+Description: Track information from ip address
+Filename: dists/metaverse/non-free/binary-all/iptracker_1.0.0-SR_all.deb
+Size: 1540
+MD5Sum: f22ada795cd46dc3bfed7661d405b6c4
+SHA1: a72b9fb8e8f46b3ecafac0b6473a5552ca25db03
+SHA256: 43951b4fce904660decc5eea60f311d59352a732d22a22d4d868e6f7b2ab64c6
+SHA512: 4bf83d3d8d14429745dd057404f03cc245c2b64150c1911149836b865821f51f14cea38b796e11fa61fafa5d6bf7b8610d18e61c30114502d0e2da208ba2de77
+
+Package: repo-manager
+Version: 2.0.2-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, sudo, git, build-repo
+Installed-Size: 1024
+Homepage: https://github.com/ArieSR91
+Description: Repository manager
+Filename: dists/metaverse/non-free/binary-all/repo-manager_2.0.2-SR_all.deb
+Size: 2720
+MD5Sum: d3d75ccdaba980f4d8d8e577c0e3042b
+SHA1: 020246330464cbc30244383c05219e3c15a0d403
+SHA256: f63aa380cea9c237d228bcc6f03f31ce7600545d4e2bb4cac6c26282dbc41c3b
+SHA512: 2c0e62c91eb8c2164968e54ce9be74b0dca965cc2346fcf72de96a1062c7098c53785f53944b923e380dc9053e6fc2f1ee95b89673931b35e28d5cc3d5b095f9
+
+Package: repo-manager
+Version: 2.0.3-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, sudo, git, build-repo
+Installed-Size: 1024
+Homepage: https://github.com/ArieSR91
+Description: Repository manager
+Filename: dists/metaverse/non-free/binary-all/repo-manager_2.0.3-SR_all.deb
+Size: 2692
+MD5Sum: 3545ae465045e706ea7dbdc208454e17
+SHA1: 99a684d1220171951f04a2a4a5d3e862a1c743de
+SHA256: 3333d331e8626bbeafae435c21d4149249efdbbf70dc9d433b21b2b1b17d6452
+SHA512: f8dda0e3bee6c20216dd0da4cd142cfceffee5055bd863111e93de0ce3c1a4b1e9b68d56a5eda300f2ddb8e8fd1a908fffadd5aff0dcee8ebde5f8c928d9ad1f
+
