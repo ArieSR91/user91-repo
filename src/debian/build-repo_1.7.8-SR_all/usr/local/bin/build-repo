@@ -6,7 +6,6 @@ COMPONENTS = []
 supported_arches = ['all', 'armhf', 'arm64', 'amd64', 'armel', 'i386', 'arm', 'aarch64', 'i686', 'x86']
 encountered_arches = set()
 hashes = ['md5', 'sha1', 'sha256', 'sha512']
-
 def get_package_name(filename):
     # Expects the 'name_version_arch.deb' naming scheme.
     return filename.split('_')[0]
@@ -94,6 +93,8 @@ parser.add_argument('component', metavar='component', type=str, nargs='?', defau
                     help='component name')
 parser.add_argument('--use-hard-links', default=False, action='store_true',
                     help='use hard links instead of copying deb files. Will not work on an android device')
+parser.add_argument('-s', '--sign', action='store_true',
+                    help='sign repo with GPG key')
 
 args = parser.parse_args()
 input_path = args.input
@@ -101,6 +102,7 @@ output_path = args.output
 DISTRIBUTION = args.distribution
 default_component = args.component
 use_hard_links = args.use_hard_links
+sign = args.sign
 distribution_path = os.path.join(output_path, 'dists', DISTRIBUTION)
 
 if not os.path.isdir(input_path):
@@ -187,21 +189,18 @@ for hash in hashes:
                   , file=release_file)
 release_file.close()
 
-if False:
+if sign:
     print('Signing with gpg...')
     subprocess.check_call(['gpg --clearsign -o '
         + distribution_path + '/InRelease ' + distribution_path + '/Release'],
         shell=True,
         universal_newlines=True)
-
+    subprocess.check_call(['gpg -abs -o '
+        + distribution_path + '/Release.gpg ' + distribution_path + '/Release'],
+        shell=True,
+        universal_newlines=True)
 print('Done!')
-print('')
-print('Make the ' + output_path + ' directory accessible at $REPO_URL')
-print('')
-print('Users can then access the repo by adding a file at')
-print('   /etc/apt/sources.list.d')
 print('containing:')
 for component in COMPONENTS:
-    print('   deb [trusted=yes] $REPO_URL '+DISTRIBUTION+' '+component)
+    print(' '+DISTRIBUTION+' '+component)
 print('')
-print('[trusted=yes] is not needed if the repo has been signed with a gpg key')

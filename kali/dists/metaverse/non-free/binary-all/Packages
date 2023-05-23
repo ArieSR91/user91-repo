@@ -1,30 +1,16 @@
 Package: build-repo
-Version: 1.7.6-SR
+Version: 1.7.8-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3, gnupg, git, sudo, repo-manager
 Installed-Size: 1000 KB
 Description: Build git repository with deb files
-Filename: dists/metaverse/non-free/binary-all/build-repo_1.7.6-SR_all.deb
-Size: 4796
-MD5Sum: 589b4e0a6588fc0dfec35a1b5f564f6c
-SHA1: 3106b714d792b3ce8aa88de02252323f4787e5fc
-SHA256: 79a72488b2bbb52799e26877fa7986e84dc53a52b1164a85d32eac2e8fb525c8
-SHA512: aed48798f7835b004a413feecbea0e701b091acf791c40b233ef081452b5e6f3d0aea658ff66305c981b7d00e35995f9e81bfadc3435289d11f01923989b8a09
-
-Package: build-repo
-Version: 1.7.7-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3, gnupg, git, sudo, repo-manager
-Installed-Size: 1000 KB
-Description: Build git repository with deb files
-Filename: dists/metaverse/non-free/binary-all/build-repo_1.7.7-SR_all.deb
-Size: 4784
-MD5Sum: 89e1186a1dfa2c5148691124453a21e2
-SHA1: 00344a005db74bcb1cd0da32f9d504bc98ce1f6f
-SHA256: cccec4b1852caa43016b3d65c1f5172334d73331368aff82451f91afb63cf0db
-SHA512: 38a821ea688308a0ce1e59ed3da17dfcd338a076654b715813036117cae38c9ec7e564239c5dd8e759b5b997a7e40994b9bc3d2a462380cadde0b6b110b8b6f0
+Filename: dists/metaverse/non-free/binary-all/build-repo_1.7.8-SR_all.deb
+Size: 4712
+MD5Sum: f45e0a5fa4b804b4eed684f46666f564
+SHA1: 0369aa99ff492e25b4b75cb0ead94796caed56d4
+SHA256: c41440ee839c2834eda4affa070f818e25d4565db4e2602c6d0092aa5e907120
+SHA512: 9499d3dfae428a54b175c44632ab08bdb687f361c3ecb6487ac3a587a8fbf5f5791d537e7f4eef1e406793d6ccd40986738e4d9f2ec612796c10b989baf8c990
 
 Package: ddos
 Version: 1.0.0-SR
@@ -56,32 +42,17 @@ SHA256: 43951b4fce904660decc5eea60f311d59352a732d22a22d4d868e6f7b2ab64c6
 SHA512: 4bf83d3d8d14429745dd057404f03cc245c2b64150c1911149836b865821f51f14cea38b796e11fa61fafa5d6bf7b8610d18e61c30114502d0e2da208ba2de77
 
 Package: repo-manager
-Version: 2.0.2-SR
+Version: 2.0.4-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3, gnupg, sudo, git, build-repo
 Installed-Size: 1024
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
-Filename: dists/metaverse/non-free/binary-all/repo-manager_2.0.2-SR_all.deb
-Size: 2720
-MD5Sum: d3d75ccdaba980f4d8d8e577c0e3042b
-SHA1: 020246330464cbc30244383c05219e3c15a0d403
-SHA256: f63aa380cea9c237d228bcc6f03f31ce7600545d4e2bb4cac6c26282dbc41c3b
-SHA512: 2c0e62c91eb8c2164968e54ce9be74b0dca965cc2346fcf72de96a1062c7098c53785f53944b923e380dc9053e6fc2f1ee95b89673931b35e28d5cc3d5b095f9
-
-Package: repo-manager
-Version: 2.0.3-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3, gnupg, sudo, git, build-repo
-Installed-Size: 1024
-Homepage: https://github.com/ArieSR91
-Description: Repository manager
-Filename: dists/metaverse/non-free/binary-all/repo-manager_2.0.3-SR_all.deb
-Size: 2684
-MD5Sum: d9ed4c71c092c8bb7f61501354e666fe
-SHA1: 3499d729c1d143a102c23719946632e22186a307
-SHA256: 19625ec80f3fd8a9e799235a136deef6d003e7da766816442d8871ba9362df46
-SHA512: e83f7004a0669a296eb7ccfc35b9ea4345ec1591d79479ea06415422aaf9f0477c1352bca84f66c3d2fc6f2c2bf433bbf55e46e65539899f8809a0c28c6fb9fa
+Filename: dists/metaverse/non-free/binary-all/repo-manager_2.0.4-SR_all.deb
+Size: 2616
+MD5Sum: 0825de9d71b1e8722848b655871aeb59
+SHA1: f6f315f0c1785ee4433d3e8b605d60c0f88074a9
+SHA256: 1c30c1b9b6f6693f7fc7f7e8f952dac21ab9a80464f4237205895751742d478e
+SHA512: cfe4a39be64f55126a01e4f544d578f20b51d66942e88c5a989aec7e81bcbf552d5a9826e60083822787cd344b4bfaa7ce50b2e4c030e7a690b4ce6535cd734f
 

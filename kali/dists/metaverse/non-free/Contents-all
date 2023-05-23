@@ -1,10 +1,6 @@
 usr/local/bin/build-deb                                                          build-repo
 usr/local/bin/build-repo                                                         build-repo
-usr/local/bin/build-deb                                                          build-repo
-usr/local/bin/build-repo                                                         build-repo
 usr/local/bin/ddos                                                               ddos
 usr/local/bin/iptracker                                                          iptracker
-usr/local/bin/git-repo                                                           repo-manager
-usr/local/bin/repo-manager                                                       repo-manager
 usr/local/bin/git-repo                                                           repo-manager
 usr/local/bin/repo-manager                                                       repo-manager

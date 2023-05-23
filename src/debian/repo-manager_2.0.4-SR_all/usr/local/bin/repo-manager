@@ -26,42 +26,41 @@ Goto your repository folder and run the command
 
 Usage: repo-manager [options]
 
-Command:
-         source-build     : Build source of deb
-         deb-build        : Build deb from source
-         build-repo       : Build repository tree
-         push-repo        : Push repository to Github
-         update-pkg       : Update source package version
-
 Options:
-         -h, --help       : Show this help screen
-         -v, --version    : Show the version
+         -s, --source         : Build source of deb
+         -d, --deb            : Build deb from source
+         -r, --repo           : Build repository tree
+         -p. --push           : Push repository to Github
+         -u, --update         : Update source package version
+         -h, --help           : Show this help screen
+         -v, --version        : Show the version
 
-Manual: build-deb [command] [options]
-        git-repo [command] [options]
+Manual: build-deb -h
+        build-repo -h
+        git-repo -h
 
 for more info visit: https://github.com/ArieSR91
 "
 }
 
 function show_version() {
-    echo "2.0.2-SR"
+    echo "2.0.4-SR"
 }
 
 case $1 in
-    source-build)
+    -s | --source)
         generate_source
         ;;
-    deb-build)
+    -d | --deb)
         generate_deb
         ;;
-    build-repo)
+    -r | --repo)
         generate_repo
         ;;
-    push-repo)
+    -p | --push)
         push_repo
         ;;
-    update-pkg)
+    -u | --update)
         update_source
         ;;
     -v | --version)

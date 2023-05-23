@@ -5,7 +5,6 @@ if [ -f ~/.config/git-repo.conf ]; then
 fi
 
 function generate-repo() {
-    echo -e "deb https://(username).github.io/(repository)/(os type) (code name) (component)\n"
     if [ ! -f ~/.config/git-repo.conf ]; then
         touch ~/.config/git-repo.conf
     fi
@@ -42,14 +41,13 @@ function generate-repo() {
     echo ""
     ## Using previous username
     if grep -q "USERNAME" ~/.config/git-repo.conf; then
-        read -p "Use the previous username: ${USERNAME} [Y/n]" input1;
-        if [ "$input1" == "Y" ] || [ "$input1" == "y" ]; then
-            echo "Using previous username"
+        read -p "Use the previous username?: ${USERNAME} [Y/n]" input1;
+        if [ "$input1" == "Y" ] || [ "$input1" == "y" ] || [ "$input1" == "" ]; then
             if [ "$username" == "" ]; then
                 username=${USERNAME}
             fi
         else
-            read -p "[must filled] git username: " username;
+            read -p "[must filled] git username?: " username;
             sed -i "s/${USERNAME}/${username}/" ~/.config/git-repo.conf
         fi
     else
@@ -57,9 +55,8 @@ function generate-repo() {
     fi
     ## Using previous repository
     if grep -q "REPOSITORY" ~/.config/git-repo.conf; then
-        read -p "Use the previous repository: ${REPOSITORY} [Y/n]" input2;
-        if [ "$input2" == "Y" ] || [ "$input2" == "y" ]; then
-            echo "Using previous repository"
+        read -p "Use the previous repository?: ${REPOSITORY} [Y/n]" input2;
+        if [ "$input2" == "Y" ] || [ "$input2" == "y" ] || [ "$input2" == "" ]; then
             if [ "$repository" == "" ]; then
                 repository=${REPOSITORY}
             fi
@@ -72,9 +69,8 @@ function generate-repo() {
     fi
     ## Using previous ostype
     if grep -q "OSTYPE" ~/.config/git-repo.conf; then
-        read -p "Use the previous ostype: ${OSTYPE} [Y/n]" input3;
-        if [ "$input3" == "Y" ] || [ "$input3" == "y" ]; then
-            echo "Using previous ostype"
+        read -p "Use the previous ostype?: ${OSTYPE} [Y/n]" input3;
+        if [ "$input3" == "Y" ] || [ "$input3" == "y" ] || [ "$input3" == "" ]; then
             if [ "$ostype" == "" ]; then
                 ostype=${OSTYPE}
             fi
@@ -88,8 +84,7 @@ function generate-repo() {
     ## Using previous codename
     if grep -q "CODENAME" ~/.config/git-repo.conf; then
         read -p "Use the previous codename: ${CODENAME} [Y/n]" input4;
-        if [ "$input4" == "Y" ] || [ "$input4" == "y" ]; then
-            echo "Using previous codename"
+        if [ "$input4" == "Y" ] || [ "$input4" == "y" ] || [ "$input4" == "" ]; then
             if [ "$codename" == "" ]; then
                 codename=${CODENAME}
             fi
@@ -103,8 +98,7 @@ function generate-repo() {
     ## Using previous component
     if grep -q "COMPONENT" ~/.config/git-repo.conf; then
         read -p "Use the previous component: ${COMPONENT} [Y/n]" input5;
-        if [ "$input5" == "Y" ] || [ "$input5" == "y" ]; then
-            echo "Using previous component"
+        if [ "$input5" == "Y" ] || [ "$input5" == "y" ] || [ "$input5" == "" ]; then
             if [ "$component" == "" ]; then
                 component=${COMPONENT}
             fi
@@ -118,8 +112,8 @@ function generate-repo() {
     ## print the result
     export REPO_URL="deb [arch=all] https://$username.github.io/$repository/$ostype $codename $component\n"
     echo -e "\nResult:\n${REPO_URL}"
-      echo -e "Generating config..."
-    sleep 0.5
+    echo -e "Generating config..."
+    sleep 1.0
     cat ~/.config/git-repo.conf
     echo -e "\nThese results will be written to ~/.config/git-repo.conf\n"
     if [ $ostype == "termux" ]; then
@@ -128,17 +122,17 @@ function generate-repo() {
         debtype=debian-deb
     fi
     ## building repository
-    echo "Your system will build the repository using this config."
     read -p "Do you want to continue? [Y/n]" input6;
     if [ "$input6" == "Y" ] || [ "$input6" == "y" ]; then
         if [ ! -d .git ]; then
             echo -e "\nGo to the repository folder and run again"
+            exit
         else
             echo ""
             if grep -q "core" .git/config; then
                 start-build
             else
-                echo -e "clone your git repository or run this command:\n    git init\n    git add .\n    git commit -m 'newcommit'\n    git branch -M [gitbranck]\n    git remote add origin https://github.com/[gituser]/[gitrepo].git"
+                echo -e "clone your git repository or run this command:\n    git init\n    git add .\n    git commit -m 'newcommit'\n    git branch -M [gitbranch]\n    git remote add origin https://github.com/[gituser]/[gitrepo].git"
                 exit
             fi
         fi
@@ -149,9 +143,7 @@ function generate-repo() {
 }
 
 function start-build() {
-    build-repo ./$debtype/$contribe $ostype $codename $component
-    gpg --clearsign -o $ostype/dists/$codename/InRelease $ostype/dists/$codename/Release
-    gpg -abs -o $ostype/dists/$codename/Release.gpg $ostype/dists/$codename/Release
+    build-repo -s ./$debtype/$contribe $ostype $codename $component
 }
 
 function git-push() {
@@ -184,7 +176,7 @@ for more info visit: https://github.com/ArieSR91
 }
 
 function show-version() {
-    echo "2.0.2-SR"
+    echo "2.0.4-SR"
 }
 case $1 in
     build)
