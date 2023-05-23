@@ -1,0 +1,14 @@
+Package: linuxdeploy
+Version: 0.1-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: tsu, pulseaudio
+Installed-Size: 100 KB
+Description: Run linux deploy via termux
+Filename: dists/metaverse/root/binary-all/linuxdeploy_0.1-SR_all.deb
+Size: 1828
+MD5Sum: 2b6fc60d285a2062e3bf251a001b0035
+SHA1: d597452cb458308ae2edd242747cc9a2cbc5d192
+SHA256: b8e9a5b2aff1f2ce37dcffd00e5847c56917b3758c8889d43e6568f688cd6355
+SHA512: f5cd8eb6204caa764d7a619ef586e09db09c23d90d91459b208fcf377fc88ab48eacbfa7d1d1dfabd623893999dcbc8d88bb9c548e3da8ab09dddc817f582acc
+

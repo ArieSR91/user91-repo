@@ -74,7 +74,7 @@ function build_source() {
             echo -e "Package: ${pkgname}\nVersion: ${versiondeb}\nArchitecture: ${archtype}\nMaintainer: ${username} <${useremail}>\nDepends: ${depend}\nInstalled-Size: ${installsize}\nHomepage: ${homepage}\nDescription: ${description}" >> src/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/DEBIAN/control
         fi
         chmod 755 src/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/DEBIAN -R
-        echo "Run: build-deb start"
+        echo -e "Run: nano src/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/usr/local/bin/(your binary)\nOr move binary to this folder"
     else
         exit
     fi
@@ -118,7 +118,7 @@ for more info visit: https://github.com/ArieSR91
 }
 
 function show_version() {
-    echo "1.7.7-SR"
+    echo "1.7.6-SR"
 }
 
 case $1 in

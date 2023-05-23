@@ -45,7 +45,7 @@ for more info visit: https://github.com/ArieSR91
 }
 
 function show_version() {
-    echo "2.0.3-SR"
+    echo "2.0.2-SR"
 }
 
 case $1 in

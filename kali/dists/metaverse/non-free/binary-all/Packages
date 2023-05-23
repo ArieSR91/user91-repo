@@ -20,11 +20,11 @@ Depends: python3, gnupg, git, sudo, repo-manager
 Installed-Size: 1000 KB
 Description: Build git repository with deb files
 Filename: dists/metaverse/non-free/binary-all/build-repo_1.7.7-SR_all.deb
-Size: 4792
-MD5Sum: 7f2f6234179fe5541e4b5afbac57c25d
-SHA1: 3a28c847a07ed9e05194a2bb0969bc21cb20d4e6
-SHA256: a45331caba71d5ac08ab2ecf0d8b1607ca41edfa449e4083b0cb0b338eafff13
-SHA512: 84f06874152dd8c93ddaf0034882014e6c993847cb7e2c46e36fd8d43a35e8fb564563662af657c0a56fc6955e3a91b295efb9e0e54bdf8497a11abd30fb9a2a
+Size: 4784
+MD5Sum: 89e1186a1dfa2c5148691124453a21e2
+SHA1: 00344a005db74bcb1cd0da32f9d504bc98ce1f6f
+SHA256: cccec4b1852caa43016b3d65c1f5172334d73331368aff82451f91afb63cf0db
+SHA512: 38a821ea688308a0ce1e59ed3da17dfcd338a076654b715813036117cae38c9ec7e564239c5dd8e759b5b997a7e40994b9bc3d2a462380cadde0b6b110b8b6f0
 
 Package: ddos
 Version: 1.0.0-SR
@@ -79,9 +79,9 @@ Installed-Size: 1024
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/metaverse/non-free/binary-all/repo-manager_2.0.3-SR_all.deb
-Size: 2692
-MD5Sum: 3545ae465045e706ea7dbdc208454e17
-SHA1: 99a684d1220171951f04a2a4a5d3e862a1c743de
-SHA256: 3333d331e8626bbeafae435c21d4149249efdbbf70dc9d433b21b2b1b17d6452
-SHA512: f8dda0e3bee6c20216dd0da4cd142cfceffee5055bd863111e93de0ce3c1a4b1e9b68d56a5eda300f2ddb8e8fd1a908fffadd5aff0dcee8ebde5f8c928d9ad1f
+Size: 2684
+MD5Sum: d9ed4c71c092c8bb7f61501354e666fe
+SHA1: 3499d729c1d143a102c23719946632e22186a307
+SHA256: 19625ec80f3fd8a9e799235a136deef6d003e7da766816442d8871ba9362df46
+SHA512: e83f7004a0669a296eb7ccfc35b9ea4345ec1591d79479ea06415422aaf9f0477c1352bca84f66c3d2fc6f2c2bf433bbf55e46e65539899f8809a0c28c6fb9fa
 

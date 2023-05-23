@@ -1,0 +1,43 @@
+Package: fake-sudo
+Version: 1.5.2-SR
+Architecture: all
+Maintainer: Syahri Ramadhan <syahri.ramadhan2022@gmail.com>
+Depends: proot, which
+Installed-Size: 2465
+Homepage: https://ariesr91.github.io/user91-repo
+Description: Sudo is a simple bash script that provides sudo privilliges to a normal user.
+Filename: dists/metaverse/axiomatic/binary-all/fake-sudo_1.5.2-SR_all.deb
+Size: 2128
+MD5Sum: be2911ee0f0c90af4e65b87e1adf83f0
+SHA1: 4492fd82a9e7a862154dc81dd5aa68c7bd4c95a5
+SHA256: 3df3f16def6c90b931fc5c170838e280fd01fc8e5dd989b44a7b767b43805828
+SHA512: cc07619489dc71a35fca0c55967b05e45987f9cd2620aa19a08a72e4d0a33e57172ae4f5e35e803b4d438d620ccfbe62f24d495d0046f36f8069e6f6fb0537fa
+
+Package: kali-dark-style
+Version: 0.2-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: 
+Installed-Size: 2000 KB
+Description: Termux kali dark style
+Filename: dists/metaverse/axiomatic/binary-all/kali-dark-style_0.2-SR_all.deb
+Size: 1189968
+MD5Sum: 32242c65a892bd335a1c378f947578dd
+SHA1: 18deeda5be71cc97f6119050ab2023a15636e906
+SHA256: 07f67457505e5aad3552f06596e2758eb371c6322bc9c5cdce7501e51e758d77
+SHA512: fefc1597849d5b131b0672a6ece2446f4bfeceb4ad85f82b6564a8b244ed87963135b2708688ae91d5008a53a8866e52f91442701b3bca59eac1d39185f95504
+
+Package: termux-fonts
+Version: 1.2-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 2000 KB
+Description: Change termux fonts
+Filename: dists/metaverse/axiomatic/binary-all/termux-fonts_1.2-SR_all.deb
+Size: 2024288
+MD5Sum: 37ca87d6e466299e490ad58989bcf2fa
+SHA1: 3f1b999d3a6c734768ab5d9695ebff641549af31
+SHA256: 9f5c4e009dde75fff58fdd163941c1b5687eeb2d31dcc13805751f989d9f0ac4
+SHA512: 2e512b7391cceb1cfeeca573ab6c7603674ed6ba7a87247b84c5468900aabaaf834fb009c156af73cf0f10c0d03e24eb7cc03451bd712fedc839333a57bcf91a
+
