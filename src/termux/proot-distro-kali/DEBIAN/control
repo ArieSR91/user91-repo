@@ -1,7 +1,0 @@
-Package: proot-distro-kali
-Version: 0.1.0
-Architecture: all
-Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
-Installed-Size: 100
-Homepage: https://github.com/ArieSR91
-Description: Add Kali Linux to proot-distro

@@ -1,2 +1,0 @@
-#!/data/data/com.termux/files/usr/bin/bash
-chmod 775 /data/data/com.termux/files/usr/bin/linuxdeploy

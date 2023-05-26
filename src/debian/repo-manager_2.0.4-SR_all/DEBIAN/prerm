@@ -1,4 +1,0 @@
-#!/bin/bash
-
-chmod 777 /usr/local/bin/repo-manager
-chmod 777 /usr/local/bin/git-repo

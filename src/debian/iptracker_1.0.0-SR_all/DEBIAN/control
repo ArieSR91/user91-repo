@@ -1,8 +1,0 @@
-Package: iptracker
-Version: 1.0.0-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: curl
-Installed-Size: 100
-Homepage: https://github.com/ArieSR91
-Description: Track information from ip address

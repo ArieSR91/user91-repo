@@ -1,7 +1,0 @@
-Package: termux-fonts
-Version: 1.2-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash
-Installed-Size: 2000 KB
-Description: Change termux fonts

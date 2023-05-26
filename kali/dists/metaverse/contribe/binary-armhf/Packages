@@ -1,0 +1,14 @@
+Package: ngrok-sr
+Version: 3.3.1-SR
+Architecture: armhf
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends:
+Installed-Size: 22208 KB
+Description: ngrok secure tunnel agent
+Filename: dists/metaverse/contribe/binary-armhf/ngrok-sr_3.3.1-SR_armhf.deb
+Size: 5694468
+MD5Sum: 9fb4cfa38c3fbbd8d3b6ff6d71c9d56f
+SHA1: 6ca574107d88302ee4920e90d21a37ac3096beb3
+SHA256: 27cf9453827d43d5a58ca23cfbf3a6f116ad4d1f1885e51f3f18b86fc69f1d8d
+SHA512: 6ce78d215fb8a19e18d9aa2162e6a93c85722b8acf3778b3e8d9272b755e99b187d6624d18a6544086a2c57040775c88bc6f8ebfda61620351d41ff6b96dd66a
+
