@@ -1,9 +1,0 @@
-Source: ngrok
-Package: ngrok
-Priority: optional
-Section: network
-Version: 3.3.1-SR
-Architecture: armhf
-Maintainer: ngrok <release-bot@ngrok.com>
-Homepage: https://ngrok.com
-Description: ngrok secure tunnel agent

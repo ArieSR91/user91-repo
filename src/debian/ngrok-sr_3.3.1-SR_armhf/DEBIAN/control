@@ -1,0 +1,7 @@
+Package: ngrok-sr
+Version: 3.3.1-SR
+Architecture: armhf
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends:
+Installed-Size: 22208 KB
+Description: ngrok secure tunnel agent
