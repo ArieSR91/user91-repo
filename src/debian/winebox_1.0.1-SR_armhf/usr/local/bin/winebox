@@ -1,0 +1,116 @@
+#!/bin/bash
+
+function build-box86() {
+    cd ~
+    sudo apt install build-essential wget cmake python3 gcc -y
+    if [ -d box86 ]; then
+        echo "box86 folder exist"
+        sleep 0
+        echo "Checking if box86 installed"
+        sleep 0
+        if [ ! -f /usr/local/bin/box86 ]; then
+            echo "box86 no installed"
+            sleep 0l
+            echo "building box86"
+            sleep 0
+            cd box86/build
+            cmake .. -DARM_DYNAREC=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo
+            make -j3
+            sudo make install
+        else
+            echo "box86 already"
+        fi
+        echo "done"
+    else
+        echo "box86 folder no exist"
+        sleep 0
+        if [ -f /usr/local/bin/box86 ]; then
+            echo "but box86 installed"
+            sleep 0
+        else
+            echo "checking for box86.txz"
+            if [ -f box86.txz ]; then
+                echo "Extracting exiting file"
+                sleep 0
+                tar xJvf box86.txz
+                echo "building box86"
+                sleep 0
+                cd box86/build
+                cmake .. -DARM_DYNAREC=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo
+                make -j3
+                sudo make install
+            else
+                echo "Downloading box86"
+                sleep 0
+                wget https://github.com/ArieSR91/wine/raw/main/box86.txz
+                tar xJvf box86.txz
+                echo "building box86"
+                sleep 0
+                cd box86/build
+                cmake .. -DARM_DYNAREC=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo
+                make -j3
+                sudo make install
+            fi
+            echo "done"
+        fi
+    fi
+    cd ~
+    return 0
+}
+
+function build-wine() {
+    cd ~
+    if [ -d wine ]; then
+        echo "wine already"
+        sleep 0
+    else
+        echo "extracting wine"
+        sleep 0
+        if [ -f wine.tgz ]; then
+            tar -xzvf ~/wine.tgz
+            rm ~/wine.tgz
+        else
+            echo "downloading wine"
+            sleep 0
+            wget https://twisteros.com/wine.tgz -O ~/wine.tgz
+            echo "extracting wine"
+            sleep 0
+            tar -xzvf ~/wine.tgz
+            rm ~/wine.tgz
+        fi
+        echo ""
+    fi
+    cd ~
+    return 0
+}
+
+function configure-wine() {
+    cd ~
+    if [ ! -f /usr/local/bin/wine ]; then
+        sudo echo -e "#!/bin/bash\n\nexport BOX86_PATH=~/wine/bin/\nexport BOX86_LD_LIBRARY_PATH=~/wine/lib/\nexport BOX86_LOG=1\n\nif [ '\$#' == '0' ];then\n    box86 wine explorer\nelse\n    box86 wine \$@\nfi" >> /usr/local/bin/wine
+    fi
+    if [ ! -f /usr/local/bin/winecfg ]; then
+        sudo ln -s ~/wine/bin/winecfg /usr/local/bin/winecfg
+    fi
+
+    if [ ! -f /usr/local/bin/wineboot ]; then
+        sudo ln -s ~/wine/bin/wineboot /usr/local/bin/wineboot
+    fi
+    if [ ! -f /usr/local/bin/wineserver ]; then
+        sudo ln -s ~/wine/bin/wineserver /usr/local/bin/wineserver
+    fi
+    sudo chmod 775 /usr/local/bin/wine /usr/local/bin/wineboot /usr/local/bin/winecfg /usr/local/bin/wineserver
+    return 0
+}
+
+case $1 in
+    box86)
+        build-box86
+        ;;
+    wine)
+        build-wine
+        ;;
+    configure)
+        configure-wine
+        ;;
+esac

@@ -12,35 +12,6 @@ SHA1: 0369aa99ff492e25b4b75cb0ead94796caed56d4
 SHA256: c41440ee839c2834eda4affa070f818e25d4565db4e2602c6d0092aa5e907120
 SHA512: 9499d3dfae428a54b175c44632ab08bdb687f361c3ecb6487ac3a587a8fbf5f5791d537e7f4eef1e406793d6ccd40986738e4d9f2ec612796c10b989baf8c990
 
-Package: ddos
-Version: 1.0.0-SR
-Architecture: all
-Maintainer: name <syahri.ramadhan2022@gmail.com>
-Depends: python3, python3-colorama, python3-termcolor
-Installed-Size: 786 KB
-Description: ddos attack
-Filename: dists/metaverse/non-free/binary-all/ddos_1.0.0-SR_all.deb
-Size: 3108
-MD5Sum: 9c2baf7072c25fc831ec1e609addcb45
-SHA1: 9f612c45ab6860a11414f69d61f1306653c855ef
-SHA256: 078d79e7ff8e30c4a1688c7d218723ad90a56d05be0d7be754d86b9dd57f9737
-SHA512: ee34ac3d8c7d126babb8bfd4f5b3a8277649466170c3d8d92fe759a5678b14b49456d80bd4e760015b46b98c1310b7cbad74e27f02c13d724424c55c885b82db
-
-Package: iptracker
-Version: 1.0.0-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: curl
-Installed-Size: 100
-Homepage: https://github.com/ArieSR91
-Description: Track information from ip address
-Filename: dists/metaverse/non-free/binary-all/iptracker_1.0.0-SR_all.deb
-Size: 1540
-MD5Sum: f22ada795cd46dc3bfed7661d405b6c4
-SHA1: a72b9fb8e8f46b3ecafac0b6473a5552ca25db03
-SHA256: 43951b4fce904660decc5eea60f311d59352a732d22a22d4d868e6f7b2ab64c6
-SHA512: 4bf83d3d8d14429745dd057404f03cc245c2b64150c1911149836b865821f51f14cea38b796e11fa61fafa5d6bf7b8610d18e61c30114502d0e2da208ba2de77
-
 Package: repo-manager
 Version: 2.0.4-SR
 Architecture: all
