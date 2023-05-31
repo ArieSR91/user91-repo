@@ -3,13 +3,13 @@ Hash: SHA512
 
 Codename: metaverse
 Version: 1
-Architectures: all armhf
+Architectures: armhf all
 Description: metaverse repository
 Suite: metaverse
-Date: Fri, 26 May 2023 05:09:42 UTC
+Date: Wed, 31 May 2023 08:37:30 UTC
 MD5Sum:
- cbe9f72a589c141e9ba6732d5573714f 1190 contribe/binary-all/Packages
- 6ef6cdacacfa06d392ad28fc8539447c 744 contribe/binary-all/Packages.xz
+ c537b3d8bc5eb91b4b9c74d5fd90072d 1190 contribe/binary-all/Packages
+ 92ddc73c92641c76e7ec3dc5607d0706 752 contribe/binary-all/Packages.xz
  25d7c940525cdb25ed9da202e9a4b8b9 572 contribe/binary-armhf/Packages
  b8ff70b644ec6c7d10cd4e436da2d4d9 488 contribe/binary-armhf/Packages.xz
  344885e7f82d54064d92d360358c22b7 177 contribe/Contents-all
@@ -29,8 +29,8 @@ MD5Sum:
  14804c703d8508c325f92fc7c86ed24e 744 non-free/Contents-all
  6e50f6de89fb5beee50d7175cb94b0d3 136 non-free/Contents-all.xz
 SHA1:
- e77109d28ce398fb6d09942670158b86fda6aebe 1190 contribe/binary-all/Packages
- 2a2b1ce8a81a3105d9bd39eadc21ae66fb2131ac 744 contribe/binary-all/Packages.xz
+ d72fc1b94530a565c11be8cb8ed5fb5567e955fa 1190 contribe/binary-all/Packages
+ 207eb961e59721a474bc6aca7cf23d525488d6df 752 contribe/binary-all/Packages.xz
  08c6dd43a1e6a6517d25322ebe8ce601c62ef148 572 contribe/binary-armhf/Packages
  aec30666b34b52c74c0035cfc682a32bcaeffeed 488 contribe/binary-armhf/Packages.xz
  59435db0cd85a365275eff4a51dfc24fd3f9ba75 177 contribe/Contents-all
@@ -50,8 +50,8 @@ SHA1:
  270add6038dedecbb8a7cc6e60d9ba3acd959a54 744 non-free/Contents-all
  6acbb8e6c6d8e6ae4c8648c85f52a726a628cd13 136 non-free/Contents-all.xz
 SHA256:
- dd17e96f0b151acbbfeaf9f300a19a16deeb754111dda8e2680a4732e79c3c84 1190 contribe/binary-all/Packages
- f80a3ba59fcd41b7e29a877cb5e0e29fd36226c5e1f0d814cc6d3c2f4f9d904f 744 contribe/binary-all/Packages.xz
+ 3e7ef60254b740c7c7f8c21fa56824688a370c5c465bb2f1dd95c709ca31932c 1190 contribe/binary-all/Packages
+ 65c335bba16640787452bef8046c378ef9b3ebcac5912c71bec096da424178b9 752 contribe/binary-all/Packages.xz
  73817ba5fbc594069a7354a0f9015431fc03534d610e344a95649a0164963296 572 contribe/binary-armhf/Packages
  b4bcdb251e0ed6a398de79ccf0d1658f657f6ca3e814962326ed483f8daeaaae 488 contribe/binary-armhf/Packages.xz
  2e08bf92cc66e072a34a8e52b0b7a2e119e434a72e2b0b431613a2276d425ba9 177 contribe/Contents-all
@@ -71,8 +71,8 @@ SHA256:
  c8716c935e0f6e07722407481ce4bbeaf10dfc1e186ec1445561efd0506e54e0 744 non-free/Contents-all
  651231bed6ce7d05984aab7b64d4b3988aad7e1e3014ec5013122a0f8cf7f0d1 136 non-free/Contents-all.xz
 SHA512:
- 522cab082b0375581265b71867c51b9127bcfe0c47e02b21392e2a49d44a34cd2053f21ece86ae3b13d80894fa7539f957084619c9dba7bd91a2ece664725b38 1190 contribe/binary-all/Packages
- 688048a22746add0736169255093f3a15a0c6d2c2d378ca0bec2ff6451de8426713faec9841aeaab52bf37ad11633758abea98193a4af010259f668ec021a8f6 744 contribe/binary-all/Packages.xz
+ 63b0de43121c6fae8ae8808479837b28d8717a1358ccc8bb03084beb76fc25ccf6d1423385bc613da9244790852d4dc3c2927b3fe552c6d0f349d8443c74c12c 1190 contribe/binary-all/Packages
+ d47690363f6229a77b75331a7dc1912c8861de01cf0ab5bbf95094d166b9672e0e8f5393095701ac2f9ed3225169eb650b667fc5bffaaabdf5322b1424861246 752 contribe/binary-all/Packages.xz
  79e527df853c0c511873f654c29434327b132d6d8be717bff5a0fa523edc5a7e694e0ee39c42ff61b43e8a6ff4cdc74c5b6fd9bef46de6f3365a1004e9a62688 572 contribe/binary-armhf/Packages
  5c51c5d5b24bde91fbbae4af0a25e456637dbb10b1981a3bd0d536bb9b177170f364fb792c6a096b4b999c8df1aec434fb472295d7a34613833c77d9b30aabf7 488 contribe/binary-armhf/Packages.xz
  d61eb0f20536ef7dd4fd2339fe0611f1a9afe8cb7cf232aac654e1c40f265d106e7ae86fc9f897c1d3a7a6990eba1917014ec69273e3d7694a0de82d79348dff 177 contribe/Contents-all
@@ -93,15 +93,15 @@ SHA512:
  9c068c85332ffa996ef75a27e76fd3b6ca6e7d8efbe865d24efa4196f36d1d4e466a2f249556ba42fb20b82564ea2fab861daf0dc0a9b3aebfda20f639f07ca5 136 non-free/Contents-all.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE/w8GnpkBI9uOygqoZvABD5pY/6gFAmRwPxsACgkQZvABD5pY
-/6jeoAv/URXyfdOa6tCg+hxnt2y/7kNCduFDE3vPr+cEc7N015oFnUxq/+p0IPal
-AhO1bU7HqOipfPpLt8L8QvQk3WbbP5ve7Ib/gjW8Nf3K32dtMlkhNQWt4zAM3bz8
-ZsFThEcF1wPiy7LMY6KUvHcge+S/0YnJYD1V8AfmGPh/sbNl68pIkxzZSn8s+JJe
-YtIUjoSCZTIWLOHseGt/rX6jdkOoE5kLM4dufQreEuuic+Be45hyQ7upUO56IiHt
-itggZGppmmLZl5thGao8cWYdClBtBRgjY5mwjg4KwhxJazJ9+Eg/D4lJQ0YofmR/
-iriZFhe9nhEfiSIDrabo3ywx4ftubgsKeVX0BnHZU4LtHQzsgPpo7bSq8G0LDYXN
-hNdC0funy83zEcrag16f3+cTgA8nAkul27eea7UxqzhWt16k6RUq6+93JZXXDDM2
-0f4QTo+0TflrDrGVCX68GOjeWRP0pbrvQw3hIV6Sf9AW+zRY2lzZOaQu+9jd0Ee7
-mYbx6sYY
-=+Na2
+iQGzBAEBCgAdFiEE/w8GnpkBI9uOygqoZvABD5pY/6gFAmR3B00ACgkQZvABD5pY
+/6jgjwv9FVEqL5LQbZH36OItYUegv0XwP4ZIWCtyOxsOU/RUOmyOFI7DHab9ar1G
+OygNgHgAFDrTFlcA0uyJTCq8eAVOREhgUl0LBylr0wmjXjGh4/SXO5+BA+4VSPPd
+o5rRtpZB4E4FdH/ghQwI2AP03QFK1QIgqiOzHsbY6eoRJjCHhI973ztJb2De/he4
+qUZFB/5W6WnNh6VDhbN/E0J1CN+ydEcAEEd65xpiMDhlPndz6IPArvflVnQ+aT4D
+xGWkHAHWhu1tQNcoEK/88cC3ZixfzJrdYLU7HYW9jSe48cT3dLs1k6/2IMysVrvh
+N5HxlsWGiEeiNOZt0rRFpMWFCgHuE9GIdUFIBjvbyYiCvbaBSsCdkAm4SOYf2PNA
+bjwOhitcgq42Q5ZGzfqqF0RrIabjz+aJ5UgrK7QoiBpM/HcYOse0NSEfrBySfZyT
+HrQsleZtPJXYEUX9SE53saT/2J+EOq/zSuWlLkTRmnUq08BwAjvbViY2I1oH4ZxY
+tAgEOAcM
+=y3Wg
 -----END PGP SIGNATURE-----
