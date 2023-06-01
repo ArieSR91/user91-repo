@@ -1,9 +1,9 @@
 Codename: metaverse
 Version: 1
-Architectures: armhf all
+Architectures: all armhf
 Description: metaverse repository
 Suite: metaverse
-Date: Thu, 01 Jun 2023 09:34:27 UTC
+Date: Thu, 01 Jun 2023 09:43:06 UTC
 MD5Sum:
  c537b3d8bc5eb91b4b9c74d5fd90072d 1190 contribe/binary-all/Packages
  92ddc73c92641c76e7ec3dc5607d0706 752 contribe/binary-all/Packages.xz
@@ -15,8 +15,8 @@ MD5Sum:
  8ed7a4a90d2f60b4b55ff0b04c1d8da1 96 contribe/Contents-armhf.xz
  bec22c478f31e60ce765fe65af6ff464 589 main/binary-all/Packages
  bb4f733901b160e1aaeaed4e3cb24b00 504 main/binary-all/Packages.xz
- 81570c7d511220c11ffc63ed5156b73f 1125 main/binary-armhf/Packages
- d8fb3b82910a2339a9c98f61999358d0 672 main/binary-armhf/Packages.xz
+ 2055372c41f86a4324431b725d07cfb4 1125 main/binary-armhf/Packages
+ b295c2b4f0b31b8719fbbee07013f063 672 main/binary-armhf/Packages.xz
  49b314a56a0d57184f9bccd221075221 90 main/Contents-all
  cb319c94a6d2246ff1251495afd2e898 178 main/Contents-armhf
  218ab2e7e26f453875dea8cdd0452008 96 main/Contents-all.xz
@@ -36,8 +36,8 @@ SHA1:
  b63b45157a9965d4262043174b72c1fad0ddf48e 96 contribe/Contents-armhf.xz
  a0d202cad8aafd18d6baa0753d7121cc11d268dc 589 main/binary-all/Packages
  ebb9515d1b0153aea3bcb0651c8df069117beb25 504 main/binary-all/Packages.xz
- d4e39a988ee7db19bb0ad8264f0c2710d5530496 1125 main/binary-armhf/Packages
- 03f3bb40a31d05df32215daada2c13583d675bf0 672 main/binary-armhf/Packages.xz
+ 3d05bad685ab95de89202a7190d272de093d6ed4 1125 main/binary-armhf/Packages
+ 3dcd42bb5462bfc095f30d13e3348040be16dca5 672 main/binary-armhf/Packages.xz
  3fcf9c0c182a820d904843cfd40a28928e17e77f 90 main/Contents-all
  9155abdbe56c65fc6c251dfb3db1211d9488db09 178 main/Contents-armhf
  c26d6ad0b7b2b3b125b54e389f2607a7745015a8 96 main/Contents-all.xz
@@ -57,8 +57,8 @@ SHA256:
  d192eae83cff3cb8d87f15cf05b34d600d527454bb2bbb90337c436f75ceed56 96 contribe/Contents-armhf.xz
  b89b537adc14cf401eba6d99599fc9ee373bf24bf3b3577076249fe33a834986 589 main/binary-all/Packages
  fadb6b5fd2655505c9e400aff4c1c4f8835b45e6c25f0fe07f71444f4aa43a56 504 main/binary-all/Packages.xz
- 144c671448c0274d824a9aa7f61c10922d6df84a697d5e018c67475140447b77 1125 main/binary-armhf/Packages
- 3aa150cd34c21da5ac2ec5bdf5dde9af68e7b60628c0dcd229c5910843e2945b 672 main/binary-armhf/Packages.xz
+ b3dff6a86409c6c33ab659074bb2d7ba1a56147640b2bffd314c9df87554c18f 1125 main/binary-armhf/Packages
+ db456e2c934c7280ba1ba08e9a10494717a371d2fc994f9609fd86ab0f1280fb 672 main/binary-armhf/Packages.xz
  a20f87f78c07bb9dd4a3b5ab7a3562d11c59b17316a772f573638b8932baac0e 90 main/Contents-all
  4583c11b5a81403fe703f0afd57ac9155b12c589d0240097181d49f57cfd1d59 178 main/Contents-armhf
  38b480299e0f9038724d5c80653dbb626022aaec3290388f7e591ad9405901a8 96 main/Contents-all.xz
@@ -78,8 +78,8 @@ SHA512:
  aa7c9654245eb5f3c7706eea64ee72d53a5a102c91489f4d9e469fc5e88d6046e9dc642ad696813f9283a3e39989514eeaa2dcf29803c5062e0517fdfe81fcc9 96 contribe/Contents-armhf.xz
  cce05ce99fdd26e4d2bff19fc952cd89d75cd996b083b29abedc590367bec46c9244fca1708d59958c265ff7afc10f83e50dc2ddafd6729520789eea40289d4d 589 main/binary-all/Packages
  8092bd2375513bf0e8d004ec0f5de349f9df7cfb4a93a3d5fc609e6eec19bf1030419b18a34290ce3660d51a8ed93f2f623636a4ab053a67b4b2018ac23cc9c4 504 main/binary-all/Packages.xz
- 1928c9bd125b466121fa35de4fa6124c6e1fd12149b1f31b92c915adcfd61927245924e23f4313cd9e6c3e535ec810a0b0c61c554ae94dde28ae3a3cef444f2f 1125 main/binary-armhf/Packages
- ef7484273029f6fb102f648d91b16f33c452c85e2b305002ec2b9c989cabbde0d1a8295c23bed2b872bbb7a0c3172ef6081b0d72a758a269077f2b4580fe21ee 672 main/binary-armhf/Packages.xz
+ 02eebb71dfa2a7a91f9df8f5d7b507351498111bb2aadba6778f230632ec791533d590694b0b3889012c12db5e5d8405f263eaa4a61996c30dfbb1b1fbda0616 1125 main/binary-armhf/Packages
+ a0cd1448f9da60d832aa377ac6ee9eb6e47cd952f738e3ec97ffc6f85fc14a38d4dee23d45ada7344c7de9dd7e868d9e91a57c4fbc6869ea4e46f970ab2080ee 672 main/binary-armhf/Packages.xz
  1d8249815dfee90c357b67b892ce06bbc38767e83cd1f6b46808b5a51569e645b9dd98beb5e562430257e92782674148c12d33bb692637b3883a394968b2a998 90 main/Contents-all
  7679473e623ab9341610d20920e15ffde6e77cad8972d9d6e50bf6b36e6b2d5c31e151cdc801f194495ccb00972f6b2bdd1215e1096a6f3529f16a1700525b1a 178 main/Contents-armhf
  f1bb355f5c5799dcf174a4dd36442e2fdf68cb0a2d3c48ba146a840bc8b13254b2e36c0a202dc08eed505987cad55d6be1991b80cc85b027bc848ecb4a36e779 96 main/Contents-all.xz
