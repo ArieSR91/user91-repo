@@ -1,0 +1,15 @@
+Package: box86
+Version: 0.3.1-SR
+Architecture: armhf
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 24131
+Homepage: https://github.com/ArieSR91
+Description: Run wine32 on armhf
+Filename: dists/metaverse/non-free/binary-armhf/box86_0.3.1-SR_armhf.deb
+Size: 4770600
+MD5Sum: 50772357c91e7df16c75cda125ea9932
+SHA1: 3f468cd7b88478e2ecfbb279877e85edbda7bc2a
+SHA256: 2f1e6f67ba66bd14309888eab05b3f180c68922762c220b41ed6020b791bcf36
+SHA512: 28612274ae507e9cd395709be910f8ed76d148f442be08558f10a7fb012ff91771924e969f588440818bf66520ef11b16e8113521d87f62edd255471f2759d74
+

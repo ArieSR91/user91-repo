@@ -6,7 +6,7 @@ Version: 1
 Architectures: all armhf
 Description: metaverse repository
 Suite: metaverse
-Date: Thu, 01 Jun 2023 09:43:06 UTC
+Date: Thu, 01 Jun 2023 21:44:31 UTC
 MD5Sum:
  c537b3d8bc5eb91b4b9c74d5fd90072d 1190 contribe/binary-all/Packages
  92ddc73c92641c76e7ec3dc5607d0706 752 contribe/binary-all/Packages.xz
@@ -24,9 +24,13 @@ MD5Sum:
  cb319c94a6d2246ff1251495afd2e898 178 main/Contents-armhf
  218ab2e7e26f453875dea8cdd0452008 96 main/Contents-all.xz
  64ccf48bca5062b2690b9ba74539708a 100 main/Contents-armhf.xz
+ d0aecb55a535cfec8e9e65f3e4c685f2 600 non-free/binary-armhf/Packages
+ 5c249e6206eb2b42ae7548e1244c1145 504 non-free/binary-armhf/Packages.xz
  95e5f3977871523b4262ec362ec3ba7f 2504 non-free/binary-all/Packages
  91bb953dde0550bb811797b0b50f5692 1068 non-free/binary-all/Packages.xz
+ 4ccdf90adfdc9634d664f567d6ac35fb 609 non-free/Contents-armhf
  14804c703d8508c325f92fc7c86ed24e 744 non-free/Contents-all
+ b2f5a87f784fcb92dc7116da1ff5c748 180 non-free/Contents-armhf.xz
  6e50f6de89fb5beee50d7175cb94b0d3 136 non-free/Contents-all.xz
 SHA1:
  d72fc1b94530a565c11be8cb8ed5fb5567e955fa 1190 contribe/binary-all/Packages
@@ -45,9 +49,13 @@ SHA1:
  9155abdbe56c65fc6c251dfb3db1211d9488db09 178 main/Contents-armhf
  c26d6ad0b7b2b3b125b54e389f2607a7745015a8 96 main/Contents-all.xz
  3e5cf8343d03529bfdd028ea970d084a6bb194f1 100 main/Contents-armhf.xz
+ 86449de65abc8e69da1c8f34e6f099a28dff8b07 600 non-free/binary-armhf/Packages
+ 4cb36e6eb789b0b9029c95d984d332e3554ac6fd 504 non-free/binary-armhf/Packages.xz
  2547c747f547fe7cc3c77e6e0c72dfd28621e781 2504 non-free/binary-all/Packages
  ac189252f835e4bf507a84aa14fcd7bd29ad4c8a 1068 non-free/binary-all/Packages.xz
+ d43625041b27e546fb68f6c2265adf22fbfd635a 609 non-free/Contents-armhf
  270add6038dedecbb8a7cc6e60d9ba3acd959a54 744 non-free/Contents-all
+ c829014a10f47e2fdec2bcfc3ab80578fcf13d5e 180 non-free/Contents-armhf.xz
  6acbb8e6c6d8e6ae4c8648c85f52a726a628cd13 136 non-free/Contents-all.xz
 SHA256:
  3e7ef60254b740c7c7f8c21fa56824688a370c5c465bb2f1dd95c709ca31932c 1190 contribe/binary-all/Packages
@@ -66,9 +74,13 @@ SHA256:
  4583c11b5a81403fe703f0afd57ac9155b12c589d0240097181d49f57cfd1d59 178 main/Contents-armhf
  38b480299e0f9038724d5c80653dbb626022aaec3290388f7e591ad9405901a8 96 main/Contents-all.xz
  12ae1a4b18e4fbcc1a3a8e7d9092f3a99c24d2a010d305c08e66e881036c7008 100 main/Contents-armhf.xz
+ 425701ac8c4f52511828a532e4ae1248ba66e3e296fa183db47ccf786456070f 600 non-free/binary-armhf/Packages
+ a5043bfec4c5fe78e1f021878e3253404fa544089ca8f5a19aa6c065551410b8 504 non-free/binary-armhf/Packages.xz
  39c39b66ccbca8c718df0c45f4de6afcaaa872101b6b5dcd00f424767144331e 2504 non-free/binary-all/Packages
  a8e94a5124aa609d7243a11ee76eff88911ad2c39694aef1a65d034e72163124 1068 non-free/binary-all/Packages.xz
+ 43b597b05e9e6513eda0d0b183a19bece114744d68f7eca9ca42d78ad354ca8c 609 non-free/Contents-armhf
  c8716c935e0f6e07722407481ce4bbeaf10dfc1e186ec1445561efd0506e54e0 744 non-free/Contents-all
+ 770964b19fb13ffbc3fd7a21451c73d1c135a89445e61b7f9df6b70a222ec871 180 non-free/Contents-armhf.xz
  651231bed6ce7d05984aab7b64d4b3988aad7e1e3014ec5013122a0f8cf7f0d1 136 non-free/Contents-all.xz
 SHA512:
  63b0de43121c6fae8ae8808479837b28d8717a1358ccc8bb03084beb76fc25ccf6d1423385bc613da9244790852d4dc3c2927b3fe552c6d0f349d8443c74c12c 1190 contribe/binary-all/Packages
@@ -87,21 +99,25 @@ SHA512:
  7679473e623ab9341610d20920e15ffde6e77cad8972d9d6e50bf6b36e6b2d5c31e151cdc801f194495ccb00972f6b2bdd1215e1096a6f3529f16a1700525b1a 178 main/Contents-armhf
  f1bb355f5c5799dcf174a4dd36442e2fdf68cb0a2d3c48ba146a840bc8b13254b2e36c0a202dc08eed505987cad55d6be1991b80cc85b027bc848ecb4a36e779 96 main/Contents-all.xz
  bbf4b7f2a5404887b1601fa63c949e96c15e7de508bc06a31ac2cef294f3738520036836c682151e1ce5bc004ef81802c6d9647afd79ebee73c2578e87953774 100 main/Contents-armhf.xz
+ d067a87733698710f8f4998f8f5001426957b30cc2629b1777804f3679b6b2ac61ca322be987446ac75a9decafacc9f578293f37340495967d1bbaaeb737e811 600 non-free/binary-armhf/Packages
+ 4f1af3c6d3f0a04c5f74a95984f0552233188358e3c5a789d4876881e22115a01a05002dae946af631f5f903bf2651d075dd796f97a817f2f78271adc6531309 504 non-free/binary-armhf/Packages.xz
  5ade63e5eb9210c655a92583f9115c9b83755eb7ff86db133fbd1137d8c808bcbe40eb3737fc36cd04d1217b0b8cc3ee2bfd3e6971f0200f1e472b519e2d20ba 2504 non-free/binary-all/Packages
  5f9834cf014ed5fefc88386d45b3a654a6b0e3e107820dc9d79c53dccde05a7073eba27b559da183048b1de1fa2595784919d2bc928cc1b6777f31ea25e77e1f 1068 non-free/binary-all/Packages.xz
+ f4e699086cf68bdd33a79a6cd30d63f34f789deaf035a233cdc8d7eba909e0f3e3ff143e68ebc281902616b4647f3b6a666cc31f247436c2ccc778c9afeb68a5 609 non-free/Contents-armhf
  9ef84a4f3d4f448a060f26706402d8b25364228ddc8169190b5a39c404db1b234e4b5e676e1f18d9d06a14d00cbd48f05b6533f0fcea728686c635d0567b7dc2 744 non-free/Contents-all
+ a68b2c8a020da644c3c1f895620f382cd45fb28a8b6ccd4f19f6249d308cef794288cab86f8a069c026fbc684fdc7919ff3688931120764cb4363c06992141d8 180 non-free/Contents-armhf.xz
  9c068c85332ffa996ef75a27e76fd3b6ca6e7d8efbe865d24efa4196f36d1d4e466a2f249556ba42fb20b82564ea2fab861daf0dc0a9b3aebfda20f639f07ca5 136 non-free/Contents-all.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE/w8GnpkBI9uOygqoZvABD5pY/6gFAmR4aCwACgkQZvABD5pY
-/6jGlgwAy5lSQ8dj47tA2cPpoylEIu/IRI9JngD5znwZIXw3hS0POq3N7Ke+AhaI
-zl8lYnNx0KVp6U3zxcjPl+2USR96JFCB4bjO6/m2YmDhGYlTRD71LR11QDvM+gwK
-K2NaMrfNxkwdNTHnaGMXabepCZyC+SRrADVnoVmo1aTJA2StHuCY664alatTeILX
-aBzsERPIko55iggGXnBcoB88A5JS0OhIpiN8YKrRNKyi6sVN64doiriGDtTi/Urj
-6HyKhBOGYbl5hQqXvjHIyNWOmYwfiwZX3crPm7Rszy5CQyK5cWDbAKwTNk1Gv5kd
-LxnlqWr+rYPrJ4ZmVZ9pQcptuIL1rqBjYvwDTTIvQsB808VdoxbPhcGSXSCxXiU4
-CqVc2xkiCSJsItLMPbMRo1PuOvswET/7tBmcCSbRWRlqydnj6B3HZiT2d+8ObFgC
-a056YrcWZMZdVNUJFsD+eWsDSXxcThyXSUlgqqZAIypx1itug1DAUhvXwMIcmxc9
-r5MrCB1P
-=5vQj
+iQGzBAEBCgAdFiEE/w8GnpkBI9uOygqoZvABD5pY/6gFAmR5EUYACgkQZvABD5pY
+/6iqQwv/XqCReq4v27p/Nve3ETcydIZo1SuR36TrFt10b89qbybsRMFmfLaU0uRd
+9XyeI5VtylGLqbFOPCZG88y1hXHTtdVtAvD3F1/LMUodeIrKYo8rsiH+4kr5hvRZ
+3c/KNkxOLSr+Hem3RTvwbL7+dfQKl7cbHcSUCIBPXuwdzVPERcTE9mKHZ/oNDRmO
+9kn9GczvTzrhCdFl4kpecc1GSvsB0vG5jEe6z0Zy/McmiFf2ZMipm1oL241Wvv1r
+mf5aANS09XGeKplqA0QSi9FE+X0Vsdpb2JbPBLnZipbNgd8BlyC2LHKvMqyZHTEH
+dXzc7NKGJqOYFFCiUWWaSLq/li++w8Be3R4IEYKz8WbRVn34biLf286huNYE0Z8l
+G0zU19nCJHtvspt6EYbhlB2oackDSsd8zNo2LJOmqyKSiSRaR17WF938kkW01YCl
+A4BxxPwa4vKtIZF723BPpY8Fa2WlxZ5LxnFtFL3zvuezy4zKJMHlGyrk0jDIB9nJ
+0ANaFLsB
+=wECz
 -----END PGP SIGNATURE-----
