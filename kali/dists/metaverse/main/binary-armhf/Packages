@@ -1,30 +1,17 @@
-Package: winebox
-Version: 1.0.1-SR
+Package: wine-armhf
+Version: 5.13-SR
 Architecture: armhf
-Maintainer: name <syahri.ramadhan2022@gmail.com>
-Depends: cmake
-Installed-Size: 100 KB
-Description: box86 wine
-Filename: dists/metaverse/main/binary-armhf/winebox_1.0.1-SR_armhf.deb
-Size: 1620
-MD5Sum: e4b5cc3dbc77cc48d494cc1e628fbebe
-SHA1: ce66555ba13f53fb7a413c761f42eeacb61a83e6
-SHA256: ce6ba4d596ae7a27e9cc81be58a3ba29b791130d4c4a419c95ffb9b64f7c19bb
-SHA512: 092d8acb58ead1ad2e40591dfab9ca2b49a8f06f42318067b033f37f29e9fe559a2361a90f976f188a783eb01ccc2cf6b128ba747d251e57bec0a36f9b7ed7f4
-
-Package: winebox
-Version: 1.1.1-SR
-Architecture: armhf
-Maintainer: name <syahri.ramadhan2022@gmail.com>
-Depends: cmake, python3, gcc, build-essential
-Installed-Size: 100 KB
-Description: box86 wine
-Filename: dists/metaverse/main/binary-armhf/winebox_1.1.1-SR_armhf.deb
-Size: 1776
-MD5Sum: de23dba26f1386b14c063489b25646cf
-SHA1: e153189a40a93dd072c1903fe1972516040b9203
-SHA256: d0c2438bb544b0c6c389adaafac8617ab6996555fb5efc56a3701a6a70910931
-SHA512: eb880616d611ee7b56961081eaa1c5ea479fa273d3f64093b4e49f6e0c7b37659685e53033dc4eede7c001c7cdca48af278515d886990bebbf42330369f5702e
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: box86
+Installed-Size: 
+Homepage: https://github.com/ArieSR91/
+Description: Windows Emulator
+Filename: dists/metaverse/main/binary-armhf/wine-armhf_5.13.0-SR_armhf.deb
+Size: 32239608
+MD5Sum: bb21f832e7046998ff446e8d0273ff14
+SHA1: a72c1d48eeea31df438ce1fe054edff88868d353
+SHA256: 2a426b859c06d72036c0fd71a2de0c232bb19adab29336c9c35c294dd218d184
+SHA512: 801d70a3c7df8a240ff39f52e31141d6a3710ec3d9124247771e12294a3d6c550dd959a6642d5dbedcd493974ca435d9f5685515fcec8067bee99c41759b9aa3
 
 Package: winebox
 Version: 1.1.2-SR
