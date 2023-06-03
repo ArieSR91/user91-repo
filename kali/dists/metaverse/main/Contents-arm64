@@ -1,3 +1,8 @@
+usr/local/bin/build-deb                                                          build-repo
+usr/local/bin/build-repo                                                         build-repo
+usr/local/bin/iptracker                                                          iptracker
+usr/local/bin/git-repo                                                           repo-manager
+usr/local/bin/repo-manager                                                       repo-manager
 usr/local/bin/wine                                                               wine-amd64
 usr/share/applications/wine.desktop                                              wine-amd64
 usr/share/wine/bin/function_grep.pl                                              wine-amd64

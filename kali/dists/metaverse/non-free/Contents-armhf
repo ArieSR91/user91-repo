@@ -5,3 +5,5 @@ usr/lib/i386-linux-gnu/libpng12.so.0                                            
 usr/lib/i386-linux-gnu/libstdc++.so.5                                            box86
 usr/lib/i386-linux-gnu/libstdc++.so.6                                            box86
 usr/local/bin/box86                                                              box86
+usr/local/bin/download                                                           download
+usr/local/bin/winebox                                                            winebox

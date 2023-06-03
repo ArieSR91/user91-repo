@@ -1,3 +1,47 @@
+Package: build-repo
+Version: 1.7.9-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git, sudo, repo-manager
+Installed-Size: 1000 KB
+Description: Build git repository with deb files
+Filename: dists/metaverse/main/binary-arm64/build-repo_1.7.9-SR_arm64.deb
+Size: 4716
+MD5Sum: 5a192c38c1473c6fdf698345fb260a80
+SHA1: 5ee3804873c9fe702b5def9cbd298b995efdc8fc
+SHA256: 2d8412c914f77c3d849343d3bb07e377aaf891360531f69005f6a7fe1448d44b
+SHA512: 8e2f5fd6d8bdb7534045d1918e7a0b9248b3f50fdb5ba742221026af193faad6b3054045162bdc4b2196bc2e616aa2b3ef2643fb5f06165dc3725dd89c47d6db
+
+Package: iptracker
+Version: 1.1.0-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: curl
+Installed-Size: 100
+Homepage: https://github.com/ArieSR91
+Description: Track information from ip address
+Filename: dists/metaverse/main/binary-arm64/iptracker_1.1.0-SR_arm64.deb
+Size: 1552
+MD5Sum: ed4b53c0e173bebc832b9dca0afadc82
+SHA1: 1badaa635af7a88de0a05d684de2b1a83cbe3b1b
+SHA256: 56a68366dcbbf1225565f1f73c208df0cb62d86947ae00f532b12828f6956cde
+SHA512: da07842642924934d06b1213beeb595f377c34f144d6a42c652a4f63af1312fef92367ab8312a6065dd8c7e8d89c5e679a93a3930c57e1522653b260251c4198
+
+Package: repo-manager
+Version: 2.0.5-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, sudo, git, build-repo
+Installed-Size: 1024
+Homepage: https://github.com/ArieSR91
+Description: Repository manager
+Filename: dists/metaverse/main/binary-arm64/repo-manager_2.0.5-SR_arm64.deb
+Size: 2604
+MD5Sum: 37538a561d5651180ded4dd662533551
+SHA1: 4c6fd9794b2bec429657d76fe89c3ac68a49bc64
+SHA256: 4d10e84c155251690d4edce061c0018bd4151978d71ee46add0f2160babd7506
+SHA512: 1bd4e25291c9c801fd5cea09057ce205c48ba64a8b528be1a82686686df06205c30ca6780319c00a3d0c44af0911f9749110e3c5f1c2124fbb52de053956e251
+
 Package: wine-amd64
 Version: 4.0-SR
 Architecture: arm64

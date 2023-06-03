@@ -1,3 +1,8 @@
+usr/local/bin/build-deb                                                          build-repo
+usr/local/bin/build-repo                                                         build-repo
+usr/local/bin/iptracker                                                          iptracker
+usr/local/bin/git-repo                                                           repo-manager
+usr/local/bin/repo-manager                                                       repo-manager
 usr/local/bin/wine                                                               wine-i386
 usr/share/applications/wine.desktop                                              wine-i386
 usr/share/man/de.UTF-8/man1/wine.1                                               wine-i386
