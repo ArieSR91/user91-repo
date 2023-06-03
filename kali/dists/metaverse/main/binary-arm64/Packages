@@ -1,0 +1,15 @@
+Package: wine-amd64
+Version: 4.0-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 229158
+Homepage: https://github.com/ArieSR91/
+Description: Windows Emulator
+Filename: dists/metaverse/main/binary-arm64/wine-amd64_4.0_arm64.deb
+Size: 24501664
+MD5Sum: 3be9ae4d4aceb133eecdb807bd06f157
+SHA1: 7ff9482ab2f0441a9150a722e6d5ec74c1e3ce46
+SHA256: 63e248f2507ddc83bf0f1c693a1b85e0bc4383d4a90ba16410ac6295a84dd481
+SHA512: 80b816997f8e14a9fdb70ae19b5174504407ca144aee1a7f696a701a3ba57843ec156868e9806c1d6308db5b14d595262c22350ef5c94059cd157d9ecfc977e7
+
