@@ -51,11 +51,11 @@ Installed-Size: 288086
 Homepage: https://github.com/ArieSR91/
 Description: Windows Emulator
 Filename: dists/metaverse/main/binary-armhf/wine-i386_5.13.0-SR_armhf.deb
-Size: 32234612
-MD5Sum: a2baa2b5040cdef39b137df12c636e2c
-SHA1: df5e2f93bd809adcd2bbe0b8cb145532bcdeb19d
-SHA256: d5c18c235f57edb6f1b32ac7748a68e49109e0317cec127745ba703427b29d1c
-SHA512: 444181b1dafe77213a62e9c94af7cd88a4e34cb50ca295216bd13e1a4becd8a8a272e909323d66767debbf9e57ca1a0a42e7e5b38d6d00cecdc637a5501375d7
+Size: 32259344
+MD5Sum: 1d8849712a2cf4dc249218f2ee5195f5
+SHA1: c0e526ce4cfb08b7cd7d7f4f0c73416d154b11b9
+SHA256: c2502ae4429b5b5dea8c8e97609555818d70a182aef177e3fd7ba82854dda1bc
+SHA512: fdcf8d280709a1308806d3dd8e3a2c638e1b23fc2c89933289ced3ebabbfc5716c5594e75e2a841fcd40d228c0f7f10c4f6ad5f6dc689eaab952e2e530265cea
 
 Package: winebox
 Version: 1.1.2-SR
