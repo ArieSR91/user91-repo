@@ -71,17 +71,3 @@ SHA1: d35e1f253967a0760eb879ee0df8cd7616cfc0f0
 SHA256: ad33406f3058511a36a92b855cbbb14f37e897b925941a8f6e469159e828ae70
 SHA512: 50157e9fe3e5440cb9997810fae713c1e5fb993a86dbe3ac2e8a78b7c5d806997e7fb8dcd044ce7a9fc3b7757ae6ec232e4b998c8cddcfda2359bd6168e8c1f8
 
-Package: winebox
-Version: 1.1.2-SR
-Architecture: arm64
-Maintainer: name <syahri.ramadhan2022@gmail.com>
-Depends: build-essential, wget, cmake, python3, gcc, libasound2, libc6, libglib2.0-0, libgphoto2-6, libgphoto2-port12, libgstreamer-plugins-base1.0-0, libgstreamer1.0-0, libldap-common, libopenal1, libpcap0.8, libpulse0, libsane1, libudev1, libusb-1.0-0, libvkd3d1, libx11-6, libxext6, libasound2-plugins, ocl-icd-libopencl1, libncurses6, libncurses5, libcap2-bin, libcups2, libdbus-1-3, libfontconfig1, libfreetype6, libglu1-mesa, libglu1, libgnutls30, libgssapi-krb5-2, libkrb5-3, libodbc1, libosmesa6, libsdl2-2.0-0, libv4l-0, libxcomposite1, libxcursor1, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxxf86vm1, libc6, libcap2-bin, libunwind8, libjpeg62-turbo
-Installed-Size: 10 KB
-Description: box86 wine
-Filename: dists/metaverse/main/binary-arm64/winebox_1.1.2-SR_arm64.deb
-Size: 2476
-MD5Sum: a57de011289d32aca4a236a8d590ec08
-SHA1: df99d48683dfb58f8355e0789d799c81590afc4e
-SHA256: 4c0ed8839d81d3af8c2899e7fb517222ecad8d36081a6e219a2fda8ef3268b4c
-SHA512: efb802386fa9e6ea8ae1e6d91fd8642b4f4c526d7f5c60bdfde61bde18671bf85faeef181031a6c3e4e99ebdac4bce88785532da0d836d43c3700ff71e577bf9
-

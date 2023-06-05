@@ -3310,4 +3310,3 @@ opt/wine-i386/lib/libwine.so                                                    
 opt/wine-i386/lib/libwine.so.1                                                   wine-i386
 usr/share/man/man1/winecpp.1                                                     wine-i386
 usr/share/man/man1/wineg++.1                                                     wine-i386
-usr/local/bin/winebox                                                            winebox
