@@ -1,5 +1,7 @@
 usr/local/bin/build-deb                                                          build-repo
 usr/local/bin/build-repo                                                         build-repo
+usr/local/bin/build-deb                                                          build-repo
+usr/local/bin/build-repo                                                         build-repo
 usr/local/bin/iptracker                                                          iptracker
 usr/local/bin/git-repo                                                           repo-manager
 usr/local/bin/repo-manager                                                       repo-manager
@@ -2003,3 +2005,4 @@ opt/wine-amd64/lib64/libwine.so                                                 
 opt/wine-amd64/lib64/libwine.so.1                                                wine-amd64
 opt/wine-amd64/share/man/man1/winecpp.1                                          wine-amd64
 opt/wine-amd64/share/man/man1/wineg++.1                                          wine-amd64
+usr/local/bin/winebox                                                            winebox

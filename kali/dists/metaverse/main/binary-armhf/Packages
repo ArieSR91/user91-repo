@@ -12,6 +12,20 @@ SHA1: e308831ac1a0ee777e901bdd7ce747eea543fae6
 SHA256: 98f1fbebb5948c3ca19ea8645330b4ec93c24319cd4246247277bcd2d45bdef7
 SHA512: 42ccc625e4f78c4df8210eb8a77ba77d7ae40d0419c498f4abe48523ccb3a7e85da767aa653f2377a74dde415a290f259d23b0d8fc89ce2a285960bbae61b6c8
 
+Package: build-repo
+Version: 1.8.0-SR
+Architecture: armhf
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git, sudo, repo-manager
+Installed-Size: 1000 KB
+Description: Build git repository with deb files
+Filename: dists/metaverse/main/binary-armhf/build-repo_1.8.0-SR_armhf.deb
+Size: 4884
+MD5Sum: a13099294180f1490d6d35534590f52f
+SHA1: fb69f92945d0cadceb1dda2e536e2daa42a54ace
+SHA256: 251b8ae2c2c7e3ef37ae73b33a88f9d870875cb075315746e62b6ff6676bf003
+SHA512: 86ad641f74ed958c6adc1a10911ecefeeb0bee58b6aec06b1a69942884e71976f29634a3cef8033c3898dbc98dbb55852a5fc9c94b7b3c8196bcb346901c7a19
+
 Package: iptracker
 Version: 1.1.0-SR
 Architecture: armhf

@@ -12,6 +12,20 @@ SHA1: 5ee3804873c9fe702b5def9cbd298b995efdc8fc
 SHA256: 2d8412c914f77c3d849343d3bb07e377aaf891360531f69005f6a7fe1448d44b
 SHA512: 8e2f5fd6d8bdb7534045d1918e7a0b9248b3f50fdb5ba742221026af193faad6b3054045162bdc4b2196bc2e616aa2b3ef2643fb5f06165dc3725dd89c47d6db
 
+Package: build-repo
+Version: 1.8.0-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git, sudo, repo-manager
+Installed-Size: 1000 KB
+Description: Build git repository with deb files
+Filename: dists/metaverse/main/binary-arm64/build-repo_1.8.0-SR_arm64.deb
+Size: 4868
+MD5Sum: 42e4bf48bca13a2947175a9620167087
+SHA1: 332bfef135d0d35e2a9d92496f569da752e93173
+SHA256: cf04bd23b923dee255e1eb070107dff1c11a10e5f06917e37d8bebbf74eaf3ae
+SHA512: 4db0af775a39737f07009bc8bb5844196ba4618bb3b648bdcbd4f8a1c5b0e5f3657a334f27a817f93bbd8a07389d24ab7c2674df616f1a91e4294e232600d42d
+
 Package: iptracker
 Version: 1.1.0-SR
 Architecture: arm64
@@ -36,11 +50,11 @@ Installed-Size: 1024
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/metaverse/main/binary-arm64/repo-manager_2.0.5-SR_arm64.deb
-Size: 2604
-MD5Sum: 37538a561d5651180ded4dd662533551
-SHA1: 4c6fd9794b2bec429657d76fe89c3ac68a49bc64
-SHA256: 4d10e84c155251690d4edce061c0018bd4151978d71ee46add0f2160babd7506
-SHA512: 1bd4e25291c9c801fd5cea09057ce205c48ba64a8b528be1a82686686df06205c30ca6780319c00a3d0c44af0911f9749110e3c5f1c2124fbb52de053956e251
+Size: 2616
+MD5Sum: 6acdacb08780bccca796a261528e21bf
+SHA1: 6dcdbe338db5231cd3b6bf1d80804de83a6d5921
+SHA256: e9a8f79ec2129872179871c9e919ad3192b58227e32999f86d4b37d56aca1fa0
+SHA512: bc722f4e20f8ca0fc0bf7c4ab3c8fcac5bd88d22c1e8d9fee56159993f07a101c8b4649982b7f23bb2cd5b14665b94e4bdd98d72c06ca6242571de35908e76e0
 
 Package: wine-amd64
 Version: 4.0-SR
@@ -56,4 +70,18 @@ MD5Sum: 0ca2a57cec8f5a5beced2b9519281f8c
 SHA1: d35e1f253967a0760eb879ee0df8cd7616cfc0f0
 SHA256: ad33406f3058511a36a92b855cbbb14f37e897b925941a8f6e469159e828ae70
 SHA512: 50157e9fe3e5440cb9997810fae713c1e5fb993a86dbe3ac2e8a78b7c5d806997e7fb8dcd044ce7a9fc3b7757ae6ec232e4b998c8cddcfda2359bd6168e8c1f8
+
+Package: winebox
+Version: 1.1.2-SR
+Architecture: arm64
+Maintainer: name <syahri.ramadhan2022@gmail.com>
+Depends: build-essential, wget, cmake, python3, gcc, libasound2, libc6, libglib2.0-0, libgphoto2-6, libgphoto2-port12, libgstreamer-plugins-base1.0-0, libgstreamer1.0-0, libldap-common, libopenal1, libpcap0.8, libpulse0, libsane1, libudev1, libusb-1.0-0, libvkd3d1, libx11-6, libxext6, libasound2-plugins, ocl-icd-libopencl1, libncurses6, libncurses5, libcap2-bin, libcups2, libdbus-1-3, libfontconfig1, libfreetype6, libglu1-mesa, libglu1, libgnutls30, libgssapi-krb5-2, libkrb5-3, libodbc1, libosmesa6, libsdl2-2.0-0, libv4l-0, libxcomposite1, libxcursor1, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxxf86vm1, libc6, libcap2-bin, libunwind8, libjpeg62-turbo
+Installed-Size: 10 KB
+Description: box86 wine
+Filename: dists/metaverse/main/binary-arm64/winebox_1.1.2-SR_arm64.deb
+Size: 2476
+MD5Sum: a57de011289d32aca4a236a8d590ec08
+SHA1: df99d48683dfb58f8355e0789d799c81590afc4e
+SHA256: 4c0ed8839d81d3af8c2899e7fb517222ecad8d36081a6e219a2fda8ef3268b4c
+SHA512: efb802386fa9e6ea8ae1e6d91fd8642b4f4c526d7f5c60bdfde61bde18671bf85faeef181031a6c3e4e99ebdac4bce88785532da0d836d43c3700ff71e577bf9
 
