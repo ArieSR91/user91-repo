@@ -26,6 +26,21 @@ SHA1: fb69f92945d0cadceb1dda2e536e2daa42a54ace
 SHA256: 251b8ae2c2c7e3ef37ae73b33a88f9d870875cb075315746e62b6ff6676bf003
 SHA512: 86ad641f74ed958c6adc1a10911ecefeeb0bee58b6aec06b1a69942884e71976f29634a3cef8033c3898dbc98dbb55852a5fc9c94b7b3c8196bcb346901c7a19
 
+Package: create-bin
+Version: 1.0.0-SR
+Architecture: armhf
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 100
+Homepage: 
+Description: Create bash binary files
+Filename: dists/metaverse/main/binary-armhf/create-bin_1.0.0-SR_armhf.deb
+Size: 1068
+MD5Sum: 69cd94c4d14d395483dae721059ae666
+SHA1: d2c121fb61610781e519e847d22eebf6f9c00c16
+SHA256: de15fcd79f3e5a9c50c1871c0e77805fb3757016b3faeaa3d34c11995c02e984
+SHA512: 9e1320b57fee1e7e4df0deaeb7c99867dbf21981572aabf45a48fb86e22ebc35fb3ff02f6f918c2cf08f68bf269294bbdcc3cd8b6f7ec55e5ec1a518e1364788
+
 Package: iptracker
 Version: 1.1.0-SR
 Architecture: armhf
