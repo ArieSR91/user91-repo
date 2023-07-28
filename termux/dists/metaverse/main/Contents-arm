@@ -1,0 +1,15 @@
+data/data/com.termux/files/home/.bash_aliases                                    kali-dark-style
+data/data/com.termux/files/home/.termux/colors.properties                        kali-dark-style
+data/data/com.termux/files/home/.termux/termux.properties                        kali-dark-style
+data/data/com.termux/files/home/bash.bashrc                                      kali-dark-style
+data/data/com.termux/files/usr/etc/proot-distro/kali.sh                          proot-distro-kali
+data/data/com.termux/files/home/.fonts/DejaVuSans                                termux-fonts
+data/data/com.termux/files/home/.fonts/DejaVuSansMono                            termux-fonts
+data/data/com.termux/files/home/.fonts/FiraCode                                  termux-fonts
+data/data/com.termux/files/home/.fonts/LiberationMono                            termux-fonts
+data/data/com.termux/files/home/.fonts/LiberationSans                            termux-fonts
+data/data/com.termux/files/home/.fonts/LiberationSansNarrow                      termux-fonts
+data/data/com.termux/files/home/.fonts/MesloLGS                                  termux-fonts
+data/data/com.termux/files/home/.fonts/NotoSansMono                              termux-fonts
+data/data/com.termux/files/home/.fonts/Quicksand                                 termux-fonts
+data/data/com.termux/files/usr/bin/termux-fonts                                  termux-fonts

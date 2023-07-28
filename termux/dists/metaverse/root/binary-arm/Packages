@@ -1,0 +1,29 @@
+Package: fake-sudo
+Version: 1.5.2-SR
+Architecture: arm
+Maintainer: Syahri Ramadhan <syahri.ramadhan2022@gmail.com>
+Depends: proot, which
+Installed-Size: 2465
+Homepage: https://ariesr91.github.io/user91-repo
+Description: Sudo is a simple bash script that provides sudo privilliges to a normal user.
+Filename: dists/metaverse/root/binary-arm/fake-sudo_1.5.2-SR_arm.deb
+Size: 2076
+MD5Sum: d906fe8bcc49afbac688be1368b3c55e
+SHA1: 2343b277eab29a6d74ab7e7a899fa99e6ee20da3
+SHA256: 7c88b55ca3397c8f5be50fb93aa1d84c0f9a0c177c6c0aa17a5898e126f76073
+SHA512: 2acd331f7ead76678d21f41efda53cdab63aede21fcfb3b7ad107df2cb71c9e5438e5135fbea7199dfd37bad31365aa937c502ff98d55ab2ec4536b4dcfd3c10
+
+Package: linuxdeploy
+Version: 1.0.0-SR
+Architecture: arm
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: tsu, pulseaudio
+Installed-Size: 100 KB
+Description: Run linux deploy via termux
+Filename: dists/metaverse/root/binary-arm/linuxdeploy_1.0.0-SR_arm.deb
+Size: 1808
+MD5Sum: b78bbc983257cc841f2717d4aa98162f
+SHA1: 61a52a25c887fc17e466e49d528dcae35e1564a4
+SHA256: eecd363aaed45d0210bb0d322e4a6622205a1dc4b152903ffd6d6b54b4c2330d
+SHA512: c4792d0c29034f767987e23c2ccee73bb76c65cad6601cef1422981f4f1972080d59739e360460e70e9ee3b8ee8eabc519926e9f3406fe0ab4bf1ab4db717ce8
+

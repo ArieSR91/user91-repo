@@ -1,10 +1,8 @@
-data/data/com.termux/files/usr/bin/sudo                                          fake-sudo
-data/data/com.termux/files/usr/etc/sudoers                                       fake-sudo
-data/data/com.termux/files/usr/etc/sudoers.d/sudo-exec.conf                      fake-sudo
 data/data/com.termux/files/home/.bash_aliases                                    kali-dark-style
 data/data/com.termux/files/home/.termux/colors.properties                        kali-dark-style
 data/data/com.termux/files/home/.termux/termux.properties                        kali-dark-style
 data/data/com.termux/files/home/bash.bashrc                                      kali-dark-style
+data/data/com.termux/files/usr/etc/proot-distro/kali.sh                          proot-distro-kali
 data/data/com.termux/files/home/.fonts/DejaVuSans                                termux-fonts
 data/data/com.termux/files/home/.fonts/DejaVuSansMono                            termux-fonts
 data/data/com.termux/files/home/.fonts/FiraCode                                  termux-fonts

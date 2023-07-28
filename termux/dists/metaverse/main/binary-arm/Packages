@@ -1,0 +1,42 @@
+Package: kali-dark-style
+Version: 1.2.0-SR
+Architecture: arm
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: 
+Installed-Size: 2000 KB
+Description: Termux kali dark style
+Filename: dists/metaverse/main/binary-arm/kali-dark-style_1.2.0-SR_arm.deb
+Size: 3248
+MD5Sum: 1880534e23bd8705f5e2781d8904f15f
+SHA1: 032f41b9dff981b3bc7b48685fe00ae52f22dcde
+SHA256: a20f76d8288d49e64e6e93937d153b9ada688970507c75610b3a4250d40057ca
+SHA512: 1446e9e7b9e90fa9e2457838f5d1f404328a1a1721fd72279f54a134fe440e574a04c061f6443f6797259e54c5e889153c411515fd18f816f7395908cc601272
+
+Package: proot-distro-kali
+Version: 1.0.0
+Architecture: arm
+Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 100
+Homepage: https://github.com/ArieSR91
+Description: Add Kali Linux to proot-distro
+Filename: dists/metaverse/main/binary-arm/proot-distro-kali_1.0.0-SR_arm.deb
+Size: 1316
+MD5Sum: bd6a7db518a86200baca8f198e7ecc26
+SHA1: d65c32495bcf2fa86ca4738810add9d8bfee3cb7
+SHA256: c03be65298d07250181570779e6a27e2ca9e814f40db1010113d0558af4bc640
+SHA512: 8e3fed1170443e8090d5659636132dfb54a0c182d96fd0428a6a8ec9eebca3e8fbc4231d5b8a90302d56889e1ece9718f6311662b453499272ff36c4b269c7c0
+
+Package: termux-fonts
+Version: 1.2.0-SR
+Architecture: arm
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 2000 KB
+Description: Change termux fonts
+Filename: dists/metaverse/main/binary-arm/termux-fonts_1.2.0-SR_arm.deb
+Size: 2024776
+MD5Sum: 100d5e0069f5ab858d90abe6ccdf8a35
+SHA1: 044aec5a3b5dfff955f7985a66e1495a73dfb88f
+SHA256: 6a7fb266b0826f875b5be392d0fd731a935a98e9c56b35e6fb0b26c320adf63d
+SHA512: bbab06dd91efe2f19cafe359595c965706f982ced7932624b8716c2dea6fd2e9969641c02b6fded05daa1694ede5eb4289e0f48b9a81cbcbb07af4d9decfa22b
+

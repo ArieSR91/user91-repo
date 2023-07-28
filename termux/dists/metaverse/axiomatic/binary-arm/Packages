@@ -1,0 +1,44 @@
+Package: build-repo
+Version: 1.8.0-SR
+Architecture: arm
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git, tsu, repo-manager
+Installed-Size: 1000 KB
+Description: Build git repository with deb files
+Filename: dists/metaverse/axiomatic/binary-arm/build-repo_1.8.0-SR_arm.deb
+Size: 4884
+MD5Sum: 7353268db9e3046117873c9608a69dce
+SHA1: 7ad1db7931a46ee7a8a024e573fc72e15e15685b
+SHA256: 95c4e3e28c6b5a9be50bdb65cfda9f74b51a1c6818f66b8a9afe43005e095153
+SHA512: 3e569eefef0f38d9898f0fb955ff4a5fd3a3bcd60eaadb50135eaeb14c4cfc76e8594fea68dcb7399cb4f0e177a5ed1c70dbad80f6d27cf3ca9582befad9abc1
+
+Package: repo-manager
+Version: 2.0.5-SR
+Architecture: arm
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, sudo, git, build-repo
+Installed-Size: 1024
+Homepage: https://github.com/ArieSR91
+Description: Repository manager
+Filename: dists/metaverse/axiomatic/binary-arm/repo-manager_2.0.5-SR_arm.deb
+Size: 2664
+MD5Sum: c82ad2ed6b1376e4bfff67bee1ff0821
+SHA1: 450792634d047d40ee0cd4b8f54db6653ab758d3
+SHA256: 04732beb83c2691f46b569f08da1be4a4ec8f46db7f4134c8edc258a6e397512
+SHA512: 9c26ecaf59f184180a22f51c72ac49fbb986f7804ff5975bc1b548643f782007dc21bf68b16f20ee254e30aec4334579fd4135b224c80a56c650c2422de5fa59
+
+Package: termux-desktop-lxqt
+Version: 1.0.1-SR
+Architecture: arm
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: x11-repo, lxqt, tigervnc, audacious
+Installed-Size: 2GB
+Homepage: https://github.com/ArieSR91
+Description: Termux lxqt desktop
+Filename: dists/metaverse/axiomatic/binary-arm/termux-desktop-lxqt_1.0.0-SR_arm.deb
+Size: 1468
+MD5Sum: 56f923f4d8595097a98380a9b84008de
+SHA1: becc7cd43167c3e176c96d225752462497528629
+SHA256: 3010af2769dea63bece7636ee1c930dc7cc80578664f065f51f5e291e7105c5b
+SHA512: d6411e81944191b4d602c5a6a0a8cd40d3aa6f4cf431e1ca9569bee52ce31d7ec34f4f028fb903b543e6c718750c861ece1194ef5a5ebd4c4c17a662b35b66cd
+
