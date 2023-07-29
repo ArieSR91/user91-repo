@@ -28,17 +28,17 @@ SHA256: e653b14d81d7f990daa8e54dc45224d5704ecc30355e1aa51b44db0c664414f1
 SHA512: c7e517953a8ddf7bce8625317e68f519a1a47bd4ec9dc359036d0e59df3df2e27e1192719da1474b1535922ad7c3a6c6b9cdf0770ea318433a0fe9d11d602246
 
 Package: termux-desktop-lxqt
-Version: 1.0.1-SR
+Version: 1.1.0-SR
 Architecture: aarch64
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: x11-repo, lxqt, tigervnc, audacious
+Depends: x11-repo, lxqt, tigervnc, audacious, featherpad
 Installed-Size: 2GB
 Homepage: https://github.com/ArieSR91
 Description: Termux lxqt desktop
-Filename: dists/metaverse/axiomatic/binary-aarch64/termux-desktop-lxqt_1.0.0-SR_aarch64.deb
-Size: 1504
-MD5Sum: d0fcda8e3ca079c59801609058e8b1c5
-SHA1: 309384301e9de1c6bce589a22f94a41b1606da42
-SHA256: d770497884553dea91b7a8acca1db610eb7fe6aa4cefa5e692fbe0791d215186
-SHA512: 8c34149ede7d47b1c9a580c746bf697acc3ed938d212e05f9663ce8f6777cb20ab0d524a65eca82d13f7a590cd1653e5f46efbabf33afee24d629beb4713aa41
+Filename: dists/metaverse/axiomatic/binary-aarch64/termux-desktop-lxqt_1.1.0-SR_aarch64.deb
+Size: 1772
+MD5Sum: 8a99d5dba5a879a0c5b82bef4b93a188
+SHA1: f9aae05b5b6c6822c068a313c7c00334dad455b5
+SHA256: 61d59bca1f3ab5dd36ed0a2095087f1a81602c53ad1a74fed8cd836835053f2f
+SHA512: 6feb6a61afd0f19e0393a2ea27875dd69a9172b6086a1fc54c8abd8943fcdfa739ae197d41d4f7c98620489fb7a5a8590a7bae8275103ae9864a69ca4278f9ac
 
