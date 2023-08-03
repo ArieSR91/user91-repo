@@ -1,16 +1,16 @@
 Package: build-repo
-Version: 1.8.0-SR
+Version: 1.8.1-SR
 Architecture: arm64
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3.11, gnupg, git, sudo, repo-manager
 Installed-Size: 1000 KB
 Description: Build git repository with deb files
-Filename: dists/metaverse/main/binary-arm64/build-repo_1.8.0-SR_arm64.deb
-Size: 4908
-MD5Sum: e21258572db4e89640593747079c3813
-SHA1: ba8d0cdc7a582e6f7e6a9e70338772676cd78f36
-SHA256: b3d79c1626cd16c8d49d26d125b3c6ddd75d0cc1249e3ac8908c627d2ec53c50
-SHA512: ad1a4140212c82e2637d91b144bf7ba9eee6b73979650f04f1cbc4dbe21041f7e3d924a6b4ccd6d39518fe67eec569210e53e6da264cedde81476eac6551c449
+Filename: dists/metaverse/main/binary-arm64/build-repo_1.8.1-SR_arm64.deb
+Size: 4904
+MD5Sum: 373777680e8f441209755b58955f80d8
+SHA1: 7da78f9b6cd7933c33ba472a565785818765a04f
+SHA256: cfbdecfdaaf13ffce5b7240b7f00112ea09cce352b19d5b0b838607e23dde834
+SHA512: 9bb1dc92ee569334337e56a45d4fb5640b9e0a83d5634b68b0798b0e4702d0b263cd646aa351665f4fb74010d8fb44269862de2b77a9fc678d32afd87ebd7920
 
 Package: iptracker
 Version: 1.1.0-SR
@@ -28,19 +28,19 @@ SHA256: 56a68366dcbbf1225565f1f73c208df0cb62d86947ae00f532b12828f6956cde
 SHA512: da07842642924934d06b1213beeb595f377c34f144d6a42c652a4f63af1312fef92367ab8312a6065dd8c7e8d89c5e679a93a3930c57e1522653b260251c4198
 
 Package: repo-manager
-Version: 2.0.5-SR
+Version: 2.1.0-SR
 Architecture: arm64
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3, gnupg, sudo, git, build-repo
 Installed-Size: 1024
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
-Filename: dists/metaverse/main/binary-arm64/repo-manager_2.0.5-SR_arm64.deb
+Filename: dists/metaverse/main/binary-arm64/repo-manager_2.1.0-SR_arm64.deb
 Size: 2608
-MD5Sum: da08e2dea40b8744c33510fadafaa3ed
-SHA1: b62fc7d3cdc5d09b9b89d12d9f214ea761f0f011
-SHA256: 8e2be0350b5d93d909e60d8a6a64ee10e005b6cf0557a34bf37053e0302a9cc0
-SHA512: 125a82975171d612cf706d9bea7e28bb67f8f4471ea63080af6805b5325dea9fb5d31bea6b765ed613ba5e53ba08f0ea60e155190215ea48ea9565724dfe725d
+MD5Sum: b355b8130e7d0f2997e9c9b41c7d7bbf
+SHA1: 0d80cd4aec751c6d9d3469c73660f183f0d9e726
+SHA256: a4d63e6e5d5e4f8b4b02c4d668757f2fcc856a1d77fde8e1e132cc25730e75ad
+SHA512: 5cb780643ec1aa21c995ea9a85a459d3dbb0951e1d3baefd264b87c16aa4f75f35500c904a9398bef788aa491708e49ec2e20f13769733e298981faf046e39bd
 
 Package: wine-amd64
 Version: 4.0-SR

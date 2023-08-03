@@ -1,16 +1,16 @@
 Package: build-repo
-Version: 1.8.0-SR
+Version: 1.8.1-SR
 Architecture: armhf
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3.11, gnupg, git, sudo, repo-manager
 Installed-Size: 1000 KB
 Description: Build git repository with deb files
-Filename: dists/metaverse/main/binary-armhf/build-repo_1.8.0-SR_armhf.deb
-Size: 4912
-MD5Sum: cd9e6917f480e226472f45e853279cb1
-SHA1: ffa7919f54f7174c8298e5bc3d95cc09efa23434
-SHA256: abc45ff7f2125aa93feb16ab93b2e275dfca2cf63bc261483e124e20f7a1572f
-SHA512: cf6143d0df972c07d9c63851ccf4b1d59f44c6b4d3bf775ed38fdf5ea7b272e45d293b9ba8279defe11f2cb9209ba9ae79b8ad96683f2a39a2cf3b3807b46d27
+Filename: dists/metaverse/main/binary-armhf/build-repo_1.8.1-SR_armhf.deb
+Size: 4904
+MD5Sum: cd2781b5e9d9c8834cc33b3ead0e8ea0
+SHA1: 0c4a1a9671c617dfdaf56b1d8b50770aceb22786
+SHA256: babfae421f704ce23011e0b73eaaa897c56da93b074ebb64acc329d84f9b73e4
+SHA512: 25cbcd1382c710e8d90e66b122ccb8bd84e9ebfae6733a8bd49cee90c4c291678a7f064b10c36b50dae92c86b914163e92d536882817130efe0dc2162c4a09c4
 
 Package: create-bin
 Version: 1.0.0-SR
@@ -43,19 +43,19 @@ SHA256: 762e5e9e7edb7585c50a3fe93da3f3333c8adca37418680bbebaeb79e8628ad0
 SHA512: 94c416965a2b602cfdbbbb0ffc07ceb525242b3cabbbde75920bef0d27f98a6b586f2dab00f65d4400bafcd0ecd5472b42b110c5e9e3af1176291c1722f6392b
 
 Package: repo-manager
-Version: 2.0.5-SR
+Version: 2.1.0-SR
 Architecture: armhf
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3, gnupg, sudo, git, build-repo
 Installed-Size: 1024
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
-Filename: dists/metaverse/main/binary-armhf/repo-manager_2.0.5-SR_armhf.deb
-Size: 2624
-MD5Sum: f2459f5efdd3b152b6bec6af1992e3d3
-SHA1: f99b8a281505238f2e2f639bccc82311b9aad953
-SHA256: 5e3a1d09edc16f546cb931864ab0cc65df18e8a7b4312e75736f1f6d3ab6f28d
-SHA512: 8656adad764c0f5568ee7b1ff359c899bc719561e5f760cdda6cdccd824a5cc48a96b12cf52671c8c54dfeefba6e7ada348e5ba45462e26a53c646fc9a336a7e
+Filename: dists/metaverse/main/binary-armhf/repo-manager_2.1.0-SR_armhf.deb
+Size: 2612
+MD5Sum: 279dfa420e2c1b651472000b841de8c0
+SHA1: 7b1c4cf7e871e14ee0c8a182887a8ae0de19e2d7
+SHA256: 3975f9a20054f3fe61b6467f096bb2fa4542f96ec1c2ac63cbec661898a3f91e
+SHA512: ec5c9f8980f0535b9791abd65c2044c0f2e0d4a92cb2e336d7bdf2a7441a1b9b5b4663d976cdbfc58e5816f1be27a9bf06525f61d04f2b8193278c0538b6aecf
 
 Package: wine-i386
 Version: 5.13-SR
