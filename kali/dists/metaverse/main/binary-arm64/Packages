@@ -6,11 +6,41 @@ Depends: python3.11, gnupg, git, sudo, repo-manager
 Installed-Size: 1000 KB
 Description: Build git repository with deb files
 Filename: dists/metaverse/main/binary-arm64/build-repo_1.8.1-SR_arm64.deb
-Size: 4904
-MD5Sum: 373777680e8f441209755b58955f80d8
-SHA1: 7da78f9b6cd7933c33ba472a565785818765a04f
-SHA256: cfbdecfdaaf13ffce5b7240b7f00112ea09cce352b19d5b0b838607e23dde834
-SHA512: 9bb1dc92ee569334337e56a45d4fb5640b9e0a83d5634b68b0798b0e4702d0b263cd646aa351665f4fb74010d8fb44269862de2b77a9fc678d32afd87ebd7920
+Size: 5132
+MD5Sum: 9cc862fd37c39010a2383c941f6dd123
+SHA1: 4e15b649f528c42be1e115a8209271e652cf0eaa
+SHA256: 9b2504f2953ae4ed5b596101f6fc08e5ac2a971f43da20a80803f0a0d6a7c19a
+SHA512: 4b86b8ac29ec06f6003b871952834ff0bcfa086c24a1717a52da0efb10854255b8fea7430cdbf5125effe38724bda629a6972c9277b55d0c75fd571b81df0713
+
+Package: create-bin
+Version: 1.0.0-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 100
+Homepage: 
+Description: Create bash binary files
+Filename: dists/metaverse/main/binary-arm64/create-bin_1.0.0-SR_arm64.deb
+Size: 1108
+MD5Sum: c7a26b3bea9f3fba8e8cd95020d9f8e0
+SHA1: fdde2230d1754ff7ac5cbb8b924001209a6f28a1
+SHA256: e8e868cdf0fe9449947fb63176c8704591a9e656254763c802a35b523a27839a
+SHA512: 451128b9edb92bccd61cc3dd9fb7347eda7d309fc103a6b273f738dc86a071539fbddd0ce0e59c416799cbfb200de460f23f7f66f16c008ff93a77d3011de273
+
+Package: fake-interface
+Version: 1.0.0-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022a@gmail.com>
+Depends: network-manager
+Installed-Size: 100
+Homepage: https://github.com/ArieSR91
+Description: Fake network interface
+Filename: dists/metaverse/main/binary-arm64/fake-monitor_1.0.0-SR_arm64.deb
+Size: 1456
+MD5Sum: a551a932d4ddd36ee0db6c1f5cc5e6e9
+SHA1: e3d3d31de4695eace7ee553321e40dcc0e8574d5
+SHA256: 82cd5b4d1c31505501bd6cd5c96c142fec021ac8674462e1e7399b1564dcfafe
+SHA512: b599cd89db8317164b389f0e5a4edc9890c26c032fb960510f58dadd9115990b3c6e986596d0acbadff325587febadff7ce2a209ff87353658752b89790ecb29
 
 Package: iptracker
 Version: 1.1.0-SR

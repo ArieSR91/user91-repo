@@ -6,11 +6,11 @@ Depends: python3.11, gnupg, git, sudo, repo-manager
 Installed-Size: 1000 KB
 Description: Build git repository with deb files
 Filename: dists/metaverse/main/binary-armhf/build-repo_1.8.1-SR_armhf.deb
-Size: 4904
-MD5Sum: cd2781b5e9d9c8834cc33b3ead0e8ea0
-SHA1: 0c4a1a9671c617dfdaf56b1d8b50770aceb22786
-SHA256: babfae421f704ce23011e0b73eaaa897c56da93b074ebb64acc329d84f9b73e4
-SHA512: 25cbcd1382c710e8d90e66b122ccb8bd84e9ebfae6733a8bd49cee90c4c291678a7f064b10c36b50dae92c86b914163e92d536882817130efe0dc2162c4a09c4
+Size: 5132
+MD5Sum: 88d92d005e6745a9fd6c44b19a2010c0
+SHA1: 2b7e2de8175ea6f1e6c81436ac98ca9b089fa2ed
+SHA256: 1be13e1eb2eecc18cbc319a128f0f102da822c71e63f128711c132abb2014338
+SHA512: ece7be1048bfe96878cbb88a193c2af68f24b6ff640f64adbe2deacb9e15a517fc078c7cb261b0e556dea610764e293dad3d8e363866c94acc631293f92c295c
 
 Package: create-bin
 Version: 1.0.0-SR
@@ -21,11 +21,26 @@ Installed-Size: 100
 Homepage: 
 Description: Create bash binary files
 Filename: dists/metaverse/main/binary-armhf/create-bin_1.0.0-SR_armhf.deb
-Size: 1068
-MD5Sum: 69cd94c4d14d395483dae721059ae666
-SHA1: d2c121fb61610781e519e847d22eebf6f9c00c16
-SHA256: de15fcd79f3e5a9c50c1871c0e77805fb3757016b3faeaa3d34c11995c02e984
-SHA512: 9e1320b57fee1e7e4df0deaeb7c99867dbf21981572aabf45a48fb86e22ebc35fb3ff02f6f918c2cf08f68bf269294bbdcc3cd8b6f7ec55e5ec1a518e1364788
+Size: 1120
+MD5Sum: f5806186d0b1e89cd3c5925bc81c2bfe
+SHA1: 827dc1eed028c856fcc8a216c3a95d15ed61f886
+SHA256: 1348b04f67767e39a8253b9405658f6ac5b04ca116c3d2d9c03d923c7b135343
+SHA512: 782c1aedd9359c030898215092c2a263ffef79538a082d0fc6852cea91c548d6c9981cf108104b740fde5250ce7e0689b8ccad8db9effbdb5fce888df2b7b799
+
+Package: fake-interface
+Version: 1.0.0-SR
+Architecture: armhf
+Maintainer: Arie-SR91 <syahri.ramadhan2022a@gmail.com>
+Depends: network-manager
+Installed-Size: 100
+Homepage: https://github.com/ArieSR91
+Description: Fake network interface
+Filename: dists/metaverse/main/binary-armhf/fake-monitor_1.0.0-SR_armhf.deb
+Size: 1464
+MD5Sum: 999b03ce1229f730cc378d69761cdd55
+SHA1: e3586dc9242a0c73ae26331afa8a4bc0a3958e3a
+SHA256: e57dbc4a14ccf2db2ffec4d56ac53c609b6028d2e13103f4158e20033060add7
+SHA512: 8f3e872798009cd014f086f1640f89d02d2cbb27dc8c41b7b33617e33c6702e8377a16da6f155deff14450a3e6b734131b350505ce13b878ab24a456d1414da5
 
 Package: iptracker
 Version: 1.1.0-SR
