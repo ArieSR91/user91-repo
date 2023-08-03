@@ -1,30 +1,16 @@
 Package: build-repo
-Version: 1.7.9-SR
-Architecture: arm64
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3, gnupg, git, sudo, repo-manager
-Installed-Size: 1000 KB
-Description: Build git repository with deb files
-Filename: dists/metaverse/main/binary-arm64/build-repo_1.7.9-SR_arm64.deb
-Size: 4716
-MD5Sum: 5a192c38c1473c6fdf698345fb260a80
-SHA1: 5ee3804873c9fe702b5def9cbd298b995efdc8fc
-SHA256: 2d8412c914f77c3d849343d3bb07e377aaf891360531f69005f6a7fe1448d44b
-SHA512: 8e2f5fd6d8bdb7534045d1918e7a0b9248b3f50fdb5ba742221026af193faad6b3054045162bdc4b2196bc2e616aa2b3ef2643fb5f06165dc3725dd89c47d6db
-
-Package: build-repo
 Version: 1.8.0-SR
 Architecture: arm64
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3, gnupg, git, sudo, repo-manager
+Depends: python3.11, gnupg, git, sudo, repo-manager
 Installed-Size: 1000 KB
 Description: Build git repository with deb files
 Filename: dists/metaverse/main/binary-arm64/build-repo_1.8.0-SR_arm64.deb
-Size: 4868
-MD5Sum: 42e4bf48bca13a2947175a9620167087
-SHA1: 332bfef135d0d35e2a9d92496f569da752e93173
-SHA256: cf04bd23b923dee255e1eb070107dff1c11a10e5f06917e37d8bebbf74eaf3ae
-SHA512: 4db0af775a39737f07009bc8bb5844196ba4618bb3b648bdcbd4f8a1c5b0e5f3657a334f27a817f93bbd8a07389d24ab7c2674df616f1a91e4294e232600d42d
+Size: 4908
+MD5Sum: e21258572db4e89640593747079c3813
+SHA1: ba8d0cdc7a582e6f7e6a9e70338772676cd78f36
+SHA256: b3d79c1626cd16c8d49d26d125b3c6ddd75d0cc1249e3ac8908c627d2ec53c50
+SHA512: ad1a4140212c82e2637d91b144bf7ba9eee6b73979650f04f1cbc4dbe21041f7e3d924a6b4ccd6d39518fe67eec569210e53e6da264cedde81476eac6551c449
 
 Package: iptracker
 Version: 1.1.0-SR
@@ -50,11 +36,11 @@ Installed-Size: 1024
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/metaverse/main/binary-arm64/repo-manager_2.0.5-SR_arm64.deb
-Size: 2616
-MD5Sum: 6acdacb08780bccca796a261528e21bf
-SHA1: 6dcdbe338db5231cd3b6bf1d80804de83a6d5921
-SHA256: e9a8f79ec2129872179871c9e919ad3192b58227e32999f86d4b37d56aca1fa0
-SHA512: bc722f4e20f8ca0fc0bf7c4ab3c8fcac5bd88d22c1e8d9fee56159993f07a101c8b4649982b7f23bb2cd5b14665b94e4bdd98d72c06ca6242571de35908e76e0
+Size: 2608
+MD5Sum: 651131ccc4487ae8177aa974dead3c85
+SHA1: ffa1277a1011d829e10807b081c3882ae77e1fb0
+SHA256: b373e8a90d155af6d0a3428c638bb9d0ab13cee9adb21ac04400a5a24169475c
+SHA512: d66dc8a5537260fc6f54e11fd5323a3da52283adf794c3ea0d5795e86cdc7dc78ea655f036113379fa628866f978722698883228a60134ccf949c5bfb4858920
 
 Package: wine-amd64
 Version: 4.0-SR

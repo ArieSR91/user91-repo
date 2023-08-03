@@ -1,30 +1,16 @@
 Package: build-repo
-Version: 1.7.9-SR
-Architecture: armhf
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3, gnupg, git, sudo, repo-manager
-Installed-Size: 1000 KB
-Description: Build git repository with deb files
-Filename: dists/metaverse/main/binary-armhf/build-repo_1.7.9-SR_armhf.deb
-Size: 4724
-MD5Sum: 2659097a8d81c5eba2766d21b4059eb8
-SHA1: e308831ac1a0ee777e901bdd7ce747eea543fae6
-SHA256: 98f1fbebb5948c3ca19ea8645330b4ec93c24319cd4246247277bcd2d45bdef7
-SHA512: 42ccc625e4f78c4df8210eb8a77ba77d7ae40d0419c498f4abe48523ccb3a7e85da767aa653f2377a74dde415a290f259d23b0d8fc89ce2a285960bbae61b6c8
-
-Package: build-repo
 Version: 1.8.0-SR
 Architecture: armhf
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3, gnupg, git, sudo, repo-manager
+Depends: python3.11, gnupg, git, sudo, repo-manager
 Installed-Size: 1000 KB
 Description: Build git repository with deb files
 Filename: dists/metaverse/main/binary-armhf/build-repo_1.8.0-SR_armhf.deb
-Size: 4884
-MD5Sum: a13099294180f1490d6d35534590f52f
-SHA1: fb69f92945d0cadceb1dda2e536e2daa42a54ace
-SHA256: 251b8ae2c2c7e3ef37ae73b33a88f9d870875cb075315746e62b6ff6676bf003
-SHA512: 86ad641f74ed958c6adc1a10911ecefeeb0bee58b6aec06b1a69942884e71976f29634a3cef8033c3898dbc98dbb55852a5fc9c94b7b3c8196bcb346901c7a19
+Size: 4912
+MD5Sum: cd9e6917f480e226472f45e853279cb1
+SHA1: ffa7919f54f7174c8298e5bc3d95cc09efa23434
+SHA256: abc45ff7f2125aa93feb16ab93b2e275dfca2cf63bc261483e124e20f7a1572f
+SHA512: cf6143d0df972c07d9c63851ccf4b1d59f44c6b4d3bf775ed38fdf5ea7b272e45d293b9ba8279defe11f2cb9209ba9ae79b8ad96683f2a39a2cf3b3807b46d27
 
 Package: create-bin
 Version: 1.0.0-SR
@@ -65,11 +51,11 @@ Installed-Size: 1024
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/metaverse/main/binary-armhf/repo-manager_2.0.5-SR_armhf.deb
-Size: 2620
-MD5Sum: 5aac97a2a9736f6c16371abc0ea6eb2b
-SHA1: 9361bf39c0ea07c3e675582d2eb1e975db376221
-SHA256: f96189139bbff4286ace7c395850b173bfdbdf0b6d28d1b759aa60df3adec40b
-SHA512: 4d69477d630d81af473b541ccf7b89d5d4863561a23505fa8cb7526d325e682c528d24432525a41b3b725ecc6044fbabd7304846484653bb57b22ee12ecbe89b
+Size: 2624
+MD5Sum: f92a1d956f3b2d8f76f941e967997f57
+SHA1: 498fad08429271482e976bee2b6d020e9cde8368
+SHA256: 5bb7527a1e4993f25462e9c9a915226b5c4e6df758fba0f7c9e0e4405161c747
+SHA512: debff48a329e25fcfe7f99288e44caf220cf41f5eb1d03a9b3bfed3314d15dcbec1ae2623d354103f7aba6c75651a2b19a0b43426daaee0269fbc5a6627219d9
 
 Package: wine-i386
 Version: 5.13-SR
