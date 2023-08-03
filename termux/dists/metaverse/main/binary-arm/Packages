@@ -26,6 +26,36 @@ SHA1: d65c32495bcf2fa86ca4738810add9d8bfee3cb7
 SHA256: c03be65298d07250181570779e6a27e2ca9e814f40db1010113d0558af4bc640
 SHA512: 8e3fed1170443e8090d5659636132dfb54a0c182d96fd0428a6a8ec9eebca3e8fbc4231d5b8a90302d56889e1ece9718f6311662b453499272ff36c4b269c7c0
 
+Package: termux-desktop-lxqt
+Version: 1.1.0-SR
+Architecture: arm
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: x11-repo, lxqt, tigervnc, audacious, featherpad, papirus-icon-theme
+Installed-Size: 100
+Homepage: https://github.com/ArieSR91
+Description: Termux lxqt desktop
+Filename: dists/metaverse/main/binary-arm/termux-desktop-lxqt_1.1.0-SR_arm.deb
+Size: 1784
+MD5Sum: b94ea2b20f47755f0a27ebdfbf2b4153
+SHA1: 062b5c7fc5a3231ffd2a8f023591c1bd42ac349b
+SHA256: 3d6f0cd8da59b6ea1f64f67572764c52afa3779842d9c4c42d128f3027beab70
+SHA512: cd7fd1450ace3fd98cf9eeeb36fefb3170cbdd2eb8e36d56bf1d16746110f21a0ca42e8dbbf52375cfdebe781a53047176d3191f6fbb3d85a29b8fcebe841368
+
+Package: termux-desktop-xfce
+Version: 1.1.0-SR
+Architecture: arm
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: x11-repo, xfce4, tigervnc, parole, mousepad
+Installed-Size: 2GB
+Homepage: https://github.com/ArieSR91
+Description: Termux xfce4 desktop
+Filename: dists/metaverse/main/binary-arm/termux-desktop-xfce_1.1.0-SR_arm.deb
+Size: 1572
+MD5Sum: 33cc3b1ed990879c9ab812563bd51cc5
+SHA1: 1de34d230b033f80b1fec2fca7f606030d014f0d
+SHA256: 653511585d5df186f2b3f519893c72dc2b24d43b2b1d0a98940a30b429926cd5
+SHA512: 585902a4eaee4c48c191e6f6914abb26e4ddedd2d95e8af4d1a8820b705205afe45e4cc7cf9f3751fe43c23305aeaab187b9060a43528d37c688c8bd7c3fa4e7
+
 Package: termux-fonts
 Version: 1.2.0-SR
 Architecture: arm

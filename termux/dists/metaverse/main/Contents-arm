@@ -3,6 +3,13 @@ data/data/com.termux/files/home/.termux/colors.properties                       
 data/data/com.termux/files/home/.termux/termux.properties                        kali-dark-style
 data/data/com.termux/files/home/bash.bashrc                                      kali-dark-style
 data/data/com.termux/files/usr/etc/proot-distro/kali.sh                          proot-distro-kali
+data/data/com.termux/files/home/.vnc/config                                      termux-desktop-lxqt
+data/data/com.termux/files/home/.vnc/xstartup                                    termux-desktop-lxqt
+data/data/com.termux/files/usr/bin/desktop                                       termux-desktop-lxqt
+data/data/com.termux/files/usr/share/applications/Screenshot.desktop             termux-desktop-lxqt
+data/data/com.termux/files/home/.vnc/config                                      termux-desktop-xfce
+data/data/com.termux/files/home/.vnc/xstartup                                    termux-desktop-xfce
+data/data/com.termux/files/usr/bin/desktop                                       termux-desktop-xfce
 data/data/com.termux/files/home/.fonts/DejaVuSans                                termux-fonts
 data/data/com.termux/files/home/.fonts/DejaVuSansMono                            termux-fonts
 data/data/com.termux/files/home/.fonts/FiraCode                                  termux-fonts

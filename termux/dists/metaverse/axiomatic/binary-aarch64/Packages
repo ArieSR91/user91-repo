@@ -6,11 +6,11 @@ Depends: python3, gnupg, git, tsu, repo-manager
 Installed-Size: 1000 KB
 Description: Build git repository with deb files
 Filename: dists/metaverse/axiomatic/binary-aarch64/build-repo_1.8.0-SR_aarch64.deb
-Size: 4904
-MD5Sum: 25eac2fd6b3f22d94864992ce6606c2c
-SHA1: d16c3aefc803886bd7cc640fad05b6ea855cebbe
-SHA256: 42875722475e233693d20f849d78f61ede3de919089fe89f8f24f432e6c45c2e
-SHA512: f0252dfaf2c69efc02fdc369f3a58dd913bb9c2a72bf3d5ee008e2200362fcf0ca0aba0ab809fa702acb92bbc550bb0dfc19e9830b4cfae766ae7b520ce8aab0
+Size: 4932
+MD5Sum: 93dde2854538530ba7941758ade502eb
+SHA1: 0a919d13076b73fb44731b70177dbc7c75fab620
+SHA256: e29d22e298972d77a4fa817e51ddeaf9dc97ce02f28aedbfc80c1d0db7f9ede8
+SHA512: 841792c4c4015ce35451dd04922d25e705c304c8b1a9eac85c85362509de9061760647912a1824e5b1bc5c41bdc2576d608bd8a6ad9a7651ade085f0f6ec2713
 
 Package: repo-manager
 Version: 2.0.5-SR
@@ -21,11 +21,11 @@ Installed-Size: 1024
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/metaverse/axiomatic/binary-aarch64/repo-manager_2.0.5-SR_aarch64.deb
-Size: 2684
-MD5Sum: 3d560118b56a0fb30e1b4982fc53d9e2
-SHA1: 2cc6f588af1a30f09752d1972914a9cfc70c52df
-SHA256: e653b14d81d7f990daa8e54dc45224d5704ecc30355e1aa51b44db0c664414f1
-SHA512: c7e517953a8ddf7bce8625317e68f519a1a47bd4ec9dc359036d0e59df3df2e27e1192719da1474b1535922ad7c3a6c6b9cdf0770ea318433a0fe9d11d602246
+Size: 2676
+MD5Sum: 3e655177bffbbf3a88604fc2234df653
+SHA1: dbae6ba37bfb799bbceff5b14975fd7d97440338
+SHA256: aac1f81508b1a6a0eac0dbf99daa46aa5074c7d26f67ffa07fba47df37b6f412
+SHA512: bb72dcc4283bcd58409e46807ff1f559c5a8bb06c5dd70a95120b64dd25802281b4c608e788e2f962e05c2f45912ecf356095f210441a72ef623ea504a4e5297
 
 Package: termux-desktop-lxqt
 Version: 1.1.0-SR
