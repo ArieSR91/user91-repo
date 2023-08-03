@@ -52,10 +52,10 @@ Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/metaverse/main/binary-armhf/repo-manager_2.0.5-SR_armhf.deb
 Size: 2624
-MD5Sum: f92a1d956f3b2d8f76f941e967997f57
-SHA1: 498fad08429271482e976bee2b6d020e9cde8368
-SHA256: 5bb7527a1e4993f25462e9c9a915226b5c4e6df758fba0f7c9e0e4405161c747
-SHA512: debff48a329e25fcfe7f99288e44caf220cf41f5eb1d03a9b3bfed3314d15dcbec1ae2623d354103f7aba6c75651a2b19a0b43426daaee0269fbc5a6627219d9
+MD5Sum: f2459f5efdd3b152b6bec6af1992e3d3
+SHA1: f99b8a281505238f2e2f639bccc82311b9aad953
+SHA256: 5e3a1d09edc16f546cb931864ab0cc65df18e8a7b4312e75736f1f6d3ab6f28d
+SHA512: 8656adad764c0f5568ee7b1ff359c899bc719561e5f760cdda6cdccd824a5cc48a96b12cf52671c8c54dfeefba6e7ada348e5ba45462e26a53c646fc9a336a7e
 
 Package: wine-i386
 Version: 5.13-SR
