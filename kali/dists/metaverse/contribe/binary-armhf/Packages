@@ -1,18 +1,4 @@
 Package: ddos
-Version: 1.0.0-SR
-Architecture: armhf
-Maintainer: name <syahri.ramadhan2022@gmail.com>
-Depends: python3, python3-colorama, python3-termcolor
-Installed-Size: 786 KB
-Description: ddos attack
-Filename: dists/metaverse/contribe/binary-armhf/ddos_1.0.0-SR_armhf.deb
-Size: 3088
-MD5Sum: c08823366ac9dcfa116bd372ac398539
-SHA1: 0b9b7a3df83dc01b434234535d1d94d994c40e39
-SHA256: 31e6b3ca805d1b69815bda42a2a70eeb44e0f919210f404c93345a420728eb72
-SHA512: f505ea4c3a84961c4c963bc46840b074164f06a5a31a083325bdbdc31dd480b8104100022a06a861005c84c0bf4c8f960f51f4d2c4f1715475a6f1b521835df0
-
-Package: ddos
 Version: 1.1.0-SR
 Architecture: armhf
 Maintainer: name <syahri.ramadhan2022@gmail.com>
@@ -26,17 +12,19 @@ SHA1: 80882fa700050f6924f934a1db4c1be8ad22ceb6
 SHA256: cfb28acc06d0e8b0b7a458ccf0cc6d26bcfd9a65aaa22fc06320d36d84deaaa2
 SHA512: 4a4dec879078ba564c4754bd6cb0e7b79e42e0baf608503a2173b4d0d91b7708b1d78651de1112c3202a0af7e2657957b38d8b48a825b3194036862f9537a1ae
 
-Package: ngrok-sr
-Version: 3.3.1-SR
+Source: ngrok
+Package: ngrok
+Priority: optional
+Section: network
+Version: 3.3.2
 Architecture: armhf
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends:
-Installed-Size: 22208 KB
+Maintainer: ngrok <release-bot@ngrok.com>
+Homepage: https://ngrok.com
 Description: ngrok secure tunnel agent
-Filename: dists/metaverse/contribe/binary-armhf/ngrok-sr_3.3.1-SR_armhf.deb
-Size: 5694468
-MD5Sum: 9fb4cfa38c3fbbd8d3b6ff6d71c9d56f
-SHA1: 6ca574107d88302ee4920e90d21a37ac3096beb3
-SHA256: 27cf9453827d43d5a58ca23cfbf3a6f116ad4d1f1885e51f3f18b86fc69f1d8d
-SHA512: 6ce78d215fb8a19e18d9aa2162e6a93c85722b8acf3778b3e8d9272b755e99b187d6624d18a6544086a2c57040775c88bc6f8ebfda61620351d41ff6b96dd66a
+Filename: dists/metaverse/contribe/binary-armhf/ngrok_3.3.2_armhf.deb
+Size: 5759800
+MD5Sum: 0749537ac02e466fd84129b9ee59a96e
+SHA1: 5e8a073cad27426b535d5772d36541f95ab2aa2d
+SHA256: 49fe5e6eb157e16bea66ae9e25833898e6b42337de6f80cfd31f798995bc81aa
+SHA512: 4225d4ec4a0cde517c5a90ccfb94aecba3069c3a904eb6fc6066a60d2880b998ac8cc0bcf1b62140997115bc84c20239879bb3c24b9cc3ce44d1a2dac56fa9c8
 
