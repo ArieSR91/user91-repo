@@ -87,3 +87,18 @@ SHA1: c0e526ce4cfb08b7cd7d7f4f0c73416d154b11b9
 SHA256: c2502ae4429b5b5dea8c8e97609555818d70a182aef177e3fd7ba82854dda1bc
 SHA512: fdcf8d280709a1308806d3dd8e3a2c638e1b23fc2c89933289ced3ebabbfc5716c5594e75e2a841fcd40d228c0f7f10c4f6ad5f6dc689eaab952e2e530265cea
 
+Package: wine-i386
+Version: 7.0-SR
+Architecture: armhf
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 288086
+Homepage: https://github.com/ArieSR91/
+Description: Windows Emulator
+Filename: dists/metaverse/main/binary-armhf/wine-i386_7.0-SR_armhf.deb
+Size: 84432496
+MD5Sum: 8dc5b73c1868144f689f26ceba452a1a
+SHA1: 02a3aea52446a4bbed48058db86d2269ecbf52ed
+SHA256: 7573369332c9adbb1f2271016a8c29b03b33c8c868c8d46a3d4e6ad66dfc910b
+SHA512: b017785405e372ea824fb81fdb60923560a489826dd3c4b0e2fa741835308cd4660abdeb8ce370d3d7d28aa00aff7581e4c552f83fda3c68a8ff550c6613fe92
+
