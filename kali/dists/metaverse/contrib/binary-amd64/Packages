@@ -12,3 +12,17 @@ SHA1: b6584ae9eb11808dd3447c4e011130f37ae89574
 SHA256: 9b11cdf9bd29a7788cd5bea1c2565da1a272adb90562c148a6aa255d9a5da5d1
 SHA512: 5bfcce4d3c8e6cac78fe00546b9f554606454f2239c206683ef7d94e9c53c985fa0a5e2f076b9f8eb2f70606257e083e0e913517f11afedf242c3b13f4e47404
 
+Package: ngrok-sr
+Version: 3.3.4-SR
+Architecture: amd64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends:
+Installed-Size: 22208 KB
+Description: ngrok secure tunnel agent
+Filename: dists/metaverse/contrib/binary-amd64/ngrok-sr_3.3.4-SR_amd64.deb
+Size: 6498152
+MD5Sum: 02c978cd6b68fd90ba3c7cf4bd43fcaf
+SHA1: c8285771aeee497624a7cf8f15fc3c15d3af4830
+SHA256: 123c2b765b5f73f4a2a23c5cbab80fd736a62ad283bab827990995f4e651b4c1
+SHA512: bd565638c5473676c4a655091e8366334a06d7b2eb0a968f5113a9f4a4e680d6b473de73fdd4370aa0f7b27a8a824174b339292e9ceebe4505758b0936419120
+
