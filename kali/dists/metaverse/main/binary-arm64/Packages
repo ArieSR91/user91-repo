@@ -1,0 +1,89 @@
+Package: build-repo
+Version: 1.8.1-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3.11, gnupg, git, sudo, repo-manager
+Installed-Size: 1000 KB
+Description: Build git repository with deb files
+Filename: dists/metaverse/main/binary-arm64/build-repo_1.8.1-SR_arm64.deb
+Size: 5132
+MD5Sum: 9cc862fd37c39010a2383c941f6dd123
+SHA1: 4e15b649f528c42be1e115a8209271e652cf0eaa
+SHA256: 9b2504f2953ae4ed5b596101f6fc08e5ac2a971f43da20a80803f0a0d6a7c19a
+SHA512: 4b86b8ac29ec06f6003b871952834ff0bcfa086c24a1717a52da0efb10854255b8fea7430cdbf5125effe38724bda629a6972c9277b55d0c75fd571b81df0713
+
+Package: create-bin
+Version: 1.0.0-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 100
+Homepage: 
+Description: Create bash binary files
+Filename: dists/metaverse/main/binary-arm64/create-bin_1.0.0-SR_arm64.deb
+Size: 1108
+MD5Sum: c7a26b3bea9f3fba8e8cd95020d9f8e0
+SHA1: fdde2230d1754ff7ac5cbb8b924001209a6f28a1
+SHA256: e8e868cdf0fe9449947fb63176c8704591a9e656254763c802a35b523a27839a
+SHA512: 451128b9edb92bccd61cc3dd9fb7347eda7d309fc103a6b273f738dc86a071539fbddd0ce0e59c416799cbfb200de460f23f7f66f16c008ff93a77d3011de273
+
+Package: fake-interface
+Version: 1.0.0-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022a@gmail.com>
+Depends: network-manager
+Installed-Size: 100
+Homepage: https://github.com/ArieSR91
+Description: Fake network interface
+Filename: dists/metaverse/main/binary-arm64/fake-monitor_1.0.0-SR_arm64.deb
+Size: 1456
+MD5Sum: a551a932d4ddd36ee0db6c1f5cc5e6e9
+SHA1: e3d3d31de4695eace7ee553321e40dcc0e8574d5
+SHA256: 82cd5b4d1c31505501bd6cd5c96c142fec021ac8674462e1e7399b1564dcfafe
+SHA512: b599cd89db8317164b389f0e5a4edc9890c26c032fb960510f58dadd9115990b3c6e986596d0acbadff325587febadff7ce2a209ff87353658752b89790ecb29
+
+Package: iptracker
+Version: 1.1.0-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: curl
+Installed-Size: 100
+Homepage: https://github.com/ArieSR91
+Description: Track information from ip address
+Filename: dists/metaverse/main/binary-arm64/iptracker_1.1.0-SR_arm64.deb
+Size: 1552
+MD5Sum: ed4b53c0e173bebc832b9dca0afadc82
+SHA1: 1badaa635af7a88de0a05d684de2b1a83cbe3b1b
+SHA256: 56a68366dcbbf1225565f1f73c208df0cb62d86947ae00f532b12828f6956cde
+SHA512: da07842642924934d06b1213beeb595f377c34f144d6a42c652a4f63af1312fef92367ab8312a6065dd8c7e8d89c5e679a93a3930c57e1522653b260251c4198
+
+Package: repo-manager
+Version: 2.1.0-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, sudo, git, build-repo
+Installed-Size: 1024
+Homepage: https://github.com/ArieSR91
+Description: Repository manager
+Filename: dists/metaverse/main/binary-arm64/repo-manager_2.1.0-SR_arm64.deb
+Size: 2608
+MD5Sum: b355b8130e7d0f2997e9c9b41c7d7bbf
+SHA1: 0d80cd4aec751c6d9d3469c73660f183f0d9e726
+SHA256: a4d63e6e5d5e4f8b4b02c4d668757f2fcc856a1d77fde8e1e132cc25730e75ad
+SHA512: 5cb780643ec1aa21c995ea9a85a459d3dbb0951e1d3baefd264b87c16aa4f75f35500c904a9398bef788aa491708e49ec2e20f13769733e298981faf046e39bd
+
+Package: wine-amd64
+Version: 4.0-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 229158
+Homepage: https://github.com/ArieSR91/
+Description: Windows Emulator
+Filename: dists/metaverse/main/binary-arm64/wine-amd64_4.0_arm64.deb
+Size: 24498956
+MD5Sum: 0ca2a57cec8f5a5beced2b9519281f8c
+SHA1: d35e1f253967a0760eb879ee0df8cd7616cfc0f0
+SHA256: ad33406f3058511a36a92b855cbbb14f37e897b925941a8f6e469159e828ae70
+SHA512: 50157e9fe3e5440cb9997810fae713c1e5fb993a86dbe3ac2e8a78b7c5d806997e7fb8dcd044ce7a9fc3b7757ae6ec232e4b998c8cddcfda2359bd6168e8c1f8
+
