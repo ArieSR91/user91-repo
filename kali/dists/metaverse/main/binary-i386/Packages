@@ -1,0 +1,59 @@
+Package: build-repo
+Version: 1.8.1-SR
+Architecture: i386
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3.11, gnupg, git, sudo, repo-manager
+Installed-Size: 1000 KB
+Description: Build git repository with deb files
+Filename: dists/metaverse/main/binary-i386/build-repo_1.8.1-SR_i386.deb
+Size: 5088
+MD5Sum: a4869ad0b1104b720e87c8edf8b5f0d3
+SHA1: 10e2087e3efe89543f9bf353f49fb5e564da5a32
+SHA256: e1dafa6bc6584af872a1daa93673a17049d4a225d359cb975a2b4d3bd573abb1
+SHA512: 02cfaa55aba2da0c397e45c1004491018b5dd60891cb33b6cd6b55bcdc182032f40fe88c4d15362d256cec72eff6bcaa2787c1364d326279c10f80b3726f39ba
+
+Package: create-bin
+Version: 1.0.0-SR
+Architecture: i386
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 100
+Homepage: 
+Description: Create bash binary files
+Filename: dists/metaverse/main/binary-i386/create-bin_1.0.0-SR_i386.deb
+Size: 1104
+MD5Sum: 0228c51fecfc62764e2e56f0ac1709ac
+SHA1: 076fe48598fbee525f358b555989ecef5b962c0e
+SHA256: c967df4507018dceac91c2c3ef2aa3ef9e39ae2fff010afcd920b88ce831afac
+SHA512: ef073c97dce44696bdaf854b4ad35403225744f0158159b2ec4082662b6402fc432f91c245cdfc194763f6ce7effa41a456d65722384717ca971293b339538ae
+
+Package: iptracker
+Version: 1.1.0-SR
+Architecture: i386
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: curl
+Installed-Size: 100
+Homepage: https://github.com/ArieSR91
+Description: Track information from ip address
+Filename: dists/metaverse/main/binary-i386/iptracker_1.1.0-SR_i386.deb
+Size: 1540
+MD5Sum: 8f1d0ab0e931325006e74ed2e0f474d7
+SHA1: 1bd6a6d9f58b7380b0b059cd8fd04ae2aaf91da7
+SHA256: e43d473c0b27bc586d7ea4dbc5fe2a5fce62a6b5aeea5a7285edad1bd1249aaf
+SHA512: 7c48391ba79999e43184f6f4e456030ff7d5fc765cae6bb6ea197a1ba0bc57889f3210606b9f7cfea520eb69da0194a0d631de01591c976a09f00132bf5358c9
+
+Package: repo-manager
+Version: 2.1.0-SR
+Architecture: i386
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, sudo, git, build-repo
+Installed-Size: 1024
+Homepage: https://github.com/ArieSR91
+Description: Repository manager
+Filename: dists/metaverse/main/binary-i386/repo-manager_2.1.0-SR_i386.deb
+Size: 2600
+MD5Sum: f4f69acb12cef4674abe6f750b6d393c
+SHA1: 9d3aed1fc40b6dae22d4b736a049089daadda3bf
+SHA256: fe4a649d65b795c7413a0ea076e9edd95ec9b874b239df8c1133de21e31194a1
+SHA512: 7da4834c351801c87f7beb3208cb081ee98c7ab2262b788cfe8629b1e046e807c9f5d0c6ac07fb2634cb6ead4e0d9281ca68fa107eeb06d71f78ba3469519155
+
