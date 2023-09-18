@@ -1,0 +1,28 @@
+Package: ddos
+Version: 1.1.0-SR
+Architecture: i386
+Maintainer: name <syahri.ramadhan2022@gmail.com>
+Depends: python3, python3-colorama, python3-termcolor
+Installed-Size: 786 KB
+Description: ddos attack
+Filename: dists/metaverse/contrib/binary-i386/ddos_1.1.0-SR_i386.deb
+Size: 3272
+MD5Sum: a3d40fe165f077c7194dd55c14c7f255
+SHA1: cf1810aa25f82e137ec0256711eda1f40bd8300a
+SHA256: 78f41f3537496a7c69968823f7871020d4c48e1654dc2be477db771dc6262b0c
+SHA512: fffaaf680bddfe130d40b64ed6a7cebefcbfd97926ad0717151214455641ce103912e6c0ffbc8362d06ca65d84779199501f553596de9c0a4c9de918df4d39af
+
+Package: ngrok-sr
+Version: 3.3.4-SR
+Architecture: i386
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends:
+Installed-Size: 22208 KB
+Description: ngrok secure tunnel agent
+Filename: dists/metaverse/contrib/binary-i386/ngrok-sr_3.3.4-SR_i386.deb
+Size: 6094664
+MD5Sum: f3836dbd06aafc2928484d44d42f0fc0
+SHA1: 325a73ded5e7cc07509273268f2eb8d3346cc3aa
+SHA256: d3d0d0240690e8ac243acef0f102c7abfbbba8a19d3f8cd7f107b6107624f3bb
+SHA512: ca50e8d00a8ec7b3016ad27c908c7655d987962353cc5e30951627b185fb184253c701e6c898532ce47859b503eecc802e3023d140feb7e43b44349f09d50593
+
