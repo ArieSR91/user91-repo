@@ -115,6 +115,11 @@ function gui_menu()
 
 ## Youre script here
 
+function show_help()
+{
+    echo -e "run:\nbash user91-repo.sh menu"
+}
+
 function user91_repo_menu()
 {
     title="User91-repo"
@@ -210,5 +215,8 @@ function debian_uninstall()
 case $1 in
     menu)
         user91_repo_menu
+    ;;
+    *)
+        show_help
     ;;
 esac
