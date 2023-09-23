@@ -160,7 +160,7 @@ function uninstall_user91_repo()
 function about_me()
 {
     clear
-    am start --user 0 -a android.intent.action.VIEW -d https://www.google.com/search?q=Arie-SR91
+    am start -a android.intent.action.VIEW -d https://www.google.com/search?q=Arie-SR91
     sleep 2
     return 0
 }
@@ -168,7 +168,8 @@ function about_me()
 function contact_me()
 {
     clear
-    am start --user 0 -a android.intent.action.VIEW -d https://api.whatsapp.com/send/?phone=%2B6285650868040&text&app_absent=0
+    am start -a android.intent.action.VIEW -d "https://api.whatsapp.com/send/?phone=%2B6285650868040&text=Hi I have subscribed to user91-repo"
+    echo "Select WhatsApp and enter"
     sleep 2
     return 0
 }
