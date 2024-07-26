@@ -1,16 +1,32 @@
 Package: kali-dark-style
-Version: 1.2.0-SR
+Version: 1.2.5-SR
 Architecture: arm
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: 
-Installed-Size: 2000 KB
+Depends: bash
+Recommends: kali-icon-themes
+Installed-Size: 348
 Description: Termux kali dark style
-Filename: dists/metaverse/main/binary-arm/kali-dark-style_1.2.0-SR_arm.deb
-Size: 3248
-MD5Sum: 1880534e23bd8705f5e2781d8904f15f
-SHA1: 032f41b9dff981b3bc7b48685fe00ae52f22dcde
-SHA256: a20f76d8288d49e64e6e93937d153b9ada688970507c75610b3a4250d40057ca
-SHA512: 1446e9e7b9e90fa9e2457838f5d1f404328a1a1721fd72279f54a134fe440e574a04c061f6443f6797259e54c5e889153c411515fd18f816f7395908cc601272
+Filename: dists/metaverse/main/binary-arm/kali-dark-style_1.2.5-SR_arm.deb
+Size: 116708
+MD5Sum: a8c4c10baf683bf9fe2d195de6587cdb
+SHA1: 02b53aaedea72d9bf6dc0295e5e9cd32c6eaa774
+SHA256: eb21ae29d9b5f18137f7c219f77f94ed522819ac0687268a2aac36e727ec5e02
+SHA512: a375b5c1555dd14d1e3dd85f3aa3f624b67de152e1c0da9801fcbf741b51fb9a97400858400add89c15e78307b09779052eada9d59e454ac949000da3cdaa735
+
+Package: kali-icon-themes
+Version: 2024.3-SR
+Architecture: arm
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: gtk-update-icon-cache, hicolor-icon-theme
+Installed-Size: 83888
+Homepage: https://github.com/ArieSR91
+Description: Kali linux icon themes
+Filename: dists/metaverse/main/binary-arm/kali-icon-themes_2024.3-SR_arm.deb
+Size: 4775744
+MD5Sum: 13aa02cf84c1ca4528e0cb9994769823
+SHA1: 185def3ca138c4b41e6bcff269599233c4bb32d4
+SHA256: f6a82683a44bf4bb1afa6ebf071cd2a0254ee2a338f6e5cfefc172ebafda9268
+SHA512: a2084dfcb7223d30549668dcc4ee748f6550625cb76c8686d62cc6603e77fd848fe392aab315e0631048383561d84f25199249a960fcecd28dbc9b7389ef74f2
 
 Package: proot-distro-kali
 Version: 1.0.0

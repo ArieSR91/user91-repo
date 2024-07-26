@@ -1,31 +1,31 @@
 Package: build-repo
-Version: 1.8.0-SR
+Version: 1.9.0-SR
 Architecture: aarch64
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3, gnupg, git, tsu, repo-manager
-Installed-Size: 1000 KB
+Depends: python3, gnupg, git,  binutils, repo-manager
+Installed-Size: 68
 Description: Build git repository with deb files
-Filename: dists/metaverse/axiomatic/binary-aarch64/build-repo_1.8.0-SR_aarch64.deb
-Size: 4932
-MD5Sum: 93dde2854538530ba7941758ade502eb
-SHA1: 0a919d13076b73fb44731b70177dbc7c75fab620
-SHA256: e29d22e298972d77a4fa817e51ddeaf9dc97ce02f28aedbfc80c1d0db7f9ede8
-SHA512: 841792c4c4015ce35451dd04922d25e705c304c8b1a9eac85c85362509de9061760647912a1824e5b1bc5c41bdc2576d608bd8a6ad9a7651ade085f0f6ec2713
+Filename: dists/metaverse/axiomatic/binary-aarch64/build-repo_1.9.0-SR_aarch64.deb
+Size: 5188
+MD5Sum: 5a8c1f8bc26c7e482d5057df083fde8f
+SHA1: 55ee527b25f704cbbafdb443a361061eb5719752
+SHA256: 567fd6b567eb3968739f3afbd2ffa4ca1524bfa6c672c4e87bdaacbc82d8c4ae
+SHA512: fbcec135947f4bd3896935368c3d2bb823c37ddf0304dbe710d8710fe8ee9f57e2678ad2ea7fd181064de174140f7b4dd2c2f1d1f35a43c2a8bbbe3b2a7fd80d
 
 Package: repo-manager
-Version: 2.0.5-SR
+Version: 2.1.0-SR
 Architecture: aarch64
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3, gnupg, sudo, git, build-repo
-Installed-Size: 1024
+Depends: python3, gnupg, git, build-repo
+Installed-Size: 56
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
-Filename: dists/metaverse/axiomatic/binary-aarch64/repo-manager_2.0.5-SR_aarch64.deb
-Size: 2676
-MD5Sum: 3e655177bffbbf3a88604fc2234df653
-SHA1: dbae6ba37bfb799bbceff5b14975fd7d97440338
-SHA256: aac1f81508b1a6a0eac0dbf99daa46aa5074c7d26f67ffa07fba47df37b6f412
-SHA512: bb72dcc4283bcd58409e46807ff1f559c5a8bb06c5dd70a95120b64dd25802281b4c608e788e2f962e05c2f45912ecf356095f210441a72ef623ea504a4e5297
+Filename: dists/metaverse/axiomatic/binary-aarch64/repo-manager_2.1.0-SR_aarch64.deb
+Size: 2688
+MD5Sum: 0d753ed5aa55671069c358e785eb5d26
+SHA1: ef7bae36880fd9ed93941cfea431a3c31edd8baf
+SHA256: 1b8643251318f0f4928df6a9547806b5dc9dae956e2c105c4fc998d32905c341
+SHA512: abb902a85e73adc3ff56fa86a7b99a2dbd6b6e2e5842ab80b76800b1c3a36d265c8f249a49aefa1021afb68cbf7fccc81e885a7761095af1ff5a11e30231df93
 
 Package: termux-desktop-lxqt
 Version: 1.1.0-SR
