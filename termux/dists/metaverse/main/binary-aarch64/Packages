@@ -1,17 +1,17 @@
 Package: kali-dark-style
-Version: 1.2.5-SR
+Version: 1.3.0-SR
 Architecture: aarch64
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: bash
 Recommends: kali-icon-themes
-Installed-Size: 348
+Installed-Size: 368
 Description: Termux kali dark style
-Filename: dists/metaverse/main/binary-aarch64/kali-dark-style_1.2.5-SR_aarch64.deb
-Size: 116856
-MD5Sum: e4c85241c8e769c5d0e70d512eca2531
-SHA1: 56bfd1f6caacf5cb576ce0d9749b15b7939a54c6
-SHA256: aadd24de58fb1d695574cc16417e1018f3ac9d75aed3db94c18e1e18bb911900
-SHA512: bd4317e2b617ab10853561347a951ec834d8454ccd09036b0b20288415930c8f498cb770e48fc68b66fc56aca0308ffd1de47497ddf64b996bbcd96a767ba9c7
+Filename: dists/metaverse/main/binary-aarch64/kali-dark-style_1.3.0-SR_aarch64.deb
+Size: 117144
+MD5Sum: 9e7705e00d926c495f891d0108343dd1
+SHA1: 6525f1b22f45b3ecf4a1507710587be6ac0e7d28
+SHA256: 43dcd44f207608999343a1d4200b219aaa9d00f2969d6c9d260688dad69dac30
+SHA512: b7b5c4d61db177487772504bdb522c68144ffb08e3ceb75424caf7cacd504029ed45847c20c450792ec6deaa3c73138365cef002b05474bf5448abb30bfeb5ae
 
 Package: kali-icon-themes
 Version: 2024.3-SR
@@ -58,19 +58,19 @@ SHA256: f5f2d10bf549a736d8bf05925ca34fb657a048cd8970b38848358d2979bd8169
 SHA512: d3ba4f3a1c3e56b8bd89271c65d33882e078b1679a27e3b2af3725502b008ad10a968a4c98e0f2cd7656217933e8ade61a034a2c4019ef647eda03333181256f
 
 Package: termux-desktop-xfce
-Version: 1.1.0-SR
+Version: 1.2.0-SR
 Architecture: aarch64
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: x11-repo, xfce4, tigervnc, parole, mousepad
-Installed-Size: 2GB
+Depends: x11-repo, xfce4, tigervnc, parole, mousepad, xfce4-goodies, pavucontrol, xfce4-pulseaudio-plugin, xkeyboard-config, termux-x11-nightly
+Installed-Size: 68
 Homepage: https://github.com/ArieSR91
 Description: Termux xfce4 desktop
-Filename: dists/metaverse/main/binary-aarch64/termux-desktop-xfce_1.1.0-SR_aarch64.deb
-Size: 1556
-MD5Sum: 3f1afd25cebff7aa50d64218185c4bb3
-SHA1: 103cc7d831ee83ec435411cb690f490cace9a119
-SHA256: 91ef0967b57cf13bb15f24708cdbd98640184118d17b23b62a8566103d8f9a5e
-SHA512: 265268709484f31d8ba5e4ef4310abd7dd240e9bf584861284caef7f6098dc6947f2e3f5f0dff6c36eaffdb90bed74d78dc15cd9daaf5307efc386d0002c9316
+Filename: dists/metaverse/main/binary-aarch64/termux-desktop-xfce_1.2.0-SR_aarch64.deb
+Size: 1848
+MD5Sum: 9899a67ceb8a858851d443ea488ac823
+SHA1: 15da1c8e79f8124748e71c0ce03a234828bc7894
+SHA256: b648abaf581752d0bd1dbff18fb7d6efe159cf6b51b03eb87b0fd8a9b594f039
+SHA512: bb4b96a0c086df76a7eaf1918ccb8655f4527b3ddda165100208616e03a6b79d8aeddb1703a57b1f6d599ec73d1c419c9e513a9b87f93e589654cbc928279f69
 
 Package: termux-fonts
 Version: 1.2.0-SR

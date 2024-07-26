@@ -3,6 +3,7 @@ data/data/com.termux/files/home/.termux/colors.properties                       
 data/data/com.termux/files/home/.termux/font.ttf                                 kali-dark-style
 data/data/com.termux/files/home/.termux/termux.properties                        kali-dark-style
 data/data/com.termux/files/home/bash.bashrc                                      kali-dark-style
+data/data/com.termux/files/usr/share/qtermwidget6/color-schemes/Kali-Dark.colorscheme kali-dark-style
 data/data/com.termux/files/usr/share/icons/Flat-Remix-Blue-Dark/actions/16/action-unavailable.svg kali-icon-themes
 data/data/com.termux/files/usr/share/icons/Flat-Remix-Blue-Dark/actions/16/activities.svg kali-icon-themes
 data/data/com.termux/files/usr/share/icons/Flat-Remix-Blue-Dark/actions/16/address-book-new.svg kali-icon-themes
@@ -30326,7 +30327,8 @@ data/data/com.termux/files/usr/bin/desktop                                      
 data/data/com.termux/files/usr/share/applications/Screenshot.desktop             termux-desktop-lxqt
 data/data/com.termux/files/home/.vnc/config                                      termux-desktop-xfce
 data/data/com.termux/files/home/.vnc/xstartup                                    termux-desktop-xfce
-data/data/com.termux/files/usr/bin/desktop                                       termux-desktop-xfce
+data/data/com.termux/files/usr/bin/vnc                                           termux-desktop-xfce
+data/data/com.termux/files/usr/bin/x11                                           termux-desktop-xfce
 data/data/com.termux/files/home/.fonts/DejaVuSans                                termux-fonts
 data/data/com.termux/files/home/.fonts/DejaVuSansMono                            termux-fonts
 data/data/com.termux/files/home/.fonts/FiraCode                                  termux-fonts
