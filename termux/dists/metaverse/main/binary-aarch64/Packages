@@ -91,13 +91,13 @@ Version: 1.0.0-SR
 Architecture: aarch64
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3, php
-Installed-Size: 49196
+Installed-Size: 44556
 Homepage: 
 Description: user91-tools for hacking
 Filename: dists/metaverse/main/binary-aarch64/user91-tools_1.0.0-SR_aarch64.deb
-Size: 17815544
-MD5Sum: 4eb64b98abd17ed1ab7a0f7fa137622b
-SHA1: fa6d446934f7ae8fb40f91bd039088f3d80b7971
-SHA256: 6000a8497bb535d20d00a4e2a27345a8cc57b57ff56d1b1a5d30063552de00c6
-SHA512: 038d95a6b08096cc5f14bba51cc29f8c3fc2cd5235da68ca1c05c5db4c56353bbfd3c66fbedfa8d17b102e7439ff4d0ec8c2cd48b68ef56ef95b86b8d2e3ce14
+Size: 13841876
+MD5Sum: 437fb9c09cba4b83639b3fb9f3f5b06d
+SHA1: de122a5f1328791371ca9e2af53d1dc8cf95c811
+SHA256: 4da08365752e8c2f06efa803fbdfaf9ec0c6b59e36e10d60802d63b4677b4768
+SHA512: 85cad6978b4bb6829bc64ad1f3cb021e2a9bf9a1f27cb0b8379f2f0ba36c4735be68700d4a7b33e05bb0d52fbf76839e8b61d4a834c77c60f010f881b7745a1e
 

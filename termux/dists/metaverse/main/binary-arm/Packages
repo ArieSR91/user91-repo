@@ -91,13 +91,13 @@ Version: 1.0.0-SR
 Architecture: arm
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3, php
-Installed-Size: 48620
+Installed-Size: 43980
 Homepage: 
 Description: user91-tools for hacking
 Filename: dists/metaverse/main/binary-arm/user91-tools_1.0.0-SR_arm.deb
-Size: 17835552
-MD5Sum: ba172e79a8f4b5c777788d6f70d94604
-SHA1: af2e8e7d92aa334b45447292d4bc3dbf4a3a5d3c
-SHA256: 260fabf5f548b1e85c33229534e004d4e988a222cf05c3247a5d528984387118
-SHA512: 4fbac62bb73d3ff3f70fd94e828fc35033573d49f122f28d5ee389288ecbc504512fbece86cefa4e228e4c45dc6ac9a4214cf437b2046647c3fced2226ff7445
+Size: 13863096
+MD5Sum: dc26c7e2284350d8ef66561746f69e06
+SHA1: 3e6011fe59f073709c2f4ade6a299596760d7a75
+SHA256: 08637aeb7706de5053fc70affe64399ed1851e4d558f7f0cad76caaa1c00ec83
+SHA512: 3dd6c662878a889c47e957b5daad7a0cfc2fbce79f366fb91cba82dcf7eefdfcd127a1d2ad4d2207333e590984e56000177b79b0e049a357d9ef40d64b4cef19
 
