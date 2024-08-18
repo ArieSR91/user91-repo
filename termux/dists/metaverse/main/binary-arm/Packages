@@ -1,3 +1,47 @@
+Package: adb
+Version: 1.0.39-SR
+Architecture: arm
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 3708
+Homepage: 
+Description: Android Debug Bridge
+Filename: dists/metaverse/main/binary-arm/adb_1.0.39-SR_arm.deb
+Size: 1754672
+MD5Sum: 50b95b32c949cc3db7cec589a2fe1a15
+SHA1: 068b8c525663b906b3dc6e09712a0f4cc6ee3cd3
+SHA256: c985835629b79034f2345c33f9c63946b20143947585f122992f768bcd45605e
+SHA512: efe71c6ccbedb0582d59284f30cf749974078ee6f0d72fd93f5a6d467306e0b266f1930bde52c3af099810480c20aea8d02bb7921901b70aa867b1804f614a43
+
+Package: download
+Version: 1.2.0-SR
+Architecture: arm
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: ffmpeg, python-pip
+Installed-Size: 48
+Description: Download video and music from Youtube.
+Filename: dists/metaverse/main/binary-arm/download_1.2.0-SR_arm.deb
+Size: 1384
+MD5Sum: 7b175c2da33bfd2f835476bdc3e492cb
+SHA1: 4ac780a973996463feb9a18f6b48ea0201d33140
+SHA256: 6d0b7e84de958c8d6e20c6e98cfd86de617986ea36fadcada234acdcb04b6eeb
+SHA512: 238919e8a71daebc34d5dfc392d82b31b65a76dd80765fd707d70e9d7303777a2543ea8b8f32f9df3496b5a4386c15a043cb74d58ddfd3f8a824c94229d7f7b8
+
+Package: fastboot
+Version: 34.0.0-SR
+Architecture: arm
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 940
+Homepage: 
+Description: Fastboot
+Filename: dists/metaverse/main/binary-arm/fastboot_34.0.0-SR_arm.deb
+Size: 425408
+MD5Sum: 567fff3e41c672a088277f4d99070fca
+SHA1: bbdee95189ec73979f62f083ac62bbe91d02c683
+SHA256: ca8726db355f71a870821bae93cb854ac1f459bada41d6749a3f8d93f106c8c8
+SHA512: 9157d64c32554df598d3e548a211c4d228973447462e9280fda97cf9a22b3148e5dbac638b5ac8382b41fec9ad2a232c4c03e04600c50b31f558133572ada1aa
+
 Package: kali-dark-style
 Version: 1.3.0-SR
 Architecture: arm

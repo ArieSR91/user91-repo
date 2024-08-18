@@ -1,3 +1,6 @@
+data/data/com.termux/files/usr/bin/adb                                           adb
+data/data/com.termux/files/usr/bin/download                                      download
+data/data/com.termux/files/usr/bin/fastboot                                      fastboot
 data/data/com.termux/files/home/.bash_aliases                                    kali-dark-style
 data/data/com.termux/files/home/.termux/colors.properties                        kali-dark-style
 data/data/com.termux/files/home/.termux/font.ttf                                 kali-dark-style
