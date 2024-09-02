@@ -19,4 +19,4 @@ Graphical Install:
 ```
 wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh; bash user91-repo.sh menu
 ```
-Visit[https://ariesr91.github.io/user91-repo/]
+[Visit](https://ariesr91.github.io/user91-repo/)
