@@ -1,16 +1,16 @@
 Package: build-repo
-Version: 1.8.1-SR
+Version: 1.8.2-SR
 Architecture: armhf
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3.11, gnupg, git, sudo, repo-manager
-Installed-Size: 1000 KB
+Depends: python3.12, gnupg, git, sudo
+Installed-Size: 68
 Description: Build git repository with deb files
-Filename: dists/metaverse/main/binary-armhf/build-repo_1.8.1-SR_armhf.deb
-Size: 5132
-MD5Sum: 88d92d005e6745a9fd6c44b19a2010c0
-SHA1: 2b7e2de8175ea6f1e6c81436ac98ca9b089fa2ed
-SHA256: 1be13e1eb2eecc18cbc319a128f0f102da822c71e63f128711c132abb2014338
-SHA512: ece7be1048bfe96878cbb88a193c2af68f24b6ff640f64adbe2deacb9e15a517fc078c7cb261b0e556dea610764e293dad3d8e363866c94acc631293f92c295c
+Filename: dists/metaverse/main/binary-armhf/build-repo_1.8.2-SR_armhf.deb
+Size: 5020
+MD5Sum: c3ecc5bbdc60a86442c79d21f375dcb8
+SHA1: 10843c5e0fea87ad621d9ee832766a62758e8fa8
+SHA256: 96f6b45e07907cfe47d2de26cd48ac93cc6ffae7627ace60f2086122f7b97572
+SHA512: 64165ab9823782cbebc86d91e1778099c1e6502395239efb1b47ced77f5df6fbb948f2acf03fa7036cb5a8bdac53de01feed77fd46b1321a7a2b030678904e8d
 
 Package: create-bin
 Version: 1.0.0-SR
@@ -58,19 +58,19 @@ SHA256: 762e5e9e7edb7585c50a3fe93da3f3333c8adca37418680bbebaeb79e8628ad0
 SHA512: 94c416965a2b602cfdbbbb0ffc07ceb525242b3cabbbde75920bef0d27f98a6b586f2dab00f65d4400bafcd0ecd5472b42b110c5e9e3af1176291c1722f6392b
 
 Package: repo-manager
-Version: 2.1.0-SR
+Version: 2.1.1-SR
 Architecture: armhf
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3, gnupg, sudo, git, build-repo
-Installed-Size: 1024
+Depends: python3, gnupg, sudo, git, build-repo, binutils, tar, xz-utils
+Installed-Size: 48
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
-Filename: dists/metaverse/main/binary-armhf/repo-manager_2.1.0-SR_armhf.deb
-Size: 2612
-MD5Sum: 279dfa420e2c1b651472000b841de8c0
-SHA1: 7b1c4cf7e871e14ee0c8a182887a8ae0de19e2d7
-SHA256: 3975f9a20054f3fe61b6467f096bb2fa4542f96ec1c2ac63cbec661898a3f91e
-SHA512: ec5c9f8980f0535b9791abd65c2044c0f2e0d4a92cb2e336d7bdf2a7441a1b9b5b4663d976cdbfc58e5816f1be27a9bf06525f61d04f2b8193278c0538b6aecf
+Filename: dists/metaverse/main/binary-armhf/repo-manager_2.1.1-SR_armhf.deb
+Size: 2812
+MD5Sum: 2452f1d83b78fed8150249ec225ea571
+SHA1: 7dd6f09dad9b605b0bf952890b2ea4704d93a059
+SHA256: 83b55e6af0cd750abea41f8a53570a0fa4874ecbe119643804bcb2787b652e2d
+SHA512: f5cc46dcd4e0fafae66be9a4265249aa801b1f6292f7fb359f065075b635b798cd48b3bda3b7a323dd7dc8bfd7c2d6d3d7b03a6722b7e74b711f28ccc8cb8270
 
 Package: wine-i386
 Version: 5.13-SR

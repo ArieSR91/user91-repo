@@ -1,16 +1,16 @@
 Package: build-repo
-Version: 1.8.1-SR
+Version: 1.8.2-SR
 Architecture: arm64
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3.11, gnupg, git, sudo, repo-manager
-Installed-Size: 1000 KB
+Depends: python3.12, gnupg, git, sudo
+Installed-Size: 68
 Description: Build git repository with deb files
-Filename: dists/metaverse/main/binary-arm64/build-repo_1.8.1-SR_arm64.deb
-Size: 5132
-MD5Sum: 9cc862fd37c39010a2383c941f6dd123
-SHA1: 4e15b649f528c42be1e115a8209271e652cf0eaa
-SHA256: 9b2504f2953ae4ed5b596101f6fc08e5ac2a971f43da20a80803f0a0d6a7c19a
-SHA512: 4b86b8ac29ec06f6003b871952834ff0bcfa086c24a1717a52da0efb10854255b8fea7430cdbf5125effe38724bda629a6972c9277b55d0c75fd571b81df0713
+Filename: dists/metaverse/main/binary-arm64/build-repo_1.8.2-SR_arm64.deb
+Size: 5028
+MD5Sum: def39f212041263a174f063c948fe60b
+SHA1: 79efb1aacd69755e3b2357289a2a54f6877311d5
+SHA256: 9886298426272f813660409c68369e20cff049881cb2612b4c01a790659d70b8
+SHA512: 943413dacd01a62c44e95be7c930d68cdd23ba83377d03d300d65b3523a655802905756e02d1555b4d140c8d9fe7cdb1a25ad1b37b9ca5f0ab3a9ba65763000b
 
 Package: create-bin
 Version: 1.0.0-SR
@@ -58,17 +58,17 @@ SHA256: 56a68366dcbbf1225565f1f73c208df0cb62d86947ae00f532b12828f6956cde
 SHA512: da07842642924934d06b1213beeb595f377c34f144d6a42c652a4f63af1312fef92367ab8312a6065dd8c7e8d89c5e679a93a3930c57e1522653b260251c4198
 
 Package: repo-manager
-Version: 2.1.0-SR
+Version: 2.1.1-SR
 Architecture: arm64
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3, gnupg, sudo, git, build-repo
-Installed-Size: 1024
+Depends: python3, gnupg, sudo, git, build-repo, binutils, tar, xz-utils
+Installed-Size: 48
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
-Filename: dists/metaverse/main/binary-arm64/repo-manager_2.1.0-SR_arm64.deb
-Size: 2608
-MD5Sum: b355b8130e7d0f2997e9c9b41c7d7bbf
-SHA1: 0d80cd4aec751c6d9d3469c73660f183f0d9e726
-SHA256: a4d63e6e5d5e4f8b4b02c4d668757f2fcc856a1d77fde8e1e132cc25730e75ad
-SHA512: 5cb780643ec1aa21c995ea9a85a459d3dbb0951e1d3baefd264b87c16aa4f75f35500c904a9398bef788aa491708e49ec2e20f13769733e298981faf046e39bd
+Filename: dists/metaverse/main/binary-arm64/repo-manager_2.1.1-SR_arm64.deb
+Size: 2824
+MD5Sum: 712182e9aaf831a9d0cb07c7bae9055e
+SHA1: 32d017e99193be62b317be0d3950071eafef6800
+SHA256: 77d5b3eb1771ec63f7396b0c03cf85d53f03d72f28b262ea57c22b949b2082fa
+SHA512: 98319965ffb1c2ca8c0ab81f9e8af81d19e2e312c0bdbb0e9b181c51a10cf94bba0020618a2d460cb2add848278384027e9905050bc33b2ab7f4ac20fb39b94e
 

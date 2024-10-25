@@ -5,6 +5,7 @@ usr/local/bin/build-repo                                                        
 usr/local/bin/binary                                                             create-bin
 usr/local/bin/monitor                                                            fake-interface
 usr/local/bin/iptracker                                                          iptracker
+usr/local/bin/edit-deb                                                           repo-manager
 usr/local/bin/git-repo                                                           repo-manager
 usr/local/bin/repo-manager                                                       repo-manager
 opt/wine-i386/bin/function_grep.pl                                               wine-i386
