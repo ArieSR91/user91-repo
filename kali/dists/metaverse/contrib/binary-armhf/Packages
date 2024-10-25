@@ -26,28 +26,3 @@ SHA1: b104ccf6e2a2d36b559cb0c00f9b582fe47c29eb
 SHA256: ca692e495cd531e70ce797e58372606e37aae52616f9859f59577ee2e7f625f8
 SHA512: 27f5b33c3ada4f615843ad4fc7a423e15cb027dc71e1cfbd3993150d2569342f4424c28797adeda290830b3e3245a817d5958744a3e01a015f78d4b43060af3c
 
-Package: sqlmap-sr
-Version: 1.8.9-SR
-Architecture: armhf
-Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
-Installed-Size: 10889
-Depends: python3:any, python3-magic
-Section: net
-Priority: optional
-Homepage: https://sqlmap.org/
-Description: automatic SQL injection tool
- sqlmap goal is to detect and take advantage of SQL injection
- vulnerabilities in web applications. Once it detects one or more SQL
- injections on the target host, the user can choose among a variety of
- options to perform an extensive back-end database management system
- fingerprint, retrieve DBMS session user and database, enumerate users,
- password hashes, privileges, databases, dump entire or user's specific
- DBMS tables/columns, run his own SQL statement, read specific files on
- the file system and more.
-Filename: dists/metaverse/contrib/binary-armhf/sqlmap-sr_1.8.9-SR_armhf.deb
-Size: 6917332
-MD5Sum: 4d852d236523362c36a14e28f4221c8b
-SHA1: 20977a39c76dbde00d9b6ba02ab7ee01af313341
-SHA256: 16e603dbe62fee3fc1d693d00548118ad7899252674fe70ad70ac297595307e2
-SHA512: 87c6760adbe8006ac8af6fc011ba9a84369bf3f432a21a8a01ad76bfb474ab95807200fbd1685f26a05487c1430faecc42fa5c182ae4f1c4ddb5adb737a1d043
-
