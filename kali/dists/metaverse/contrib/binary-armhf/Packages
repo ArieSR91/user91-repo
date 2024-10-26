@@ -12,6 +12,21 @@ SHA1: 80882fa700050f6924f934a1db4c1be8ad22ceb6
 SHA256: cfb28acc06d0e8b0b7a458ccf0cc6d26bcfd9a65aaa22fc06320d36d84deaaa2
 SHA512: 4a4dec879078ba564c4754bd6cb0e7b79e42e0baf608503a2173b4d0d91b7708b1d78651de1112c3202a0af7e2657957b38d8b48a825b3194036862f9537a1ae
 
+Package: ipgeolocation
+Version: 1.0.0
+Architecture: armhf
+Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, python3-termcolor, python3-colorama
+Installed-Size: 192
+Homepage: 
+Description: Trace location from ip
+Filename: dists/metaverse/contrib/binary-armhf/ipgeolocation_2.0.4-SR_armhf.deb
+Size: 19896
+MD5Sum: b7d84653e183c6ea1769088b674a487d
+SHA1: 32fee189f687cdb5231523e3fdc9fa1feacd48ea
+SHA256: 4a0f8d857f9272a2477aecd0da17cac2dac0da6d3f43ceea1bd2ab52c95a6127
+SHA512: a14c262157299ae0f04983b95342c38a8fe0a1f2e444cedbcb9d342b6b9b56ae308d5f9feb4e892993635484cba8994e1a9e1043786a7efd2a6339709b6720cd
+
 Package: ngrok-sr
 Version: 3.3.4-SR
 Architecture: armhf
@@ -25,4 +40,19 @@ MD5Sum: 205b347de5278fcaa3d77ba3ded62398
 SHA1: b104ccf6e2a2d36b559cb0c00f9b582fe47c29eb
 SHA256: ca692e495cd531e70ce797e58372606e37aae52616f9859f59577ee2e7f625f8
 SHA512: 27f5b33c3ada4f615843ad4fc7a423e15cb027dc71e1cfbd3993150d2569342f4424c28797adeda290830b3e3245a817d5958744a3e01a015f78d4b43060af3c
+
+Package: seeker
+Version: 1.3.1-SR
+Architecture: armhf
+Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, python3-requests, python3-packaging, python3-psutil, php
+Installed-Size: 3860
+Homepage: 
+Description: Accurately Locate Smartphones using Social Engineering
+Filename: dists/metaverse/contrib/binary-armhf/seeker_1.3.1-SR_armhf.deb
+Size: 1192400
+MD5Sum: 5c4f583c6c188313ee2bf6a9a067583a
+SHA1: a24db43e80f22b3e3044d5dc3f0f0cc31ae27e11
+SHA256: 7e269fb211bf8f7fd858be6db6a88a4b5c6d03fdc3790cc75450e7f4a0ee6fcb
+SHA512: ae4f85b6955d8459d9f7b5adc036396a0c122341897288d2778bb01ad6750b3d18a587140fc48f778475b80612aa4e7b1e3e823fa43428f5b400038b2e7d8b3b
 

@@ -12,6 +12,21 @@ SHA1: 388825e3f6cb317593a87af9ef938c1d139ba4bd
 SHA256: 8deaa930c0673161cddbff92b6eecec91cb791260e31035d563f820a40aaa2ae
 SHA512: 1eb4ac6e6429aafbf6ff902a14636e9a936ea667e5ed8d3b5681307b1e797baa484e24b7cae307fc370f948a900a8e099cd14fbf505376725f5e77cf00478981
 
+Package: ipgeolocation
+Version: 1.0.0
+Architecture: arm64
+Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, python3-termcolor, python3-colorama
+Installed-Size: 300
+Homepage: 
+Description: Trace location from ip
+Filename: dists/metaverse/contrib/binary-arm64/ipgeolocation_2.0.4-SR_arm64.deb
+Size: 19960
+MD5Sum: 96cb9dd72f6fb241a29c89bc56c69db6
+SHA1: 53e2efa25a1810a1072d3e63456d23fe648901b5
+SHA256: 554dad58d5fde7006d197087b97703c6871cface4ef4daec191d993f228836c3
+SHA512: ba469108de0ef7d7373b1a6bd023e96218b9962e3af7ddbbdc6b574369559c28e2b239c8cee720171148e7d693cf6825c1891813230887f5a62800690831c9ac
+
 Package: ngrok-sr
 Version: 3.3.4-SR
 Architecture: arm64
@@ -25,4 +40,19 @@ MD5Sum: 636f8f7a256577edbac00cff3bf8adf2
 SHA1: 5abb058ca4f5fbe768bb46a12ac3e3a9bd0ad710
 SHA256: 45855a9ba504a21fe5c5d69ba4e13a9bf25d17639eafffe192f3d2db6bf68939
 SHA512: f6187bec43f21d874b2d1330dc5022b384893192591e608060ffbc0772e1066fb56d3482ba47a8d6707c55dd165727e5d81b7024c266523bf7b8cadfb3fd902b
+
+Package: seeker
+Version: 1.3.1-SR
+Architecture: arm64
+Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, python3-requests, python3-packaging, python3-psutil, php
+Installed-Size: 3860
+Homepage: 
+Description: Accurately Locate Smartphones using Social Engineering
+Filename: dists/metaverse/contrib/binary-arm64/seeker_1.3.1-SR_arm64.deb
+Size: 1192220
+MD5Sum: c753ea1ab49948d17f3df8428346ce4d
+SHA1: 9db65c9506c51785b64a497a6809a0222ce5dd82
+SHA256: bd7585d79cc7234e1addd53b9da8059cb49a8d452ff6237ba717a2848d9b3bff
+SHA512: 09ac9a708e51f89e28caa8be37d54b2cfeee7858b1ac51e76053a2c71c396a89d86300289bde1f3f4c0ae1f846f5fe175e60e7432ab0a7b829ffb49fd59eb899
 
