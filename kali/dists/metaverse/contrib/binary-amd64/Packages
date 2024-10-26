@@ -13,19 +13,19 @@ SHA256: 9b11cdf9bd29a7788cd5bea1c2565da1a272adb90562c148a6aa255d9a5da5d1
 SHA512: 5bfcce4d3c8e6cac78fe00546b9f554606454f2239c206683ef7d94e9c53c985fa0a5e2f076b9f8eb2f70606257e083e0e913517f11afedf242c3b13f4e47404
 
 Package: ipgeolocation
-Version: 1.0.0
+Version: 2.0.4-SR
 Architecture: amd64
 Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3, python3-termcolor, python3-colorama
-Installed-Size: 300
+Installed-Size: 192
 Homepage: 
 Description: Trace location from ip
 Filename: dists/metaverse/contrib/binary-amd64/ipgeolocation_2.0.4-SR_amd64.deb
-Size: 19904
-MD5Sum: 13157e31c964e4a73d499c2020fed4fd
-SHA1: 431a1cfd186a14fe336a3790afc1073a4b2019f4
-SHA256: 7c95cdec3a964ebbf442861002a96875914094e693622cd6e3f6fee33952a747
-SHA512: 97bfbf7b89f4032b3858661967f389175a24724d0bc9998b0654e652d2c97119650369fa71300560f4b0282d4690d980aff9c70e4d286b8e3db0326aed38d790
+Size: 19916
+MD5Sum: 5e253f96444c59b6d4ce342d9cc3fb3b
+SHA1: 4c2f5343a7370a4825cf1d7166cdf59d36e4b325
+SHA256: 4d2480daf8bd61a4e609bd5b8eb9197688ae2b3a7f276ccaf0b2751ac61ff45b
+SHA512: d7807f7cd861d4bc42ec83cf51738b3a50bee8aca448cd6bfb21ca9d4ead8ab4228ce1cfed9cca0ccc1fdcfd90944622a1c3706f523f8a593f234c8f559bbb45
 
 Package: ngrok-sr
 Version: 3.3.4-SR
@@ -50,9 +50,9 @@ Installed-Size: 3860
 Homepage: 
 Description: Accurately Locate Smartphones using Social Engineering
 Filename: dists/metaverse/contrib/binary-amd64/seeker_1.3.1-SR_amd64.deb
-Size: 1192272
-MD5Sum: 0975e8cbc70940078731d0639155dd13
-SHA1: daa9c7b7b7d05a1facd4b5a9b8c5a3a6136aceaf
-SHA256: e0b9b7417e33d312300f65781cdc89b7ecd8c91f6a4a52d821647afdfe4a50db
-SHA512: dcb60ae090bdf372167b4c0ca36ea2b57b3d8fe3ae5b9a124b86b70b47000259faf4a09cc7121b5371493feca4cbe26d43bd0d09825de5726cf6ada527a24f05
+Size: 1192316
+MD5Sum: 225ca3deb1dd1cbfaf7f7e1b41cb218d
+SHA1: 51a42d292b475f8d5f16945c9efe360b733acb20
+SHA256: c56f62ba47caad66423835f646a1daac1b66000ad2d83512dfd36535efa65555
+SHA512: f3dc38c737a8325039e1c4761f56f9d2da681d5689cce8436fe1808904c721f4611081b4722f27deb5c764fa5001fdb70a731d9c2b4613f6ebae51bcde334e5c
 

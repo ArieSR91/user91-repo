@@ -13,7 +13,7 @@ SHA256: cfb28acc06d0e8b0b7a458ccf0cc6d26bcfd9a65aaa22fc06320d36d84deaaa2
 SHA512: 4a4dec879078ba564c4754bd6cb0e7b79e42e0baf608503a2173b4d0d91b7708b1d78651de1112c3202a0af7e2657957b38d8b48a825b3194036862f9537a1ae
 
 Package: ipgeolocation
-Version: 1.0.0
+Version: 2.0.4-SR
 Architecture: armhf
 Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3, python3-termcolor, python3-colorama
@@ -21,11 +21,11 @@ Installed-Size: 192
 Homepage: 
 Description: Trace location from ip
 Filename: dists/metaverse/contrib/binary-armhf/ipgeolocation_2.0.4-SR_armhf.deb
-Size: 19896
-MD5Sum: b7d84653e183c6ea1769088b674a487d
-SHA1: 32fee189f687cdb5231523e3fdc9fa1feacd48ea
-SHA256: 4a0f8d857f9272a2477aecd0da17cac2dac0da6d3f43ceea1bd2ab52c95a6127
-SHA512: a14c262157299ae0f04983b95342c38a8fe0a1f2e444cedbcb9d342b6b9b56ae308d5f9feb4e892993635484cba8994e1a9e1043786a7efd2a6339709b6720cd
+Size: 19900
+MD5Sum: 688a83f18b1235a2012e053ff5558189
+SHA1: e26966c092227e16be55794ba7a35eb64878a8da
+SHA256: 885c59496d08efdd3e65c27f27bb46f937e6b6ad738b61f4957be4cb8a169052
+SHA512: 7c14e2d4cb23188ff6b3beaff72b42f9862dbab12a302f5d731e0c7c80ed1fa59db1fe6a7b010eedcea0b49656999ef1e02f95ae6886a4a84140865d58b99424
 
 Package: ngrok-sr
 Version: 3.3.4-SR
@@ -50,9 +50,9 @@ Installed-Size: 3860
 Homepage: 
 Description: Accurately Locate Smartphones using Social Engineering
 Filename: dists/metaverse/contrib/binary-armhf/seeker_1.3.1-SR_armhf.deb
-Size: 1192400
-MD5Sum: 5c4f583c6c188313ee2bf6a9a067583a
-SHA1: a24db43e80f22b3e3044d5dc3f0f0cc31ae27e11
-SHA256: 7e269fb211bf8f7fd858be6db6a88a4b5c6d03fdc3790cc75450e7f4a0ee6fcb
-SHA512: ae4f85b6955d8459d9f7b5adc036396a0c122341897288d2778bb01ad6750b3d18a587140fc48f778475b80612aa4e7b1e3e823fa43428f5b400038b2e7d8b3b
+Size: 1192444
+MD5Sum: dfc2b8305cd183df6ed7d6d81c6a88f2
+SHA1: 002e9d412e07a1a25225e0174b06eac8e17b7454
+SHA256: 370c30d26f012ed9e5207dba62895c6a1354dca763cf08519c737b33aa8dbede
+SHA512: 8e1dfaf0e5509d29db1ea7455bfad13485492aa2ea49307aa9367ac1e368d13ba0d8e2baa70a00ec7db4d8f9be84e877dcb0231cb84bb3a27331791065d7a7f1
 

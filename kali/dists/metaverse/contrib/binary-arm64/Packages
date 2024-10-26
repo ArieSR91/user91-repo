@@ -13,19 +13,19 @@ SHA256: 8deaa930c0673161cddbff92b6eecec91cb791260e31035d563f820a40aaa2ae
 SHA512: 1eb4ac6e6429aafbf6ff902a14636e9a936ea667e5ed8d3b5681307b1e797baa484e24b7cae307fc370f948a900a8e099cd14fbf505376725f5e77cf00478981
 
 Package: ipgeolocation
-Version: 1.0.0
+Version: 2.0.4-SR
 Architecture: arm64
 Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3, python3-termcolor, python3-colorama
-Installed-Size: 300
+Installed-Size: 192
 Homepage: 
 Description: Trace location from ip
 Filename: dists/metaverse/contrib/binary-arm64/ipgeolocation_2.0.4-SR_arm64.deb
-Size: 19960
-MD5Sum: 96cb9dd72f6fb241a29c89bc56c69db6
-SHA1: 53e2efa25a1810a1072d3e63456d23fe648901b5
-SHA256: 554dad58d5fde7006d197087b97703c6871cface4ef4daec191d993f228836c3
-SHA512: ba469108de0ef7d7373b1a6bd023e96218b9962e3af7ddbbdc6b574369559c28e2b239c8cee720171148e7d693cf6825c1891813230887f5a62800690831c9ac
+Size: 19968
+MD5Sum: 6f545f0ce7f699dee60d8238724f8d72
+SHA1: 6499fd2459ffb75de0c23c908f1d8ffa0b6c7884
+SHA256: 0d39b4d38a134cc30a7e35ee5b52f5d47943f23f9079c54be2474caca89d2fb5
+SHA512: 15b668f525780611c3ab4370f883d456099fa8c4b1b72da0ffb720ce2477eb313b93551b8133bba6c025d4cf3fba67f1dc86bc569efe4075ea244f27a3aa19d1
 
 Package: ngrok-sr
 Version: 3.3.4-SR
@@ -50,9 +50,9 @@ Installed-Size: 3860
 Homepage: 
 Description: Accurately Locate Smartphones using Social Engineering
 Filename: dists/metaverse/contrib/binary-arm64/seeker_1.3.1-SR_arm64.deb
-Size: 1192220
-MD5Sum: c753ea1ab49948d17f3df8428346ce4d
-SHA1: 9db65c9506c51785b64a497a6809a0222ce5dd82
-SHA256: bd7585d79cc7234e1addd53b9da8059cb49a8d452ff6237ba717a2848d9b3bff
-SHA512: 09ac9a708e51f89e28caa8be37d54b2cfeee7858b1ac51e76053a2c71c396a89d86300289bde1f3f4c0ae1f846f5fe175e60e7432ab0a7b829ffb49fd59eb899
+Size: 1192260
+MD5Sum: 074b94fefdfda6f90df3ec0bf46ab53d
+SHA1: 1d5c1fc6788a588c92a8b62a316a7a2e03eb9d95
+SHA256: 04cf54cfbd93622f3d9c16b3a84f014abe69b3093613e31d4294534218605190
+SHA512: 126903897cecb48349d422a3223ca5dcb100ceee5323935c931a2723817ea7fa2922497aae87d7912bc48eab3ea21612daf6fbae047175545aa3180bd4e43e8c
 

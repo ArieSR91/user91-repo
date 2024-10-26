@@ -13,19 +13,19 @@ SHA256: 78f41f3537496a7c69968823f7871020d4c48e1654dc2be477db771dc6262b0c
 SHA512: fffaaf680bddfe130d40b64ed6a7cebefcbfd97926ad0717151214455641ce103912e6c0ffbc8362d06ca65d84779199501f553596de9c0a4c9de918df4d39af
 
 Package: ipgeolocation
-Version: 1.0.0
+Version: 2.0.4-SR
 Architecture: i386
 Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3, python3-termcolor, python3-colorama
-Installed-Size: 300
+Installed-Size: 192
 Homepage: 
 Description: Trace location from ip
 Filename: dists/metaverse/contrib/binary-i386/ipgeolocation_2.0.4-SR_i386.deb
-Size: 19908
-MD5Sum: b18c59c901ab64df81020c045329c2c2
-SHA1: e6e597c75b68af9e28cd814f9582b73cfb57af54
-SHA256: da63ac68bd4d0af003c542afdc63d0b703a8e4266adc46e7e93333d08eebee75
-SHA512: 4972468042fe1a51e635f32e7cb5242af70ed1f9f13124a0d1de678c6b53f90463fa888ad485ccb82c98d3570be5a6993041bb14eb75f102eba1a9c65ce1d3e0
+Size: 19916
+MD5Sum: e2b4f0b1298cd24394337c6ba28e87af
+SHA1: 0bd14b0040f5d69e39eea040ac5fb3a2ddc69fb0
+SHA256: 98ce8539b1b6620c698fbd2793ba48abe890f3bcefef75517941ddd2d6a2b792
+SHA512: 6db8307016bcbd16061967de5b90cf9699b99cf12e0877d1f59bcac965cdc7be821d327f1e698010f0fad5f952dc76c1fd4fe859d7eceb587d8ce2e950cca71d
 
 Package: ngrok-sr
 Version: 3.3.4-SR
@@ -50,9 +50,9 @@ Installed-Size: 3860
 Homepage: 
 Description: Accurately Locate Smartphones using Social Engineering
 Filename: dists/metaverse/contrib/binary-i386/seeker_1.3.1-SR_i386.deb
-Size: 1192460
-MD5Sum: 4098a45acfb0d40481ed578bde7092ae
-SHA1: 3bdffea73a4c692a9ba928ac05450c40a747e38f
-SHA256: 9943e7bf73e5aa31e65659839b89d15fd5bfa6189c4341f266f8f529aeb20892
-SHA512: 5227f4b5740e2317222eb46f54c056de559968aeb49f543fd94391c55c41857a37b3f17caa267efab2b21e9bc5c7b6138caf327f0cbb6d7d7bfa6a923e9e9cb9
+Size: 1192504
+MD5Sum: 8acf5e683caa0d3ec084bf1b90ebaa8c
+SHA1: ddd904fd4e4b91531018871eb8fbbbbccc73cf13
+SHA256: af1366e8def446c9f1a687553d6b492e2db781bda3b8257b217e17a134b27e3c
+SHA512: 9d9a0b27e562e69e0d9e10b9e57deebeffcc7ce60e580926992af8321b12e3d84eb6252acfd2498d1e41b174c7abed4b7fab51a628a2856949b64a38135eefc2
 
