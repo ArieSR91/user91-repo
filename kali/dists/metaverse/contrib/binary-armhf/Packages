@@ -21,11 +21,11 @@ Installed-Size: 192
 Homepage: 
 Description: Trace location from ip
 Filename: dists/metaverse/contrib/binary-armhf/ipgeolocation_2.0.4-SR_armhf.deb
-Size: 19900
-MD5Sum: 688a83f18b1235a2012e053ff5558189
-SHA1: e26966c092227e16be55794ba7a35eb64878a8da
-SHA256: 885c59496d08efdd3e65c27f27bb46f937e6b6ad738b61f4957be4cb8a169052
-SHA512: 7c14e2d4cb23188ff6b3beaff72b42f9862dbab12a302f5d731e0c7c80ed1fa59db1fe6a7b010eedcea0b49656999ef1e02f95ae6886a4a84140865d58b99424
+Size: 19904
+MD5Sum: 3b1d19f5ce51795220cc62cdf121dfa5
+SHA1: 2b0f72f03a618b62588201f852de15694a4ceef5
+SHA256: c14a7a2e500500f1afbe593a0a7525fdb1e50b00f8edbaa5019d0200c45b98e4
+SHA512: d682c05335a40755271f1c84d67aeaf00b0444afb7b42b6a0cff978c55a9395e6fb23b79c0f917dc5c85f7190ae5e5784ad206b4776cfde57076f0a10b110ad0
 
 Package: ngrok-sr
 Version: 3.3.4-SR
@@ -50,9 +50,9 @@ Installed-Size: 3860
 Homepage: 
 Description: Accurately Locate Smartphones using Social Engineering
 Filename: dists/metaverse/contrib/binary-armhf/seeker_1.3.1-SR_armhf.deb
-Size: 1192444
-MD5Sum: dfc2b8305cd183df6ed7d6d81c6a88f2
-SHA1: 002e9d412e07a1a25225e0174b06eac8e17b7454
-SHA256: 370c30d26f012ed9e5207dba62895c6a1354dca763cf08519c737b33aa8dbede
-SHA512: 8e1dfaf0e5509d29db1ea7455bfad13485492aa2ea49307aa9367ac1e368d13ba0d8e2baa70a00ec7db4d8f9be84e877dcb0231cb84bb3a27331791065d7a7f1
+Size: 1192340
+MD5Sum: 15cbc61791c1bc9f7ac9a9c6de084a54
+SHA1: 4ba0babbc19c28ebfc23129d260d04c550f5d9ae
+SHA256: 17117fda0c781983387cdbee9c2f7efb2e8a525d3be70bc398e5ba70a945e2c8
+SHA512: cb61d1244714559bdd3d2794ee2cc898290be8aa68c99a822b806e3262bdc1a79a034cc07029ed19ae244c0514c85b7e2f373643429cf466dc384f062bc3db37
 

@@ -21,11 +21,11 @@ Installed-Size: 192
 Homepage: 
 Description: Trace location from ip
 Filename: dists/metaverse/contrib/binary-i386/ipgeolocation_2.0.4-SR_i386.deb
-Size: 19916
-MD5Sum: e2b4f0b1298cd24394337c6ba28e87af
-SHA1: 0bd14b0040f5d69e39eea040ac5fb3a2ddc69fb0
-SHA256: 98ce8539b1b6620c698fbd2793ba48abe890f3bcefef75517941ddd2d6a2b792
-SHA512: 6db8307016bcbd16061967de5b90cf9699b99cf12e0877d1f59bcac965cdc7be821d327f1e698010f0fad5f952dc76c1fd4fe859d7eceb587d8ce2e950cca71d
+Size: 19912
+MD5Sum: 056265c9f52a470f5adf11ca95f45088
+SHA1: faaa71864e12d3a11724c6d0cf0730c1ace0f582
+SHA256: 79e4561e451aa5f54c23eb4c28822b19747bc0c18f9f22f251727b977955b5dd
+SHA512: 44a8ae6d8fe79bf66a1d409f0095e3ee15da1f5d1042e5438e9407bd1137d879ce603b23ab5473dd1b2c49b7be822d627e0d21cc160564cab09db443287388d1
 
 Package: ngrok-sr
 Version: 3.3.4-SR
@@ -50,9 +50,9 @@ Installed-Size: 3860
 Homepage: 
 Description: Accurately Locate Smartphones using Social Engineering
 Filename: dists/metaverse/contrib/binary-i386/seeker_1.3.1-SR_i386.deb
-Size: 1192504
-MD5Sum: 8acf5e683caa0d3ec084bf1b90ebaa8c
-SHA1: ddd904fd4e4b91531018871eb8fbbbbccc73cf13
-SHA256: af1366e8def446c9f1a687553d6b492e2db781bda3b8257b217e17a134b27e3c
-SHA512: 9d9a0b27e562e69e0d9e10b9e57deebeffcc7ce60e580926992af8321b12e3d84eb6252acfd2498d1e41b174c7abed4b7fab51a628a2856949b64a38135eefc2
+Size: 1192528
+MD5Sum: 3bd0fc61c5ba7eeec31ac11831f5cfa4
+SHA1: aced1e06e361c5b0e7c665fc6976d99d4fc8dfd1
+SHA256: 5251a650391e7185c61341e99e87e265925900ec59b48abe6390ec0fb719af14
+SHA512: bfeac39a14f118a828f462013ec3710a5ccab7d1026ce53fdb4ba9f39a0fe3fea048742727ccc0dbb6ad31e295945845ac7b61f5591d0d8d49efd981b93c5da3
 

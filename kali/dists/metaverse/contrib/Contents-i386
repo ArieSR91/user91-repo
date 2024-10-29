@@ -15,7 +15,7 @@ opt/IPGeoLocation/core/__pycache__/Menu.cpython-312.pyc                         
 opt/IPGeoLocation/core/__pycache__/MyExceptions.cpython-312.pyc                  ipgeolocation
 opt/IPGeoLocation/core/__pycache__/Utils.cpython-312.pyc                         ipgeolocation
 opt/IPGeoLocation/core/__pycache__/__init__.cpython-312.pyc                      ipgeolocation
-opt/IPGeoLocation/ipgeolocation.py                                               ipgeolocation
+opt/IPGeoLocation/ipgeolocation                                                  ipgeolocation
 opt/IPGeoLocation/logs/.gitignore                                                ipgeolocation
 opt/IPGeoLocation/logs/20241025.log                                              ipgeolocation
 usr/local/bin/ipgeolocation                                                      ipgeolocation
@@ -33,7 +33,7 @@ opt/seeker/metadata.json                                                        
 opt/seeker/php/error.php                                                         seeker
 opt/seeker/php/info.php                                                          seeker
 opt/seeker/php/result.php                                                        seeker
-opt/seeker/seeker.py                                                             seeker
+opt/seeker/seeker                                                                seeker
 opt/seeker/telegram_api.py                                                       seeker
 opt/seeker/template/captcha/anchor.html                                          seeker
 opt/seeker/template/captcha/css/styles__ltr.css                                  seeker

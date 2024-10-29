@@ -21,11 +21,11 @@ Installed-Size: 192
 Homepage: 
 Description: Trace location from ip
 Filename: dists/metaverse/contrib/binary-arm64/ipgeolocation_2.0.4-SR_arm64.deb
-Size: 19968
-MD5Sum: 6f545f0ce7f699dee60d8238724f8d72
-SHA1: 6499fd2459ffb75de0c23c908f1d8ffa0b6c7884
-SHA256: 0d39b4d38a134cc30a7e35ee5b52f5d47943f23f9079c54be2474caca89d2fb5
-SHA512: 15b668f525780611c3ab4370f883d456099fa8c4b1b72da0ffb720ce2477eb313b93551b8133bba6c025d4cf3fba67f1dc86bc569efe4075ea244f27a3aa19d1
+Size: 19956
+MD5Sum: 58642fcf7e6398b95039984a3d5bb6fe
+SHA1: 6315c657f913b5b1e4b15d67adbb892ba2f80162
+SHA256: 6e522b708b745aee27a5fa56b12377d03e06c2fce3d122e10ef950df56a799fe
+SHA512: 7ed9710c888091f67c306174dc08b87db10fa287206673167cebe4281b40a5a0ced51f3e2d9e0f4cbe51eecad8f1e1842e5234dda865a08f0f5cfaab6cef660c
 
 Package: ngrok-sr
 Version: 3.3.4-SR
@@ -50,9 +50,9 @@ Installed-Size: 3860
 Homepage: 
 Description: Accurately Locate Smartphones using Social Engineering
 Filename: dists/metaverse/contrib/binary-arm64/seeker_1.3.1-SR_arm64.deb
-Size: 1192260
-MD5Sum: 074b94fefdfda6f90df3ec0bf46ab53d
-SHA1: 1d5c1fc6788a588c92a8b62a316a7a2e03eb9d95
-SHA256: 04cf54cfbd93622f3d9c16b3a84f014abe69b3093613e31d4294534218605190
-SHA512: 126903897cecb48349d422a3223ca5dcb100ceee5323935c931a2723817ea7fa2922497aae87d7912bc48eab3ea21612daf6fbae047175545aa3180bd4e43e8c
+Size: 1192092
+MD5Sum: c27f2890489f12acc68301ca114c512f
+SHA1: 37c67c8030a10e914de15552969bb1dddaa2b2b0
+SHA256: c2799e3676cea3189fecb2b5876e03625869e461cc5d49fba1bd6e0a71c24f00
+SHA512: 8be8b40e39b73504e2f450f4b5319ccbf31b4e2cd9fa19ac2fc9d83bf1c6259da70e6b9d1ab83ca3407b67a06b10db4e7e45f0c0bc98c3d226300d3cf2a127ff
 
