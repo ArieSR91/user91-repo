@@ -13,7 +13,8 @@ if [ ! -d $HOME/Project ]; then
     fi
     ## Debian Based
     if [ ! -d $HOME/Project/debian-deb ]; then
-        mkdir -p $HOME/Project/debian-deb
+        #mkdir -p $HOME/Project/debian-deb
+        ln -s $HOME/Public/user91-repo/kali/pool $HOME/Project/debian-deb
     else
         if [ ! -d $HOME/Project/debian-deb/main ]; then
             mkdir -p $HOME/Project/debian-deb/main
@@ -34,6 +35,9 @@ function generate_repo() {
 }
 
 function push_repo() {
+    cp distro/dist/codename/componen/index.html kali/dists/metaverse/main
+    cp distro/dist/codename/componen/index.html kali/dists/metaverse/contrib
+    cp distro/dist/codename/componen/index.html kali/dists/metaverse/non-free
     git-repo push
 }
 
