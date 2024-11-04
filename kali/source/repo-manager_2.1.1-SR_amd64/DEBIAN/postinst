@@ -1,0 +1,3 @@
+#!/bin/bash
+chmod 775 /usr/local/bin/repo-manager
+chmod 775 /usr/local/bin/git-repo

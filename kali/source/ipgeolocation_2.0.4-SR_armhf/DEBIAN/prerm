@@ -1,0 +1,7 @@
+#!/bin/bash
+
+chmod 777 /usr/local/bin/ipgeolocation
+chmod 777 /opt/IPGeoLocation/ipgeolocation
+if [ -d /opt/IPGeoLocation ]
+    rm -rf /opt/IPGeoLocation
+fi

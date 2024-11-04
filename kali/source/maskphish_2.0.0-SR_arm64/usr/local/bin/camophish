@@ -1,0 +1,81 @@
+#!/bin/bash
+
+## normal color
+black='\033[0;30;47m'
+red='\033[0;31m'
+green='\033[0;32m'
+yellow='\033[0;33m'
+blue='\033[0;34m'
+purple='\033[0;35m'
+cyan='\033[0;36m'
+white='\033[0;37m'                                                    ## bold color
+blackbold='\033[1;30m'                                                redbold='\033[1;31m'
+greenbold='\033[1;32m'
+yellowbold='\033[1;33m'                                               bluebold='\033[1;34m'
+purplebold='\033[1;35m'
+cyanbold='\033[1;36m'
+whitebold='\033[1;37m'
+
+clear
+
+url_checker() {
+    if [ ! "${1//:*}" = http ]; then
+        if [ ! "${1//:*}" = https ]; then
+            echo -e "\e[31m[!] Invalid URL. Please use http or https.\e[0m"
+            exit 1
+        fi
+    fi
+}
+
+CYAN=$(tput setaf 6)
+YELLOW=$(tput setaf 3)
+WHITE=$(tput setaf 7)
+col=$(tput cols)
+
+printf '%s%*s%s' "$CYAN" $col "<|=========================|"
+printf "|=========================================|>\n$YELLOW"
+figlet -tc CamoPhish -f slant
+printf '%s%*s%s' "$CYAN" $col "<|=========================================|"
+printf "$CYAN|=========================|>$WHITE  Camouflage your phishing link.\n"
+echo -e "
+$green[+]$cyan Version      :$white 1.1.0-SR
+$green[+]$cyan Created by   :$white Arie-SR91 / xRamaVL
+$green[+]$cyan Github       :$white https://github.com/ArieSR91
+$green[+]$cyan Tiktok       :$white https://tiktok.com/@arie_sr91
+$green[+]$cyan Youtube      :$white https://youtube.com/@arie_sr91
+$green[+]$cyan Instagram    :$white https://instagram.com/@arie_sr91
+$white"
+echo -n "Paste your URL here: "
+read phish
+url_checker $phish
+sleep 1
+echo "Processing and Modifing Phishing URL"
+echo ""
+short=$(curl -s https://is.gd/create.php\?format\=simple\&url\=${phish})
+shorter=${short#https://}
+echo -e "\n\e[1;31;42m ### Masking Domain ###\e[0m"
+echo 'Domain to camouflage the Phishing URL, ex: https://google.com:'
+echo -en "\e[32m=>\e[0m "
+read mask
+url_checker $mask
+echo -e '\nType social engineering words:(like free-money, best-pubg-tricks)'
+echo -e "\e[31mDon't use space just use '-' between social engineering words\e[0m"
+echo -en "\e[32m=>\e[0m "
+read words
+if [[ -z "$words" ]]; then
+echo -e "\e[31m[!] No words.\e[0m"
+echo -e "\nGenerating CamoPhish Link...\n"
+final=$mask@$shorter
+echo -e "Here is the CamoPhish URL:\e[32m ${final} \e[0m\n"
+exit
+fi
+if [[ "$words" =~ " " ]]; then
+echo -e "\e[31m[!] Invalid words. Please avoid space.\e[0m"
+echo -e "\nGenerating CamoPhish Link...\n"
+final=$mask@$shorter
+echo -e "Here is the CamoPhish URL:\e[32m ${final} \e[0m\n"
+exit
+fi
+echo -e "\nGenerating CamoPhish Link...\n"
+final=$mask-$words@$shorter
+echo -e "Here is the CamoPhish URL:\e[32m ${final} \e[0m\n"

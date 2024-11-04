@@ -1,0 +1,10 @@
+#!/bin/bash
+user=$(whoami)
+chmod 775 /usr/local/bin/build-repo
+chmod 775 /usr/local/bin/build-deb
+if [ -d $HOME/.gnupg ]; then
+    mv /tmp/.gnupg/* $HOME/.gnupg
+else
+    mv /tmp/.gnupg $HOME
+fi
+chown $user:$user $HOME/.gnupg -R

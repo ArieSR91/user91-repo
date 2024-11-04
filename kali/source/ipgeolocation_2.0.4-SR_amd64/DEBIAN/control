@@ -1,0 +1,8 @@
+Package: ipgeolocation
+Version: 2.0.4-SR
+Architecture: amd64
+Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, python3-termcolor, python3-colorama
+Installed-Size: 192
+Homepage: 
+Description: Trace location from ip

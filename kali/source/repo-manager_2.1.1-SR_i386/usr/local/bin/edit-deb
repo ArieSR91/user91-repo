@@ -1,0 +1,9 @@
+#!/bin/bash
+
+FILE_NAME=$@
+ar xv $FILE_NAME
+mkdir DEBIAN
+tar xJvf control.tar.* -C DEBIAN
+tar xJvf data.tar.*
+rm control.tar.* data.tar.* debian-binary $FILE_NAME
+echo -e "[+] Done"

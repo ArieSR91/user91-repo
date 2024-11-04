@@ -1,0 +1,4 @@
+#!/bin/bash
+
+chmod 775 /usr/local/bin/ipgeolocation
+chmod 775 /opt/IPGeoLocation/ipgeolocation

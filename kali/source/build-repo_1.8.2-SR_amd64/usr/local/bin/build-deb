@@ -1,0 +1,144 @@
+#!/bin/bash
+
+function build_deb() {
+    if [ ! -d ~/Project ]; then
+        echo -e "Project folder not found. Move your source folder to ~/Project/(ostype) folder\nor type <build-deb source> to create default package"
+        exit
+    else
+        read -p "OS Type: " linuxtype;
+        files=$(ls -1 $HOME/Project/$linuxtype)
+        select choice in ${files[@]}; do
+            break
+        done
+        echo "${choice}"
+        if [ ! -d "$HOME/Project/${linuxtype}/${choice}/DEBIAN" ]; then
+            echo "Lets start to make your own project"
+            echo "Run: build-deb source"
+        else
+            read -p "Will be put in the components folder: " compfold;
+            debfold="$HOME/Project/${linuxtype}-deb"
+            chmod 755 $HOME/Project/${linuxtype}/${choice}/DEBIAN -R
+            dpkg-deb --build "$HOME/Project/${linuxtype}/${choice}"
+            mv $HOME/Project/${linuxtype}/${choice}.deb ${debfold}/${compfold}/
+        fi
+    fi
+}
+
+function build_source() {
+    TERMUXSHEBANG="#!/data/data/com.termux/files/usr/bin/bash"
+    DEBIANSHEBANG="#!/bin/bash"
+    if [ -d ~/Project ]; then
+        read -p "OS Type: " linuxtype;
+        read -p "Package Name: " pkgname;
+        read -p "Version: " versiondeb;
+        read -p "Architecture: " archtype;
+        read -p "Depends: " depend;
+        read -p "Installed Size: " installsize;
+        read -p "Descriptions: " description;
+        read -p "Username: " username;
+        read -p "Email: " useremail;
+        read -p "Home Page: " homepage;
+        if [ ! -d $HOME/Project/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/DEBIAN ]; then
+            mkdir -p $HOME/Project/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/DEBIAN
+        else
+            chmod 755 $HOME/Project/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/DEBIAN -R
+            echo -e "Run: nano ~/Project/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/usr/local/bin/(your binary)\nOr move your binary this folder"
+            exit
+        fi
+        if [ "$linuxtype" == "termux" ]; then
+            mkdir -p $HOME/Project/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/data/data/com.termux/files/usr/bin
+            echo "${TERMUXSHEBANG}" >> $HOME/Project/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/DEBIAN/postinst
+            echo "${TERMUXSHEBANG}" >> $HOME/Project/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/DEBIAN/prerm
+            echo -e "Package: ${pkgname}\nVersion: ${versiondeb}\nArchitecture: ${archtype}\nMaintainer: ${username} <${useremail}>\nDepends: ${depend}\nInstalled-Size: ${installsize}\nHomepage: ${homepage}\nDescription: ${description}" >> ~/Project/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/DEBIAN/control
+        else
+            mkdir -p $HOME/Project/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/usr/local/bin
+            echo "${DEBIANSHEBANG}" >> $HOME/Project/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/DEBIAN/postinst
+            echo "${DEBIANSHEBANG}" >> $HOME/Project/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/DEBIAN/prerm
+            echo -e "Package: ${pkgname}\nVersion: ${versiondeb}\nArchitecture: ${archtype}\nMaintainer: ${username} <${useremail}>\nDepends: ${depend}\nInstalled-Size: ${installsize}\nHomepage: ${homepage}\nDescription: ${description}" >> ~/Project/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/DEBIAN/control
+        fi
+        chmod 755 $HOME/Project/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/DEBIAN -R
+        echo -e "Run: nano ~/Project/${linuxtype}/${pkgname}_${versiondeb}_${archtype}/usr/local/bin/(your binary)\nOr move binary to this folder"
+    else
+        exit
+    fi
+}
+
+function update_source() {
+    read -p "OS Type: " linuxtype;
+    files=$(ls -1 $HOME/Project/$linuxtype)
+    select choice in ${files[@]}; do
+        break
+    done
+    read -p "New Name: " pkgname;
+    read -p "Old Version: " oldversion;
+    read -p "New Version: " newversion;
+    read -p "Old Architecture: " oldarch;
+    read -p "New Architecture: " archtype;
+    if [ "$newversion" == "" ]; then
+        newversion=$oldversion
+    fi
+    if [ "$archtype" == "" ]; then
+        archtype=$oldarch
+    fi
+    read -p "Rename source folder with new architecture? [Y/n]" rename;
+    if [ "$rename" == "Y" ] || [ "$rename" == "y" ] || [ "$rename" == "" ]; then
+        mv $HOME/Project/${linuxtype}/${choice} $HOME/Project/${linuxtype}/${pkgname}_${newversion}_${archtype}
+    else
+        cp -r $HOME/Project/${linuxtype}/${choice} $HOME/Project/${linuxtype}/${pkgname}_${newversion}_${archtype}
+    fi
+    sed -i "s/${oldversion}/${newversion}/" $HOME/Project/${linuxtype}/${pkgname}_${newversion}_${archtype}/DEBIAN/control
+    if [ "$linuxtype" == "termux" ]; then
+        if grep -q "${oldversion}" $HOME/Project/${linuxtype}/${pkgname}_${newversion}_${archtype}/data/data/com.termux/files/usr/bin/*; then
+            sed -i "s/${oldversion}/${newversion}/" $HOME/Project/${linuxtype}/${pkgname}_${newversion}_${archtype}/data/data/com.termux/files/usr/bin/*
+        fi
+    else
+        if grep -q "${oldversion}" $HOME/Project/${linuxtype}/${pkgname}_${newversion}_${archtype}//usr/local/bin/*; then
+            sed -i "s/${oldversion}/${newversion}/" $HOME/Project/${linuxtype}/${pkgname}_${newversion}_${archtype}/usr/local/bin/*
+        fi
+    fi
+    if grep -q "${oldarch}" $HOME/Project/${linuxtype}/${pkgname}_${newversion}_${archtype}/DEBIAN/control; then
+        sed -i "s/${oldarch}/${archtype}/" $HOME/Project/${linuxtype}/${pkgname}_${newversion}_${archtype}/DEBIAN/control
+    fi
+    chmod 755 $HOME/Project/${linuxtype}/${pkgname}_${newversion}_${archtype}/DEBIAN -R
+}
+
+function show_help() {
+    echo -e "Build Deb
+
+Usage: build-deb [command]
+                 [options]
+Command:
+        source         : Create packages
+        start          : Build deb from packages
+
+Options:
+        -h, --help     : Show this help
+        -v, --version  : Show the Version
+
+try: [git-repo -h] to build github repository
+
+for more info visit: https://github.com/ArieSR91
+"
+}
+
+function show_version() {
+    echo "1.8.2-SR"
+}
+
+case $1 in
+    start)
+        build_deb
+        ;;
+    source)
+        build_source
+        ;;
+    update)
+        update_source
+        ;;
+    -v | --version)
+        show_version
+        ;;
+    -h | --help | *)
+        show_help
+        ;;
+esac

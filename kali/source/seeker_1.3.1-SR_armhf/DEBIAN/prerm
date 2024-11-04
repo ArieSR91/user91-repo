@@ -1,0 +1,8 @@
+#!/bin/bash
+
+chmod 777 /opt/seeker/seeker
+chmod 777 /usr/local/bin/seeker
+
+if [ -d /opt/seeker ]
+    rm -rf /opt/seeker
+fi
