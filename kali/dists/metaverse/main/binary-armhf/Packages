@@ -6,11 +6,11 @@ Depends: python3, gnupg, git, sudo
 Installed-Size: 68
 Description: Build git repository with deb files
 Filename: dists/metaverse/main/binary-armhf/build-repo_1.8.3-SR_armhf.deb
-Size: 4992
-MD5Sum: 4787f54640474b1062a6a05ded5eaaa7
-SHA1: 87d5cad6965c6d3fca23e34c3d6c854b3914bbfb
-SHA256: 089ea67373209136daa2712675cf354b084d102ace329f78f4f70ddd78f08fb4
-SHA512: 88c1a333dfc8e724683f11672a52c55e2172e16708039d7f4f76284bec332027102e593ea7a3a6decf43f8ded36ff642f18e550ed4a067bee2526216cb252ec5
+Size: 5004
+MD5Sum: 77564900e67c99070afba6390bbde428
+SHA1: be440dd7e1b4ee6c0a3169b959db64a4ebec2794
+SHA256: 763e41b178cdaeddc7e15e88c2e51defc8d258c2dc412b3391f4a4363f855326
+SHA512: d0c303a56fe95edd34beaf013efd9d08eba56d693ef31d0a3f6f7f3092f0d4c321fb42189ed06995e2b62441964c4a363398fcbe8844075bf7eadfcdcf67b872
 
 Package: create-bin
 Version: 1.0.0-SR
@@ -71,6 +71,21 @@ MD5Sum: 45c25aec10e419fdacf3f5caa97b6a2d
 SHA1: 64f1709ce70e4b5684722bf81a95fa70407bcecb
 SHA256: c39bf0db5433054a7c539cd61252010192991c7b1e188de576d41a4fe5c6bc46
 SHA512: ed407ba9e37f255bb6f39cfd5ef98c8d64d97e84c302d711f8afcb401eee0170d1cbd7ea622d30fcc1c96b86fa3dff7caa9e0af722a5b4b67d9613aa96fba5aa
+
+Package: srcrypt
+Version: 1.0.0-SR
+Architecture: armhf
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 84
+Homepage: https://github.com/ArieSR91
+Description: Encrypt and Descrypt your bscript
+Filename: dists/metaverse/main/binary-armhf/srcrypt_1.0.0-SR_armhf.deb
+Size: 5732
+MD5Sum: 20da23f5fc6f9d98d583778c1c3d79cf
+SHA1: 42cfbc298278752bc31bafcc13f5ed73f586eb8b
+SHA256: f8d69d89ce29bf80ae8b95cf0b14738043487cc8ccf1963663959815792e2952
+SHA512: 628cfb097d601a87247539a034c7c764680c6f206f4125e6c58b5b20042c9fba115269f03c863e733b3c0f50710e13af105f929082c2e02ac2759fece8d582bd
 
 Package: wine-i386
 Version: 5.13-SR

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+chmod 777 /usr/local/bin/encrypt-sr
+chmod 777 /usr/local/bin/decrypt-sr

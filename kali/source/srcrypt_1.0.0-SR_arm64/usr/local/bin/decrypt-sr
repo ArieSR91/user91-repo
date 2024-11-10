@@ -1,0 +1,11 @@
+#!/bin/bash
+
+BLUE=$(tput setaf 4)
+STAND=$(tput sgr 0)
+pwd=$(pwd)
+
+echo -e "$BLUE Decrypt your BASH shell/script$STAND\n"
+read -p " input file  : " decrypt;
+read -p " output file : " result;
+cat $decrypt | tr ';' '\n' | grep 'RzE=' | cut -d '"' -f2 | tr ' ' '\n' | rev | base64 -d >> $result
+echo -e "\n Done"

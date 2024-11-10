@@ -8,6 +8,8 @@ usr/local/bin/iptracker                                                         
 usr/local/bin/edit-deb                                                           repo-manager
 usr/local/bin/git-repo                                                           repo-manager
 usr/local/bin/repo-manager                                                       repo-manager
+usr/local/bin/decrypt-sr                                                         srcrypt
+usr/local/bin/encrypt-sr                                                         srcrypt
 opt/wine-i386/bin/function_grep.pl                                               wine-i386
 opt/wine-i386/bin/msidb                                                          wine-i386
 opt/wine-i386/bin/msiexec                                                        wine-i386

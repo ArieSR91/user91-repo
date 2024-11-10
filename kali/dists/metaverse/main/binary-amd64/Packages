@@ -6,11 +6,11 @@ Depends: python3, gnupg, git, sudo
 Installed-Size: 68
 Description: Build git repository with deb files
 Filename: dists/metaverse/main/binary-amd64/build-repo_1.8.3-SR_amd64.deb
-Size: 4996
-MD5Sum: 0ed9415a28afe587fe8132d326a5edc0
-SHA1: ab2470a5369cf6095070d13c9dbfcd0984506367
-SHA256: 63d5bb81876d6d26d60a9564ca34acfaa21ee87269f2006b37d52b96bcc8ae85
-SHA512: 967a5c62f1ff27c7387197f2c3a73f04e3a9f7e39ca4fc50433ed3fc6693581d9667072ce311b1a2d561648d32588c2ca75eaa6e09d684b9e6a8560dc2716532
+Size: 5004
+MD5Sum: 5a8a4c85afd0fca3d871ed3b83f6263a
+SHA1: cd12252aef52c848cdca6c800a5de8c3eb967b47
+SHA256: 98d35cd858c8ecac9a1dbb29016f6134d07b6fe12b4e61ac9cba1e2bb93761fb
+SHA512: 5db8abe4e4ae588fe6cec41ae5f657fe93f5d0a1436f81273e6af3f85b0d645d146c0c7c61bcf5040cba530b0293d3e5c92fc9299b6b9c00cca90cfb11ef3e02
 
 Package: create-bin
 Version: 1.0.0-SR
@@ -56,4 +56,19 @@ MD5Sum: b0473b617ffd0b7a43f71ef280956c61
 SHA1: 3594092aebf25381dbed2fa60e8ffb0ae6340439
 SHA256: 34549e7ab6b54ecf08293263d2bd8786db489f1a8899285fc72fdcb3afbf67fa
 SHA512: d6cc6e43ef96595528a6e74795a51dcd69e883b74cdeda9676e5ff4e21a351166f5293e84c8a92899dffb8ab20b18f56759ab83ac13914d38b7a228390711c3c
+
+Package: srcrypt
+Version: 1.0.0-SR
+Architecture: amd64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 84
+Homepage: https://github.com/ArieSR91
+Description: Encrypt and Descrypt your bscript
+Filename: dists/metaverse/main/binary-amd64/srcrypt_1.0.0-SR_amd64.deb
+Size: 5708
+MD5Sum: 3c0f09c7d45351d4deeaf018acc4f464
+SHA1: 545894b3f4d27af23330d0592055eb9f02cdd4b9
+SHA256: f27bd097cf940f19e7730485b9aa7e74f55c78b61bec93128b1d44e4ed055877
+SHA512: 067b48b528512239eb9eff37a5ff092bea1c7ee67f931f12437bdd84459e35c1302bcfbd34718cfcea344308dd78afa9fac141cd7088b30712db62290fe94cc4
 

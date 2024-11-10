@@ -8,3 +8,5 @@ usr/local/bin/iptracker                                                         
 usr/local/bin/edit-deb                                                           repo-manager
 usr/local/bin/git-repo                                                           repo-manager
 usr/local/bin/repo-manager                                                       repo-manager
+usr/local/bin/decrypt-sr                                                         srcrypt
+usr/local/bin/encrypt-sr                                                         srcrypt

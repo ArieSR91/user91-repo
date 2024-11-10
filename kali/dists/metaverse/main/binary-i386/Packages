@@ -7,10 +7,10 @@ Installed-Size: 68
 Description: Build git repository with deb files
 Filename: dists/metaverse/main/binary-i386/build-repo_1.8.3-SR_i386.deb
 Size: 5000
-MD5Sum: 865d4d2cfdf05d8f6c0e9defcee450ff
-SHA1: 2aa811385bccdfb9bc1c31bda9ee576daf3a01ea
-SHA256: 8dabeb39f2098b90ad0805d92ef6f86d8d0d29bd5cf9d32ca7177acce4e1da7f
-SHA512: ce271a5a65e8db3f577ae3d0a4c71626a4e7d720c2ec20413c16fc792b2de24e9216d495c7888671bf23e16ca1f4bf7b4c238738c2bc23964b6b968152ef92ac
+MD5Sum: 282a7d8830bede252d2be06dd8f0edd9
+SHA1: cf57fe2eed0784fe522867a04608dbc9e549977b
+SHA256: 23852c3ae596d2ccf4f84949b9fc4a14ee8643689f01b2ef3c7a7d0f42ce84d4
+SHA512: 07e2c539f1118150aa6b3cd35cf35240cde6186b08a593d53c06ed51a6666afdedb9314c52f65d1d4384217195a3d2a00126094d74ad596e16af717931088815
 
 Package: create-bin
 Version: 1.0.0-SR
@@ -56,4 +56,19 @@ MD5Sum: 9f7866aeee1d423c6446fb82b65148b1
 SHA1: cd4e7ad0d953ea2b80ddd8b384b8dae094ba9db4
 SHA256: 3a180fe6b06b4452c3a52787cda71a2d29cacf9d0960b50810aed0af0453eba0
 SHA512: 6594ea7e0da9c65083d9f3f619d73adf3c234ffb4b4f1f7d0a070095649af5a98dcd0b0d8d2dfc2c372450d566ca2f0abe6d8dc873697df1c6466722e4e64a1b
+
+Package: srcrypt
+Version: 1.0.0-SR
+Architecture: i386
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 84
+Homepage: https://github.com/ArieSR91
+Description: Encrypt and Descrypt your bscript
+Filename: dists/metaverse/main/binary-i386/srcrypt_1.0.0-SR_i386.deb
+Size: 5712
+MD5Sum: 3feecb6aaf9a64ef0c1fdf9f7d604bfe
+SHA1: 014cd285f2a3db247447c3e4b0da1a925a72558d
+SHA256: 85cdd8b74aba657ddbe2ba22de30700498c2dfe52281c3bcba0a2f4e10578ddc
+SHA512: 72c71262b206a03aeec7b92253df7de2448124562f8ba11d2976906f92d433127c8ad7259723c0455f3fa0b8f8b18ed825317409bd3f4242a0e60eebeff37f98
 
