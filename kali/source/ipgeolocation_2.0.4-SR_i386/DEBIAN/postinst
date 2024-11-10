@@ -2,3 +2,5 @@
 
 chmod 775 /usr/local/bin/ipgeolocation
 chmod 775 /opt/IPGeoLocation/ipgeolocation
+chmod 775 /opt/IPGeoLocation/core
+chmod 775 /opt/IPGeoLocation/logs

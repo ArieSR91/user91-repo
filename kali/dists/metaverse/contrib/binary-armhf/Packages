@@ -21,11 +21,11 @@ Installed-Size: 192
 Homepage: 
 Description: Trace location from ip
 Filename: dists/metaverse/contrib/binary-armhf/ipgeolocation_2.0.4-SR_armhf.deb
-Size: 19904
-MD5Sum: 3b1d19f5ce51795220cc62cdf121dfa5
-SHA1: 2b0f72f03a618b62588201f852de15694a4ceef5
-SHA256: c14a7a2e500500f1afbe593a0a7525fdb1e50b00f8edbaa5019d0200c45b98e4
-SHA512: d682c05335a40755271f1c84d67aeaf00b0444afb7b42b6a0cff978c55a9395e6fb23b79c0f917dc5c85f7190ae5e5784ad206b4776cfde57076f0a10b110ad0
+Size: 19840
+MD5Sum: 4abb66f41a16fd949ffb62d6f0f4c2d7
+SHA1: 624d7bab42de0b010a56a04721a6a3672674f4c7
+SHA256: db13070997b7e42fc511c9c10be384e37eeec0b90f89286dfadfa79fdd8889bf
+SHA512: 6834f16e428e2181a6d5ef3b2fccbacda2d58ae7997660efc10d8f55424ce4024f7c7398d642c380f3c857dd7adb56345c3d794b10285c244ac4818d61cd326c
 
 Package: ngrok-sr
 Version: 3.3.4-SR

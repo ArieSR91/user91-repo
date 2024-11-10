@@ -17,7 +17,6 @@ opt/IPGeoLocation/core/__pycache__/Utils.cpython-312.pyc                        
 opt/IPGeoLocation/core/__pycache__/__init__.cpython-312.pyc                      ipgeolocation
 opt/IPGeoLocation/ipgeolocation                                                  ipgeolocation
 opt/IPGeoLocation/logs/.gitignore                                                ipgeolocation
-opt/IPGeoLocation/logs/20241025.log                                              ipgeolocation
 usr/local/bin/ipgeolocation                                                      ipgeolocation
 usr/local/bin/ngrok                                                              ngrok-sr
 opt/seeker/Dockerfile                                                            seeker
