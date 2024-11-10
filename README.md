@@ -17,6 +17,6 @@ mkdir $PREFIX/etc/apt/sources.list.d/; echo "deb https://ariesr91.github.io/user
 
 Graphical Install:
 ```
-sudo wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh -O /usr/local/bin/user91-repo; user91-repo menu
+sudo wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh -O /usr/local/bin/user91-repo;sudo chmod 775 /usr/local/bin/user91-repo; user91-repo menu
 ```
 [Visit](https://ariesr91.github.io/user91-repo/)
