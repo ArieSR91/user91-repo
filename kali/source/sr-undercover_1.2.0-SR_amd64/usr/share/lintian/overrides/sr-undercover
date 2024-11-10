@@ -1,0 +1,5 @@
+# Upstream theme sucks a bit
+icon-size-and-directory-name-mismatch * [usr/share/icons/Windows-10-Icons/*]
+raster-image-in-scalable-directory [usr/share/icons/Windows-10-Icons/scalable/mimetypes/deb.png]
+# No manual page yet
+no-manual-page [usr/bin/sr-undercover]

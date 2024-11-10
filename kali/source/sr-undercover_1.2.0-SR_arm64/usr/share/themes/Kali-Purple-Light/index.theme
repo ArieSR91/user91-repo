@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Kali-Purple-Light
+Comment=The Kali Purple Default Theme
+Encoding=UTF-8
+
+
+[X-GNOME-Metatheme]
+GtkTheme=Kali-Purple-Light
+MetacityTheme=Kali-Purple-Light
+IconTheme=Flat-Remix-Purple-Light
+CursorTheme=Adwaita
+ButtonLayout=:minimize,maximize,close

@@ -1,16 +1,16 @@
 Package: build-repo
-Version: 1.8.2-SR
+Version: 1.8.3-SR
 Architecture: i386
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3.12, gnupg, git, sudo
+Depends: python3, gnupg, git, sudo
 Installed-Size: 68
 Description: Build git repository with deb files
-Filename: dists/metaverse/main/binary-i386/build-repo_1.8.2-SR_i386.deb
-Size: 5016
-MD5Sum: b4982ccb9a81d1b41a6900ea94359ff3
-SHA1: 8a338e6177fe35ca3eff77fac10ec3feebb9e02f
-SHA256: 8cfba657ec175ca3bac96a2eca3f6ddbd1cc049b74a78267e940140497d33be7
-SHA512: ecb54137f3713fc20526469df516bdab8847c5e82ad73c753c5fd1d5066040e9bef699e046c566b8dbc35437d4be7843b88671b8d8b9c49be9e412d875fed232
+Filename: dists/metaverse/main/binary-i386/build-repo_1.8.3-SR_i386.deb
+Size: 5000
+MD5Sum: 865d4d2cfdf05d8f6c0e9defcee450ff
+SHA1: 2aa811385bccdfb9bc1c31bda9ee576daf3a01ea
+SHA256: 8dabeb39f2098b90ad0805d92ef6f86d8d0d29bd5cf9d32ca7177acce4e1da7f
+SHA512: ce271a5a65e8db3f577ae3d0a4c71626a4e7d720c2ec20413c16fc792b2de24e9216d495c7888671bf23e16ca1f4bf7b4c238738c2bc23964b6b968152ef92ac
 
 Package: create-bin
 Version: 1.0.0-SR
@@ -43,17 +43,17 @@ SHA256: e43d473c0b27bc586d7ea4dbc5fe2a5fce62a6b5aeea5a7285edad1bd1249aaf
 SHA512: 7c48391ba79999e43184f6f4e456030ff7d5fc765cae6bb6ea197a1ba0bc57889f3210606b9f7cfea520eb69da0194a0d631de01591c976a09f00132bf5358c9
 
 Package: repo-manager
-Version: 2.1.1-SR
+Version: 2.1.2-SR
 Architecture: i386
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3, gnupg, sudo, git, build-repo, binutils, tar, xz-utils
 Installed-Size: 48
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
-Filename: dists/metaverse/main/binary-i386/repo-manager_2.1.1-SR_i386.deb
-Size: 2816
-MD5Sum: a11d7de4af4a13569590bfd0a1338103
-SHA1: 51f4d7ad6dd5b99338f1283b3743cb23b00ecbf9
-SHA256: d23ce679544432d677c728ebcdb446172fef1214e065ea5a11867c989106af08
-SHA512: 114f72994fb750d93c6d9b327b10d7129d6ee845fbdabc3f504cf28eb5ce144e187a328aaff37b52dbe2804cd68459b7566b934fb1a6e14ec85ee919fe01a39b
+Filename: dists/metaverse/main/binary-i386/repo-manager_2.1.2-SR_i386.deb
+Size: 2836
+MD5Sum: 9f7866aeee1d423c6446fb82b65148b1
+SHA1: cd4e7ad0d953ea2b80ddd8b384b8dae094ba9db4
+SHA256: 3a180fe6b06b4452c3a52787cda71a2d29cacf9d0960b50810aed0af0453eba0
+SHA512: 6594ea7e0da9c65083d9f3f619d73adf3c234ffb4b4f1f7d0a070095649af5a98dcd0b0d8d2dfc2c372450d566ca2f0abe6d8dc873697df1c6466722e4e64a1b
 

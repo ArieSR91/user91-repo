@@ -56,3 +56,25 @@ SHA1: 4ba0babbc19c28ebfc23129d260d04c550f5d9ae
 SHA256: 17117fda0c781983387cdbee9c2f7efb2e8a525d3be70bc398e5ba70a945e2c8
 SHA512: cb61d1244714559bdd3d2794ee2cc898290be8aa68c99a822b806e3262bdc1a79a034cc07029ed19ae244c0514c85b7e2f373643429cf466dc384f062bc3db37
 
+Package: sr-undercover
+Version: 1.2.0-SR
+Architecture: armhf
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 73396
+Depends: python3, fonts-liberation, gir1.2-glib-2.0, libnotify-bin, mousepad, procps, psmisc, xdotool, xfce4, xfce4-datetime-plugin, xfce4-power-manager-plugins, xfce4-pulseaudio-plugin, xfce4-whiskermenu-plugin
+Suggests: gtk2-engines-murrine
+Section: misc
+Priority: optional
+Description: SR Undercover Mode
+ Run “sr-undercover” and you will instantly switch your Xfce desktop into
+ a Windows 10 desktop that will no longer draw attention to your activities.
+ .
+ Run it a second time to escape the cover mode and get back your original
+ desktop settings.
+Filename: dists/metaverse/contrib/binary-armhf/sr-undercover_1.2.0-SR_armhf.deb
+Size: 7937880
+MD5Sum: ee4af6ce1fd2694d2d6395c97852873f
+SHA1: 40a6e64c52e7054cf5043919a5c41debd3d2c668
+SHA256: aa63fe01b5ca2702f38784008a933b2ba955ab6f5fec8e9b0d1f5cefb793f5dc
+SHA512: 89187889155669ffa707b5a43e89a9d38f22e72cc2cf6171ebea3ac8c0bb6898dc1e8e36aed36802eb9417ccd84bfafcfe39ec4fe576937483b5b6a059de0a7e
+

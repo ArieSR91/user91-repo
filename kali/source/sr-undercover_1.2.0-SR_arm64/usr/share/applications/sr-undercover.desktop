@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=SR Undercover Mode
+Comment=Toggle SR Undercover Mode
+Exec=sr-undercover
+Terminal=false
+Type=Application
+Icon=sr-undercover
+OnlyShowIn=XFCE;
+Keywords=windows;theme;desktop;

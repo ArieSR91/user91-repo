@@ -1,16 +1,16 @@
 Package: build-repo
-Version: 1.8.2-SR
+Version: 1.8.3-SR
 Architecture: amd64
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3.12, gnupg, git, sudo
+Depends: python3, gnupg, git, sudo
 Installed-Size: 68
 Description: Build git repository with deb files
-Filename: dists/metaverse/main/binary-amd64/build-repo_1.8.2-SR_amd64.deb
-Size: 5020
-MD5Sum: b6f94fa34bb805ccc0441c756f00990f
-SHA1: 6221e33390bfc16a6652f74bead96e12d05fcde8
-SHA256: 24aa2cc1eb36691fc861afe45edcb761396cb5baf37a9bd364c0d96369a5a431
-SHA512: 139e15ca950182a41b79489e978c5884da9a655807df7f782ab8f15a082f7c3e87658d470335c87db1d4cff51fe3a0aa62a292be2c129ef2ddff1cca5a50cfb2
+Filename: dists/metaverse/main/binary-amd64/build-repo_1.8.3-SR_amd64.deb
+Size: 4996
+MD5Sum: 0ed9415a28afe587fe8132d326a5edc0
+SHA1: ab2470a5369cf6095070d13c9dbfcd0984506367
+SHA256: 63d5bb81876d6d26d60a9564ca34acfaa21ee87269f2006b37d52b96bcc8ae85
+SHA512: 967a5c62f1ff27c7387197f2c3a73f04e3a9f7e39ca4fc50433ed3fc6693581d9667072ce311b1a2d561648d32588c2ca75eaa6e09d684b9e6a8560dc2716532
 
 Package: create-bin
 Version: 1.0.0-SR
@@ -43,17 +43,17 @@ SHA256: 297f41e31ef7d4b33d6b36f8bebf9e6cc0af5c40d74dba6347deab880c73071b
 SHA512: 9fa09083b30e83e90270df8276acb2fa06d4ec89d1d42ccb9d542f5b55be6096400d2db47b04db8095b260aab65bf3890e9240e324209eb1d335b547c84a82a4
 
 Package: repo-manager
-Version: 2.1.1-SR
+Version: 2.1.2-SR
 Architecture: amd64
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3, gnupg, sudo, git, build-repo, binutils, tar, xz-utils
 Installed-Size: 48
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
-Filename: dists/metaverse/main/binary-amd64/repo-manager_2.1.1-SR_amd64.deb
-Size: 2816
-MD5Sum: 03f6a0c55cea9a0bbde1faf9446284f4
-SHA1: b7f50b87b222e3abf62762d8decbaea7f96e1641
-SHA256: ede41a4d4c887f2ddfcdcfc49f371482fde08490e10a503dbb2938ea86d48dae
-SHA512: 54f17f2f924eb4eedae8c335e8f872766d36775db8c550a0e33215ee666dd1e8bb17540b68e3d7e94da811670597136f4815310b62a552693491008729813669
+Filename: dists/metaverse/main/binary-amd64/repo-manager_2.1.2-SR_amd64.deb
+Size: 2840
+MD5Sum: b0473b617ffd0b7a43f71ef280956c61
+SHA1: 3594092aebf25381dbed2fa60e8ffb0ae6340439
+SHA256: 34549e7ab6b54ecf08293263d2bd8786db489f1a8899285fc72fdcb3afbf67fa
+SHA512: d6cc6e43ef96595528a6e74795a51dcd69e883b74cdeda9676e5ff4e21a351166f5293e84c8a92899dffb8ab20b18f56759ab83ac13914d38b7a228390711c3c
 

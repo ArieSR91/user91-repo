@@ -1,0 +1,75 @@
+#!/usr/bin/env sh
+
+if [ "$(pgrep -c -u "$(whoami)" xfconfd)" -ne 1 ]; then
+	echo "ERROR: Undercover Mode only works on Xfce desktop" >&2
+	notify-send -i dialog-warning 'Undercover Mode only works on Xfce desktop'
+	exit 1
+fi
+
+LOCAL_DIR=~/.local/share/sr-undercover
+SHARE_DIR=/usr/share/sr-undercover
+CONF_FILES=$SHARE_DIR/config
+XFCE4_DESKTOP_PROFILES=$SHARE_DIR/scripts/xfce4-desktop-profiles.py
+SR_UNDERCOVER_PROFILE=$SHARE_DIR/sr-undercover-profile.tar.bz2
+USER_PROFILE=$LOCAL_DIR/user-profile.tar.bz2
+
+mkdir -p $LOCAL_DIR
+
+# Firefox checks GNOME's color-scheme value and always uses the dark theme
+gsettings set org.gnome.desktop.interface color-scheme 'default'
+
+# Hide existing notifications
+killall xfce4-notifyd 2> /dev/null
+
+enable_undercover() {
+	$XFCE4_DESKTOP_PROFILES save $USER_PROFILE
+	$XFCE4_DESKTOP_PROFILES load $SR_UNDERCOVER_PROFILE
+	if pgrep -u "$(whoami)" -x plank > /dev/null; then
+		killall plank
+		touch $LOCAL_DIR/plank
+	fi
+	gsettings get org.xfce.mousepad.preferences.view color-scheme | grep -q Kali-Dark \
+		&& gsettings set org.xfce.mousepad.preferences.view color-scheme Kali-Light
+	(cd $CONF_FILES && \
+		find . -type f -exec sh -c \
+			'[ -f ~/.config/"$1" ] && mv ~/.config/"$1" ~/.config/"${1}.undercover"' _ {} \;)
+	cp -r $CONF_FILES/* ~/.config/
+	[ -f ~/.face ] && mv ~/.face ~/.face.undercover
+	cp $SHARE_DIR/face.png ~/.face
+	printf ': undercover && export PS1='\''C:${PWD//\//\\\\\}> '\''\n' >> ~/.bashrc
+	printf ': undercover && export PS1='\''C:${PWD//\//\\\\}> '\''\n' >> ~/.zshrc
+	printf ': undercover && new_line_before_prompt=no\n' >> ~/.zshrc
+}
+
+disable_undercover() {
+	$XFCE4_DESKTOP_PROFILES load $USER_PROFILE
+	if [ -f $LOCAL_DIR/plank ]; then
+		plank > /dev/null 2>&1 &
+		rm -f $LOCAL_DIR/plank
+	fi
+	gsettings get org.xfce.mousepad.preferences.view color-scheme | grep -q Kali-Light \
+		 && gsettings set org.xfce.mousepad.preferences.view color-scheme Kali-Dark
+	mv $USER_PROFILE $USER_PROFILE.prev
+	(cd $CONF_FILES && \
+		find . -type f -exec rm ~/.config/{} \;)
+	find ~/.config -name '*.undercover' -exec sh -c \
+		'mv "$1" "$(echo $1 | sed 's/.undercover//')"' _ {} \;
+	[ -f ~/.face.undercover ] && mv ~/.face.undercover ~/.face
+	sed -i -e '/: undercover/d' ~/.bashrc ~/.zshrc
+}
+
+xfce4-panel -q
+if [ -f $USER_PROFILE ]; then
+	disable_undercover
+	sleep 1
+	notify-send -i dialog-information 'Desktop settings restored'
+else
+	enable_undercover
+fi
+xfce4-panel &
+
+shell="$(cat /proc/$PPID/comm)"
+if [ "${shell}" = 'bash' ] || [ "${shell}" = 'zsh' ]; then
+	clear
+	$shell
+fi
