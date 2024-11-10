@@ -3,7 +3,7 @@ Wellcome to my repository
 ## Add Metaverse Repo
 Before add the repository you must to install gnupg
 ```
-apt install wget gnupg -y
+apt install wget gnupg dialog -y
 ```
 
 Debian based:
