@@ -1,0 +1,5 @@
+#!/bin/bash
+echo 'Restarting systemd-binfmt...'
+if ! systemctl restart systemd-binfmt ; then
+    echo -e "\e[1;31mFailed to restart systemd-binfmt! box86 won't get called automatically.\nrebooting might help.\e[0m"
+fi
