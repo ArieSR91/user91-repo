@@ -96,11 +96,11 @@ Installed-Size: 34
 Homepage: https://github.com/ArieSR91
 Description: Brute force android pin lockscreen
 Filename: dists/metaverse/main/binary-armhf/srlocks_1.1.0-SR_armhf.deb
-Size: 2192
-MD5Sum: 45af3fa60b7523a382abb75401451ae4
-SHA1: e70128fed025a8b1af87d87231607ded32b11eb2
-SHA256: b44e182f85baadec28c6bcb16b8bb5bc1c6dbe5b1f1058ad00ed7fedaf4109ab
-SHA512: e10fb46a4bf7ee28e1ab36d92d9b38abbd233899e3074ba0a8b5c535c15935144a372719835874909e2b8be5dea21e3b98c93ddfc9b14d08ca14388d8ca7eccd
+Size: 7612
+MD5Sum: ac4d290d7f456b2d1970ac71ef03689f
+SHA1: 087bff70ca8106a6c9a0f20b141f450b3cf2f868
+SHA256: 46f2496d65f62a468536e00ba9921ea30f69835dec0af32a9e66d5e1a97a0b4c
+SHA512: f087fee58da4067fddb09c66d6db385a69ab214a4d8f8084809efa5650a12dd0f0d357e8dd30cc65fd2b58c1ce37b027d5386c05953b3b28963122bc233ce438
 
 Package: wine-i386
 Version: 5.13-SR

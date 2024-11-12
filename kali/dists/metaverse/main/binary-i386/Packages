@@ -81,9 +81,9 @@ Installed-Size: 34
 Homepage: https://github.com/ArieSR91
 Description: Brute force android pin lockscreen
 Filename: dists/metaverse/main/binary-i386/srlocks_1.1.0-SR_i386.deb
-Size: 2176
-MD5Sum: 0e7084cc1a06905f87ae4dddd7a35107
-SHA1: b18b81f3d41cdd2edd3409f658c054bf8ec26e70
-SHA256: 9ae19c7bbfe3f385b59fcd3c9f03914c3b9d9f97422d8841c5def6536670bcaf
-SHA512: 97344d1cbc9480e7375ee77a51709aee57bb6f42007b56bece8a70a4ffb07767d98d329cfc75a77805946dac1730db3ddb218772fbb60dceda0ee1ab5781613a
+Size: 7596
+MD5Sum: d0adabf5ad09432a52181e7b91d5dc07
+SHA1: 3d234dbcdbcdbec3dcad29a7404e09fe787b30b7
+SHA256: 2f57f25dfb28219436ff76f7d70b6da2b8b1e29a5ab12208d2904487eb6847c8
+SHA512: a2d1b366af8e8fc44474581f19c4d7e53bb083d328cebc6a77196aefa92617ec41b7049b17f8bf17d5a56eb7f5d69d2f87056852f34f51a66a3d982e3edc35c7
 
