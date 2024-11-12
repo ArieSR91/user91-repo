@@ -72,3 +72,18 @@ SHA1: 014cd285f2a3db247447c3e4b0da1a925a72558d
 SHA256: 85cdd8b74aba657ddbe2ba22de30700498c2dfe52281c3bcba0a2f4e10578ddc
 SHA512: 72c71262b206a03aeec7b92253df7de2448124562f8ba11d2976906f92d433127c8ad7259723c0455f3fa0b8f8b18ed825317409bd3f4242a0e60eebeff37f98
 
+Package: srlocks
+Version: 1.1.0-SR
+Architecture: i386
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: figlet, adb, bash
+Installed-Size: 34
+Homepage: https://github.com/ArieSR91
+Description: Brute force android pin lockscreen
+Filename: dists/metaverse/main/binary-i386/srlocks_1.1.0-SR_i386.deb
+Size: 2120
+MD5Sum: acbb912be690bb09bbc4046ad2c877c7
+SHA1: a15f261fa432e7c4be8921d5a4a9fc20b186cc24
+SHA256: 8ca0dfe6e18b31af160efa75d267a2dafe58814298acf29e2cdd1d8b941185e6
+SHA512: 915467b46e49ffadb8b901d0f4703425caa210535aa7de16c17f6c34d3f2227e1f990aa6304131b50547fe6a3c4b9a12028695f796d776c23aef7c4c3a3a96df
+

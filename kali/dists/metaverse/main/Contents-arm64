@@ -10,3 +10,4 @@ usr/local/bin/git-repo                                                          
 usr/local/bin/repo-manager                                                       repo-manager
 usr/local/bin/decrypt-sr                                                         srcrypt
 usr/local/bin/encrypt-sr                                                         srcrypt
+usr/local/bin/srlocks                                                            srlocks

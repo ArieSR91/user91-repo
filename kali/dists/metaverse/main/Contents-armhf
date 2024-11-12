@@ -10,6 +10,7 @@ usr/local/bin/git-repo                                                          
 usr/local/bin/repo-manager                                                       repo-manager
 usr/local/bin/decrypt-sr                                                         srcrypt
 usr/local/bin/encrypt-sr                                                         srcrypt
+usr/local/bin/srlocks                                                            srlocks
 opt/wine-i386/bin/function_grep.pl                                               wine-i386
 opt/wine-i386/bin/msidb                                                          wine-i386
 opt/wine-i386/bin/msiexec                                                        wine-i386
