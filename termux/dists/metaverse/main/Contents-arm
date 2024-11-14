@@ -1,4 +1,10 @@
 data/data/com.termux/files/usr/bin/adb                                           adb
+data/data/com.termux/files/usr/bin/build-deb                                     build-repo
+data/data/com.termux/files/usr/bin/build-repo                                    build-repo
+data/data/com.termux/files/usr/bin/edit-deb                                      build-repo
+data/data/com.termux/files/usr/bin/build-deb                                     build-repo
+data/data/com.termux/files/usr/bin/build-repo                                    build-repo
+data/data/com.termux/files/usr/bin/edit-deb                                      build-repo
 data/data/com.termux/files/usr/bin/download                                      download
 data/data/com.termux/files/usr/bin/fastboot                                      fastboot
 data/data/com.termux/files/home/.bash_aliases                                    kali-dark-style
@@ -30324,6 +30330,11 @@ data/data/com.termux/files/usr/share/themes/Kali-Purple-Light/gnome-shell/assets
 data/data/com.termux/files/usr/share/themes/Kali-Purple-Light/gtk-3.0/assets     kali-icon-themes
 data/data/com.termux/files/usr/share/themes/Kali-Purple-Light/gtk-4.0/assets     kali-icon-themes
 data/data/com.termux/files/usr/etc/proot-distro/kali.sh                          proot-distro-kali
+data/data/com.termux/files/usr/bin/git-repo                                      repo-manager
+data/data/com.termux/files/usr/bin/repo-manager                                  repo-manager
+data/data/com.termux/files/usr/bin/git-repo                                      repo-manager
+data/data/com.termux/files/usr/bin/repo-manager                                  repo-manager
+data/data/com.termux/files/usr/bin/srlocks                                       srlocks
 data/data/com.termux/files/home/.vnc/config                                      termux-desktop-lxqt
 data/data/com.termux/files/home/.vnc/xstartup                                    termux-desktop-lxqt
 data/data/com.termux/files/usr/bin/desktop                                       termux-desktop-lxqt

@@ -13,6 +13,34 @@ SHA1: a304b5a7fad73fdc785c9a03396a8539ec298c4f
 SHA256: d60fbe013c2c01915209221ac5ac37e9f2ff5cb782925384ea17659399011061
 SHA512: 1cd0d4b603c2584db10b10521045a7a9bfb3bec55e43091433dad04389e56b4365c7f91123bc9f41f301fb955c2137b4f232209afea53bec557ac3e3afa92c57
 
+Package: build-repo
+Version: 1.8.3-SR
+Architecture: aarch64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git,  binutils, repo-manager
+Installed-Size: 68
+Description: Build git repository with deb files
+Filename: dists/metaverse/main/binary-aarch64/build-repo_1.8.3-SR_aarch64.deb
+Size: 5120
+MD5Sum: cd349478d09dd844292d71629ed51062
+SHA1: 03994de7435779d4b45ee679f2d0802aab45e8d1
+SHA256: e0584e2117d96d5db785e09b719ca585bbff6e5b3134bd047827f591457b15cb
+SHA512: f2b9b5c928d5bf7eab72aef0193e8d42de16d5edc0126dc542a889f282545bd0c5f84221a9ea3bdd1995d0da372e18bd99f4bd856405ac76b25d96b97aad07ee
+
+Package: build-repo
+Version: 1.9.0-SR
+Architecture: aarch64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git,  binutils, repo-manager
+Installed-Size: 68
+Description: Build git repository with deb files
+Filename: dists/metaverse/main/binary-aarch64/build-repo_1.9.0-SR_aarch64.deb
+Size: 5188
+MD5Sum: 5a8c1f8bc26c7e482d5057df083fde8f
+SHA1: 55ee527b25f704cbbafdb443a361061eb5719752
+SHA256: 567fd6b567eb3968739f3afbd2ffa4ca1524bfa6c672c4e87bdaacbc82d8c4ae
+SHA512: fbcec135947f4bd3896935368c3d2bb823c37ddf0304dbe710d8710fe8ee9f57e2678ad2ea7fd181064de174140f7b4dd2c2f1d1f35a43c2a8bbbe3b2a7fd80d
+
 Package: download
 Version: 1.2.0-SR
 Architecture: aarch64
@@ -85,6 +113,51 @@ MD5Sum: 4349f9c5a97eb9b4171c4519e4244fbe
 SHA1: 5239a6948e18f1b26ee8b0b4d72f969d07aaa5ca
 SHA256: 5a8b67c23e25e3bebe2caab8872057c620aacd041686ed24401197a080f3a95a
 SHA512: 208d4a5fe8593c9803f9e5cabfcc8ad6a3eed4e04695fc946ba2516856dc72b8f9def80a44f4be8485680d6a62028df09cf31bed7381334233d0e8dd03e24655
+
+Package: repo-manager
+Version: 2.1.0-SR
+Architecture: aarch64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git, build-repo
+Installed-Size: 56
+Homepage: https://github.com/ArieSR91
+Description: Repository manager
+Filename: dists/metaverse/main/binary-aarch64/repo-manager_2.1.0-SR_aarch64.deb
+Size: 2688
+MD5Sum: 0d753ed5aa55671069c358e785eb5d26
+SHA1: ef7bae36880fd9ed93941cfea431a3c31edd8baf
+SHA256: 1b8643251318f0f4928df6a9547806b5dc9dae956e2c105c4fc998d32905c341
+SHA512: abb902a85e73adc3ff56fa86a7b99a2dbd6b6e2e5842ab80b76800b1c3a36d265c8f249a49aefa1021afb68cbf7fccc81e885a7761095af1ff5a11e30231df93
+
+Package: repo-manager
+Version: 2.1.2-SR
+Architecture: aarch64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git, build-repo
+Installed-Size: 56
+Homepage: https://github.com/ArieSR91
+Description: Repository manager
+Filename: dists/metaverse/main/binary-aarch64/repo-manager_2.1.2-SR_aarch64.deb
+Size: 2808
+MD5Sum: a79e7fe4d5c551134e3c0945c0da3b5a
+SHA1: 56408528ebe1e7f48ef516a5c298f8892db337d9
+SHA256: 588b2d42afeef3de4d1a828e446770e48390ae1fc726d3786746a7e9202b4ef6
+SHA512: 7eebace2b7b6ca2825cfda785b798b7dc35b176cbba6db619e36972561e5fbc9c22750acf0d2782c8dc6553d7d4f74f3dc4a3c29a6e1f38ef135181e008947cc
+
+Package: srlocks
+Version: 1.1.0-SR
+Architecture: aarch64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash, figlet, adb
+Installed-Size: 124
+Homepage: https://github.com/ArieSR91
+Description: Brute force android pin lockscreen.
+Filename: dists/metaverse/main/binary-aarch64/srlocks_1.1.0-SR_aarch64.deb
+Size: 17072
+MD5Sum: bbcea44997d26a3ab442dc12ed58ca6e
+SHA1: 01f1c7131cdcc4bf13e60d4d60fbaef8a32ac594
+SHA256: 92c56f8327045060f90f7095e28502f1af48f02213e0fe5127050794f51123fd
+SHA512: 1476e93c17b241b145067352839187bf5e8d2b97ab708e3382c95303c70b3df9d1ea8d1eaf6d0ea9d16761243bd5ada45f19b10ec6bc7b0081eea9e6e2c0c500
 
 Package: termux-desktop-lxqt
 Version: 1.1.0-SR
