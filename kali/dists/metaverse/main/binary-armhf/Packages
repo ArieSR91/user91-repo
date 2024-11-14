@@ -27,36 +27,6 @@ SHA1: 827dc1eed028c856fcc8a216c3a95d15ed61f886
 SHA256: 1348b04f67767e39a8253b9405658f6ac5b04ca116c3d2d9c03d923c7b135343
 SHA512: 782c1aedd9359c030898215092c2a263ffef79538a082d0fc6852cea91c548d6c9981cf108104b740fde5250ce7e0689b8ccad8db9effbdb5fce888df2b7b799
 
-Package: fake-interface
-Version: 1.0.0-SR
-Architecture: armhf
-Maintainer: Arie-SR91 <syahri.ramadhan2022a@gmail.com>
-Depends: network-manager
-Installed-Size: 100
-Homepage: https://github.com/ArieSR91
-Description: Fake network interface
-Filename: dists/metaverse/main/binary-armhf/fake-monitor_1.0.0-SR_armhf.deb
-Size: 1464
-MD5Sum: 999b03ce1229f730cc378d69761cdd55
-SHA1: e3586dc9242a0c73ae26331afa8a4bc0a3958e3a
-SHA256: e57dbc4a14ccf2db2ffec4d56ac53c609b6028d2e13103f4158e20033060add7
-SHA512: 8f3e872798009cd014f086f1640f89d02d2cbb27dc8c41b7b33617e33c6702e8377a16da6f155deff14450a3e6b734131b350505ce13b878ab24a456d1414da5
-
-Package: iptracker
-Version: 1.1.0-SR
-Architecture: armhf
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: curl
-Installed-Size: 100
-Homepage: https://github.com/ArieSR91
-Description: Track information from ip address
-Filename: dists/metaverse/main/binary-armhf/iptracker_1.1.0-SR_armhf.deb
-Size: 1560
-MD5Sum: 1bb44a09425456420f4a2c0ff4980f7f
-SHA1: a59bbe9110d55a4387efb51b887367fc1c1d4022
-SHA256: 762e5e9e7edb7585c50a3fe93da3f3333c8adca37418680bbebaeb79e8628ad0
-SHA512: 94c416965a2b602cfdbbbb0ffc07ceb525242b3cabbbde75920bef0d27f98a6b586f2dab00f65d4400bafcd0ecd5472b42b110c5e9e3af1176291c1722f6392b
-
 Package: repo-manager
 Version: 2.1.2-SR
 Architecture: armhf

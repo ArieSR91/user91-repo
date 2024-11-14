@@ -1,2 +1,3 @@
 usr/local/bin/download                                                           download
+usr/local/bin/fake-monitor                                                       fake-monitor
 usr/local/bin/winebox                                                            winebox

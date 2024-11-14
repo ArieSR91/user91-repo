@@ -27,21 +27,6 @@ SHA1: de6a708d762fbebb4e6c12ab2c778d5fa095616f
 SHA256: 6e65206f77e0e295bfb96194a68406489bbaa2027f44e3ccb55c44ea383ce2b8
 SHA512: b12028162427258f1826f4d34bf8f5771b3f57a47055f5b1c171eca1021df938d75d0cdead117633a111db74393a87e9a9a926234fbfe14799ef0263c65e9546
 
-Package: iptracker
-Version: 1.1.0-SR
-Architecture: amd64
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: curl
-Installed-Size: 100
-Homepage: https://github.com/ArieSR91
-Description: Track information from ip address
-Filename: dists/metaverse/main/binary-amd64/iptracker_1.1.0-SR_amd64.deb
-Size: 1548
-MD5Sum: b01d821ad82e9478020c4c3195115b2c
-SHA1: afb4236bd829ddddd0d78eecdf5dea4ddf67566e
-SHA256: 297f41e31ef7d4b33d6b36f8bebf9e6cc0af5c40d74dba6347deab880c73071b
-SHA512: 9fa09083b30e83e90270df8276acb2fa06d4ec89d1d42ccb9d542f5b55be6096400d2db47b04db8095b260aab65bf3890e9240e324209eb1d335b547c84a82a4
-
 Package: repo-manager
 Version: 2.1.2-SR
 Architecture: amd64

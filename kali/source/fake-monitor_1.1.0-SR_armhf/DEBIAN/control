@@ -1,0 +1,8 @@
+Package: fake-monitor
+Version: 1.1.0-SR
+Architecture: armhf
+Maintainer: Arie-SR91 <syahri.ramadhan2022a@gmail.com>
+Depends: network-manager
+Installed-Size: 72
+Homepage: https://github.com/ArieSR91
+Description: Fake network interface

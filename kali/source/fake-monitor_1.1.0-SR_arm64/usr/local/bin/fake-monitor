@@ -1,0 +1,73 @@
+#!/bin/bash
+## normal color
+black='\033[0;30;47m'
+red='\033[0;31m'
+green='\033[0;32m'
+yellow='\033[0;33m'
+blue='\033[0;34m'
+purple='\033[0;35m'
+cyan='\033[0;36m'
+white='\033[0;37m'
+## bold color
+blackbold='\033[1;30m'
+redbold='\033[1;31m'
+greenbold='\033[1;32m'
+yellowbold='\033[1;33m'
+bluebold='\033[1;34m'
+purplebold='\033[1;35m'
+cyanbold='\033[1;36m'
+whitebold='\033[1;37m'
+
+function show_help() {
+    echo -e "Usage: fake-monitor [options]
+
+Options: set                             : set monitor interface
+         on|off or enable|disable        : enable or disable monitor
+         reset                           : reset interface
+"
+}
+
+function monitor_reset() {
+    sudo sed -i "s/true/false/" /etc/NetworkManager/NetworkManager.conf
+    sudo sed -i "s/#auto eth0/auto eth0/" /etc/network/interfaces
+    sudo sed -i "s/#face eth0 inet dhcp/iface eth0 inet dhcp/" /etc/network/interfaces
+}
+
+function monitor_setting() {
+    read -p "Interface: " mon;
+    monitor_reset
+    sudo sed -i "s/false/true/" /etc/NetworkManager/NetworkManager.conf
+    sudo sed -i "s/auto eth0/#auto eth0/" /etc/network/interfaces
+    sudo sed -i "s/iface eth0 inet dhcp/#iface eth0 inet dhcp/" /etc/network/interfaces
+    if [ ! -f /etc/network/interfaces.d/$mon.cfg ]; then
+        echo -e "auto $mon\niface $mon inet loopback" | sudo tee /etc/network/interfaces.d/$mon.cfg
+    fi
+}
+
+function monitor_enable() {
+    sudo NetworkManager start
+    sudo /etc/init.d/networking start
+    return 0
+}
+
+function monitor_disable() {
+    sudo /etc/init.d/networking stop
+}
+
+case $1 in
+    set)
+        monitor_setting
+        ;;
+    reset)
+        monitor_reset
+        ;;
+    on | enable)
+        monitor_enable
+        ;;
+    off | disable)
+        monitor_disable
+        ;;
+    *)
+        show_help
+        ;;
+esac
