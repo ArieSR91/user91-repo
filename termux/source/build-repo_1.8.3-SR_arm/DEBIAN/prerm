@@ -1,0 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/bash
+chmod 777 $PREFIX/bin/build-repo
+chmod 777 $PREFIX/bin/build-deb
+chmod 777 $PREFIX/bin/edit-deb

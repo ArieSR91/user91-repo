@@ -1,0 +1,7 @@
+Package: build-repo
+Version: 1.8.3-SR
+Architecture: arm
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git,  binutils, repo-manager
+Installed-Size: 68
+Description: Build git repository with deb files

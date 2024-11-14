@@ -1,9 +1,0 @@
-data/data/com.termux/files/usr/bin/build-deb                                     build-repo
-data/data/com.termux/files/usr/bin/build-repo                                    build-repo
-data/data/com.termux/files/usr/bin/edit-deb                                      build-repo
-data/data/com.termux/files/usr/bin/git-repo                                      repo-manager
-data/data/com.termux/files/usr/bin/repo-manager                                  repo-manager
-data/data/com.termux/files/home/.vnc/config                                      termux-desktop-lxqt
-data/data/com.termux/files/home/.vnc/xstartup                                    termux-desktop-lxqt
-data/data/com.termux/files/usr/bin/desktop                                       termux-desktop-lxqt
-data/data/com.termux/files/usr/share/applications/Screenshot.desktop             termux-desktop-lxqt

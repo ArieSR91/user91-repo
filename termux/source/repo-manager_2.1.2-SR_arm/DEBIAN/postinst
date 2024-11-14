@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/bash
+chmod 775 $PREFIX/bin/repo-manager
+chmod 775 $PREFIX/bin/git-repo

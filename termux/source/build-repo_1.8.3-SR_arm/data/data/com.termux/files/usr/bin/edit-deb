@@ -1,0 +1,54 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+if [ "$@" == *.deb ]; then
+    DEBNAME="$@"
+fi
+
+function edit_deb() {
+    ar xv $DEBNAME
+    mkdir DEBIAN
+    tar xJvf control.tar.xz -C DEBIAN
+    tar xJvf data.tar.xz
+    rm -rf data.tar.xz control.tar.xz debian-binary $DEBNAME
+    return 0
+}
+
+function show_help() {
+    echo -e "
+Usage: edit-deb [*.deb files]
+                [options]
+
+Options:
+        -h, --help     : Show this help
+        -v, --version  : Show the Version
+
+for more info visit: https://github.com/ArieSR91
+"
+    return 0
+}
+
+function show_version() {
+    echo "1.8.3-SR"
+    return 0
+}
+
+function random_text() {
+    echo -e "\nIt doesn't look like a deb file."
+    show_help
+}
+
+case $1 in
+    *.deb)
+        edit_deb
+        ;;
+    -v | --version)
+        show_version
+        ;;
+    -h | --help)
+        show_help
+        ;;
+    *)
+        random_text
+        ;;
+esac
+
