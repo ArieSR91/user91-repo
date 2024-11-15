@@ -14,16 +14,16 @@ SHA256: 7c88b55ca3397c8f5be50fb93aa1d84c0f9a0c177c6c0aa17a5898e126f76073
 SHA512: 2acd331f7ead76678d21f41efda53cdab63aede21fcfb3b7ad107df2cb71c9e5438e5135fbea7199dfd37bad31365aa937c502ff98d55ab2ec4536b4dcfd3c10
 
 Package: linuxdeploy
-Version: 1.0.0-SR
+Version: 1.1.0-SR
 Architecture: arm
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: tsu, pulseaudio
-Installed-Size: 100 KB
+Installed-Size: 33200
 Description: Run linux deploy via termux
-Filename: dists/metaverse/root/binary-arm/linuxdeploy_1.0.0-SR_arm.deb
-Size: 1808
-MD5Sum: b78bbc983257cc841f2717d4aa98162f
-SHA1: 61a52a25c887fc17e466e49d528dcae35e1564a4
-SHA256: eecd363aaed45d0210bb0d322e4a6622205a1dc4b152903ffd6d6b54b4c2330d
-SHA512: c4792d0c29034f767987e23c2ccee73bb76c65cad6601cef1422981f4f1972080d59739e360460e70e9ee3b8ee8eabc519926e9f3406fe0ab4bf1ab4db717ce8
+Filename: dists/metaverse/root/binary-arm/linuxdeploy_1.1.0-SR_arm.deb
+Size: 7532496
+MD5Sum: 73661eeef35cfad0564018e564d4bb6b
+SHA1: aa7ff307e86ecf7a467300875d9ef11fd462bda0
+SHA256: 916a5af99b5bcea7e4ea25fba130bf08c58e1b562025690317608a83861eb30e
+SHA512: 230fef99e4f8e1263254f823eff7fba24117e0651d537d53cf166c4d6f19cf35ec22b3d0e05457b7faa603f20d44f2d86be87a4ebb337883576931ed8e237398
 

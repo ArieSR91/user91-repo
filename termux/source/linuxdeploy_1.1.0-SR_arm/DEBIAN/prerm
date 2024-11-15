@@ -1,0 +1,10 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+chmod 777 /data/data/com.termux/files/usr/bin/runlinux
+if [ -f $PREFIX/bin/linuxdeploy ]; then
+    rm $PREFIX/bin/linuxdeploy
+fi
+chmod 777
+if [ -d $PREFIX/share/linux-deploy ]; then
+    rm -rf $PREFIX/share/linux-deploy
+fi

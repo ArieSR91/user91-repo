@@ -1,0 +1,92 @@
+#!/usr/bin/env bash
+## Linux Deploy Assistant
+## Author Arie-SR91
+
+red='\033[1;91m'
+green='\033[1;92m'
+yellow='\033[1;93m'
+blue='\033[1;96m'
+white='\033[1;97m'
+crrenttime="$(date +'%r')"
+crrentdatenow=$(date +'%a %d/%m/%Y')
+
+username=kali
+ENV_DIR="/data/data/com.termux/files/usr/share/linux-deploy"
+
+function help() {
+    echo "Run your Linux Deploy via Termux.
+
+Usage: linuxdeploy [options]
+
+options:
+    -s, --shell      Start/mount linux deploy cli from termux.
+    -m, --mount      Start/mount containers from termux.
+    -u, --umount     Stop/umount containers from termux.
+    -v, --vnc        Start Linux Deploy and VNC app.
+    -x, --x11        Start Linux Deploy and X11.
+    -h, --help       Show this screen.
+
+For more info about update visit my github.
+https://github.com/ArieSR91
+"
+}
+
+function login() {
+    pulseaudio --start
+    clear
+    return 0
+}
+
+function shell() {
+    login
+    pulseaudio --start
+    su -c $ENV_DIR/bin/linuxdeploy shell -u $username
+    umount
+    return 0
+}
+
+function mount() {
+    pulseaudio --start
+    su -c $ENV_DIR/bin/linuxdeploy start -m >/dev/null
+    return 0
+}
+
+function umount() {
+    su -c $ENV_DIR/bin/linuxdeploy stop -u
+    pulseaudio --kill
+    return 0
+}
+
+function desktop() {
+    termux-open vnc://127.0.0.1:5900
+    mount
+    return 0
+}
+
+function x11() {
+    pulseaudio --start
+    sudo x11
+    pulseaudio --kill
+    return 0
+}
+
+case $1 in
+    -s | --shell)
+        shell
+        ;;
+    -m | --mount)
+        mount
+        ;;
+    -u | --umount)
+        umount
+        ;;
+    -v | --vnc)
+        desktop
+        ;;
+    -x | --x11)
+        x11
+        ;;
+    * | -h | --help)
+        help
+        ;;
+esac

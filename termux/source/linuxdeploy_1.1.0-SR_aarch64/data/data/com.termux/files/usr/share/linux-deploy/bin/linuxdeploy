@@ -1,0 +1,4 @@
+#!/data/user/0/ru.meefik.linuxdeploy/files/bin/sh
+PATH=/data/data/com.termux/files/usr/share/linux-deploy/bin:$PATH
+ENV_DIR="/data/data/com.termux/files/usr/share/linux-deploy"
+. "${ENV_DIR}/cli.sh"
