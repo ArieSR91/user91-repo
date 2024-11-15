@@ -1,6 +1,6 @@
 # user91-repo
-Wellcome to my repository 
-## Add Metaverse Repo
+Wellcome to my repository.
+
 Before add the repository you must to install gnupg
 ```
 apt install wget gnupg dialog -y
@@ -24,7 +24,7 @@ Termux:
 wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh -O $PREFIX/bin/user91-repo;chmod 775 $PREFIX/bin/user91-repo; user91-repo menu
 ```
 [Visit](https://ariesr91.github.io/user91-repo/)
-
+# Available packages
 ## Debian Based
 ![debian](./debian-based.jpg)
 ## Termux
