@@ -25,7 +25,7 @@ wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh 
 ```
 [Visit](https://ariesr91.github.io/user91-repo/)
 ## Available packages
-### Debian Based
+#### Debian Based
 ![debian](./debian-based.jpg)
-### Termux
+#### Termux
 ![termux](./termux.jpg)
