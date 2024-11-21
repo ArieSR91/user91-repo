@@ -6,11 +6,11 @@ Depends: python3, gnupg, git,  binutils, repo-manager
 Installed-Size: 68
 Description: Build git repository with deb files
 Filename: dists/xenoverse/main/binary-all/build-repo_1.8.4-SR_all.deb
-Size: 5224
-MD5Sum: 569d060d1f901a9e1d40f6db124c8541
-SHA1: 4ee300f30785363e226e319abe8cb900273b5305
-SHA256: 77536389a4e54f625b6213abac246b9fdabbd8791288ef454b62c089b5ca1b45
-SHA512: 25124694dadb298de837dbad27006810b206a43c7cfe3bb8c757a52f8f585f1667f74991b13872cb69b6dc2da62500dbbfca6ebfd0fe2ab40368f80d7867f056
+Size: 5232
+MD5Sum: a43e3ca5b93a7b7773af5d8a61940f15
+SHA1: a798563a0e9313396199611d8ea493165e6e3afd
+SHA256: 6076a5f2b5e73d79170e9610ae70aa70298efa95a9e3a80bb0716a4d0768bdbe
+SHA512: 409dc3bf5a2debc7fc3b3f73f8a15024df087697ba447998d5d51f988072ea05b8754628deb7de4b6884677896886e68b89793060aba063d33d55b59254c5e31
 
 Package: kali-dark-style
 Version: 1.3.1-SR
@@ -66,10 +66,10 @@ Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/xenoverse/main/binary-all/repo-manager_2.1.3-SR_all.deb
 Size: 2896
-MD5Sum: 5b6333ea8700eb148328f82923821a20
-SHA1: 40964f66411fb7fa2a750fed0202b0665601bb29
-SHA256: a8e39bbbff05b986eaf8b6ffb351a5b7c34a8b73f8d4bec16b656ee1123b000d
-SHA512: 1a1e885b246d79b320ecbd46327e3c496b98ed359bba0793a9302efaa410636fca4b195f2e56b207e594cdb67cf4ee03d81b39281a6423fd643bbc51ce908d47
+MD5Sum: 8bd724980fa45c81109ecf8647499f31
+SHA1: 2fb671c010cfcb6387c201a8c5fea0e43134eb6e
+SHA256: 882767e92e29c15a7132df203f35148fbb2dc8acbad2e3ef1cb6b5b9eefa3dcc
+SHA512: 441e7324523fac46ef6708108c2600698a8c983c1014211fe528a9b8238a9866a28f2f3583b4e5c940527847209a7dbb3aa8e9c1b6278167d0509b46ee5db3cf
 
 Package: srlocks
 Version: 1.1.0-SR
