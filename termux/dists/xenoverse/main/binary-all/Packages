@@ -7,10 +7,10 @@ Installed-Size: 68
 Description: Build git repository with deb files
 Filename: dists/xenoverse/main/binary-all/build-repo_1.8.4-SR_all.deb
 Size: 5224
-MD5Sum: d48195853e0a53b87f8096ed6ee08616
-SHA1: e4de8cc671de3dbb3542237af605378c093ea912
-SHA256: fe78d35288217dec72bbf9de5611984e35dfe4e93c987b97daff7c2da7c23681
-SHA512: 1f2e0390efe0c888b77ffa2f4338321f463718638c2dd91b7355e0b0daac82bcc832650df4754dfe9a49e8dddb1c2ac209394c1cdacf10d413010bed616fafc4
+MD5Sum: 569d060d1f901a9e1d40f6db124c8541
+SHA1: 4ee300f30785363e226e319abe8cb900273b5305
+SHA256: 77536389a4e54f625b6213abac246b9fdabbd8791288ef454b62c089b5ca1b45
+SHA512: 25124694dadb298de837dbad27006810b206a43c7cfe3bb8c757a52f8f585f1667f74991b13872cb69b6dc2da62500dbbfca6ebfd0fe2ab40368f80d7867f056
 
 Package: kali-dark-style
 Version: 1.3.1-SR
@@ -65,11 +65,11 @@ Installed-Size: 56
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/xenoverse/main/binary-all/repo-manager_2.1.3-SR_all.deb
-Size: 2892
-MD5Sum: ed5cff9265a42a529c33b321dfbfc2a7
-SHA1: a3d064d3b9192cbdc50aec27995c42feb0c11319
-SHA256: e237669503d84c08d68ad0665a54e1b20556ecad37c6186c5ab53c0d76b6eedc
-SHA512: 46da5887a9ebd74c92787a7a93688260b2b158c34621cc00f186ca0b2138f7e700871c83854c77fd0e688f0fc3d59832ad72b5ab28c96499629f833989b2d7e7
+Size: 2896
+MD5Sum: 5b6333ea8700eb148328f82923821a20
+SHA1: 40964f66411fb7fa2a750fed0202b0665601bb29
+SHA256: a8e39bbbff05b986eaf8b6ffb351a5b7c34a8b73f8d4bec16b656ee1123b000d
+SHA512: 1a1e885b246d79b320ecbd46327e3c496b98ed359bba0793a9302efaa410636fca4b195f2e56b207e594cdb67cf4ee03d81b39281a6423fd643bbc51ce908d47
 
 Package: srlocks
 Version: 1.1.0-SR
