@@ -1,4 +1,4 @@
-[![pages-build-deployment](https://github.com/ArieSR91/user91-repo/actions/workflows/pages/pages-build-deployment/badge.svg?branch=xenoverse)](https://github.com/ArieSR91/user91-repo/actions/workflows/pages/pages-build-deployment)
+[![Deploy static content to Pages](https://github.com/ArieSR91/user91-repo/actions/workflows/static.yml/badge.svg?branch=xenoverse&event=deployment_status)](https://github.com/ArieSR91/user91-repo/actions/workflows/static.yml)
 # user91-repo
 Wellcome to my repository.
 
