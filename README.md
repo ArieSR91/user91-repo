@@ -32,7 +32,6 @@ wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh 
 > box86 (armhf) \
 > create-bin (all) \
 > ddos (all) \
-> download (all) \
 > fake-monitor (armhf, arm64) \
 > ipgeolocation (all) \
 > ngrok-sr (all) \
@@ -41,23 +40,22 @@ wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh 
 > srcrypt (all) \
 > srlocks (all) \
 > sr-undercover (all) \
+> tiktok-download (all) \
 > winebox (armhf, arm64) \
+> youtube-download (all) \
 > wine-i386 (armhf) 
 ---
 #### Termux
-> adb (arm, aarch64) \
-> build-repo (arm, aarch64) \
-> download (arm, aarch64) \
-> fake-sudo (arm, aarch64) \
-> fastboot (arm, aarch64) \
-> kali-dark-style (arm, aarch64) \
-> kali-icon-theme (arm, aarch64) \
-> linuxdeploy (arm, aarch64) \
-> proot-distro-kali (arm, aarch64) \
-> repo-manager (arm, aarch64) \
-> srlocks (arm, aarch64) 
-> termux-desktop-lxqt (arm, aarch64) \
-> termux-desktop-xfce (arm, aarch64) \
-> termux-fonts (arm, aarch64) \
-> user91-tools (arm, aarch64) 
+> build-repo (aall) \
+download (all) \
+fake-sudo (all) \
+kali-dark-style (all) \
+kali-icon-theme (all) \
+linuxdeploy (arm, aarch64) \
+proot-distro-kali (all) \
+repo-manager (all) \
+srlocks (all) \
+termux-desktop-lxqt (all) \
+termux-desktop-xfce (all) \
+>termux-fonts (all) 
 ---
