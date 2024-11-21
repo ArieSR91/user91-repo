@@ -44,7 +44,6 @@ tiktok-download (all) \
 winebox (armhf, arm64) \
 youtube-download (all) \
 > wine-i386 (armhf) 
----
 #### Termux
 > build-repo (aall) \
 download (all) \
@@ -58,4 +57,3 @@ srlocks (all) \
 termux-desktop-lxqt (all) \
 termux-desktop-xfce (all) \
 >termux-fonts (all) 
----
