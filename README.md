@@ -29,20 +29,20 @@ wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh 
 #### Debian Based
 ---
 > build-repo (all) \
-> box86 (armhf) \
-> create-bin (all) \
-> ddos (all) \
-> fake-monitor (armhf, arm64) \
-> ipgeolocation (all) \
-> ngrok-sr (all) \
-> repo-manager (all) \
-> seeker (all) \
-> srcrypt (all) \
-> srlocks (all) \
-> sr-undercover (all) \
-> tiktok-download (all) \
-> winebox (armhf, arm64) \
-> youtube-download (all) \
+box86 (armhf) \
+create-bin (all) \
+ddos (all) \
+fake-monitor (armhf, arm64) \
+ipgeolocation (all) \
+ngrok-sr (all) \
+repo-manager (all) \
+seeker (all) \
+srcrypt (all) \
+srlocks (all) \
+sr-undercover (all) \
+tiktok-download (all) \
+winebox (armhf, arm64) \
+youtube-download (all) \
 > wine-i386 (armhf) 
 ---
 #### Termux
