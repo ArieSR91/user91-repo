@@ -27,7 +27,6 @@ wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh 
 [Visit](https://ariesr91.github.io/user91-repo/)
 ## Available packages
 #### Debian Based
----
 > build-repo (all) \
 box86 (armhf) \
 create-bin (all) \
