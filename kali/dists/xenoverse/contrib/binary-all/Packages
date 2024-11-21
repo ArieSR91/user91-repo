@@ -21,11 +21,11 @@ Installed-Size: 192
 Homepage: 
 Description: Trace location from ip
 Filename: dists/xenoverse/contrib/binary-all/ipgeolocation_2.0.4-SR_all.deb
-Size: 19848
-MD5Sum: 1863737c696c65bf1433f936656a8f3e
-SHA1: 1749e44044bd8ef17ebbd295cb67c22f1065a438
-SHA256: c44cc1cc487639f9dddce7677fe2b0ad25b3bb8357764ac7031210969facf65e
-SHA512: 1695cc73873bfab07e6aa32b77730ba8749ffcb8717daa9d878854d7e09ca2a5c0280dd5bd60452b5bda5ce5be19ff495c4f3909e1070a94ad5c416b7e2e21f3
+Size: 19852
+MD5Sum: 575d7f9241395b1a8e580e645f7e9e01
+SHA1: c235b9ed4968ee07a6065779a8be0f440d802d47
+SHA256: 0b0500c467c0d67f46f5ece1bc158e971b357247c8005c74e8647259e4e27ea5
+SHA512: 9584c5f1ca75e33eeff253cb565937058d477bc9c218a228443b3040a03833e0dec4e90d58cedae0e977813f80aededb990b873d5f11554790fd399330089aa3
 
 Package: seeker
 Version: 1.3.1-SR
@@ -58,9 +58,9 @@ Description: SR Undercover Mode
  Run it a second time to escape the cover mode and get back your original
  desktop settings.
 Filename: dists/xenoverse/contrib/binary-all/sr-undercover_1.2.1-SR_all.deb
-Size: 7940540
-MD5Sum: 5756560801d4528f21aa2e9b20f4e93f
-SHA1: 8ef083924c2fd8240f1790fb114bae9bf4801f12
-SHA256: 1185a173e4e23e13954a81ecf78b9b22e7a1acba2d6f4ccbfe3e65f4c3a05122
-SHA512: 595146832bcb740903958928c1b4d27e01acbab060762a52b6d00e5e45c6ed8fbb04cfb66e87587f415023cdff2ac72bf5d892ada5287f4b5b7087e8f85d8185
+Size: 7940924
+MD5Sum: 3c2851c19dc80c83dd4ba93ff1d07d99
+SHA1: 35cd8d342881f8e2cade7fc5b29311bde37fd21e
+SHA256: 56c7d16d14c963ded2c3846036de9d41326793802414721817984d12df2424f3
+SHA512: 7843afe743bf0b945d32fa4a9c93b65cc0032c4a8b1b02005d7cd5e7a885f3acd0ce8bd7906cb754cf0a6bd1142aa23bbb2c3ee4243057511c1c1181729daa11
 
