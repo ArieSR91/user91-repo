@@ -1,0 +1,14 @@
+Package: ngrok-sr
+Version: 3.3.4-SR
+Architecture: armhf
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends:
+Installed-Size: 22508
+Description: ngrok secure tunnel agent
+Filename: dists/xenoverse/contrib/binary-armhf/ngrok-sr_3.3.4-SR_armhf.deb
+Size: 5766296
+MD5Sum: 205b347de5278fcaa3d77ba3ded62398
+SHA1: b104ccf6e2a2d36b559cb0c00f9b582fe47c29eb
+SHA256: ca692e495cd531e70ce797e58372606e37aae52616f9859f59577ee2e7f625f8
+SHA512: 27f5b33c3ada4f615843ad4fc7a423e15cb027dc71e1cfbd3993150d2569342f4424c28797adeda290830b3e3245a817d5958744a3e01a015f78d4b43060af3c
+

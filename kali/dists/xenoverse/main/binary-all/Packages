@@ -1,0 +1,103 @@
+Package: build-repo
+Version: 1.8.4-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git, sudo, xdotool
+Installed-Size: 132
+Description: Build git repository with deb files
+Filename: dists/xenoverse/main/binary-all/build-repo_1.8.4-SR_all.deb
+Size: 5376
+MD5Sum: 16660d9028c480a7a0e2e3899594720d
+SHA1: 633d81a0e6a08b36723c9712fae0de5289aee7bf
+SHA256: 15aa329c252947eaba40ba43c1838a2cf3827e72188b6251d2278dd2a65955f9
+SHA512: 926d8fc7bcf18aaf5c283b5020272d29716196636b24fce79779a7805e5bbc012b669315d7dd99748c06ef0e8fbf847f30a1f25f682b2161f72751e9145950f4
+
+Package: create-bin
+Version: 1.1.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash, nano
+Installed-Size: 72
+Homepage: 
+Description: Create bash binary files
+Filename: dists/xenoverse/main/binary-all/create-bin_1.1.0-SR_all.deb
+Size: 1180
+MD5Sum: dc388b2c8b4c1ca8c341376afcc8770f
+SHA1: 60601bf7a5e583a5431527e3ef435b4f237dd4cf
+SHA256: 916f0fd0d849d3f4ae2843e88fdf0a99e0b2d5a495c9fc7da3f91d5d478dfece
+SHA512: 97723d2724d707600ab619163f3e7b8d4340b92b18615dfc7879af1a378d768a6a2c59662872971c914b6d73b18cecb185c84d5e23e24963d297e648fd4f29ff
+
+Package: repo-manager
+Version: 2.1.3-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, sudo, git, build-repo, binutils, tar, xz-utils
+Installed-Size: 92
+Homepage: https://github.com/ArieSR91
+Description: Repository manager
+Filename: dists/xenoverse/main/binary-all/repo-manager_2.1.3-SR_all.deb
+Size: 2844
+MD5Sum: 93cd966e1b40d10d5eb23cf16f7fecc3
+SHA1: 785033a30b465d0fe8c8aa4cffee9674011732e7
+SHA256: d1709920b8706e049b971b19b98b50ad87f7ce5bb8b03e05f5daa9edc8ed4228
+SHA512: f87de3fa0da1e9b4b829aedb9b3eb1ea57c1ac6edaf0d6ab2bfe3b1fc8fd8092f28b6571cb1a6a7bfb23d191a66317c615f8efa80b7b5bdaca17eb6d93f00593
+
+Package: srcrypt
+Version: 1.0.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 84
+Homepage: https://github.com/ArieSR91
+Description: Encrypt and Descrypt your bscript
+Filename: dists/xenoverse/main/binary-all/srcrypt_1.0.0-SR_all.deb
+Size: 5720
+MD5Sum: 95ee9223cc08ccd13d0bcb802ae779f1
+SHA1: 54a4011df0becb212d70fab23f4ca0d9d5d23c11
+SHA256: 92e488eadded9f8c005e38363cbd2dc87651d4cec73c50743b28827dd0592651
+SHA512: 781e6ceaf965c965593456f64c48e19d2ce42db17c8d146e933a3fa0e87c5943848fa6cac4ac97118fc187b5ec46f5bb5e1797cb6df84528bac02c9b6cf92c7f
+
+Package: srlocks
+Version: 1.1.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: figlet, adb, bash
+Installed-Size: 34
+Homepage: https://github.com/ArieSR91
+Description: Brute force android pin lockscreen
+Filename: dists/xenoverse/main/binary-all/srlocks_1.1.0-SR_all.deb
+Size: 7596
+MD5Sum: d96b8a8953c5eca2b686bf1cd215af7a
+SHA1: 602f8ae7b8092c435e522f20ebcab489956e7452
+SHA256: 497cc2b57760f14d9b17ae389364f6fc4d7a081c1cde1ebbad9f765071208bf2
+SHA512: d2e223b1f6398e10bee2cc58e04eff8f41597f434ef9ce1e8f8d1ddc3c423225ab51c7a03d2aa3957be50e6324b799ad9d6e6a36e51a2b67ece370fa879d311a
+
+Package: tiktok-download
+Version: 1.0.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: aria2, wget, curl
+Installed-Size: 72
+Homepage: https://github.com/ArieSR91
+Description: Download tiktok video and photo from terminal.
+Filename: dists/xenoverse/main/binary-all/tiktok-download_1.0.0-SR_all.deb
+Size: 1540
+MD5Sum: c48ee5d54e5fbfc72eac1a1c523c13f8
+SHA1: e82b7acd9a556a81189f9c35d0be98b910f090c2
+SHA256: 4059d3a089d024850c366e99455ec251d13875495d37a8da519f7dcb2139b89a
+SHA512: 0cdb5451f575430289d5e72cedfe074464e99f1f9596b71a3b7ab95aba42f59b7ff8677bbc84519145c9f25df1af63ce0344eaf91957fbc4e4e6d4c57f9a55b4
+
+Package: youtube-download
+Version: 1.1.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: ffmpeg
+Installed-Size: 3016
+Description: Download video and music from Youtube.
+Filename: dists/xenoverse/main/binary-all/youtube-download_1.1.0-SR_all.deb
+Size: 2877200
+MD5Sum: 1c56ecb4d23d790737bf02c314c05141
+SHA1: 68f4b82d69bb1bc9eae531ad87733ae7fba4b4be
+SHA256: 76ccb54b69e7df0fa5c2e2846811e87595aa4383d9f6b53789495652facf1b9b
+SHA512: 6e374373e184223ef92ed2c437a7d46f1e4f696c0ed5203017c784a84d307783cadeb2e3bc6109b8a62cf91a0475e80d934bd22061755f8f8671ee62ca36cc59
+

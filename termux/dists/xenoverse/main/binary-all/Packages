@@ -1,0 +1,132 @@
+Package: build-repo
+Version: 1.8.4-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git,  binutils, repo-manager
+Installed-Size: 68
+Description: Build git repository with deb files
+Filename: dists/xenoverse/main/binary-all/build-repo_1.8.4-SR_all.deb
+Size: 5224
+MD5Sum: d48195853e0a53b87f8096ed6ee08616
+SHA1: e4de8cc671de3dbb3542237af605378c093ea912
+SHA256: fe78d35288217dec72bbf9de5611984e35dfe4e93c987b97daff7c2da7c23681
+SHA512: 1f2e0390efe0c888b77ffa2f4338321f463718638c2dd91b7355e0b0daac82bcc832650df4754dfe9a49e8dddb1c2ac209394c1cdacf10d413010bed616fafc4
+
+Package: kali-dark-style
+Version: 1.3.1-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: kali-icon-themes
+Installed-Size: 368
+Description: Termux kali dark style
+Filename: dists/xenoverse/main/binary-all/kali-dark-style_1.3.1-SR_all.deb
+Size: 117780
+MD5Sum: f9ee2115fc7d8dc5028ca91c728c9f32
+SHA1: d8181c3b09c84f43ca32f69331363f4acdd8267e
+SHA256: d040d70fb0856c763ad895830b5605606da256fea4c147faf756fdf4277abc5c
+SHA512: 4e7d72700e3e55d7c9399ad8b7386a418d3a5c7ff341658c6d27d4fbdf21289baa2833b60cdf590b45ef1848fcd1b291de38cf7f7da13d8617b4e5288aa537d1
+
+Package: kali-icon-themes
+Version: 2024.3-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: gtk-update-icon-cache, hicolor-icon-theme
+Installed-Size: 204672
+Homepage: https://github.com/ArieSR91
+Description: Kali linux icon themes
+Filename: dists/xenoverse/main/binary-all/kali-icon-themes_2024.3-SR_all.deb
+Size: 4765068
+MD5Sum: d59f1091ac49c6702391c94b898b30e4
+SHA1: d04436ca45c00e4cd59b283edfb5684277e249c6
+SHA256: baab4f1acda8434f32a6bb7b4cfa8c9e0f7b0283f0c3d031e02a30c64a04f2b1
+SHA512: b5aad43bd1aead9eb2cd30679cae8431aa7b49ff8d5e48092ae1c15e26d9881c3526741742d817d299407023aca5203955c519622d7ce89627118b656c0948b7
+
+Package: proot-distro-kali
+Version: 1.1.0-SR
+Architecture: all
+Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 100
+Homepage: https://github.com/ArieSR91
+Description: Add Kali Linux to proot-distro
+Filename: dists/xenoverse/main/binary-all/proot-distro-kali_1.1.0-SR_all.deb
+Size: 1328
+MD5Sum: 643fb8dc0710d1040ff1ce3b4b871b27
+SHA1: ed8aa1a67130605d584c60f5e6fd6fea26193c51
+SHA256: faeb117b0e733791fa23924b6b3557e5eafed3742e15f21c5fcb272ce2b560ae
+SHA512: 741ac12f30ce2ab56812f41148906404875590a3d713c1138ee0d97c1f20292faa2ee36051c3933561215bcee4c6e8721e8f259dd59b4a4369216e2ed5ca2cc0
+
+Package: repo-manager
+Version: 2.1.3-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git, build-repo
+Installed-Size: 56
+Homepage: https://github.com/ArieSR91
+Description: Repository manager
+Filename: dists/xenoverse/main/binary-all/repo-manager_2.1.3-SR_all.deb
+Size: 2892
+MD5Sum: ed5cff9265a42a529c33b321dfbfc2a7
+SHA1: a3d064d3b9192cbdc50aec27995c42feb0c11319
+SHA256: e237669503d84c08d68ad0665a54e1b20556ecad37c6186c5ab53c0d76b6eedc
+SHA512: 46da5887a9ebd74c92787a7a93688260b2b158c34621cc00f186ca0b2138f7e700871c83854c77fd0e688f0fc3d59832ad72b5ab28c96499629f833989b2d7e7
+
+Package: srlocks
+Version: 1.1.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash, figlet, android-tools
+Installed-Size: 124
+Homepage: https://github.com/ArieSR91
+Description: Brute force android pin lockscreen.
+Filename: dists/xenoverse/main/binary-all/srlocks_1.1.0-SR_all.deb
+Size: 17112
+MD5Sum: f3ac65fa68e1412aa456de35a6982bdd
+SHA1: 83f11cce4e3705d0b0ae4d2199c3e2165c4abed2
+SHA256: 587e71693c1a2e9d036db51dd1e4b40c5c8ef02a8cfffa99258737e9259da1ee
+SHA512: 38c2bd8f3f40017e5671dc320ba8834742c52729bd3b01a7893e73ab4d5d30045d06e8bb8902823b40a315f1f25ac45c09befedc80c5385fd33fe0ea200eb428
+
+Package: termux-desktop-lxqt
+Version: 1.2.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: x11-repo, lxqt, termux-x11-nightly,  tigervnc, audacious, featherpad, papirus-icon-theme, pulseaudio, xkeyboard-config
+Installed-Size: 160
+Homepage: https://github.com/ArieSR91
+Description: Termux lxqt desktop
+Filename: dists/xenoverse/main/binary-all/termux-desktop-lxqt_1.2.0-SR_all.deb
+Size: 2088
+MD5Sum: 8985b2c8bd19e18e8b96335bccd863dd
+SHA1: 762749159e8817cea89a8305303e6a813db82606
+SHA256: 0bd5850b5020571485ec36cae3e8e637c968f091879f88f53ffa762ed15fc282
+SHA512: f1f2420d41c8b82d8fd5194ad4788b0b29d2cc7b6e007b56fa7c0cc23fc46259a45cb6e6ed6429154320b30f4deebf821339d115ca02fad91182a82593581317
+
+Package: termux-desktop-xfce
+Version: 1.2.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: x11-repo, xfce4, tigervnc, parole, mousepad, xfce4-goodies, pavucontrol, xfce4-pulseaudio-plugin, xkeyboard-config, termux-x11-nightly
+Installed-Size: 136
+Homepage: https://github.com/ArieSR91
+Description: Termux xfce4 desktop
+Filename: dists/xenoverse/main/binary-all/termux-desktop-xfce_1.2.0-SR_all.deb
+Size: 1852
+MD5Sum: 19bd6a24bfbca59a752af8bc6a682c51
+SHA1: 7b51f8f82a086d05d9d60cc7a19034ae842bc5d5
+SHA256: 6cab8ef2113338741ccf4a86e4a17ba4b5c802a4d9d1e29296071aa12401c137
+SHA512: 16903a0dc231f326c54026c156217c9ba77fd29f070d8f6ba91812528de6f6deac81ba80f141c26735cc418b9a1e9b584e13c6270e223562a648a64bde6dfa64
+
+Package: youtube-download
+Version: 1.1.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: ffmpeg, python
+Installed-Size: 3040
+Description: Download video and music from Youtube.
+Filename: dists/xenoverse/main/binary-all/youtube-download_1.1.0-SR_all.deb
+Size: 2877240
+MD5Sum: 5d4cedd845c9a2dbd5374ccc95e11ade
+SHA1: be43f6049e35e000bb1201893aa23708a47d3d62
+SHA256: 4567efa639ddcee283012518dc951c1ee48c2435fd8c5c15c713145cee6d2b29
+SHA512: de224228dd4304cbf5c6c939754e3d6d5561e9902537fd10a09496e3b2f5135847550daf014921ab64015bd2c4b0b856f91899a2c656d8ee18e2d13c5aa4effd
+

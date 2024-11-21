@@ -1,0 +1,14 @@
+Package: ngrok-sr
+Version: 3.3.4-SR
+Architecture: i386
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends:
+Installed-Size: 22408
+Description: ngrok secure tunnel agent
+Filename: dists/xenoverse/contrib/binary-i386/ngrok-sr_3.3.4-SR_i386.deb
+Size: 6092052
+MD5Sum: e9d9c35ff40d7dc248ab9307416431b0
+SHA1: 8e76486ebcc99222b8e6b25caf8a8a1187a8a8fe
+SHA256: 2f6a8270374d96ccba0e8a514231fc05194bcf881910edf5a0e54e8693c5c5e9
+SHA512: 1c3fde859ad5cf781f0d821189411f4068834bafeca4ccc36bd5e55cfa2c05738ab3c7e34a0e03906d14163b846127600dc88df9c71a8b98b40c3a8d5398960b
+
