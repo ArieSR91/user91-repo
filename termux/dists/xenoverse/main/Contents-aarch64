@@ -1,3 +1,0 @@
-data/data/com.termux/files/usr/bin/sudo                                          fake-sudo
-data/data/com.termux/files/usr/etc/sudoers                                       fake-sudo
-data/data/com.termux/files/usr/etc/sudoers.d/sudo-exec.conf                      fake-sudo
