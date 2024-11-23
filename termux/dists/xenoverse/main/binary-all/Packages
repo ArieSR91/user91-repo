@@ -132,6 +132,21 @@ SHA1: 7b51f8f82a086d05d9d60cc7a19034ae842bc5d5
 SHA256: 6cab8ef2113338741ccf4a86e4a17ba4b5c802a4d9d1e29296071aa12401c137
 SHA512: 16903a0dc231f326c54026c156217c9ba77fd29f070d8f6ba91812528de6f6deac81ba80f141c26735cc418b9a1e9b584e13c6270e223562a648a64bde6dfa64
 
+Package: tiktok-download
+Version: 1.1.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: aria2, wget, curl
+Installed-Size: 104
+Homepage: https://github.com/ArieSR91
+Description: Download tiktok photo and video from terminal.
+Filename: dists/xenoverse/main/binary-all/tiktok-download_1.1.0-SR_all.deb
+Size: 6380
+MD5Sum: 31f04830c0612de60686a35567d8221b
+SHA1: b9b74134f5e1bb31c919245f8760e823aecf0017
+SHA256: e141b3514df32af48579c75d186b490675d14fd0ac5d945a16f2a548e1d69b4b
+SHA512: 28efdb4cdfe94f0a5cced5bba40e5b1e5aa68ed3f05b14b6dcbd601ce45ce50a5c10441fbe05dfd018e23fade2b6be094ec87a05e105365ac05320864811e1f2
+
 Package: youtube-download
 Version: 1.1.0-SR
 Architecture: all

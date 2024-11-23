@@ -30341,5 +30341,6 @@ data/data/com.termux/files/home/.vnc/config                                     
 data/data/com.termux/files/home/.vnc/xstartup                                    termux-desktop-xfce
 data/data/com.termux/files/usr/bin/vnc                                           termux-desktop-xfce
 data/data/com.termux/files/usr/bin/x11                                           termux-desktop-xfce
+data/data/com.termux/files/usr/bin/tiktok-download                               tiktok-download
 data/data/com.termux/files/usr/bin/youtube-download                              youtube-download
 data/data/com.termux/files/usr/bin/yt-dlp                                        youtube-download
