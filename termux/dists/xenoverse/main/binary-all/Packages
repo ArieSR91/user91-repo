@@ -96,11 +96,11 @@ Installed-Size: 124
 Homepage: https://github.com/ArieSR91
 Description: Brute force android pin lockscreen.
 Filename: dists/xenoverse/main/binary-all/srlocks_1.1.1-SR_all.deb
-Size: 17212
-MD5Sum: 3203eda1b93d781b4cae21129a572910
-SHA1: ab91fc81ae07b03242eecf923ffc3a61b5259576
-SHA256: 3cb35eed2a9ccbfc268e8d88640039ff422cfde4443159ac2f05860bae11c1a0
-SHA512: 5aaf141abaebaaf594070eac7284d8e3695f0648e503f1398861951f3e130fed212e28a72b4633e6d747c034ee47dc44242736e477547d7a75b0f9940d9d52f8
+Size: 7692
+MD5Sum: c1d9c38b61e0a968cb7bc078d6a575f6
+SHA1: 8cd7133edab091d96f780ba14d82d19d212d0ced
+SHA256: a3691905f416293e8dc7fea935eab1e29c526fcb57666747464446e0ed737410
+SHA512: d593baa63e80277dc22d43be0dce4bd490d21f03a13c19b3716a82570e871c9f062d546de8b971220db0c6db6a30269c0a0a8df6ccb8f0829e8745afa19f43cc
 
 Package: termux-desktop-lxqt
 Version: 1.2.0-SR
