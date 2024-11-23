@@ -81,11 +81,11 @@ Installed-Size: 80
 Homepage: https://github.com/ArieSR91
 Description: Download tiktok photo and video from terminal.
 Filename: dists/xenoverse/main/binary-all/tiktok-download_1.1.0-SR_all.deb
-Size: 6344
-MD5Sum: 008dbb75a1b0c3928deb5e4868d8fa3c
-SHA1: 8c9e40dfb2962756e6fda97603b51c009f81d9f8
-SHA256: 17f30ca59d314d21cfe35b6a1213f1225b371439c4eae26df5a00dfec334f440
-SHA512: 5847240a61c4709a7775c4d7bb505efe71271a5659320cfa8541c5127efb440d104bf6af1ebbdfe5de52425b6c9cf0886d14a0f45cba7cfeb663ff9e38f97f08
+Size: 6536
+MD5Sum: e7c67454c2ef9d764945c5d2bfeaadd8
+SHA1: 66cad18b7f7c27ac5b87094c526517a08d58c169
+SHA256: dbd6cb0c44d9144472a9069f1fa1fb7a64679cea6dec8a04ae8047e54f4c4cd0
+SHA512: 42ce9a3cfb16dbb30484a7412e31c81efb5e29f00f50712834ca9d43430082d515df09dd2d0bf7c91b65ab4823e966758316000a787478fc29d4aac303b36aae
 
 Package: youtube-download
 Version: 1.1.0-SR
