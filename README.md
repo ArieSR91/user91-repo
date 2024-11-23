@@ -55,4 +55,5 @@ repo-manager (all) \
 srlocks (all) \
 termux-desktop-lxqt (all) \
 termux-desktop-xfce (all) \
->termux-fonts (all) 
+termux-fonts (all) \
+> tiktok-download (all)
