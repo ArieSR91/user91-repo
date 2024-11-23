@@ -4,6 +4,10 @@ data/data/com.termux/files/usr/bin/edit-deb                                     
 data/data/com.termux/files/usr/bin/sudo                                          fake-sudo
 data/data/com.termux/files/usr/etc/sudoers                                       fake-sudo
 data/data/com.termux/files/usr/etc/sudoers.d/sudo-exec.conf                      fake-sudo
+data/data/com.termux/files/usr/bin/adduser                                       fake-sudo
+data/data/com.termux/files/usr/bin/sudo                                          fake-sudo
+data/data/com.termux/files/usr/etc/sudoers                                       fake-sudo
+data/data/com.termux/files/usr/etc/sudoers.d/README                              fake-sudo
 data/data/com.termux/files/home/.bash_aliases                                    kali-dark-style
 data/data/com.termux/files/home/.termux/colors.properties                        kali-dark-style
 data/data/com.termux/files/home/.termux/font.ttf                                 kali-dark-style

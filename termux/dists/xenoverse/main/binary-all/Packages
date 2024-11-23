@@ -27,6 +27,22 @@ SHA1: c115c1913a8b10e5ea71405dacce248cdbe4b227
 SHA256: b1717324a1c4df034c52d02fdac8eb7ce43a91fa46a9363343b613bde6760377
 SHA512: a66725bcc6c221208deeefe27c7c017dc210f1b99d39c80255a0c6f4c9b408c423f5b95394906533464f924855907d11f0044e9a0f3da1704997fd1692ccd389
 
+Package: fake-sudo
+Version: 1.5.4-SR
+Architecture: all
+Maintainer: Syahri Ramadhan <syahri.ramadhan2022@gmail.com>
+Depends: proot, which
+Installed-Size: 136
+Conflicts: tsu
+Homepage: https://ariesr91.github.io/user91-repo
+Description: Run command as root user.
+Filename: dists/xenoverse/main/binary-all/fake-sudo_1.5.4-SR_all.deb
+Size: 2552
+MD5Sum: 52e1bb6ee5cc8faa64d263c7faea760c
+SHA1: cf32e3a244788ec9343d699e8a82802505161e0c
+SHA256: ce78bb3eba634381ed0cc6ba1b2b4e02bd7f45761274edf8f8056e9293237b3c
+SHA512: 16af1e9b170a23376eaf7abcdbafd7eeae145eb77ba95762e618e7318c3067e33e38c087f097fb7293aaeee9fae23d5a181d41f7982412f07191641843bdf95d
+
 Package: kali-dark-style
 Version: 1.3.1-SR
 Architecture: all
