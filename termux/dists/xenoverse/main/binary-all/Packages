@@ -88,19 +88,19 @@ SHA256: 882767e92e29c15a7132df203f35148fbb2dc8acbad2e3ef1cb6b5b9eefa3dcc
 SHA512: 441e7324523fac46ef6708108c2600698a8c983c1014211fe528a9b8238a9866a28f2f3583b4e5c940527847209a7dbb3aa8e9c1b6278167d0509b46ee5db3cf
 
 Package: srlocks
-Version: 1.1.0-SR
+Version: 1.1.1-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash, figlet, android-tools
+Depends: bash, figlet, android-tools, ncurses-utils
 Installed-Size: 124
 Homepage: https://github.com/ArieSR91
 Description: Brute force android pin lockscreen.
-Filename: dists/xenoverse/main/binary-all/srlocks_1.1.0-SR_all.deb
-Size: 17112
-MD5Sum: f3ac65fa68e1412aa456de35a6982bdd
-SHA1: 83f11cce4e3705d0b0ae4d2199c3e2165c4abed2
-SHA256: 587e71693c1a2e9d036db51dd1e4b40c5c8ef02a8cfffa99258737e9259da1ee
-SHA512: 38c2bd8f3f40017e5671dc320ba8834742c52729bd3b01a7893e73ab4d5d30045d06e8bb8902823b40a315f1f25ac45c09befedc80c5385fd33fe0ea200eb428
+Filename: dists/xenoverse/main/binary-all/srlocks_1.1.1-SR_all.deb
+Size: 17212
+MD5Sum: 3203eda1b93d781b4cae21129a572910
+SHA1: ab91fc81ae07b03242eecf923ffc3a61b5259576
+SHA256: 3cb35eed2a9ccbfc268e8d88640039ff422cfde4443159ac2f05860bae11c1a0
+SHA512: 5aaf141abaebaaf594070eac7284d8e3695f0648e503f1398861951f3e130fed212e28a72b4633e6d747c034ee47dc44242736e477547d7a75b0f9940d9d52f8
 
 Package: termux-desktop-lxqt
 Version: 1.2.0-SR
