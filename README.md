@@ -47,6 +47,11 @@ youtube-download (all) \
 > build-repo (aall) \
 download (all) \
 fake-sudo (all) \
+fonts-firacode (all) \
+fonts-hack (all) \
+fonts-liberation (all) \
+fonts-meslo (all) \
+fonts-quicksand (all) \
 kali-dark-style (all) \
 kali-icon-theme (all) \
 linuxdeploy (arm, aarch64) \
