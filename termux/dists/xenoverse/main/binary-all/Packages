@@ -82,11 +82,11 @@ Installed-Size: 2632
 Homepage: 
 Description: Meslo GLS font.
 Filename: dists/xenoverse/main/binary-all/fonts-meslo_1.2.0-SR_all.deb
-Size: 1187628
-MD5Sum: edf990009376c26579784c164a12f462
-SHA1: 41e1b74e364bb81bf097e1fbddf5789800d97abf
-SHA256: 3e02e188c11b9566069717b94c0edbc5ec6f32a2106d1da18198d247bf5b314c
-SHA512: 432f0caa8c904912b148b44d69a74ffa592e931d1ad2c9687b3d4cb7137a5d8fdae0c73a63c38fdb280f5d50cb782421f5b81d4fa7874b9d8bc080ab7a7bf1da
+Size: 1187716
+MD5Sum: 511023faa32d662cfd6f0e44a1c41bed
+SHA1: 3be91503dfce3d0b35d821cde95c1be28cc13965
+SHA256: 5780f244868ca95d43448d705b5722d304edc7b57ce1884a4df8e602b9ad1772
+SHA512: 83f20088fbf7a5a4807b36041d5875c38aceae7d8f2c9ade05d2dc52c43383c712f48f4ef1e407b6c5f451da65c6df8df07710314da4b484db1bf828ea6bd152
 
 Package: fonts-quicksand
 Version: 0.2.1-SR
@@ -216,10 +216,10 @@ Installed-Size: 96
 Description: Change termux fonts
 Filename: dists/xenoverse/main/binary-all/termux-fonts_1.2.0-SR_all.deb
 Size: 1440
-MD5Sum: 852ab4096ff75f41daba0902db7060e8
-SHA1: 7f08c9dc2ca96c75fb2ab41472698fcddc09e17c
-SHA256: 87a7c39fd78994982777869d714371c3c440a5fae4b4ef1f16f6f47e33d9b164
-SHA512: 5764f2d6886eb6b9c39d10632e0cba62f01edf2c1997a330bc2791d5d9bff0f38a2f91872ad6502f076628826eb0d57c6ed6d03e1fee3ed45a37ddf4fb3c568e
+MD5Sum: 8359dc7dcc5ddcd3ea53242faa73cad5
+SHA1: 09113ca7d9caab71c92fae93fe33e44b5dfaaff9
+SHA256: 1cdb3ed8ef11a35c79c5b23682d265bbe070b5b1453797968613f837769b5b41
+SHA512: 15877206950a90458128bc604dad5ae1d5a34fed90ec24f5ca15ad628817a34240ec0e52365ac9bbdb18558706599bcb89ffd86811dc8b1dc4ccd92e0c8709c1
 
 Package: tiktok-download
 Version: 1.1.0-SR

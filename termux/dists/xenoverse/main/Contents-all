@@ -31,7 +31,7 @@ data/data/com.termux/files/usr/share/fonts/TTF/LiberationSerif-Bold.ttf         
 data/data/com.termux/files/usr/share/fonts/TTF/LiberationSerif-BoldItalic.ttf    fonts-liberation
 data/data/com.termux/files/usr/share/fonts/TTF/LiberationSerif-Italic.ttf        fonts-liberation
 data/data/com.termux/files/usr/share/fonts/TTF/LiberationSerif-Regular.ttf       fonts-liberation
-data/data/com.termux/files/usr/share/fonts/TTF/MesloLGS NF Regular.ttf           fonts-meslo
+data/data/com.termux/files/usr/share/fonts/TTF/MesloLGS-Regular.ttf              fonts-meslo
 data/data/com.termux/files/usr/share/fonts/TTF/Quicksand-Bold.ttf                fonts-quicksand
 data/data/com.termux/files/usr/share/fonts/TTF/Quicksand-Light.ttf               fonts-quicksand
 data/data/com.termux/files/usr/share/fonts/TTF/Quicksand-Medium.ttf              fonts-quicksand
