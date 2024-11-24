@@ -215,11 +215,11 @@ Depends: fonts-meslo
 Installed-Size: 96
 Description: Change termux fonts
 Filename: dists/xenoverse/main/binary-all/termux-fonts_1.2.0-SR_all.deb
-Size: 1440
-MD5Sum: 8359dc7dcc5ddcd3ea53242faa73cad5
-SHA1: 09113ca7d9caab71c92fae93fe33e44b5dfaaff9
-SHA256: 1cdb3ed8ef11a35c79c5b23682d265bbe070b5b1453797968613f837769b5b41
-SHA512: 15877206950a90458128bc604dad5ae1d5a34fed90ec24f5ca15ad628817a34240ec0e52365ac9bbdb18558706599bcb89ffd86811dc8b1dc4ccd92e0c8709c1
+Size: 1444
+MD5Sum: 89a6a54c538b0211bdda071a1f08d106
+SHA1: 5335b6855dce5a3787d1ac7a8943418389e6dcab
+SHA256: 456c8cd58c9a2841dfb3650045620cd2b4c81971119710ca67ea240ed13aa995
+SHA512: ca3dfab0836e785c45de897e5bee1bd37e95bd06f7dd87aabfd2e5de021aac0c36babab3c37c0130022fec8eb5ea17340e4e172e7f3ffc80d77f034dbdcf70bd
 
 Package: tiktok-download
 Version: 1.1.0-SR
