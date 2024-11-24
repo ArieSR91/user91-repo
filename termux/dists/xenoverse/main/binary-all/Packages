@@ -28,6 +28,81 @@ SHA1: cf32e3a244788ec9343d699e8a82802505161e0c
 SHA256: ce78bb3eba634381ed0cc6ba1b2b4e02bd7f45761274edf8f8056e9293237b3c
 SHA512: 16af1e9b170a23376eaf7abcdbafd7eeae145eb77ba95762e618e7318c3067e33e38c087f097fb7293aaeee9fae23d5a181d41f7982412f07191641843bdf95d
 
+Package: fonts-firacode
+Version: 6.2.2-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: termux-fonts
+Installed-Size: 1856
+Homepage: 
+Description: Fira Code font.
+Filename: dists/xenoverse/main/binary-all/fonts-firacode_6.2.2-SR_all.deb
+Size: 384764
+MD5Sum: 794caa5e03ffd8044f8df68602d1de64
+SHA1: 0918ffa5b64a22cff1e51eb9b1461b41d09c7449
+SHA256: 57ed46f1c742b5ecb964af81a0c7ed7cfdcf954d6b0d7a83b7b3b8fe4ee095f8
+SHA512: 3ce7701188e0bcdb7e48f9ded9a5aad015c7f93eb1c1ec2f34ba28b059de62504500a3e228b20c207d7255e46c80a102f45f592873b58be0cc645cb98a59e919
+
+Package: fonts-hack
+Version: 3.0.3-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: termux-fonts
+Installed-Size: 1332
+Homepage: 
+Description: Hack font.
+Filename: dists/xenoverse/main/binary-all/fonts-hack_3.0.3-SR_all.deb
+Size: 359508
+MD5Sum: 8c3a2475cdca4259e4108924e9ba93a8
+SHA1: c6590b997797d2a0b3bd477a639cd04a06769787
+SHA256: 10458444cbb089b32fa40157e4dc129d5d3e110d45db4ce690ed84235359178e
+SHA512: 3808ef1ed64975fb6f196525c3e6ce8e6f2d3cb7cbec364c38bc5be0840da7e236603ce4f9527fff0c0138d20bb72871636435f927bb9af0b8acac92a3ffca1b
+
+Package: fonts-liberation
+Version: 1.1.4-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: termux-fonts
+Installed-Size: 2440
+Homepage: 
+Description: Liberation font.
+Filename: dists/xenoverse/main/binary-all/fonts-liberation_1.1.4-SR_all.deb
+Size: 816748
+MD5Sum: f1b3753aeec9cbf72b861acb7784391b
+SHA1: 8759f99993fafc1f0dd3ece3edb7c2443d1eb3ee
+SHA256: f3b67aaf38f33b80d0dfc601c65e509035c395706e524e09140ec526b105dd8a
+SHA512: 3ed1b026579d569e126a9962af61efb6f1d1b27fbd75cc65a1495bc7aaff746bac184f03033278a7bfbc31c77ed90084ea94fcab1019d8d53ca3c8eb60aba57b
+
+Package: fonts-meslo
+Version: 1.2.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: termux-fonts
+Installed-Size: 2632
+Homepage: 
+Description: Meslo GLS font.
+Filename: dists/xenoverse/main/binary-all/fonts-meslo_1.2.0-SR_all.deb
+Size: 1187628
+MD5Sum: edf990009376c26579784c164a12f462
+SHA1: 41e1b74e364bb81bf097e1fbddf5789800d97abf
+SHA256: 3e02e188c11b9566069717b94c0edbc5ec6f32a2106d1da18198d247bf5b314c
+SHA512: 432f0caa8c904912b148b44d69a74ffa592e931d1ad2c9687b3d4cb7137a5d8fdae0c73a63c38fdb280f5d50cb782421f5b81d4fa7874b9d8bc080ab7a7bf1da
+
+Package: fonts-quicksand
+Version: 0.2.1-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: termux-fonts
+Installed-Size: 488
+Homepage: 
+Description: Quicksand font.
+Filename: dists/xenoverse/main/binary-all/fonts-quicksand_0.2.1-SR_all.deb
+Size: 124784
+MD5Sum: 6364f9cc2d9cca34932c2c363f246ded
+SHA1: 1a498e8e6adfe7ef49bcad095e1bdb8721e5e638
+SHA256: 5089d9898d5b02e911bd3d0100966a2baabfc335a43cc3eae8bccb8a05cac9fb
+SHA512: c25828edb078642896cdb9f98d2e615ece5ebcd81be002ca9fcc539b58f14f715a11a455a516c40b2ed3d3d65abc90f37f4f4cc95a53f1eb89cb91757092613b
+
 Package: kali-dark-style
 Version: 1.3.1-SR
 Architecture: all
@@ -131,6 +206,20 @@ MD5Sum: 19bd6a24bfbca59a752af8bc6a682c51
 SHA1: 7b51f8f82a086d05d9d60cc7a19034ae842bc5d5
 SHA256: 6cab8ef2113338741ccf4a86e4a17ba4b5c802a4d9d1e29296071aa12401c137
 SHA512: 16903a0dc231f326c54026c156217c9ba77fd29f070d8f6ba91812528de6f6deac81ba80f141c26735cc418b9a1e9b584e13c6270e223562a648a64bde6dfa64
+
+Package: termux-fonts
+Version: 1.2.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: fonts-meslo
+Installed-Size: 96
+Description: Change termux fonts
+Filename: dists/xenoverse/main/binary-all/termux-fonts_1.2.0-SR_all.deb
+Size: 1440
+MD5Sum: 852ab4096ff75f41daba0902db7060e8
+SHA1: 7f08c9dc2ca96c75fb2ab41472698fcddc09e17c
+SHA256: 87a7c39fd78994982777869d714371c3c440a5fae4b4ef1f16f6f47e33d9b164
+SHA512: 5764f2d6886eb6b9c39d10632e0cba62f01edf2c1997a330bc2791d5d9bff0f38a2f91872ad6502f076628826eb0d57c6ed6d03e1fee3ed45a37ddf4fb3c568e
 
 Package: tiktok-download
 Version: 1.1.0-SR
