@@ -42,7 +42,7 @@ sr-undercover (all) \
 tiktok-download (all) \
 winebox (armhf, arm64) \
 youtube-download (all) \
-> wine-i386 (armhf) 
+> wine-old (armhf) 
 #### Termux
 > build-repo (aall) \
 download (all) \
