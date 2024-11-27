@@ -7,10 +7,10 @@ Installed-Size: 132
 Description: Build git repository with deb files
 Filename: dists/xenoverse/main/binary-all/build-repo_1.8.4-SR_all.deb
 Size: 5388
-MD5Sum: 2f49372f57bc49a94908dc3b8aaf3d8d
-SHA1: 8e27398806c059d26099e4a9a64a99cecc889edf
-SHA256: f34ceac2be4f1c05b3e54c2f43850cc27a619e117d29c32685b6a703d084e2c4
-SHA512: 4a5bf6703e1431a7b250b49beeaf78709864d6712989b9edb091f5ec87ba4e52b5edebc9c5b8a26a55d15c0bd9db1ab06d5d5b963fe9fd12a39dcce8472c8a65
+MD5Sum: 860746a277fdc4b727525218cefdd913
+SHA1: a011f62a1e411a08b93c181e16aaac7c6df3f910
+SHA256: df2c9489a859c377afd58a0d5d72ceb95fb916bcc68520260ac63eca89f9c42d
+SHA512: 308248e0b78daf27e4c952e49c68b1b6be8bc465e90876526208944158ebcb40cb8dda33675667ad40878a8810eed5b2631d8068de3b80fa7a00161b11ab01ae
 
 Package: create-bin
 Version: 1.1.0-SR
@@ -36,11 +36,11 @@ Installed-Size: 92
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/xenoverse/main/binary-all/repo-manager_2.1.3-SR_all.deb
-Size: 2860
-MD5Sum: dde7468d7fdc52bb25435e27df55dc0b
-SHA1: 9282ed4ad6c5f69b7715b57e659640aab1f79375
-SHA256: 8e25646660cb6a199c02c68587c92314c0ff38e040971dbec6dd69b1c97be0b1
-SHA512: 529635919ad8de3c78471f971ebf20ce6c0475a0dc59c8acdbc4abcf3c3853848939d254e4dac81c55213d875c656dc27c0bff67b86b400f57b73377b23c8b0a
+Size: 2852
+MD5Sum: c97a21349c6e8b2de35f73d74a2e4270
+SHA1: 4f7eb99df1df7f8e45d73add1dceffebde5f981f
+SHA256: 619a4c3bcb49037e03b27118ff63ca4e293a10521b7375d6614516f3c580e237
+SHA512: d815ef859b90ec94f7c04457814f9053856a9b148052f7497ce375e6abdbf23a2727afeb3ab3903244e641e2a3b5a87f19453efdc078ee92e44bdc5b54728a56
 
 Package: srcrypt
 Version: 1.0.0-SR

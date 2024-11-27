@@ -1,15 +1,34 @@
-Package: wine-i386
+Package: libtinfo5
+Source: ncurses
+Version: 6.4.4-SR
+Architecture: armhf
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 433
+Depends: libc6 (>= 2.34)
+Section: oldlibs
+Priority: optional
+Multi-Arch: same
+Homepage: https://invisible-island.net/ncurses/
+Description: shared low-level terminfo library (legacy version) The ncurses library routines are a terminal-independent method of updating character screens with reasonable optimization. This package contains the legacy version of the shared low-level terminfo library.
+Filename: dists/xenoverse/main/binary-armhf/libtinfo5_6.4.4-SR_armhf.deb
+Size: 314408
+MD5Sum: 11c3af374381658e44d0fc60517ec551
+SHA1: 84732aacecdbf96740efbe0b9c262fa7f15cb322
+SHA256: a3429fdbb0fd8c6b9dc7d12b8f8e6e544c3b20b584c5afc81531c5306f77db91
+SHA512: 6760f96ebb3b6e2242ebaa65b5763a2dd20c52ab7cda9ee722c192f606d2a7e183e9a8a9741eb9cdb335db0de4d26b8cff3f562ffc76515f8ebcee409b492d9b
+
+Package: wine-old
 Version: 5.13-SR
 Architecture: armhf
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash
-Installed-Size: 288086
+Depends: libc6, libfreetype6, libfontconfig, libxext6, libxinerama-dev, libxxf86vm1, libxrender1, libxcomposite1, libxrandr2, libxi6, libxcursor1, libvulkan-dev, libcups2t64, libncurses6, libmpg123-0 | libmpg123-0t64, libtinfo6, libpulse0, libasound2 | libasound2t64, libtinfo5
+Installed-Size: 322868
 Homepage: https://github.com/ArieSR91/
 Description: Windows Emulator
-Filename: dists/xenoverse/main/binary-armhf/wine-i386_5.13.0-SR_armhf.deb
-Size: 32259344
-MD5Sum: 1d8849712a2cf4dc249218f2ee5195f5
-SHA1: c0e526ce4cfb08b7cd7d7f4f0c73416d154b11b9
-SHA256: c2502ae4429b5b5dea8c8e97609555818d70a182aef177e3fd7ba82854dda1bc
-SHA512: fdcf8d280709a1308806d3dd8e3a2c638e1b23fc2c89933289ced3ebabbfc5716c5594e75e2a841fcd40d228c0f7f10c4f6ad5f6dc689eaab952e2e530265cea
+Filename: dists/xenoverse/main/binary-armhf/wine-old_5.13-SR_armhf.deb
+Size: 32259904
+MD5Sum: 2230bb2e2b546250fdb0555ab26063f8
+SHA1: 3a1b0ee0539de024a0e64fe3183687b4c3abe695
+SHA256: 059e8e088e5e63bc4c4461000f6d32365e0cb0b600c3bdd19809e85ef363ed3f
+SHA512: 4d456ad2e8fb8f01ba9b1a811be336c0d1ff3e7a4502e736ef3e5a7d5bf199276bb28692717e2f7139925b050201ecf33a2f0658abdc0c54732c526198225d71
 
