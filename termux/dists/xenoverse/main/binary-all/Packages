@@ -215,11 +215,11 @@ Depends: bash
 Homepage: https://github.com/ArieSR91
 Description: tool to manage well known user directories
 Filename: dists/xenoverse/main/binary-all/termux-user-dirs_1.1.0-SR_all.deb
-Size: 2028
-MD5Sum: e7921d806cc1953ce46f980a34a9c627
-SHA1: 7fcce7370605b99dc1e9f19cabcc57c7a5eb4879
-SHA256: 13c6e81beb5decf25ef9c33853b8a1a53319069f7fdd38086bf0f57ee2738c95
-SHA512: 5d7c47601776a047c02a3696abc4a9a5b51be602e4e2324a89080f1e058beb21d184614f935d0b746675d75ce6a6df2ce942f50adccaa6cbb998ead476ea5067
+Size: 2032
+MD5Sum: 2fc66097debf211efef2acd30e2d8fd4
+SHA1: 9378e0ec3caa79d8026bc35245c2e06d44c330b9
+SHA256: f91e9c142824a6bfe6c15c59d5e6db23cce9281b017c24a4f212389110bf4ada
+SHA512: e18f1d31498ec3b648affb95f9b33dec5d73782a4cfd4c6bbb28bcb6a8cb27005d662819aae851bc45d8fb1b4bcd27cfbad75768f5c03c08971c08d19fe1af2d
 
 Package: tiktok-download
 Version: 1.1.0-SR
