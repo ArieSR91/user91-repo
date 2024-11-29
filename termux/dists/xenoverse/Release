@@ -1,12 +1,12 @@
 Codename: xenoverse
 Version: 1
-Architectures: arm aarch64 all
+Architectures: aarch64 all arm
 Description: xenoverse repository
 Suite: xenoverse
-Date: Fri, 29 Nov 2024 04:56:21 UTC
+Date: Fri, 29 Nov 2024 05:14:03 UTC
 MD5Sum:
- 67687886974a2cf1a42602600bf21754 10554 main/binary-all/Packages
- 8cb51c0ac4830b1c85e4987c056588c0 3912 main/binary-all/Packages.xz
+ d0fd131e2306536cac731c81ee6ecfc0 10554 main/binary-all/Packages
+ 4d6556606b3ec2c5d94b3081c5767223 3916 main/binary-all/Packages.xz
  0458f9890fd7d6772c436e0c4e1f773e 655 main/binary-aarch64/Packages
  8c760cebd633aabe020470aada5f3a43 560 main/binary-aarch64/Packages.xz
  f38cf792597a5a0f569592fc35b19cf1 643 main/binary-arm/Packages
@@ -22,8 +22,8 @@ MD5Sum:
  d0ae3380728ecabcd9e410042bd17b70 279 root/Contents-all
  28be7bc17932c9db471d651e777f6910 144 root/Contents-all.xz
 SHA1:
- 6a5137490cf30f02145bf02702dc546eacd287c5 10554 main/binary-all/Packages
- 6e9bdf8e9e8c966a9bdc067e933a35940335182b 3912 main/binary-all/Packages.xz
+ da11c9eaf1d8c53c0468a3b89f2494c162ebdf19 10554 main/binary-all/Packages
+ 8f484ee560991ddaefff85f34647cbe39317c64b 3916 main/binary-all/Packages.xz
  ba45ec2b8d6b8824536f27361e5ad663e60f70a2 655 main/binary-aarch64/Packages
  014cc8c5a3606a79b8ca5b98587799a88e06856c 560 main/binary-aarch64/Packages.xz
  4cce0f2d5d403c565bbcac166aeb8b4f89ee86b6 643 main/binary-arm/Packages
@@ -39,8 +39,8 @@ SHA1:
  9c6f4169e3dcbbdd40b0100271ef87b15d94dc25 279 root/Contents-all
  99816d7783e6d9ac9b1e5d4e876a11dac695a8c6 144 root/Contents-all.xz
 SHA256:
- 796b9c8cbf31fcdec8d7567071cada684fd782940adb410cd68190bae7c472f0 10554 main/binary-all/Packages
- 5ca8a9abd664d545c49a2af9cdab93c1f77e5de06cec441158becd73e935ebe9 3912 main/binary-all/Packages.xz
+ a86ee93634359c8ce2d73ac0dddfedbf05edb91f4f51f49c0950b67738eccab0 10554 main/binary-all/Packages
+ 896d4150113aedb776dd11c0096d466659b69f494e9ff30938a21aa2a73e6e43 3916 main/binary-all/Packages.xz
  4ca1253533b035fff9707c91a79392a09ccf825907e0f5db665f060322f7bc62 655 main/binary-aarch64/Packages
  35fa7fdee827f24384f45c30cde4659620346db310de9dc2e4ce818b19e3abb5 560 main/binary-aarch64/Packages.xz
  92df59222dc7325944ca72fbc223a7a79da2a17ed92c32cbd56ef77b75766256 643 main/binary-arm/Packages
@@ -56,8 +56,8 @@ SHA256:
  16916224ecc587d5bfdd90e01edad532486d8ba5ee43ea2ad5070b949ee76ece 279 root/Contents-all
  1571c09ff73a1564469a14fd9a781bf453d7e739e9f85b3fe5f5dd3fd6a1925d 144 root/Contents-all.xz
 SHA512:
- 8606cb42f9665b45aa7a6fe29df0f9dc584bf5d1102575b38b16c958ac555a436e616e1d4cc702995f517d308582eeae8f91c4f4abf7e6c8cada872f7f6f5531 10554 main/binary-all/Packages
- ced20689c910ba4c69fefa60859178db88b86065cd297836e30d734126dffdd40fa5d4ea92e71afb861f624b847eed61fc346e2a46d5a47135be8bb174eb4dd9 3912 main/binary-all/Packages.xz
+ 5ae12629662d19b0610c4963b10a1a98f184f336cb7b0d24349537fbb50c9854831b0b535944a4f8412667fe509e47b0debd399e6c4a71383e43a0698b3f3117 10554 main/binary-all/Packages
+ cb2ed94fbb77979f0aa2d96db2f357f64354aafeb9b5e3982df55758dbace3dc421a29e695b7e6a61bce588504e4f4f7db28514d8ad076f1c5fc21a1c01003a5 3916 main/binary-all/Packages.xz
  c8bdf79b16dd1fe36243c14f3f20205f2f737727a6c0ebd3030e40a2a44142920764c9035638044168b5af2c8607c9bca3114b62429cc329bea7047e953908fa 655 main/binary-aarch64/Packages
  c2c06938b13141d325563c5f70e5ea3efd5b9c64ed40f657129db371705974ef8ee165d4ee281533643067208f54bd45f13002c504f553cbe2d2e1a7e0a575bd 560 main/binary-aarch64/Packages.xz
  5df1a6f54c3154eeacff36048c4e0638732ad93122006c2743fe44138177c4f7bccefa8b899cb12d1c632f0e036fde50b239c5bb8004005858bc7b2595abbeee 643 main/binary-arm/Packages
