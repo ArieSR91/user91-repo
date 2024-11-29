@@ -30362,7 +30362,6 @@ data/data/com.termux/files/usr/etc/proot-distro/kali.sh                         
 data/data/com.termux/files/usr/bin/git-repo                                      repo-manager
 data/data/com.termux/files/usr/bin/repo-index                                    repo-manager
 data/data/com.termux/files/usr/bin/repo-manager                                  repo-manager
-data/data/com.termux/files/usr/bin/srlocks                                       srlocks
 data/data/com.termux/files/home/.vnc/config                                      termux-desktop-lxqt
 data/data/com.termux/files/home/.vnc/xstartup                                    termux-desktop-lxqt
 data/data/com.termux/files/usr/bin/desktop                                       termux-desktop-lxqt
