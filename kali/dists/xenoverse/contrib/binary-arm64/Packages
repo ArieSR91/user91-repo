@@ -12,39 +12,3 @@ SHA1: 5abb058ca4f5fbe768bb46a12ac3e3a9bd0ad710
 SHA256: 45855a9ba504a21fe5c5d69ba4e13a9bf25d17639eafffe192f3d2db6bf68939
 SHA512: f6187bec43f21d874b2d1330dc5022b384893192591e608060ffbc0772e1066fb56d3482ba47a8d6707c55dd165727e5d81b7024c266523bf7b8cadfb3fd902b
 
-Package: vscode-data
-Version: 1.95.3-SR
-Depends: vscode
-Architecture: arm64
-Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
-Homepage: https://code.visualstudio.com/
-Installed-Size: 211640
-Description: VSCode data.
-Filename: dists/xenoverse/contrib/binary-arm64/vscode-data_1.95.3-SR_arm64.deb
-Size: 38995332
-MD5Sum: 36dad6e44c7ccbba9cdf062eb6269cb5
-SHA1: e4f909ff24f0fc965f5a1b8a4dff0bac92106dfd
-SHA256: 7ef1cf457abc3bd09a4977907222e049c6fe4ebf5c32fd7d3ee277ed2153147e
-SHA512: 4b2a87722dc999c0486adcbceea83ae81ec00525bc933639a7759b6e79dcfc00522adc22370544e8ab43c837b9ffc85b8fe1555ae040e4e3b02bd839ab4e5538
-
-Package: vscode
-Version: 1.95.3-SR
-Section: devel
-Depends: vscode-data, ca-certificates, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libc6 (>= 2.25), libc6 (>= 2.28), libcairo2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.1.1), libstdc++6 (>= 5), libstdc++6 (>= 5.2), libstdc++6 (>= 6), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2, xdg-utils (>= 1.0.2)
-Recommends: libvulkan1
-Priority: optional
-Architecture: arm64
-Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
-Homepage: https://code.visualstudio.com/
-Installed-Size: 201724
-Provides: visual-studio-code
-Conflicts: visual-studio-code
-Replaces: visual-studio-code
-Description: Code editing. Redefined.
-Filename: dists/xenoverse/contrib/binary-arm64/vscode_1.95.3-SR_arm64.deb
-Size: 57074468
-MD5Sum: 85e14762f95c68940a6d63753b310c1c
-SHA1: 33c9c72d5ed63e8c26110988d69807bf0e86c762
-SHA256: 340af95085139018a183f31db3a78dec199ca8fa34fa079eb3c1bb21a982b2f3
-SHA512: 0de4fce43373442aba553cf0f5a7ed46a1b0edab911897e07f713feb69bbcd59f7ec916b00f820788453c66d658a48e0c0b8175de29577d22de3915fe61879ec
-
