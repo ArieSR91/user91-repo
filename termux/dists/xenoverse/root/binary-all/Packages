@@ -12,3 +12,18 @@ SHA1: c14981b9baeb93f1e32c978dec258b730d7e2d35
 SHA256: a4fce51218a7454ba06ab4f6c5126a322d73f31dd7957f74a33acbf0ca97d8b2
 SHA512: 97ab42b06f73951c09ddf227ecd345c72411c9c22a3a0ed4b4951481b9cdfc387996e705a6a22b6aaeafa7d27af2d91d68ff905e0d8d820d93493c0515d97e98
 
+Package: sudo
+Version: 8.6.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: tsu
+Installed-Size: 0
+Homepage: 
+Description: Run command as root user
+Filename: dists/xenoverse/root/binary-all/sudo_8.6.0-SR_all.deb
+Size: 960
+MD5Sum: 062bd12827f0edd243964f14e27ebe20
+SHA1: 4b5355422a04b0c45c1dbeeabde2a8509f45d6d0
+SHA256: 5b96ab1add301d0e8a65474032f12b17c287751e10c8449711ebf985dcfd3299
+SHA512: 9e3ae079dccce9669f36587e1626934261f357c9637ea84812504bfe7c6bbb923609493624de9ce4b66563b7571592fb01a17ee3eed1b5d845cd032179887e40
+

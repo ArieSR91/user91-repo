@@ -3,10 +3,10 @@ Hash: SHA512
 
 Codename: xenoverse
 Version: 1
-Architectures: arm aarch64 all
+Architectures: arm all aarch64
 Description: xenoverse repository
 Suite: xenoverse
-Date: Fri, 29 Nov 2024 13:04:46 UTC
+Date: Fri, 29 Nov 2024 14:06:55 UTC
 MD5Sum:
  01c7f1901ac99cb0db434c44fde3b986 10552 main/binary-all/Packages
  35c38d1aadfa9ca764e8a560274de8b4 3916 main/binary-all/Packages.xz
@@ -20,8 +20,8 @@ MD5Sum:
  23d58fe05fb64ac1c4b7e241fae9cfea 136208 main/Contents-all.xz
  c04088012807878728da7b51350fb2a2 116 main/Contents-aarch64.xz
  c04088012807878728da7b51350fb2a2 116 main/Contents-arm.xz
- 0ded316b00df493e534ff4e86380f750 625 root/binary-all/Packages
- 3a8254f2d96162574e869153fec352c6 528 root/binary-all/Packages.xz
+ f03185861a41fb616b083a387ca604ff 1182 root/binary-all/Packages
+ d5f82c658133211a5d59b35fb520b58e 748 root/binary-all/Packages.xz
  9e6ef5b1fb0b78b68de4b43156caf34c 372 root/Contents-all
  c72d24dc580da6ddedf1b02c160c58c8 160 root/Contents-all.xz
 SHA1:
@@ -37,8 +37,8 @@ SHA1:
  f9958adcd34e8aa41452b5b58245d8d7e5630d4d 136208 main/Contents-all.xz
  e1f3971c38f46e6cdbf5929d232a849dd4fab2b9 116 main/Contents-aarch64.xz
  e1f3971c38f46e6cdbf5929d232a849dd4fab2b9 116 main/Contents-arm.xz
- 0419d1f93acdac95e1cd15ab57832f582f6d6d9b 625 root/binary-all/Packages
- 8a506d632e37b6374d5283f62e1d423e6819fdb3 528 root/binary-all/Packages.xz
+ af4f3e1e10ad88cf810ac4ceba585bc6f3b745e1 1182 root/binary-all/Packages
+ 7069519e822357f2a54f9813e5de67d12ec15262 748 root/binary-all/Packages.xz
  92ebd675331948ceb88d7cedc3f9db19071e376a 372 root/Contents-all
  a8aba861105302e8893421ce42ddd0868c8a61e7 160 root/Contents-all.xz
 SHA256:
@@ -54,8 +54,8 @@ SHA256:
  4ca95283a43daf9296f3df9b1072adb16e2efde85cddcef0e3610f11385f6595 136208 main/Contents-all.xz
  486b26f82a38f7572efd796bd9314d239822ba7bdfcac78f1435e32033ee71bf 116 main/Contents-aarch64.xz
  486b26f82a38f7572efd796bd9314d239822ba7bdfcac78f1435e32033ee71bf 116 main/Contents-arm.xz
- cdb1088126fcb80913e8426ebc6d8710b7b65a64ebd76ab6fec22b7dfea0e22d 625 root/binary-all/Packages
- 4dee7054d249d93368043afa2b8912dd910edaf93fd3a053821ddd126388839f 528 root/binary-all/Packages.xz
+ 0eeab2aaa4a4b5f1bb4ff473be54ad5950eea5d41e46db5b83eba403928a52ec 1182 root/binary-all/Packages
+ d670b5a58922b1f52f7431919ec34b21ff8fdf726345b9323256b4ac7e0770bf 748 root/binary-all/Packages.xz
  6c0361fbefd50660d65a712273cf8119f513676c4edf3bf19bcd0260661efa87 372 root/Contents-all
  49a2eea9d07d33f1003a20d1a0f0bb85f99a4f8192a8ff8ca36e12a2246210dc 160 root/Contents-all.xz
 SHA512:
@@ -71,21 +71,21 @@ SHA512:
  b529fc89f787e388e3a2438554e3c8ba4731e6f22cea293d5cc07b13574a3b41f4f70c234c6cf499ce8841d6e925184845838336d72843788050860f2e4777fb 136208 main/Contents-all.xz
  4e06d104be3074989918b18c3272954ae3d2289fdc6cb1bc1b6e33f32c0a3f3ffaec1d7f75013cdd766d2295efc114490db741f36d4e84111960cfb88171d1ef 116 main/Contents-aarch64.xz
  4e06d104be3074989918b18c3272954ae3d2289fdc6cb1bc1b6e33f32c0a3f3ffaec1d7f75013cdd766d2295efc114490db741f36d4e84111960cfb88171d1ef 116 main/Contents-arm.xz
- 7133c5d6c7d0904eb678efa46ce36823f03d3555ba23fbdbcac52c84ddf359cf52e2bf1bd1a520b2fadc46c38eea43db4a9422b514163bf365c308c3551b7952 625 root/binary-all/Packages
- 7b280d15fd662a0d6b53e16f9686b56e5b252b0321b6b61ab2ba1ff32a5240680061f1e3c52357ed506f95bc97a2279dd910cdb3e16b15a51989c3eabe697a22 528 root/binary-all/Packages.xz
+ d1c5ecf5314bfda4d825366984995bb1707bfa11e2fb8ba32f343bbd159d7413ea7e1122b7949a6019f758fd8f80cdfd1c1a6756de922bd2979f5cde50bf98f9 1182 root/binary-all/Packages
+ 96b3c6ff3e0e04e05c36ad14fcc3911c0d6de7d5156d6df8cdf47ed8f6a5ae19a87d36dae74240879b10b3c3a3479fd85681ff5d541be85cc35b56cc719cab7e 748 root/binary-all/Packages.xz
  63e89d772be8c6d8283050037a98ef953e75d382c0ce686a8533efcfdf1672f0ba34ff046b2015eb0ea589d1fa8e7db83ef6818ba2681656befb77328678c4a2 372 root/Contents-all
  438b6b5d63d7035b099ddd0faf8bc9a83cb7d8fe563237bc00ed0265a029de7041c0040268f8eef08da01d9f61839fe3bfc579477ec54680cfe1251f538aa31a 160 root/Contents-all.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE/w8GnpkBI9uOygqoZvABD5pY/6gFAmdJu/cACgkQZvABD5pY
-/6gb0Qv+NLkMV2E/wbpTei4acCUeEPOtESQfrs8Ety607mXIvfqWY0WrlABEWeWQ
-DwaM5bqksbk/YNVm7k2/XposUA1lsAkjmP/eXZEfD2E9jVhsA0B+YwxPNXTGF40k
-r9bDjmyniEeFxC8+MuSnKCWC/1/DcshE/FBpdq1bIzhvL/jVCt6EOamERDdkcfF0
-Q7lAIO2gjMuhasbYoULbXLFcjCIPCpJ7IOAKfeBGcnLhgigh0v9PL92mye1KG9RK
-Ujcoa4B5j3IUQ/Dt7IdsBqEeaNQEwgWHQxzypelXoGMYirTAAXddWT3hLOnHi7wm
-rovd24z3yHlsxwspkbmYmVJ+2QutP2rUW4U8eKXadfbKNrE/nx1LXkqeYIbIRwvC
-76NZvr5XNtti5tJEcWtlQL8MwPCGTWP7QEEa4WbKegrDbTx7Truqyogjw/IRCgh3
-kfH1SqK/SAOADjxUy3ovFdkO39DcGaCnuXgtHHiPmAiaAScgRHrMSbPNkgSJ1IqB
-z0wuqXFP
-=UuOU
+iQGzBAEBCgAdFiEE/w8GnpkBI9uOygqoZvABD5pY/6gFAmdJyoYACgkQZvABD5pY
+/6hBLAv8CQOVWtYJZ6vn7eySnTkkIf8teE16oZX6B8FvhlxWbvcTMtxFblt4cU9M
+joHsBxaAOB/MDqF7wZZ0voQHMp99YlXDQNx1QGH2IszgoIdG9X6C2fHiNOsvZz50
+RnFC5FC5MDezbN2/dUWsGNLbDYc26nA4EZNCFTWNbrgvXISr2QhohQqr9zrlirG0
+ybHf/mPvBG3xuy+jecPlrKveUsCA3tVNOX0GXsM6Huje4BNOSnpjszzkJUxoxqrn
+N7GRCMNR0mlXnA0my/nqyQ2RKpxFKbsa21riVa5Us1UMHfr59BjSLRUok2XcaL1v
+mmsVIN7ErkbPj3ROvdQ7NMLJF8xaB9EHvJGgU8DETM0NhZmxMBozIPGhtaGSmP+k
++lvacpD7ZRnKdYiw/+J2zMAs6C7/X+MMc8dge+HxykagkAd3sGQ06TdN4HhiyCG/
+8jklbL3gIaaFl5o023Pgc/SGQzCZSnXh/p/K9+uv9ChtHaKPrqqVGemqEgaYurcq
+cmel6myf
+=erKm
 -----END PGP SIGNATURE-----
