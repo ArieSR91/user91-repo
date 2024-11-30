@@ -6,11 +6,11 @@ Depends: x11-repo, root-repo, tsu, pulseaudio, termux-x11-nightly
 Installed-Size: 17656
 Description: Run linux deploy via termux
 Filename: dists/xenoverse/root/binary-all/linuxdeploy_1.2.2-SR_all.deb
-Size: 16863516
-MD5Sum: e64b3543e69417864a57cda999d4379c
-SHA1: c14981b9baeb93f1e32c978dec258b730d7e2d35
-SHA256: a4fce51218a7454ba06ab4f6c5126a322d73f31dd7957f74a33acbf0ca97d8b2
-SHA512: 97ab42b06f73951c09ddf227ecd345c72411c9c22a3a0ed4b4951481b9cdfc387996e705a6a22b6aaeafa7d27af2d91d68ff905e0d8d820d93493c0515d97e98
+Size: 16863812
+MD5Sum: e897a8adc6464bea85ce3a2f473ca9a7
+SHA1: d232901774d4a9db121476046d069cfb1b798993
+SHA256: 613c7d45278e299e7947c79617ef9649513563200a2bbed1bec6ec1a46b1b743
+SHA512: 54ca11abd078ebf0e14aa783995624e0a9a45d0d31fbd832716dbdb9c1e78a2442f888251344f8aaa7f63f78e2b9afc8eb6c11ca2f47e37c925b9fc69a50a470
 
 Package: sudo
 Version: 8.6.0-SR

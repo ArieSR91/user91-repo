@@ -113,11 +113,11 @@ Suggests: kali-icon-themes
 Installed-Size: 452
 Description: Termux kali dark style
 Filename: dists/xenoverse/main/binary-all/kali-dark-style_1.3.2-SR_all.deb
-Size: 117616
-MD5Sum: 041d65c29ebc70e604d315e5ae0972d3
-SHA1: 815ecff9211d351b649542ff2e83d378bb8f07b8
-SHA256: 2edde42e744d4c6feca927ebce1e22d0c02236f0f4c3072d093a73627c1ab917
-SHA512: 86fb285f482efcfea63336460872dde32ee000d3b5b72f8ca9f63d148cfde407ee7411ff11b071708236e46cb7510ac4e24c9b32cc422d706c75948c22c616fa
+Size: 117644
+MD5Sum: f3c6eccf892a11e9def09796b1028bcb
+SHA1: 750e8b78d77a38272df5875fbd69cddca593b5ce
+SHA256: 68f0d30fbad8c876340ca1c70ef01d2e6cfe6a8514ba1c88575f6d3a8e73b079
+SHA512: e28623fef836a30a632227460f72e810b21b446c7817ed0fd0e72ef1c3661d062b15946fc2b4c23b19008441c9fd81e42e08bb3b76eee6511e62085d20176454
 
 Package: kali-icon-themes
 Version: 2024.3-SR
