@@ -54,11 +54,13 @@ fonts-meslo (all) \
 fonts-quicksand (all) \
 kali-dark-style (all) \
 kali-icon-theme (all) \
-linuxdeploy (arm, aarch64) \
+linuxdeploy (all) \
 proot-distro-kali (all) \
 repo-manager (all) \
 srlocks (all) \
+sudo (arm, aarch64)
 termux-desktop-lxqt (all) \
 termux-desktop-xfce (all) \
 termux-fonts (all) \
+termux-user-dirs (all) \
 > tiktok-download (all)
