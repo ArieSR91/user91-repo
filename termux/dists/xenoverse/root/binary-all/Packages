@@ -1,16 +1,16 @@
 Package: linuxdeploy
-Version: 1.2.2-SR
+Version: 1.2.3-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: x11-repo, root-repo, tsu, pulseaudio, termux-x11-nightly
 Installed-Size: 17656
 Description: Run linux deploy via termux
-Filename: dists/xenoverse/root/binary-all/linuxdeploy_1.2.2-SR_all.deb
-Size: 16863812
-MD5Sum: e897a8adc6464bea85ce3a2f473ca9a7
-SHA1: d232901774d4a9db121476046d069cfb1b798993
-SHA256: 613c7d45278e299e7947c79617ef9649513563200a2bbed1bec6ec1a46b1b743
-SHA512: 54ca11abd078ebf0e14aa783995624e0a9a45d0d31fbd832716dbdb9c1e78a2442f888251344f8aaa7f63f78e2b9afc8eb6c11ca2f47e37c925b9fc69a50a470
+Filename: dists/xenoverse/root/binary-all/linuxdeploy_1.2.3-SR_all.deb
+Size: 16863968
+MD5Sum: a584d6a86c3c13fb0a96db97b5e55197
+SHA1: 3c655d6f4dd754c01aa1a7d0add2521161261bdf
+SHA256: 475054759742da1c53dcd349ff72f3e63f04c3ba174c623b1bfa6419dfebe3f0
+SHA512: fca36fc0228942584ec90ba292ffbb8d10e8eef3a1232d5b64e4f42bdc1069e21f75b0c831c15e75685dfc8568bd72ebfc28d6807967c4a1c611b3b343cb6726
 
 Package: sudo
 Version: 8.6.0-SR
