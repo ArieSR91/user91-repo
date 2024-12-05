@@ -4,6 +4,8 @@ usr/local/bin/build-deb                                                         
 usr/local/bin/build-repo                                                         build-repo
 usr/local/bin/edit-deb                                                           build-repo
 usr/local/bin/create-bin                                                         create-bin
+usr/local/bin/fake-monitor                                                       fake-monitor
+usr/local/bin/monitor                                                            fake-monitor
 usr/local/bin/git-repo                                                           repo-manager
 usr/local/bin/repo-index                                                         repo-manager
 usr/local/bin/repo-manager                                                       repo-manager

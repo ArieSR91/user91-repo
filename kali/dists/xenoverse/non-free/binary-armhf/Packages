@@ -16,21 +16,6 @@ SHA1: 5bc5b8f46afe33d1532b3ee132b08cba4f2faa44
 SHA256: cf806bc8f20ae1c02e62170b0c9bd4fa9198defceca87a26a2f4f84354382df2
 SHA512: dc2292d4dedb13ff9aefe35b4eb2deed1ceeb5f1b04a53e1a74fb7b254fcd5a6fbcdbfec3e9a3addaeb417e8adb6db25e020c037260723600683dec0a1ff3183
 
-Package: fake-monitor
-Version: 1.1.0-SR
-Architecture: armhf
-Maintainer: Arie-SR91 <syahri.ramadhan2022a@gmail.com>
-Depends: network-manager
-Installed-Size: 72
-Homepage: https://github.com/ArieSR91
-Description: Fake network interface
-Filename: dists/xenoverse/non-free/binary-armhf/fake-monitor_1.1.0-SR_armhf.deb
-Size: 1456
-MD5Sum: 532cc808dc0a0e08586907687a75aeba
-SHA1: 5f5a7c5fc904b06ab13cf0c47e9f2152e8e33393
-SHA256: 8df7961a81d080eabf7b11b4eb4246841dc596c00a248dd83fff32ef89e37735
-SHA512: d27444312f042024c666720c46dea99ad26677be19fee244a1e6362163b3eb98f2c66513ae4da389201865c7591369a36500c8fac6869c84eb039ca887bed5eb
-
 Package: winebox
 Version: 1.1.3-SR
 Architecture: armhf

@@ -12,3 +12,18 @@ SHA1: b104ccf6e2a2d36b559cb0c00f9b582fe47c29eb
 SHA256: ca692e495cd531e70ce797e58372606e37aae52616f9859f59577ee2e7f625f8
 SHA512: 27f5b33c3ada4f615843ad4fc7a423e15cb027dc71e1cfbd3993150d2569342f4424c28797adeda290830b3e3245a817d5958744a3e01a015f78d4b43060af3c
 
+Package: tgpt
+Version: 2.8.2-SR
+Architecture: armhf
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 8780
+Homepage: 
+Description: ChatGPT in linux terminal
+Filename: dists/xenoverse/contrib/binary-armhf/tgpt_2.8.2-SR_armhf.deb
+Size: 2372792
+MD5Sum: 5c99d70c5ec118c398cec6dd4d4444b4
+SHA1: 1d437b3eb9e0ab2e7cb3b87960eca9fc8d459f69
+SHA256: 275b681b5f55f0fca1b2f7ff7000f025e4e471bad44b5d98a1b94343016ff3f5
+SHA512: 7bd2243343b633f4aa7be304835cf348894340002e9b04ceeed39a76d590ebf86962b462498c0d67d89852a1a1382fcef25360d220b2499fe6bb9215e1e4bca0
+

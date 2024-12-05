@@ -1,16 +1,17 @@
 Package: build-repo
-Version: 1.8.4-SR
+Version: 1.8.5-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3, gnupg, git, sudo, xdotool
+Depends: bash, python3
+Recommends: gnupg, git, sudo, xdotool
 Installed-Size: 132
 Description: Build git repository with deb files
-Filename: dists/xenoverse/main/binary-all/build-repo_1.8.4-SR_all.deb
-Size: 5388
-MD5Sum: 860746a277fdc4b727525218cefdd913
-SHA1: a011f62a1e411a08b93c181e16aaac7c6df3f910
-SHA256: df2c9489a859c377afd58a0d5d72ceb95fb916bcc68520260ac63eca89f9c42d
-SHA512: 308248e0b78daf27e4c952e49c68b1b6be8bc465e90876526208944158ebcb40cb8dda33675667ad40878a8810eed5b2631d8068de3b80fa7a00161b11ab01ae
+Filename: dists/xenoverse/main/binary-all/build-repo_1.8.5-SR_all.deb
+Size: 5604
+MD5Sum: 0b8f74a231bc2d08d46bfc04cf7137bb
+SHA1: 10235f3b1b8a3229e74d05b6e83761c4c75e4270
+SHA256: fbabac6c106b14cd828f7d58c34a3c9b491e268afed77471960de8663f8158a4
+SHA512: 270cddb564cbf745f5b60c2f96d56f5c4489f0c383e943ac29b4b3fba8bbdc2f9d121a4842ad97f7ab5773657d8267a678a5edc5718d953104ef30459ab38f87
 
 Package: create-bin
 Version: 1.1.0-SR
@@ -27,20 +28,36 @@ SHA1: 60601bf7a5e583a5431527e3ef435b4f237dd4cf
 SHA256: 916f0fd0d849d3f4ae2843e88fdf0a99e0b2d5a495c9fc7da3f91d5d478dfece
 SHA512: 97723d2724d707600ab619163f3e7b8d4340b92b18615dfc7879af1a378d768a6a2c59662872971c914b6d73b18cecb185c84d5e23e24963d297e648fd4f29ff
 
+Package: fake-monitor
+Version: 1.2.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022a@gmail.com>
+Depends: network-manager
+Installed-Size: 72
+Homepage: https://github.com/ArieSR91
+Description: Fake network interface
+Filename: dists/xenoverse/main/binary-all/fake-monitor_1.2.0-SR_all.deb
+Size: 1376
+MD5Sum: ea9d7c4ebc06b4cf1c20ed4e79309d86
+SHA1: c92ba29acac334e534a0e8a996519f516465c57c
+SHA256: 51d2eab4f76c55128a8e607a597c3902fcde1f08b928a10f6b5709664709a678
+SHA512: 5df4c6620a0df081bdadc2cfb7240c6831e91b684963632e2fcb514d6f183755bab1d41884350115026723e31d2e6e3bd2e338cb1107c311a853917710735aea
+
 Package: repo-manager
-Version: 2.1.3-SR
+Version: 2.1.4-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3, gnupg, sudo, git, build-repo, binutils, tar, xz-utils
+Depends: python3, build-repo
+Recommends: gnupg, sudo, git, binutils, tar, xz-utils
 Installed-Size: 92
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
-Filename: dists/xenoverse/main/binary-all/repo-manager_2.1.3-SR_all.deb
-Size: 2852
-MD5Sum: c97a21349c6e8b2de35f73d74a2e4270
-SHA1: 4f7eb99df1df7f8e45d73add1dceffebde5f981f
-SHA256: 619a4c3bcb49037e03b27118ff63ca4e293a10521b7375d6614516f3c580e237
-SHA512: d815ef859b90ec94f7c04457814f9053856a9b148052f7497ce375e6abdbf23a2727afeb3ab3903244e641e2a3b5a87f19453efdc078ee92e44bdc5b54728a56
+Filename: dists/xenoverse/main/binary-all/repo-manager_2.1.4-SR_all.deb
+Size: 3112
+MD5Sum: 31fd4cad1af3b43d62dd751a717da557
+SHA1: 45aa21e097bbeb9731b9dc5b7ea3b91f3f503b17
+SHA256: b028e8f82856bfc3ba8241139d4945bd4728122c6078b699ba284e6d1577f266
+SHA512: ca40479eb80c5981ea14da2f52a710b2446ed859401fe551aeb7af8b87d7d864e85c926351a8f58938988ba210c6a26cb717a7955ac3f26ed0dd7a9bdea5e1c6
 
 Package: srcrypt
 Version: 1.0.0-SR

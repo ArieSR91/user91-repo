@@ -1,16 +1,16 @@
 Package: ddos
-Version: 1.1.0-SR
+Version: 1.2.0-SR
 Architecture: all
 Maintainer: name <syahri.ramadhan2022@gmail.com>
-Depends: python3, python3-colorama, python3-termcolor
-Installed-Size: 786 KB
+Depends: python3
+Installed-Size: 76
 Description: ddos attack
-Filename: dists/xenoverse/contrib/binary-all/ddos_1.1.0-SR_all.deb
-Size: 3288
-MD5Sum: 1cb617a9fc6eef5f992ca321b18eba4b
-SHA1: 59939d126b24f7bbf7be4de73b8fd1f403c0cf29
-SHA256: f03cfb66d75b42ef0e12bd5b0bb0c5fe0dcb8f4108f5717de4a5c97cd590396c
-SHA512: 7ed41386299b5c0f37609c894f26ae4e4ac2fcd389e99fd4d63dc55f97cf9bcccc5f5ba3b81b7d665f2a5b968a612c095c8a776562373c15b6bcc8d0ebf9574b
+Filename: dists/xenoverse/contrib/binary-all/ddos_1.2.0-SR_all.deb
+Size: 3032
+MD5Sum: ba8bd8554ecac71bce6db60e1fb67e60
+SHA1: 6e2ecaac7b090a7ae579ccf7c8e0d1af8ff8e5b9
+SHA256: 2504b4e3f3ae5c6b2c164f255793fc46aad2d6eca4b9639936fb980629d1eda3
+SHA512: 6ea653b27d941328fe9231eeae36ef76ee83d9857bce1cd02d8eba4e6fa573fca50140cb6b6025adcc3e44c2628423f229dc8b424b21330672644c170c80f58c
 
 Package: ipgeolocation
 Version: 2.0.4-SR

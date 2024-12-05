@@ -11,5 +11,4 @@ usr/lib/i386-linux-gnu/libstdc++.so.5                                           
 usr/lib/i386-linux-gnu/libstdc++.so.6                                            box86
 usr/lib/i386-linux-gnu/libunwind.so.8                                            box86
 usr/local/bin/box86                                                              box86
-usr/local/bin/fake-monitor                                                       fake-monitor
 usr/local/bin/winebox                                                            winebox
