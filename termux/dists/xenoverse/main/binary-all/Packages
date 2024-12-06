@@ -104,22 +104,6 @@ SHA256: 5089d9898d5b02e911bd3d0100966a2baabfc335a43cc3eae8bccb8a05cac9fb
 SHA512: c25828edb078642896cdb9f98d2e615ece5ebcd81be002ca9fcc539b58f14f715a11a455a516c40b2ed3d3d65abc90f37f4f4cc95a53f1eb89cb91757092613b
 
 Package: kali-dark-style
-Version: 1.3.2-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash
-Recommends: x11-repo
-Suggests: kali-icon-themes
-Installed-Size: 452
-Description: Termux kali dark style
-Filename: dists/xenoverse/main/binary-all/kali-dark-style_1.3.2-SR_all.deb
-Size: 117644
-MD5Sum: f3c6eccf892a11e9def09796b1028bcb
-SHA1: 750e8b78d77a38272df5875fbd69cddca593b5ce
-SHA256: 68f0d30fbad8c876340ca1c70ef01d2e6cfe6a8514ba1c88575f6d3a8e73b079
-SHA512: e28623fef836a30a632227460f72e810b21b446c7817ed0fd0e72ef1c3661d062b15946fc2b4c23b19008441c9fd81e42e08bb3b76eee6511e62085d20176454
-
-Package: kali-dark-style
 Version: 1.3.3-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
@@ -193,6 +177,22 @@ MD5Sum: f1c2d867d7a39e8eb0987ad74f0cb5e3
 SHA1: ca1d654c09708130581ca712bb0fec1fdb3d2a23
 SHA256: ee4c538388fa2a8c9d2633b944cfbd8fd8e1cdef50f91cc2172e5ee704270243
 SHA512: 5d5cdf42a7772caa9abcb7c2ecdb49b6f0300c9ff62c9ac09d0a5635d31dfb0a6ecab615bb8e0cf7b18118b5b1c0a0bc646ff1ee0896b8ee75eb316dc143f8ba
+
+Package: srtool
+Version: 1.0.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: bc
+Installed-Size: 100
+Homepage: 
+Description: srtool is a typing simulation like xdotool.
+Filename: dists/xenoverse/main/binary-all/srtool_1.0.0-SR_all.deb
+Size: 5888
+MD5Sum: 5bb423ab3d6f126c1fbfd0f9416a52f6
+SHA1: 7acbe329dc59e9a5a7f96f0abdc36f9978d2e1ff
+SHA256: 318f10c92c6364ff0f75f8e532ad4b1feff0eeb5d221c5945d45fe36557f9eb7
+SHA512: 7ddac7d1f8ad2186c64eefdedf62de51a62af47aff93e0fa3a94f044c5d8e474bdd4dd5e9746778f5a08fb0f9cc9a01b179475ba617c8ded69c8b13e7bc2b34a
 
 Package: termux-desktop-lxqt
 Version: 1.2.0-SR

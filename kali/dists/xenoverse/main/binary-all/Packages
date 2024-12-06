@@ -95,15 +95,15 @@ Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: bash
 Recommends: bc
-Installed-Size: 72
+Installed-Size: 76
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
 Filename: dists/xenoverse/main/binary-all/srtool_1.0.0-SR_all.deb
-Size: 1308
-MD5Sum: be888ad656778e024a1f4016c7912341
-SHA1: fffe0c9f4a2491a56191600d88630f43117227d9
-SHA256: ed0c78e9c61798df131ed53292c6d3a3e332d6e0d42693abf17e8ca8d46b6f43
-SHA512: bd03692e75c0353dbbc3f2036e5c64e1d76ae0598e719333706fc824ba2a1996bd666a17840ac0017a88d67dbd444a54785515122360f172cc648ca33d6d608c
+Size: 5820
+MD5Sum: 4f8b4792b4d2cb5900e0a4434531922f
+SHA1: 10a01f5828c1d80d06a1787c549c92cafd3c51ec
+SHA256: 49ebd249c1464d81fe01e8b5ec2326047631fbea7901fb5ffbbe0251c22e5eb8
+SHA512: af08fc117f0d304ed0b4252a9adbb7ff06cf75e8e38d11cc3c2b54a62d8026c66d02a9ccf1529747cc706822b36b96df71b2ba534b4cb2c032c684bedab17a8a
 
 Package: tiktok-download
 Version: 1.1.0-SR

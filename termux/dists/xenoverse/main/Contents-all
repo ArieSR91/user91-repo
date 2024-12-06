@@ -42,12 +42,6 @@ data/data/com.termux/files/home/.termux/font.ttf                                
 data/data/com.termux/files/home/.termux/termux.properties                        kali-dark-style
 data/data/com.termux/files/home/bash.bashrc                                      kali-dark-style
 data/data/com.termux/files/usr/share/qtermwidget6/color-schemes/Kali-Dark.colorscheme kali-dark-style
-data/data/com.termux/files/home/.bash_aliases                                    kali-dark-style
-data/data/com.termux/files/home/.termux/colors.properties                        kali-dark-style
-data/data/com.termux/files/home/.termux/font.ttf                                 kali-dark-style
-data/data/com.termux/files/home/.termux/termux.properties                        kali-dark-style
-data/data/com.termux/files/home/bash.bashrc                                      kali-dark-style
-data/data/com.termux/files/usr/share/qtermwidget6/color-schemes/Kali-Dark.colorscheme kali-dark-style
 data/data/com.termux/files/usr/share/icons/Flat-Remix-Blue-Dark/actions/16/action-unavailable.svg kali-icon-themes
 data/data/com.termux/files/usr/share/icons/Flat-Remix-Blue-Dark/actions/16/activities.svg kali-icon-themes
 data/data/com.termux/files/usr/share/icons/Flat-Remix-Blue-Dark/actions/16/address-book-new.svg kali-icon-themes
@@ -30369,6 +30363,7 @@ data/data/com.termux/files/usr/bin/git-repo                                     
 data/data/com.termux/files/usr/bin/repo-index                                    repo-manager
 data/data/com.termux/files/usr/bin/repo-manager                                  repo-manager
 data/data/com.termux/files/usr/bin/srlocks                                       srlocks
+data/data/com.termux/files/usr/bin/srtool                                        srtool
 data/data/com.termux/files/home/.vnc/config                                      termux-desktop-lxqt
 data/data/com.termux/files/home/.vnc/xstartup                                    termux-desktop-lxqt
 data/data/com.termux/files/usr/bin/desktop                                       termux-desktop-lxqt
