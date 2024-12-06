@@ -31,14 +31,16 @@ wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh 
 box86 (armhf) \
 create-bin (all) \
 ddos (all) \
-fake-monitor (armhf, arm64) \
+fake-monitor (all) \
 ipgeolocation (all) \
 ngrok-sr (all) \
 repo-manager (all) \
 seeker (all) \
 srcrypt (all) \
 srlocks (all) \
+srtool (all) \
 sr-undercover (all) \
+tgpt (all)
 tiktok-download (all) \
 winebox (armhf, arm64) \
 youtube-download (all) \
