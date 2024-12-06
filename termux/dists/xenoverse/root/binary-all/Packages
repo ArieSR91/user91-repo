@@ -6,9 +6,9 @@ Depends: root-repo, sudo, pulseaudio
 Installed-Size: 17656
 Description: Run linux deploy via termux
 Filename: dists/xenoverse/root/binary-all/linuxdeploy_1.2.4-SR_all.deb
-Size: 16863900
-MD5Sum: 127c12fb8d18362762b3eaf466e7accd
-SHA1: b224e7da280f275a211e53702c94445fb9f44a2b
-SHA256: eeac4187708188573b8d290cae50122b809258a4503df9471ebb6c965a38566d
-SHA512: bc5f6a08e9e97bb777cbc34322b90e3f80c541cb74e02a0d197a56dc0126db5729df76d50671c80f9cbf357a0fc170cc4d6280d2cb7ade645123d41388e539a9
+Size: 16863488
+MD5Sum: f237c89c310790cea04cfd0a87b20fd4
+SHA1: 4ebcb91825eb4db6f4f7952487b9cc3c71735736
+SHA256: 5b2ff8ae4f1ad56b3a579ed09b1c014eba2b6cd2b17a1d46b021eeda0f3052bf
+SHA512: aa643dcbba8cc71ab66ac5f807bddbb9eef2f1196b06ce2a9093bd8261a8a27ad84da0d6a216f5a935119e5025240655ad6be22f894367da4b1ed2d3e61213cd
 

@@ -42,6 +42,12 @@ data/data/com.termux/files/home/.termux/font.ttf                                
 data/data/com.termux/files/home/.termux/termux.properties                        kali-dark-style
 data/data/com.termux/files/home/bash.bashrc                                      kali-dark-style
 data/data/com.termux/files/usr/share/qtermwidget6/color-schemes/Kali-Dark.colorscheme kali-dark-style
+data/data/com.termux/files/home/.bash_aliases                                    kali-dark-style
+data/data/com.termux/files/home/.termux/colors.properties                        kali-dark-style
+data/data/com.termux/files/home/.termux/font.ttf                                 kali-dark-style
+data/data/com.termux/files/home/.termux/termux.properties                        kali-dark-style
+data/data/com.termux/files/home/bash.bashrc                                      kali-dark-style
+data/data/com.termux/files/usr/share/qtermwidget6/color-schemes/Kali-Dark.colorscheme kali-dark-style
 data/data/com.termux/files/usr/share/icons/Flat-Remix-Blue-Dark/actions/16/action-unavailable.svg kali-icon-themes
 data/data/com.termux/files/usr/share/icons/Flat-Remix-Blue-Dark/actions/16/activities.svg kali-icon-themes
 data/data/com.termux/files/usr/share/icons/Flat-Remix-Blue-Dark/actions/16/address-book-new.svg kali-icon-themes
