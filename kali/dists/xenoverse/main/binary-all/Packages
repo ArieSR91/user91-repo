@@ -90,20 +90,20 @@ SHA256: 49e9139fa743a855efb67167b70156a540312d5562cd1eb8866d60da64c3ab02
 SHA512: 30fd9cf11665424798b90dd13326df8c1e6eeaab80ba1d0ff299aa3885432c72ee29a49ea626828f5b1ede3a4f5aebe0de93ff963bc32b19b5282078cba7d363
 
 Package: srtool
-Version: 1.0.0-SR
+Version: 1.1.0-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: bash
-Recommends: bc
-Installed-Size: 76
+Recommends: bc, highlight
+Installed-Size: 88
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
-Filename: dists/xenoverse/main/binary-all/srtool_1.0.0-SR_all.deb
-Size: 5820
-MD5Sum: 4f8b4792b4d2cb5900e0a4434531922f
-SHA1: 10a01f5828c1d80d06a1787c549c92cafd3c51ec
-SHA256: 49ebd249c1464d81fe01e8b5ec2326047631fbea7901fb5ffbbe0251c22e5eb8
-SHA512: af08fc117f0d304ed0b4252a9adbb7ff06cf75e8e38d11cc3c2b54a62d8026c66d02a9ccf1529747cc706822b36b96df71b2ba534b4cb2c032c684bedab17a8a
+Filename: dists/xenoverse/main/binary-all/srtool_1.1.0-SR_all.deb
+Size: 12612
+MD5Sum: 0fceca8c0e12822cfd669d32791f18a5
+SHA1: 46eb3aeb30f048234553ffc4e4cf3b6b0f278640
+SHA256: 6d7fc9b1c87c23f1e3b2b1525b489fb03e020fc1ee3b819355e6788516ae9642
+SHA512: 212048a12a3b7d7baf9e5ba9baa895ccf8b662c4f5ec5b9846fa026fd65dbc247f70c5f514839da3473a68b89f23c258f019dddd63ed2b07aeb6642670c7bd77
 
 Package: tiktok-download
 Version: 1.1.0-SR

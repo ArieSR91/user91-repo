@@ -179,20 +179,20 @@ SHA256: ee4c538388fa2a8c9d2633b944cfbd8fd8e1cdef50f91cc2172e5ee704270243
 SHA512: 5d5cdf42a7772caa9abcb7c2ecdb49b6f0300c9ff62c9ac09d0a5635d31dfb0a6ecab615bb8e0cf7b18118b5b1c0a0bc646ff1ee0896b8ee75eb316dc143f8ba
 
 Package: srtool
-Version: 1.0.0-SR
+Version: 1.1.0-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: bash
-Recommends: bc
-Installed-Size: 100
+Recommends: bc, highlight
+Installed-Size: 112
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
-Filename: dists/xenoverse/main/binary-all/srtool_1.0.0-SR_all.deb
-Size: 5888
-MD5Sum: 5bb423ab3d6f126c1fbfd0f9416a52f6
-SHA1: 7acbe329dc59e9a5a7f96f0abdc36f9978d2e1ff
-SHA256: 318f10c92c6364ff0f75f8e532ad4b1feff0eeb5d221c5945d45fe36557f9eb7
-SHA512: 7ddac7d1f8ad2186c64eefdedf62de51a62af47aff93e0fa3a94f044c5d8e474bdd4dd5e9746778f5a08fb0f9cc9a01b179475ba617c8ded69c8b13e7bc2b34a
+Filename: dists/xenoverse/main/binary-all/srtool_1.1.0-SR_all.deb
+Size: 12708
+MD5Sum: 6d0fa5888c1f578a60dc1b4e730e1c42
+SHA1: 0ff67f73e3cd33d6fdc1b22b411268593a056859
+SHA256: e64b36f4a90ee944e919e122950f854de46b6c5aca0d6a14b6ad67753a908a34
+SHA512: b540e2f8f5ce887b3101d7d97e248dc6e390f24ffb8a4e64bbf019db59792a417bf0a0e9b96e69c4dd3b86f271a854df5bd4b76b8e52659f5b64173a0bcc666b
 
 Package: termux-desktop-lxqt
 Version: 1.2.0-SR
