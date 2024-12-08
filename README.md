@@ -40,7 +40,7 @@ srcrypt (all) \
 srlocks (all) \
 srtool (all) \
 sr-undercover (all) \
-tgpt (all)
+tgpt (all) \
 tiktok-download (all) \
 winebox (armhf, arm64) \
 youtube-download (all) \
@@ -60,7 +60,7 @@ linuxdeploy (all) \
 proot-distro-kali (all) \
 repo-manager (all) \
 srlocks (all) \
-sudo (arm, aarch64)
+sudo (all) \
 termux-desktop-lxqt (all) \
 termux-desktop-xfce (all) \
 termux-fonts (all) \
