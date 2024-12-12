@@ -16,15 +16,13 @@ Termux:
 mkdir $PREFIX/etc/apt/sources.list.d/; echo "deb https://ariesr91.github.io/user91-repo/termux xenoverse main root" | tee $PREFIX/etc/apt/sources.list.d/user91-repo.list; wget -qO - https://raw.githubusercontent.com/ArieSR91/user91-repo/xenoverse/user91-repo.key | gpg --dearmor | tee $PREFIX/etc/apt/trusted.gpg.d/user91-repo.gpg > /dev/null; apt update
 ```
 ## Graphical Install
-Debian Based:
 ```
-sudo wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh -O /usr/local/bin/user91-repo;sudo chmod 775 /usr/local/bin/user91-repo; user91-repo menu
+wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh -O user91-repo; chmod 775 user91-repo; bash user91-repo menu
 ```
-Termux:
-```
-wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh -O $PREFIX/bin/user91-repo;chmod 775 $PREFIX/bin/user91-repo; user91-repo menu
-```
-[Visit](https://ariesr91.github.io/user91-repo/)
+move user91-repo file to your bin folder for make it easy\
+then you can run it by type: user91-repo menu.
+
+[site](https://ariesr91.github.io/user91-repo/)
 ## Available packages
 #### Debian Based
 > build-repo (all) \
