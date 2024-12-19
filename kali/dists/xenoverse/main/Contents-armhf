@@ -5,6 +5,7 @@ usr/share/doc/libtinfo5/changelog.gz                                            
 usr/share/doc/libtinfo5/copyright                                                libtinfo5
 lib/arm-linux-gnueabihf/libtinfo.so.5                                            libtinfo5
 usr/lib/arm-linux-gnueabihf/libtic.so.5                                          libtinfo5
+usr/local/bin/srgpt                                                              srgpt
 opt/wine-i386/bin/function_grep.pl                                               wine-old
 opt/wine-i386/bin/msidb                                                          wine-old
 opt/wine-i386/bin/msiexec                                                        wine-old

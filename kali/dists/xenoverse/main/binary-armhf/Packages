@@ -17,6 +17,22 @@ SHA1: 84732aacecdbf96740efbe0b9c262fa7f15cb322
 SHA256: a3429fdbb0fd8c6b9dc7d12b8f8e6e544c3b20b584c5afc81531c5306f77db91
 SHA512: 6760f96ebb3b6e2242ebaa65b5763a2dd20c52ab7cda9ee722c192f606d2a7e183e9a8a9741eb9cdb335db0de4d26b8cff3f562ffc76515f8ebcee409b492d9b
 
+Package: srgpt
+Version: 2.8.3-SR
+Architecture: armhf
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: python3
+Installed-Size: 8972
+Homepage: https://github.com/ArieSR91
+Description: ChatGPT in linux terminal.
+Filename: dists/xenoverse/main/binary-armhf/srgpt_2.8.3-SR_armhf.deb
+Size: 2450908
+MD5Sum: 8b7a846f923b0c2cb55bc3868b4520f6
+SHA1: 44746a5a66741c62d9b60972a6c8ee68568c5c27
+SHA256: bd41a0b38c672f3c90297bd8974f8b5b6892617b933b20d10a65b1ed88f5d371
+SHA512: a44fdc5ca350532354af79417d42a05ff52b3db14fc673c614caa93207bd3903ffc78b55cb8b91b58a89e946e70eaef6e91670869f74023dd07567d3a0bb3316
+
 Package: wine-old
 Version: 5.13-SR
 Architecture: armhf
