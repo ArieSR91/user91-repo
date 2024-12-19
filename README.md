@@ -35,10 +35,10 @@ ngrok-sr (all) \
 repo-manager (all) \
 seeker (all) \
 srcrypt (all) \
+srgpt (all) \
 srlocks (all) \
 srtool (all) \
 sr-undercover (all) \
-tgpt (all) \
 tiktok-download (all) \
 winebox (armhf, arm64) \
 youtube-download (all) \
