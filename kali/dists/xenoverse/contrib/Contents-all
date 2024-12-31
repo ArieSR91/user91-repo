@@ -9813,3 +9813,12 @@ usr/share/themes/Windows-10/gtk-3.0/assets/radio-unchecked-insensitive-unfocused
 usr/share/themes/Windows-10/gtk-3.0/assets/radio-unchecked-insensitive-unfocused@2.png sr-undercover
 usr/share/themes/Windows-10/gtk-3.0/assets/radio-unchecked-unfocused.png         sr-undercover
 usr/share/themes/Windows-10/gtk-3.0/assets/radio-unchecked-unfocused@2.png       sr-undercover
+etc/usbmount/mount.d/00_create_model_symlink                                     usbmount
+etc/usbmount/umount.d/00_remove_model_symlink                                    usbmount
+etc/usbmount/usbmount.conf                                                       usbmount
+lib/systemd/system/usbmount@.service                                             usbmount
+lib/udev/rules.d/90-usbmount.rules                                               usbmount
+usr/share/doc/usbmount/README.md.gz                                              usbmount
+usr/share/doc/usbmount/changelog.gz                                              usbmount
+usr/share/doc/usbmount/copyright                                                 usbmount
+usr/share/usbmount/usbmount                                                      usbmount

@@ -64,3 +64,46 @@ SHA1: 35cd8d342881f8e2cade7fc5b29311bde37fd21e
 SHA256: 56c7d16d14c963ded2c3846036de9d41326793802414721817984d12df2424f3
 SHA512: 7843afe743bf0b945d32fa4a9c93b65cc0032c4a8b1b02005d7cd5e7a885f3acd0ce8bd7906cb754cf0a6bd1142aa23bbb2c3ee4243057511c1c1181729daa11
 
+Package: usbmount
+Version: 0.0.24-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 44
+Depends: lockfile-progs, udev
+Recommends: pmount
+Suggests: ntfs-3g
+Section: admin
+Priority: extra
+Homepage: http://github.com/rbrito/usbmount
+Description: automatically mount removable storage devices
+ This package automatically mounts USB mass storage devices (typically USB
+ pendrives) when they are plugged in. The mountpoints (/media/usb[0-7] by
+ default), filesystem types to consider, and mount options are
+ configurable. When multiple devices are plugged in, the first available
+ mountpoint is automatically selected. If the device provides a model name,
+ a symbolic link /var/run/usbmount/MODELNAME pointing to the mountpoint is
+ automatically created.
+ .
+ Despite the name, any removable device (like Firewire drives) is also
+ supported by USBmount.
+ .
+ USBmount is intended as a lightweight, minimalistic solution which is
+ independent of a desktop environment.
+ .
+ NOTE: The package usbmount is not meant to be used by people using a
+ regular desktop environment (like KDE, or GNOME, among others).  The
+ Desktop Environments already provide a way for users to accomplish the task
+ of automatically mounting filesystems and problems with this "auto
+ mounting" have no relation to the package usbmount.
+ .
+ The usbmount package is only meant for use with minimalistic systems (or
+ for embedded systems) and should only be installed under such
+ circumstances: problems mounting USB sticks with a regular desktop
+ environment are not bugs with the package automount.
+Filename: dists/xenoverse/contrib/binary-all/usbmount_0.0.24-SR_all.deb
+Size: 13336
+MD5Sum: cc65c1d30e20ed7216e97ae310175b11
+SHA1: 5baee9d50cc07434a1a98f285eef628f59dbd650
+SHA256: d2fbfa5b5b6bf8e376793d984a1535dc16d816060dfadf91f22993312e3085c0
+SHA512: eb1d91dcb55dd7e31ead19f7efbfdd5f4b81ef48f05868ec5632947e4475901519d5baf726115d15b4d11b7a6e4ba85da2d2a5d451a9b12c59ed61e30b64c7fb
+

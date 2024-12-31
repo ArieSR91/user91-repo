@@ -13,6 +13,7 @@ usr/local/bin/decrypt-sr                                                        
 usr/local/bin/encrypt-sr                                                         srcrypt
 usr/local/bin/srlocks                                                            srlocks
 usr/local/bin/srtool                                                             srtool
+usr/local/bin/srtool                                                             srtool
 usr/local/bin/tiktok-download                                                    tiktok-download
 usr/local/bin/youtube-download                                                   youtube-download
 usr/local/bin/yt-dlp                                                             youtube-download
