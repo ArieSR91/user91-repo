@@ -37,14 +37,14 @@ Package: wine-old
 Version: 5.13-SR
 Architecture: armhf
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: libc6, libfreetype6, libfontconfig, libxext6, libxinerama-dev, libxxf86vm1, libxrender1, libxcomposite1, libxrandr2, libxi6, libxcursor1, libvulkan-dev, libcups2t64, libncurses6, libmpg123-0 | libmpg123-0t64, libtinfo6, libpulse0, libasound2 | libasound2t64, libtinfo5
+Depends: libc6, libfreetype6, libfontconfig, libxext6, libxinerama-dev, libxxf86vm1, libxrender1, libxcomposite1, libxrandr2, libxi6, libxcursor1, libvulkan-dev, libcups2 | libcups2t64, libncurses6, libmpg123-0 | libmpg123-0t64, libtinfo6, libpulse0, libasound2 | libasound2t64, libtinfo5, libgl1, libopenal1
 Installed-Size: 322868
 Homepage: https://github.com/ArieSR91/
 Description: Windows Emulator
 Filename: dists/xenoverse/main/binary-armhf/wine-old_5.13-SR_armhf.deb
-Size: 32259904
-MD5Sum: 2230bb2e2b546250fdb0555ab26063f8
-SHA1: 3a1b0ee0539de024a0e64fe3183687b4c3abe695
-SHA256: 059e8e088e5e63bc4c4461000f6d32365e0cb0b600c3bdd19809e85ef363ed3f
-SHA512: 4d456ad2e8fb8f01ba9b1a811be336c0d1ff3e7a4502e736ef3e5a7d5bf199276bb28692717e2f7139925b050201ecf33a2f0658abdc0c54732c526198225d71
+Size: 32260296
+MD5Sum: b1ae71ab9c718a8594bf7791dc5c39d5
+SHA1: 3f6bcfb2cfa7c91cb96cf3bd28119d519385db7c
+SHA256: 4e138e7c05ba61045f0caf3ecfb5df3f003adccd9ef6f9361824f4912dbaefaf
+SHA512: 063482585d9199c6939f6be76fe87d2f5d5d732a052cf255a12cb9ced5892d2648285f3c738bb081b3da92f78f60fa4b6c2b68aa7ac07593d3256108714ea21d
 
