@@ -43,6 +43,40 @@ SHA1: c92ba29acac334e534a0e8a996519f516465c57c
 SHA256: 51d2eab4f76c55128a8e607a597c3902fcde1f08b928a10f6b5709664709a678
 SHA512: 5df4c6620a0df081bdadc2cfb7240c6831e91b684963632e2fcb514d6f183755bab1d41884350115026723e31d2e6e3bd2e338cb1107c311a853917710735aea
 
+Package: kali-colorscheme
+Version: 2025.1.2
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 1516
+Depends: desktop-base
+Suggests: gtk2-engines-pixbuf
+Section: misc
+Priority: optional
+Description: Kali Themes
+Filename: dists/xenoverse/main/binary-all/kali-colorscheme_2025.1.2_all.deb
+Size: 633256
+MD5Sum: d561f2960ebe3101d727778fe3c8fa6f
+SHA1: b62f152c6142bc996e7b8eb3bd36a1467f0d7f29
+SHA256: 8f0510860b67cb603de0cc7f759aad9282ee8f77dde8e9bbe2cb2ca8f0f8ed93
+SHA512: 3b0d532c5efc65bb11e9cf699c2a233364a571506a340388c45bb66f627351942220860cfbe1be9adb355ba1cc86783a53cb69ddf3a86b8a1bf6fb9c7e5bc1e4
+
+Package: kali-icon-theme
+Version: 2025.1.2
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 144168
+Depends: desktop-base
+Suggests: gtk2-engines-pixbuf
+Section: misc
+Priority: optional
+Description: Kali icon theme
+Filename: dists/xenoverse/main/binary-all/kali-icon-theme_2025.1.2_all.deb
+Size: 4318964
+MD5Sum: 8fb5d408f1b93f8bf139e788aa2f8ab0
+SHA1: 256b644883920a08c030f0410b1f902efe3b10c8
+SHA256: d577d98b874366bd68de79bc66e744439f3eee7efeda18026352b350ac372a29
+SHA512: cdbd1a5eaf034d1016e9407677e0324ac1e3c57b0d55491d60fde9344c8df03788d3b24bb15780eb9f8981b052cf4cc27cd742cbaaa7b2eb4696029afc6ed208
+
 Package: repo-manager
 Version: 2.1.4-SR
 Architecture: all
@@ -90,22 +124,6 @@ SHA256: 49e9139fa743a855efb67167b70156a540312d5562cd1eb8866d60da64c3ab02
 SHA512: 30fd9cf11665424798b90dd13326df8c1e6eeaab80ba1d0ff299aa3885432c72ee29a49ea626828f5b1ede3a4f5aebe0de93ff963bc32b19b5282078cba7d363
 
 Package: srtool
-Version: 1.1.0-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash
-Recommends: bc, highlight
-Installed-Size: 88
-Homepage: 
-Description: srtool is a typing simulation like xdotool.
-Filename: dists/xenoverse/main/binary-all/srtool_1.1.0-SR_all.deb
-Size: 12612
-MD5Sum: 0fceca8c0e12822cfd669d32791f18a5
-SHA1: 46eb3aeb30f048234553ffc4e4cf3b6b0f278640
-SHA256: 6d7fc9b1c87c23f1e3b2b1525b489fb03e020fc1ee3b819355e6788516ae9642
-SHA512: 212048a12a3b7d7baf9e5ba9baa895ccf8b662c4f5ec5b9846fa026fd65dbc247f70c5f514839da3473a68b89f23c258f019dddd63ed2b07aeb6642670c7bd77
-
-Package: srtool
 Version: 1.2.0-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
@@ -116,10 +134,10 @@ Homepage:
 Description: srtool is a typing simulation like xdotool.
 Filename: dists/xenoverse/main/binary-all/srtool_1.2.0-SR_all.deb
 Size: 13252
-MD5Sum: 8d8c375e92df5371dcd7576ffd67ea21
-SHA1: ef195506b24f11cf1f233d37661e1001a9e01604
-SHA256: 6a47c7556ba2a56d8bb25a5939dba787106775ea5e8004de75272c5a5e63e4d2
-SHA512: 167facdcae63130801f5d432c7d69db4c546218f73048e882ad07b135f228ed2a6e403ff31d370e2af6733a55bddf4d5a73e203e015c8d43be75d9ef5f89ebb8
+MD5Sum: b70341c5a145932e8be93230fb82b37a
+SHA1: 08259ab3abe7b921e86925a4e13038e199d526b9
+SHA256: a3fbe04ccdf6cfd3b5e3410ea9fdfb309f29ae413334e553b8aa5a99dbf78ab2
+SHA512: cc4c1b8d6287a331de96e7d4a9de35652bc5231b5c12bf0a001879a6a8f5fadbf8731d0adfb3763dbb0a0ba9499219789f88ba50e5cc1334cf2a3ee48032bf66
 
 Package: tiktok-download
 Version: 1.1.0-SR

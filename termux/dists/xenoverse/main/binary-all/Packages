@@ -103,36 +103,53 @@ SHA1: 1a498e8e6adfe7ef49bcad095e1bdb8721e5e638
 SHA256: 5089d9898d5b02e911bd3d0100966a2baabfc335a43cc3eae8bccb8a05cac9fb
 SHA512: c25828edb078642896cdb9f98d2e615ece5ebcd81be002ca9fcc539b58f14f715a11a455a516c40b2ed3d3d65abc90f37f4f4cc95a53f1eb89cb91757092613b
 
+Package: kali-colorscheme
+Version: 2025.1.2
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 3024
+Depends: bash
+Suggests: gdk-pixbuf
+Section: misc
+Priority: optional
+Description: Kali Themes
+Filename: dists/xenoverse/main/binary-all/kali-colorscheme_2025.1.2_all.deb
+Size: 636744
+MD5Sum: 09e315f03406498c5c464df9c899ec8a
+SHA1: 32de87b111a0fdec82438029f7feb671d03b6d0b
+SHA256: a3931e467091ea0d14569591802f643b57562470ed40b95f504cbbe0cc411ce4
+SHA512: c3e5c3a817ded9e5c799e618fa9601734aea01f47b849896411e21341c3bb838a0da7896159dfb4570ae3a04ada8e397df74a0ea15c9531174354ed6fcc183d0
+
 Package: kali-dark-style
-Version: 1.3.3-SR
+Version: 1.3.4-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: bash
-Recommends: x11-repo
-Suggests: kali-icon-themes
-Installed-Size: 452
+Recommends: x11-repo, kali-colorscheme
+Suggests: kali-icon-theme
+Installed-Size: 412
 Description: Termux kali dark style
-Filename: dists/xenoverse/main/binary-all/kali-dark-style_1.3.3-SR_all.deb
-Size: 117980
-MD5Sum: e704355fc70c4bb28173ca1fef954244
-SHA1: 53292378101b2b63302f1e9ad6b1a239d38134dc
-SHA256: 58f172b24cdefc2bf923dd94c9a9295da6df7a38c2d35a8a00e214df5370ab2b
-SHA512: c5bf9ba7b140f81181fb3e9b3ef6ddb4c34bd3886688256262a6ed0921192e6a17a8c566f006e693867d73e894b35bab9408f905a0e0390077a5e9e554ae7965
+Filename: dists/xenoverse/main/binary-all/kali-dark-style_1.3.4-SR_all.deb
+Size: 117764
+MD5Sum: 68d47ad99d54228da7b40da749ddfbd2
+SHA1: 1ea7c3079713cbab4f0107a656541da73134cd5e
+SHA256: e5309c6a9e10f03be8a11a5018d24fcdbe6c39ca12376d96161ff85e368aa32a
+SHA512: 15257e6b5ed01ab7c96f9282dd6e1ab180d41c03976028dddbf7489ba02aea9213eb9ff6b31616d71917e6f51db5cbe0eb09db4f07c1c2dc6477dccd18e65dd2
 
-Package: kali-icon-themes
-Version: 2024.3-SR
+Package: kali-icon-theme
+Version: 2025.1.2-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: gtk-update-icon-cache, hicolor-icon-theme
-Installed-Size: 204672
+Installed-Size: 210648
 Homepage: https://github.com/ArieSR91
 Description: Kali linux icon themes
-Filename: dists/xenoverse/main/binary-all/kali-icon-themes_2024.3-SR_all.deb
-Size: 4765068
-MD5Sum: d59f1091ac49c6702391c94b898b30e4
-SHA1: d04436ca45c00e4cd59b283edfb5684277e249c6
-SHA256: baab4f1acda8434f32a6bb7b4cfa8c9e0f7b0283f0c3d031e02a30c64a04f2b1
-SHA512: b5aad43bd1aead9eb2cd30679cae8431aa7b49ff8d5e48092ae1c15e26d9881c3526741742d817d299407023aca5203955c519622d7ce89627118b656c0948b7
+Filename: dists/xenoverse/main/binary-all/kali-icon-theme_2025.1.2-SR_all.deb
+Size: 4521700
+MD5Sum: 09da71c131504fd03357c0094ffd7d2e
+SHA1: 1fde00914fa743bcba73ada8783bb2085bee93f3
+SHA256: 3769a0ef7a37e4bd624ea22fa5e09fa9ce07f40777d0fa22cb71ffe0454e5797
+SHA512: b1d4f291bc6d5b6be03888a742542fc8ea6992df19c86642424ed9ab4762e8a032278c05625bd6aab8d6a49694c8b7f72e1bf4f2dc0164bcfd3e05cefd858f47
 
 Package: proot-distro-kali
 Version: 1.1.0-SR
