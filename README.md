@@ -44,7 +44,7 @@ winebox (armhf, arm64) \
 youtube-download (all) \
 > wine-old (armhf) 
 #### Termux
-> build-repo (aall) \
+> build-repo (all) \
 download (all) \
 fake-sudo (all) \
 fonts-firacode (all) \
