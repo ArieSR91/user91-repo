@@ -1,0 +1,15 @@
+Package: sudo
+Version: 8.6.0-SR
+Architecture: aarch64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: tsu
+Installed-Size: 0
+Homepage: 
+Description: Run command as root user
+Filename: dists/xenoverse/main/binary-aarch64/sudo_8.6.0-SR_aarch64.deb
+Size: 964
+MD5Sum: 9e92a4e30226c8a03a389c755bba787d
+SHA1: de3d3850c57ecece22abd03d94df5ef8bc33e3b2
+SHA256: a593775bb558410814a2d6b2d2bc6a5e0fbf70048d197700a9ba948688e98da0
+SHA512: 15d74ed7de2072db0fe8cb689190a950abdd706642031d5d510024c9e64db925fed38213be3b247c231d9d32128b6b07d82294c4ba5d465d2bf391679de7ea0d
+
