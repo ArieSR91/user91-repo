@@ -1,3 +1,21 @@
+Package: box86
+Priority: extra
+Section: utils
+Installed-Size: 10380
+Maintainer: root@6ff22fbb521b
+Architecture: armhf
+Version: 0.3.9-SR
+Provides: box86
+Conflicts: qemu-user-static, box86-generic-arm, box86-rpi4arm64, box86-rpi3arm64, box86-tegrax1, box86-rk3399, box86-sd845, box86-sd888, box86-rk3588
+Description: Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)
+ Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)
+Filename: dists/xenoverse/main/binary-armhf/box86_0.3.9-SR_armhf.deb
+Size: 2097720
+MD5Sum: ef8fc8bbaf5d60d6141aeb212eebee25
+SHA1: cbeeb345ebc5ea1508b08d1212d9faa53fe515de
+SHA256: e5bb37f1e872e8040a1632f06402d6d42e1fc826b6446e315fbb09d8108409fd
+SHA512: 8acdae5cc4f4115137dbd2e1d3fc8c92036d392f6af26143610acbd59e4e971539210bd4d4d22d17dca0d09fe8d4d3ec5be5bd97cb90b29570b782f3cf747cd7
+
 Package: libtinfo5
 Source: ncurses
 Version: 6.4.4-SR

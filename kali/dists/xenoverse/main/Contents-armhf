@@ -1,3 +1,16 @@
+etc/binfmt.d/box86.conf                                                          box86
+etc/box86.box86rc                                                                box86
+usr/lib/box86-i386-linux-gnu/libgcc_s.so.1                                       box86
+usr/lib/box86-i386-linux-gnu/libpng12.so.0                                       box86
+usr/lib/box86-i386-linux-gnu/libstdc++.so.5                                      box86
+usr/lib/box86-i386-linux-gnu/libstdc++.so.6                                      box86
+usr/lib/box86-i386-linux-gnu/libunwind.so.8                                      box86
+usr/local/bin/box86                                                              box86
+usr/share/doc/box86-android/CHANGELOG.md                                         box86
+usr/share/doc/box86-android/LICENSE                                              box86
+usr/share/doc/box86-android/README.md                                            box86
+usr/share/doc/box86-android/USAGE.md                                             box86
+usr/share/doc/box86-android/X86WINE.md                                           box86
 lib/arm-linux-gnueabihf/libtinfo.so.5.9                                          libtinfo5
 usr/lib/arm-linux-gnueabihf/libtic.so.5.9                                        libtinfo5
 usr/share/doc/libtinfo5/changelog.Debian.gz                                      libtinfo5

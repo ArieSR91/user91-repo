@@ -1,14 +1,1 @@
-etc/binfmt.d/box86.conf                                                          box86
-etc/box86.box86rc                                                                box86
-usr/doc/box86/CHANGELOG.md                                                       box86
-usr/doc/box86/LICENSE                                                            box86
-usr/doc/box86/README.md                                                          box86
-usr/doc/box86/USAGE.md                                                           box86
-usr/doc/box86/X86WINE.md                                                         box86
-usr/lib/i386-linux-gnu/libgcc_s.so.1                                             box86
-usr/lib/i386-linux-gnu/libpng12.so.0                                             box86
-usr/lib/i386-linux-gnu/libstdc++.so.5                                            box86
-usr/lib/i386-linux-gnu/libstdc++.so.6                                            box86
-usr/lib/i386-linux-gnu/libunwind.so.8                                            box86
-usr/local/bin/box86                                                              box86
 usr/local/bin/winebox                                                            winebox
