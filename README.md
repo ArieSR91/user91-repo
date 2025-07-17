@@ -45,7 +45,7 @@ wine-old (armhf) \
 wine-stable (armhf) \
 > youtube-download (all) \
 #### Termux
-> build-repo (aall) \
+> build-repo (all) \
 download (all) \
 fake-sudo (all) \
 fonts-firacode (all) \
