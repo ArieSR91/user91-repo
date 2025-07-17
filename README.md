@@ -41,8 +41,9 @@ srtool (all) \
 sr-undercover (all) \
 tiktok-download (all) \
 winebox (armhf, arm64) \
-youtube-download (all) \
-> wine-old (armhf) 
+wine-old (armhf) \
+wine-stable (armhf) \
+> youtube-download (all) \
 #### Termux
 > build-repo (aall) \
 download (all) \
