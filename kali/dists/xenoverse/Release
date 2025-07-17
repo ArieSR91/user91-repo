@@ -1,9 +1,9 @@
 Codename: xenoverse
 Version: 1
-Architectures: i386 amd64 all arm64 armhf
+Architectures: amd64 arm64 all i386 armhf
 Description: xenoverse repository
 Suite: xenoverse
-Date: Thu, 17 Jul 2025 04:13:25 UTC
+Date: Thu, 17 Jul 2025 05:30:54 UTC
 MD5Sum:
  0b5f60e51e9414e03fb2f5fc46ae0488 4888 contrib/binary-all/Packages
  8d4786158b0e45448bcae20130d222d7 2424 contrib/binary-all/Packages.xz
@@ -25,8 +25,8 @@ MD5Sum:
  4e91cb0687ffc9bc5d4386493f6d806b 104 contrib/Contents-arm64.xz
  4e91cb0687ffc9bc5d4386493f6d806b 104 contrib/Contents-armhf.xz
  4e91cb0687ffc9bc5d4386493f6d806b 104 contrib/Contents-i386.xz
- f395c5cfd21cb01c02a793066e81a828 4302 main/binary-armhf/Packages
- 266143f71c1b293580cd888c64bd7ec0 1916 main/binary-armhf/Packages.xz
+ f25f09697fd3211753d0bcfb7baa24d4 4302 main/binary-armhf/Packages
+ 998d16097440b8fa26d4fd1a6a940b59 1916 main/binary-armhf/Packages.xz
  6b612a62a221026f0658bf2211902a70 7917 main/binary-all/Packages
  48a204b7f82c87091393811fdf27cf3e 3212 main/binary-all/Packages.xz
  716526640d7411010d7746eb825bc279 622 main/binary-amd64/Packages
@@ -74,8 +74,8 @@ SHA1:
  d9d0d5ca8aab47cceb321eb0e47404c77b31df5c 104 contrib/Contents-arm64.xz
  d9d0d5ca8aab47cceb321eb0e47404c77b31df5c 104 contrib/Contents-armhf.xz
  d9d0d5ca8aab47cceb321eb0e47404c77b31df5c 104 contrib/Contents-i386.xz
- 159b0eb0c46a375bb5727c7e16576f0b742d7ab4 4302 main/binary-armhf/Packages
- 69e460fd663a2dd89bd09b26e51868dae8ea6620 1916 main/binary-armhf/Packages.xz
+ 84af476c1cbc6eb55bddc72e8892f9baca8308cc 4302 main/binary-armhf/Packages
+ 1511b6eccb9e4ed3a4e88733e6f72e725b4a2c53 1916 main/binary-armhf/Packages.xz
  c3314d80533b1bdbb377264c75298119430924d3 7917 main/binary-all/Packages
  453548c32d1ab72a75acce84c3b0d4d017d3b516 3212 main/binary-all/Packages.xz
  29f81928e886b8a25a93803bcce98e64b8431174 622 main/binary-amd64/Packages
@@ -123,8 +123,8 @@ SHA256:
  39836ad8866dbc67e2998196f946b610c154f4a1dd9100c740768b01e70a2259 104 contrib/Contents-arm64.xz
  39836ad8866dbc67e2998196f946b610c154f4a1dd9100c740768b01e70a2259 104 contrib/Contents-armhf.xz
  39836ad8866dbc67e2998196f946b610c154f4a1dd9100c740768b01e70a2259 104 contrib/Contents-i386.xz
- fd4fd8b82b037e2499c64c2934467f4ec018373a47ee7c85591d03af7e43afdf 4302 main/binary-armhf/Packages
- 5de762b8006c86ebf0abf2b1501c56551ad4bc5f5cff44ff0225259065514caf 1916 main/binary-armhf/Packages.xz
+ b1b1fc3f094d23bcbd146d2425c780df9a25bd806ef4d239efca87169feb6a90 4302 main/binary-armhf/Packages
+ 6b3d40b5577254be4c73284fda489c911807fe1186c73425b337376bdadb8123 1916 main/binary-armhf/Packages.xz
  8d792918c033ddb6618fdbd001a29bfc3c63fa45abe24ed31748ae9c8317211b 7917 main/binary-all/Packages
  e3e13f04860e93255f9013e08af65ff23b5636d4d2020b716a5c6dca730e5d27 3212 main/binary-all/Packages.xz
  9e550fdeac482c22d57206e555d80e50ca7d06f2806f8ab4747cdf659b36ea5a 622 main/binary-amd64/Packages
@@ -172,8 +172,8 @@ SHA512:
  5d606ca8697ac3b81ed2a0cdff8c2db6aa82407b87576e0edd5dc4eab2474217aa052642381240cff51ec43f153fb1ecd2c24cde3f3a1b64d42cc60191a1cdd2 104 contrib/Contents-arm64.xz
  5d606ca8697ac3b81ed2a0cdff8c2db6aa82407b87576e0edd5dc4eab2474217aa052642381240cff51ec43f153fb1ecd2c24cde3f3a1b64d42cc60191a1cdd2 104 contrib/Contents-armhf.xz
  5d606ca8697ac3b81ed2a0cdff8c2db6aa82407b87576e0edd5dc4eab2474217aa052642381240cff51ec43f153fb1ecd2c24cde3f3a1b64d42cc60191a1cdd2 104 contrib/Contents-i386.xz
- 080687bd1eacaff3dc58023a8e89564e6a166c08b092b966ccdf9bdd035b905fec2c4aa759b321853f0fbe556aa2675dab81e380b505bc80efc4de908d7da205 4302 main/binary-armhf/Packages
- 068f7a303f2b094bb0274ad1af6059aa264ec18eccae3ecb65b875ebdc83508b44a86d0a74f5996f4d919985bf7ea958f8a45a36c478901c39166f46eb9cc486 1916 main/binary-armhf/Packages.xz
+ dfb949c3c944e1a09f61f81a82d162b0a292c4b81c8753fe5598e77c529340f7afc9d3ad2cd07366bbbcd6becd14776187c914502fabee2421a2ce2272bdf3d7 4302 main/binary-armhf/Packages
+ dd06df1c3e7a188e6636bddbaaa09b91e45a837fc97765f98553197eb9efb83f47f4a7f4aceef583edb28f56feb7431b2cd76a970f4b36d5a22a35274436f274 1916 main/binary-armhf/Packages.xz
  50c6cbbd5e074abf72d43fefbce15998e94e4a92e2e8f35d4b27af13dd4d2b64b449c3510d175e5f78e8ea3e410e8f44f743666f568c670159813b7125f654cd 7917 main/binary-all/Packages
  52706ce8cd0cbd194de9a74acebc5c008503fe02cc95876da14910c335480a66f80035419bb82c41d272e6533a2c4c825731a1419d7465404e5ec2a6e908159a 3212 main/binary-all/Packages.xz
  894711e5e066ec751de4cdd1ea6fad5ecae6f558b9c6283b335ddf4d9e9484cb16507e6c1b61f740d573dd3847920b8a0d356162ee0a61d4333762abc8dde121 622 main/binary-amd64/Packages
