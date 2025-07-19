@@ -4686,6 +4686,7 @@ opt/wine-stable/share/wine/nls/normnfkd.nls                                     
 opt/wine-stable/share/wine/nls/sortdefault.nls                                   wine-stable
 opt/wine-stable/share/wine/wine.inf                                              wine-stable
 usr/local/bin/wine                                                               wine-stable
+usr/share/applications/wine.desktop                                              wine-stable
 opt/wine-stable/bin/winecpp                                                      wine-stable
 opt/wine-stable/bin/wineg++                                                      wine-stable
 opt/wine-stable/lib/wine/i386-unix/libwine.so.1                                  wine-stable

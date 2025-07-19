@@ -71,13 +71,13 @@ Version: 8.0-SR
 Architecture: armhf
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: libc6, libfreetype6, libfontconfig, libxext6, libxinerama-dev, libxxf86vm1, libxrender1, libxcomposite1, libxrandr2, libxi6, libxcursor1, libvulkan-dev, libcups2 | libcups2t64, libncurses6, libmpg123-0 | libmpg123-0t64, libtinfo6, libpulse0, libasound2 | libasound2t64, libtinfo5, libgl1, libopenal1
-Installed-Size: 322868
+Installed-Size: 297556
 Homepage: https://github.com/ArieSR91/
 Description: Windows Emulator
 Filename: dists/xenoverse/main/binary-armhf/wine-stable_8.0-SR_armhf.deb
-Size: 33252452
-MD5Sum: 814e112de9950e997b05e56d7a185656
-SHA1: 9a48bc60572d3eee29c349fca15d8ddd1ec7b96f
-SHA256: c60ff2747c6a0cae81f64fbcdeb03b6b73f1bf6494e24a12f4a194472e45f7c1
-SHA512: e60ef33802c1a29a564f1bff5691abbaaa170ea4d3b247445d14823dfb4683f7e431596b2e4b4c3f36188549a58e5840532b4fef63c8f2e02df6f7e003b45a05
+Size: 33253112
+MD5Sum: 33b360178057d74b83d7a0bfa5d34c58
+SHA1: fc9cb58aae654f84dd97b786032fb15ef4a9e3e8
+SHA256: 17cbee5cbf9a108d90b3d140568e8c84340c5caf8c49cccfded4a08c46bd4a1e
+SHA512: f9d7b49af18611941e764e013b8c63fc1c1598138a1b4337cb36f355bc093264b414786a5306e6e4d6d9d14326589e806560b1891b26abba0819afd869b82e5d
 
