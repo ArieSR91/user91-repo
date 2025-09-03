@@ -1,3 +1,21 @@
+Package: box86
+Priority: extra
+Section: utils
+Installed-Size: 10380
+Maintainer: root@6ff22fbb521b
+Architecture: armhf
+Version: 0.3.9-SR
+Provides: box86
+Conflicts: qemu-user-static, box86-generic-arm, box86-rpi4arm64, box86-rpi3arm64, box86-tegrax1, box86-rk3399, box86-sd845, box86-sd888, box86-rk3588
+Description: Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)
+ Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)
+Filename: dists/xenoverse/main/binary-armhf/box86_0.3.9-SR_armhf.deb
+Size: 2097720
+MD5Sum: ef8fc8bbaf5d60d6141aeb212eebee25
+SHA1: cbeeb345ebc5ea1508b08d1212d9faa53fe515de
+SHA256: e5bb37f1e872e8040a1632f06402d6d42e1fc826b6446e315fbb09d8108409fd
+SHA512: 8acdae5cc4f4115137dbd2e1d3fc8c92036d392f6af26143610acbd59e4e971539210bd4d4d22d17dca0d09fe8d4d3ec5be5bd97cb90b29570b782f3cf747cd7
+
 Package: libtinfo5
 Source: ncurses
 Version: 6.4.4-SR
@@ -47,4 +65,19 @@ MD5Sum: b1ae71ab9c718a8594bf7791dc5c39d5
 SHA1: 3f6bcfb2cfa7c91cb96cf3bd28119d519385db7c
 SHA256: 4e138e7c05ba61045f0caf3ecfb5df3f003adccd9ef6f9361824f4912dbaefaf
 SHA512: 063482585d9199c6939f6be76fe87d2f5d5d732a052cf255a12cb9ced5892d2648285f3c738bb081b3da92f78f60fa4b6c2b68aa7ac07593d3256108714ea21d
+
+Package: wine-stable
+Version: 8.0-SR
+Architecture: armhf
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: libc6, libfreetype6, libfontconfig, libxext6, libxinerama-dev, libxxf86vm1, libxrender1, libxcomposite1, libxrandr2, libxi6, libxcursor1, libvulkan-dev, libcups2 | libcups2t64, libncurses6, libmpg123-0 | libmpg123-0t64, libtinfo6, libpulse0, libasound2 | libasound2t64, libtinfo5, libgl1, libopenal1
+Installed-Size: 297556
+Homepage: https://github.com/ArieSR91/
+Description: Windows Emulator
+Filename: dists/xenoverse/main/binary-armhf/wine-stable_8.0-SR_armhf.deb
+Size: 33253112
+MD5Sum: 33b360178057d74b83d7a0bfa5d34c58
+SHA1: fc9cb58aae654f84dd97b786032fb15ef4a9e3e8
+SHA256: 17cbee5cbf9a108d90b3d140568e8c84340c5caf8c49cccfded4a08c46bd4a1e
+SHA512: f9d7b49af18611941e764e013b8c63fc1c1598138a1b4337cb36f355bc093264b414786a5306e6e4d6d9d14326589e806560b1891b26abba0819afd869b82e5d
 

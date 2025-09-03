@@ -29,19 +29,19 @@ SHA256: 916f0fd0d849d3f4ae2843e88fdf0a99e0b2d5a495c9fc7da3f91d5d478dfece
 SHA512: 97723d2724d707600ab619163f3e7b8d4340b92b18615dfc7879af1a378d768a6a2c59662872971c914b6d73b18cecb185c84d5e23e24963d297e648fd4f29ff
 
 Package: fake-monitor
-Version: 1.2.0-SR
+Version: 1.3.0-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022a@gmail.com>
-Depends: network-manager
+Depends: network-manager-gnome
 Installed-Size: 72
 Homepage: https://github.com/ArieSR91
 Description: Fake network interface
-Filename: dists/xenoverse/main/binary-all/fake-monitor_1.2.0-SR_all.deb
-Size: 1376
-MD5Sum: ea9d7c4ebc06b4cf1c20ed4e79309d86
-SHA1: c92ba29acac334e534a0e8a996519f516465c57c
-SHA256: 51d2eab4f76c55128a8e607a597c3902fcde1f08b928a10f6b5709664709a678
-SHA512: 5df4c6620a0df081bdadc2cfb7240c6831e91b684963632e2fcb514d6f183755bab1d41884350115026723e31d2e6e3bd2e338cb1107c311a853917710735aea
+Filename: dists/xenoverse/main/binary-all/fake-monitor_1.3.0-SR_all.deb
+Size: 1688
+MD5Sum: d3c37e03e0d2f9e7bfade343f665fe0b
+SHA1: 3138e2934a4786511cd1a91bcd0ff6b7eac457bc
+SHA256: 14714b22365409ee4117feff6c8e8d2fb927c33acfcd1df8b42a4f6ca0be4efd
+SHA512: aa5af6b8244a72719d1fe91493045fb955d52e4e3f6eb2d35ecaac8459f03dce86688a4a4001c4ef0970bb3ee80a1d0a7c0fac67ac9136ad5a0e48102165bea0
 
 Package: kali-colorscheme
 Version: 2025.1.2
@@ -93,6 +93,28 @@ SHA1: 45aa21e097bbeb9731b9dc5b7ea3b91f3f503b17
 SHA256: b028e8f82856bfc3ba8241139d4945bd4728122c6078b699ba284e6d1577f266
 SHA512: ca40479eb80c5981ea14da2f52a710b2446ed859401fe551aeb7af8b87d7d864e85c926351a8f58938988ba210c6a26cb717a7955ac3f26ed0dd7a9bdea5e1c6
 
+Package: sr-undercover
+Version: 1.2.1-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 58084
+Depends: python3, fonts-liberation, gir1.2-glib-2.0, libnotify-bin, mousepad, procps, psmisc, xdotool, xfce4, xfce4-datetime-plugin, xfce4-power-manager-plugins, xfce4-pulseaudio-plugin, xfce4-whiskermenu-plugin
+Suggests: gtk2-engines-murrine
+Section: misc
+Priority: optional
+Description: SR Undercover Mode
+ Run “sr-undercover” and you will instantly switch your Xfce desktop into
+ a Windows 10 desktop that will no longer draw attention to your activities.
+ .
+ Run it a second time to escape the cover mode and get back your original
+ desktop settings.
+Filename: dists/xenoverse/main/binary-all/sr-undercover_1.2.1-SR_all.deb
+Size: 7679524
+MD5Sum: 4715c3344d92c0e54260f70f50d60f00
+SHA1: f79eda2617d33dbddfa693337fb27baff9aef154
+SHA256: d702051bc379097e749e141a59f444cc5949fbbffaedc8c4c642aa79ec608ff3
+SHA512: 3fb1fe21f662eef00f384bd623606ab2afde40a5edb807f6057e247a8e0d1d382a927f890ae651bc39f5596182a2ceb7220080775c23546f5c24bd5249dd0d53
+
 Package: srcrypt
 Version: 1.0.0-SR
 Architecture: all
@@ -140,19 +162,19 @@ SHA256: a3fbe04ccdf6cfd3b5e3410ea9fdfb309f29ae413334e553b8aa5a99dbf78ab2
 SHA512: cc4c1b8d6287a331de96e7d4a9de35652bc5231b5c12bf0a001879a6a8f5fadbf8731d0adfb3763dbb0a0ba9499219789f88ba50e5cc1334cf2a3ee48032bf66
 
 Package: tiktok-download
-Version: 1.1.0-SR
+Version: 1.2.0-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: aria2, wget, curl
-Installed-Size: 80
+Insted-Size: 80
 Homepage: https://github.com/ArieSR91
 Description: Download tiktok photo and video from terminal.
-Filename: dists/xenoverse/main/binary-all/tiktok-download_1.1.0-SR_all.deb
-Size: 6752
-MD5Sum: 12e7c3547c5208b2c00a451f1d94839b
-SHA1: 25bf3d3d5e5cbcaf798b99ebac3932e897261278
-SHA256: fdd6f85ea7b3dd9b8c17532332aaadb7d3f61877ecc616fa0322b75229b45739
-SHA512: 1931ce277ff283a4ab6b3e024a9ee097641d958c1660bb0504edbba5bc8fe98242ef22136d3d5465aab1f0b90cbf1741fa4882fd2ef9cf290107c055c78bb1fc
+Filename: dists/xenoverse/main/binary-all/tiktok-download_1.2.0-SR_all.deb
+Size: 6828
+MD5Sum: 1549a9c5c403293d5c26e0abdefc8e87
+SHA1: 1c270e22da76966729dde68cd1fd2a50123d4afe
+SHA256: 71fbba3913a07b2cf7d09414c47842cb673929675797ae93fef96b3df42f8d42
+SHA512: b4cac6a2f7f2d280b9852ca8408c68396c1faa4e4dc0e8193395d4e1696177d7a551bf8804e5059e8d0a6099f549b291670a42e9286febab93f25aa63738dc97
 
 Package: youtube-download
 Version: 1.1.0-SR
