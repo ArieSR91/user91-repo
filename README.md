@@ -31,6 +31,7 @@ create-bin (all) \
 ddos (all) \
 fake-monitor (all) \
 ipgeolocation (all) \
+kali-colorshceme (all) \
 ngrok-sr (all) \
 repo-manager (all) \
 seeker (all) \
@@ -42,17 +43,17 @@ sr-undercover (all) \
 tiktok-download (all) \
 winebox (armhf, arm64) \
 wine-old (armhf) \
-wine-stable (armhf) \
+wine-stable (armhf, arm64) \
 > youtube-download (all) \
 #### Termux
 > build-repo (all) \
-download (all) \
 fake-sudo (all) \
 fonts-firacode (all) \
 fonts-hack (all) \
 fonts-liberation (all) \
 fonts-meslo (all) \
 fonts-quicksand (all) \
+kali-colorscheme (all) \
 kali-dark-style (all) \
 kali-icon-theme (all) \
 linuxdeploy (all) \
