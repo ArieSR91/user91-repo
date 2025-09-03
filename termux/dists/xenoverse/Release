@@ -1,9 +1,9 @@
 Codename: xenoverse
 Version: 1
-Architectures: arm i686 all aarch64
+Architectures: i686 arm all aarch64
 Description: xenoverse repository
 Suite: xenoverse
-Date: Wed, 03 Sep 2025 15:29:38 UTC
+Date: Wed, 03 Sep 2025 15:39:55 UTC
 MD5Sum:
  1ca8cad236083752414399ab9a2798dd 13049 main/binary-all/Packages
  559a9bdf3d36cdde22864f0ba692cbf4 4800 main/binary-all/Packages.xz

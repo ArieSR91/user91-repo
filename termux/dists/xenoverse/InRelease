@@ -3,10 +3,10 @@ Hash: SHA512
 
 Codename: xenoverse
 Version: 1
-Architectures: arm i686 all aarch64
+Architectures: i686 arm all aarch64
 Description: xenoverse repository
 Suite: xenoverse
-Date: Wed, 03 Sep 2025 15:29:38 UTC
+Date: Wed, 03 Sep 2025 15:39:55 UTC
 MD5Sum:
  1ca8cad236083752414399ab9a2798dd 13049 main/binary-all/Packages
  559a9bdf3d36cdde22864f0ba692cbf4 4800 main/binary-all/Packages.xz
@@ -77,15 +77,15 @@ SHA512:
  034b32f1138322638c7a5b7949a3b184c6a4cdfd003360a496c08c56c2cc645c94fbe9cdf9d84c963af6dda6c442717cd61d7e1cecf7024bd463f6f5196c5527 32 main/Contents-i686.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE/w8GnpkBI9uOygqoZvABD5pY/6gFAmi4XuwACgkQZvABD5pY
-/6gfGQv/a5t6L0nH7wbNv4DsokQBS0uJRi/SM7GsbZPC6uY5Vna66vYHLlmBn9OO
-J9vpRQtz/247zgbnRVv9wB5YCzMVjxwHqYHmT/rN/cLthXD9zNIJyLk2CMvVVtDC
-4KTuU+hEU9zaGsti9+4c9zPCSlh2uZNSMM40yt6TonuU359w+L4Np2lGs0yzwew3
-Cl5T62v5zVaWfI3+YcHZz2Bh6euXdvzGoxTN+AIWsFszDzOlD8YrH7QL1IkgJvwU
-T+n0r53JcztpD5QiVW5gP4lEwqEIrZuHgvRmuyZl3mLLZfUg1zd/S9sZ4Gx0NiZd
-3yrseRpheyTIf72qFRie6xAItuz/pjBvgwJgHXUBW49NKInN7L3HoaLSPX1+QqMd
-wd1Qj9y8Lv/s+4BDc8yrKiKCQvUQD4dmqR4YJlSZpMbEQ3XdYBD3CVoDyRxiv6n9
-YrEnefsDUdiAyEEIuK2o2VAVcxxYxh8AD57qSI/3GcwxyRZ+TF2knXGf4bXcO+k9
-auRsoSyA
-=QF5R
+iQGzBAEBCgAdFiEE/w8GnpkBI9uOygqoZvABD5pY/6gFAmi4YVAACgkQZvABD5pY
+/6iDJQv9EC9Y+Tljo+gw4KzgP3HL6DSuBWEyHMNiODt+7KCeuKLCF+yWoLAQdA7+
+6HwYCjcNHOOiW7VimZCm4uPz4MikFkE5TagmxCsOj0Pz4vojkhvxBPiQb2ABmsnx
+0Jyin2yHj22KCv3K7WH2/40+38hvFVvoqUpmxD1a9QoCvt3eltKlepiCzupu4Ysw
+nNDkAXPt4gs5NU17ZBM6q9/mSZ8trFVOeQPiYyA50rWsrsdmVw8i94LsTGUFriKq
+RD6r9vj479VC8zZFRfa8F+zB23ns8YwzJ3GZNb4ku3YRxm7rkEMqor85IWPZduyg
+oq6wTjueQGmeKttGrl+g0hkx7qUVWXzyuL77khBy5h8npqgfAvRvuPdkYOPteUAZ
+Z9r11Zn4QC0VowR6zz3o8VBBBaN32iRxiAK9MO999fQ5T+1KVW6+n/udnRS+zHOw
+TBITbWJkIx8ZUvf4QZxma7FWJlDEz0Th8aB7vLr8aW5cgY7hrqKqZFZNE3Wn76fT
+whPQlGxA
+=r0G1
 -----END PGP SIGNATURE-----
