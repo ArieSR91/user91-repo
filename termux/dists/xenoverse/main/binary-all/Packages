@@ -214,16 +214,16 @@ Version: 1.1.0-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: bash
-Recommends: bc, highlight
+Recommends: bc
 Installed-Size: 112
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
 Filename: dists/xenoverse/main/binary-all/srtool_1.1.0-SR_all.deb
-Size: 12708
-MD5Sum: 6d0fa5888c1f578a60dc1b4e730e1c42
-SHA1: 0ff67f73e3cd33d6fdc1b22b411268593a056859
-SHA256: e64b36f4a90ee944e919e122950f854de46b6c5aca0d6a14b6ad67753a908a34
-SHA512: b540e2f8f5ce887b3101d7d97e248dc6e390f24ffb8a4e64bbf019db59792a417bf0a0e9b96e69c4dd3b86f271a854df5bd4b76b8e52659f5b64173a0bcc666b
+Size: 12812
+MD5Sum: 08477a085d70a16ec820c3ec5b5a8ba3
+SHA1: ab472959e50bda7e61b852709a2f06f0033def0b
+SHA256: 661542642992d853747096084274957594ce9b16b819c856ca42f6d910bf14f5
+SHA512: 32a80b4f2a6b5459d366ba5f0b2e80b3486745308a6d13d668e200c4707660023c630f476a8a658c901a1451a0da4ad296be6a1ab0cd0024a0f2ff8ef87fbbf8
 
 Package: termux-desktop-lxqt
 Version: 1.2.0-SR
