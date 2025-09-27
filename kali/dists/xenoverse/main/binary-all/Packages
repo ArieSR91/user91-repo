@@ -1,17 +1,17 @@
 Package: build-repo
-Version: 1.8.5-SR
+Version: 1.8.6-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash, python3
-Recommends: gnupg, git, sudo, xdotool
+Depends: bash
+Recommends: gnupg, git, sudo, xdotool, python3, xz-utils
 Installed-Size: 132
 Description: Build git repository with deb files
-Filename: dists/xenoverse/main/binary-all/build-repo_1.8.5-SR_all.deb
-Size: 5604
-MD5Sum: 0b8f74a231bc2d08d46bfc04cf7137bb
-SHA1: 10235f3b1b8a3229e74d05b6e83761c4c75e4270
-SHA256: fbabac6c106b14cd828f7d58c34a3c9b491e268afed77471960de8663f8158a4
-SHA512: 270cddb564cbf745f5b60c2f96d56f5c4489f0c383e943ac29b4b3fba8bbdc2f9d121a4842ad97f7ab5773657d8267a678a5edc5718d953104ef30459ab38f87
+Filename: dists/metaverse/main/binary-all/build-repo_1.8.6-SR_all.deb
+Size: 5620
+MD5Sum: 97a78ca820603af6214378a9a16c7ae2
+SHA1: 1468f1c4ae966719e29ea6d80627b5f8856afe1d
+SHA256: 3b3c9b559bc6e95ea39062c556b416a578b7cb9f04eac86ddb8e4d4399570819
+SHA512: fe66ed8a840f5b787ad8be1208cf02f100273eb5513d557c2b8e6171b5b91b1d4e4fa12bd9c327894a095ed869811d1667c61c6a325f47a07cfa49b9003ecb0b
 
 Package: create-bin
 Version: 1.1.0-SR
@@ -21,7 +21,7 @@ Depends: bash, nano
 Installed-Size: 72
 Homepage: 
 Description: Create bash binary files
-Filename: dists/xenoverse/main/binary-all/create-bin_1.1.0-SR_all.deb
+Filename: dists/metaverse/main/binary-all/create-bin_1.1.0-SR_all.deb
 Size: 1180
 MD5Sum: dc388b2c8b4c1ca8c341376afcc8770f
 SHA1: 60601bf7a5e583a5431527e3ef435b4f237dd4cf
@@ -36,7 +36,7 @@ Depends: network-manager-gnome
 Installed-Size: 72
 Homepage: https://github.com/ArieSR91
 Description: Fake network interface
-Filename: dists/xenoverse/main/binary-all/fake-monitor_1.3.0-SR_all.deb
+Filename: dists/metaverse/main/binary-all/fake-monitor_1.3.0-SR_all.deb
 Size: 1688
 MD5Sum: d3c37e03e0d2f9e7bfade343f665fe0b
 SHA1: 3138e2934a4786511cd1a91bcd0ff6b7eac457bc
@@ -53,7 +53,7 @@ Suggests: gtk2-engines-pixbuf
 Section: misc
 Priority: optional
 Description: Kali Themes
-Filename: dists/xenoverse/main/binary-all/kali-colorscheme_2025.1.2_all.deb
+Filename: dists/metaverse/main/binary-all/kali-colorscheme_2025.1.2_all.deb
 Size: 633256
 MD5Sum: d561f2960ebe3101d727778fe3c8fa6f
 SHA1: b62f152c6142bc996e7b8eb3bd36a1467f0d7f29
@@ -70,7 +70,7 @@ Suggests: gtk2-engines-pixbuf
 Section: misc
 Priority: optional
 Description: Kali icon theme
-Filename: dists/xenoverse/main/binary-all/kali-icon-theme_2025.1.2_all.deb
+Filename: dists/metaverse/main/binary-all/kali-icon-theme_2025.1.2_all.deb
 Size: 4318964
 MD5Sum: 8fb5d408f1b93f8bf139e788aa2f8ab0
 SHA1: 256b644883920a08c030f0410b1f902efe3b10c8
@@ -78,7 +78,7 @@ SHA256: d577d98b874366bd68de79bc66e744439f3eee7efeda18026352b350ac372a29
 SHA512: cdbd1a5eaf034d1016e9407677e0324ac1e3c57b0d55491d60fde9344c8df03788d3b24bb15780eb9f8981b052cf4cc27cd742cbaaa7b2eb4696029afc6ed208
 
 Package: repo-manager
-Version: 2.1.4-SR
+Version: 2.1.5-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3, build-repo
@@ -86,12 +86,12 @@ Recommends: gnupg, sudo, git, binutils, tar, xz-utils
 Installed-Size: 92
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
-Filename: dists/xenoverse/main/binary-all/repo-manager_2.1.4-SR_all.deb
-Size: 3112
-MD5Sum: 31fd4cad1af3b43d62dd751a717da557
-SHA1: 45aa21e097bbeb9731b9dc5b7ea3b91f3f503b17
-SHA256: b028e8f82856bfc3ba8241139d4945bd4728122c6078b699ba284e6d1577f266
-SHA512: ca40479eb80c5981ea14da2f52a710b2446ed859401fe551aeb7af8b87d7d864e85c926351a8f58938988ba210c6a26cb717a7955ac3f26ed0dd7a9bdea5e1c6
+Filename: dists/metaverse/main/binary-all/repo-manager_2.1.5-SR_all.deb
+Size: 3124
+MD5Sum: 5367e847bb81fd85eae9592f602d1c12
+SHA1: aa356b13a6fffd0fb71482db7472759a3812542f
+SHA256: 90f74c129096dd62f58b917c51c7639976ef063d1a9bedf0849d905e5e6d516a
+SHA512: 61e0ad9559e05791a3521b379fd526ef59032bba76855cd320630cc79b9256e83f7c8a70c0685cdb1dae74d905afe0c5c8bef47d64857e39f0667ec1aeb80498
 
 Package: sr-undercover
 Version: 1.2.1-SR
@@ -108,7 +108,7 @@ Description: SR Undercover Mode
  .
  Run it a second time to escape the cover mode and get back your original
  desktop settings.
-Filename: dists/xenoverse/main/binary-all/sr-undercover_1.2.1-SR_all.deb
+Filename: dists/metaverse/main/binary-all/sr-undercover_1.2.1-SR_all.deb
 Size: 7679524
 MD5Sum: 4715c3344d92c0e54260f70f50d60f00
 SHA1: f79eda2617d33dbddfa693337fb27baff9aef154
@@ -123,7 +123,7 @@ Depends: bash
 Installed-Size: 84
 Homepage: https://github.com/ArieSR91
 Description: Encrypt and Descrypt your bscript
-Filename: dists/xenoverse/main/binary-all/srcrypt_1.0.0-SR_all.deb
+Filename: dists/metaverse/main/binary-all/srcrypt_1.0.0-SR_all.deb
 Size: 5720
 MD5Sum: 95ee9223cc08ccd13d0bcb802ae779f1
 SHA1: 54a4011df0becb212d70fab23f4ca0d9d5d23c11
@@ -138,7 +138,7 @@ Depends: figlet, adb, bash, ncurses-bin
 Installed-Size: 80
 Homepage: https://github.com/ArieSR91
 Description: Brute force android pin lockscreen
-Filename: dists/xenoverse/main/binary-all/srlocks_1.1.1-SR_all.deb
+Filename: dists/metaverse/main/binary-all/srlocks_1.1.1-SR_all.deb
 Size: 7620
 MD5Sum: 51984b333777f8132f8afac707e8f3a8
 SHA1: 95359b203a04aeeaf629a80bd62cbbe260ad6822
@@ -154,7 +154,7 @@ Recommends: bc, highlight
 Installed-Size: 88
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
-Filename: dists/xenoverse/main/binary-all/srtool_1.2.0-SR_all.deb
+Filename: dists/metaverse/main/binary-all/srtool_1.2.0-SR_all.deb
 Size: 13252
 MD5Sum: b70341c5a145932e8be93230fb82b37a
 SHA1: 08259ab3abe7b921e86925a4e13038e199d526b9
@@ -169,7 +169,7 @@ Depends: aria2, wget, curl
 Insted-Size: 80
 Homepage: https://github.com/ArieSR91
 Description: Download tiktok photo and video from terminal.
-Filename: dists/xenoverse/main/binary-all/tiktok-download_1.2.0-SR_all.deb
+Filename: dists/metaverse/main/binary-all/tiktok-download_1.2.0-SR_all.deb
 Size: 6828
 MD5Sum: 1549a9c5c403293d5c26e0abdefc8e87
 SHA1: 1c270e22da76966729dde68cd1fd2a50123d4afe
@@ -183,7 +183,7 @@ Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: ffmpeg
 Installed-Size: 3016
 Description: Download video and music from Youtube.
-Filename: dists/xenoverse/main/binary-all/youtube-download_1.1.0-SR_all.deb
+Filename: dists/metaverse/main/binary-all/youtube-download_1.1.0-SR_all.deb
 Size: 2877200
 MD5Sum: 1c56ecb4d23d790737bf02c314c05141
 SHA1: 68f4b82d69bb1bc9eae531ad87733ae7fba4b4be

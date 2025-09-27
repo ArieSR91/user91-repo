@@ -5,7 +5,7 @@ Maintainer: name <syahri.ramadhan2022@gmail.com>
 Depends: python3
 Installed-Size: 76
 Description: ddos attack
-Filename: dists/xenoverse/contrib/binary-all/ddos_1.2.0-SR_all.deb
+Filename: dists/metaverse/contrib/binary-all/ddos_1.2.0-SR_all.deb
 Size: 3032
 MD5Sum: ba8bd8554ecac71bce6db60e1fb67e60
 SHA1: 6e2ecaac7b090a7ae579ccf7c8e0d1af8ff8e5b9
@@ -20,7 +20,7 @@ Depends: python3, python3-termcolor, python3-colorama
 Installed-Size: 192
 Homepage: 
 Description: Trace location from ip
-Filename: dists/xenoverse/contrib/binary-all/ipgeolocation_2.0.4-SR_all.deb
+Filename: dists/metaverse/contrib/binary-all/ipgeolocation_2.0.4-SR_all.deb
 Size: 19852
 MD5Sum: 575d7f9241395b1a8e580e645f7e9e01
 SHA1: c235b9ed4968ee07a6065779a8be0f440d802d47
@@ -35,7 +35,7 @@ Depends: python3, python3-requests, python3-packaging, python3-psutil, php
 Installed-Size: 3860
 Homepage: 
 Description: Accurately Locate Smartphones using Social Engineering
-Filename: dists/xenoverse/contrib/binary-all/seeker_1.3.1-SR_all.deb
+Filename: dists/metaverse/contrib/binary-all/seeker_1.3.1-SR_all.deb
 Size: 1192696
 MD5Sum: 936ebcaa6c7d872ba9631a2642a9d630
 SHA1: d578ec84b637a912631c2ef9ff6b01aaefeab753
@@ -57,7 +57,7 @@ Description: SR Undercover Mode
  .
  Run it a second time to escape the cover mode and get back your original
  desktop settings.
-Filename: dists/xenoverse/contrib/binary-all/sr-undercover_1.2.1-SR_all.deb
+Filename: dists/metaverse/contrib/binary-all/sr-undercover_1.2.1-SR_all.deb
 Size: 7940924
 MD5Sum: 3c2851c19dc80c83dd4ba93ff1d07d99
 SHA1: 35cd8d342881f8e2cade7fc5b29311bde37fd21e
@@ -100,7 +100,7 @@ Description: automatically mount removable storage devices
  for embedded systems) and should only be installed under such
  circumstances: problems mounting USB sticks with a regular desktop
  environment are not bugs with the package automount.
-Filename: dists/xenoverse/contrib/binary-all/usbmount_0.0.24-SR_all.deb
+Filename: dists/metaverse/contrib/binary-all/usbmount_0.0.24-SR_all.deb
 Size: 13336
 MD5Sum: cc65c1d30e20ed7216e97ae310175b11
 SHA1: 5baee9d50cc07434a1a98f285eef628f59dbd650

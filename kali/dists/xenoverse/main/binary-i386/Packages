@@ -7,7 +7,7 @@ Recommends: python3
 Installed-Size: 8924
 Homepage: https://github.com/ArieSR91
 Description: ChatGPT in linux terminal.
-Filename: dists/xenoverse/main/binary-i386/srgpt_2.8.3-SR_i386.deb
+Filename: dists/metaverse/main/binary-i386/srgpt_2.8.3-SR_i386.deb
 Size: 2645120
 MD5Sum: 38fc42f30f9c0a9eeac3f56caade6317
 SHA1: 8821c0ef8efba6bf854fc3e05f7d9d6a081e61c2

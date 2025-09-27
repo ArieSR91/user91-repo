@@ -5,7 +5,7 @@ Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends:
 Installed-Size: 23012
 Description: ngrok secure tunnel agent
-Filename: dists/xenoverse/contrib/binary-arm64/ngrok-sr_3.3.4-SR_arm64.deb
+Filename: dists/metaverse/contrib/binary-arm64/ngrok-sr_3.3.4-SR_arm64.deb
 Size: 5691296
 MD5Sum: 636f8f7a256577edbac00cff3bf8adf2
 SHA1: 5abb058ca4f5fbe768bb46a12ac3e3a9bd0ad710

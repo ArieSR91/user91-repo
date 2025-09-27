@@ -9,7 +9,7 @@ Provides: box86
 Conflicts: qemu-user-static
 Description: Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)
  Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)
-Filename: dists/xenoverse/non-free/binary-armhf/box86_0.3.7-SR_armhf.deb
+Filename: dists/metaverse/non-free/binary-armhf/box86_0.3.7-SR_armhf.deb
 Size: 2135680
 MD5Sum: 5476cdd3fc2d47b6c680e7772ce07a25
 SHA1: 5bc5b8f46afe33d1532b3ee132b08cba4f2faa44
@@ -23,7 +23,7 @@ Maintainer: name <syahri.ramadhan2022@gmail.com>
 Depends: build-essential, wget, cmake, python3, gcc, libasound2, libc6, libglib2.0-0, libgphoto2-6, libgphoto2-port12, libgstreamer-plugins-base1.0-0, libgstreamer1.0-0, libldap-common, libopenal1, libpcap0.8, libpulse0, libsane1, libudev1, libusb-1.0-0, libvkd3d1, libx11-6, libxext6, libasound2-plugins, ocl-icd-libopencl1, libncurses6, libncurses5, libcap2-bin, libcups2, libdbus-1-3, libfontconfig1, libfreetype6, libglu1-mesa, libglu1, libgnutls30, libgssapi-krb5-2, libkrb5-3, libodbc1, libosmesa6, libsdl2-2.0-0, libv4l-0, libxcomposite1, libxcursor1, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxxf86vm1, libc6, libcap2-bin, libunwind8, libjpeg62-turbo
 Installed-Size: 10 KB
 Description: box86 wine
-Filename: dists/xenoverse/non-free/binary-armhf/winebox_1.1.3-SR_armhf.deb
+Filename: dists/metaverse/non-free/binary-armhf/winebox_1.1.3-SR_armhf.deb
 Size: 2128
 MD5Sum: 9f78a74e387b4947460eaa377943a06c
 SHA1: 60928438df4bd44ba6532b4f4813bb4d0620137d

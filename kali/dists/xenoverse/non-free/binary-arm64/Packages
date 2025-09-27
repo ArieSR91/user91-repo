@@ -5,7 +5,7 @@ Maintainer: name <syahri.ramadhan2022@gmail.com>
 Depends: build-essential, wget, cmake, python3, libasound2, libc6, libglib2.0-0, libgphoto2-6, libgphoto2-port12, libgstreamer-plugins-base1.0-0, libgstreamer1.0-0, libldap-common, libopenal1, libpcap0.8, libpulse0, libsane1, libudev1, libusb-1.0-0, libvkd3d1, libx11-6, libxext6, libasound2-plugins, ocl-icd-libopencl1, libncurses6, libncurses5, libcap2-bin, libcups2, libdbus-1-3, libfontconfig1, libfreetype6, libglu1-mesa, libglu1, libgnutls30, libgssapi-krb5-2, libkrb5-3, libodbc1, libosmesa6, libsdl2-2.0-0, libv4l-0, libxcomposite1, libxcursor1, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxxf86vm1, libc6, libcap2-bin, libunwind8, libjpeg62-turbo
 Installed-Size: 100 KB
 Description: box86 wine
-Filename: dists/xenoverse/non-free/binary-arm64/winebox_1.1.3-SR_arm64.deb
+Filename: dists/metaverse/non-free/binary-arm64/winebox_1.1.3-SR_arm64.deb
 Size: 2120
 MD5Sum: 4f9516cd2704670e0b8feef35f35cbcd
 SHA1: 87cb2e9b041fe0c10cad0db8a1ddeb25522cfb49

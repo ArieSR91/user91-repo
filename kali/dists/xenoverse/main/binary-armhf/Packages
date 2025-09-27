@@ -9,7 +9,7 @@ Provides: box86
 Conflicts: qemu-user-static, box86-generic-arm, box86-rpi4arm64, box86-rpi3arm64, box86-tegrax1, box86-rk3399, box86-sd845, box86-sd888, box86-rk3588
 Description: Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)
  Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)
-Filename: dists/xenoverse/main/binary-armhf/box86_0.3.9-SR_armhf.deb
+Filename: dists/metaverse/main/binary-armhf/box86_0.3.9-SR_armhf.deb
 Size: 2097720
 MD5Sum: ef8fc8bbaf5d60d6141aeb212eebee25
 SHA1: cbeeb345ebc5ea1508b08d1212d9faa53fe515de
@@ -28,7 +28,7 @@ Priority: optional
 Multi-Arch: same
 Homepage: https://invisible-island.net/ncurses/
 Description: shared low-level terminfo library (legacy version) The ncurses library routines are a terminal-independent method of updating character screens with reasonable optimization. This package contains the legacy version of the shared low-level terminfo library.
-Filename: dists/xenoverse/main/binary-armhf/libtinfo5_6.4.4-SR_armhf.deb
+Filename: dists/metaverse/main/binary-armhf/libtinfo5_6.4.4-SR_armhf.deb
 Size: 314408
 MD5Sum: 11c3af374381658e44d0fc60517ec551
 SHA1: 84732aacecdbf96740efbe0b9c262fa7f15cb322
@@ -44,7 +44,7 @@ Recommends: python3
 Installed-Size: 8972
 Homepage: https://github.com/ArieSR91
 Description: ChatGPT in linux terminal.
-Filename: dists/xenoverse/main/binary-armhf/srgpt_2.8.3-SR_armhf.deb
+Filename: dists/metaverse/main/binary-armhf/srgpt_2.8.3-SR_armhf.deb
 Size: 2450908
 MD5Sum: 8b7a846f923b0c2cb55bc3868b4520f6
 SHA1: 44746a5a66741c62d9b60972a6c8ee68568c5c27
@@ -59,7 +59,7 @@ Depends: libc6, libfreetype6, libfontconfig, libxext6, libxinerama-dev, libxxf86
 Installed-Size: 322868
 Homepage: https://github.com/ArieSR91/
 Description: Windows Emulator
-Filename: dists/xenoverse/main/binary-armhf/wine-old_5.13-SR_armhf.deb
+Filename: dists/metaverse/main/binary-armhf/wine-old_5.13-SR_armhf.deb
 Size: 32260296
 MD5Sum: b1ae71ab9c718a8594bf7791dc5c39d5
 SHA1: 3f6bcfb2cfa7c91cb96cf3bd28119d519385db7c
@@ -74,7 +74,7 @@ Depends: libc6, libfreetype6, libfontconfig, libxext6, libxinerama-dev, libxxf86
 Installed-Size: 297556
 Homepage: https://github.com/ArieSR91/
 Description: Windows Emulator
-Filename: dists/xenoverse/main/binary-armhf/wine-stable_8.0-SR_armhf.deb
+Filename: dists/metaverse/main/binary-armhf/wine-stable_8.0-SR_armhf.deb
 Size: 33253112
 MD5Sum: 33b360178057d74b83d7a0bfa5d34c58
 SHA1: fc9cb58aae654f84dd97b786032fb15ef4a9e3e8
