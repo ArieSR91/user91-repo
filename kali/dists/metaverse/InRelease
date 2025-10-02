@@ -3,10 +3,10 @@ Hash: SHA512
 
 Codename: metaverse
 Version: 1
-Architectures: arm64 i386 armhf all amd64
+Architectures: amd64 armhf arm64 all i386
 Description: metaverse repository
 Suite: metaverse
-Date: Thu, 02 Oct 2025 23:06:29 UTC
+Date: Thu, 02 Oct 2025 23:12:28 UTC
 MD5Sum:
  2bce90e265f1bf110afc46f9d44f2358 4888 contrib/binary-all/Packages
  495f31d865c57121132c1454d111f13c 2424 contrib/binary-all/Packages.xz
@@ -205,15 +205,15 @@ SHA512:
  595e962279f0cf7b1aba903c7d8dd521b99fb6100dde5e5e3af0f464b946ffb403670c86a7981f6867df037b07cb574e2c813eb8ffc861c35d61598125621770 100 non-free/Contents-arm64.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE/w8GnpkBI9uOygqoZvABD5pY/6gFAmjfBZAACgkQZvABD5pY
-/6gM2wv/QkazMIFhRiWLb5vTeRkRo5lY64W/FmdKsEQcfJD9bYn0E2xy4MInPUuO
-Fplt2hSVAOeUFjUs5HKlFU1Keqp8Jt6ua8wYrdXajwUODB7knW4e8H5F7v4XUECP
-bTIHTA9nb5W2kK+PKkYsJ2Yb8DVswihoNuAN8/6kINoUbY26KzWvcqPXijTQRfa2
-DuZhEG2B8EdPZNPS2HslEUn1DhaH78jzIuLk8eO+RVVte1zNqDIlJWdTZkmbrrw+
-BaUf0W5hym5B2GNqilX4a6D9h8ZH/Q+kt/ps4DBhtZAF86GirZg6h5vqbB0C7wth
-in0KpnL2D+REff6mbkdkjSQloc6Ppwb++SqZHOGhmLhtd4OFo5EGJ7ZRcGHakUke
-5lqRJVIPIP9HaLIVmSgkD2BiBGdvcCFWO2ZvO8vUNx3TzDHhiAm+E2GjgMbg9Qrw
-ns2qSUN/iT6nDyAT9yYH1TVX0ngA9l9kKQ+VqJ91vx2zYXmbVBOBDGtNifcdGn/I
-HolMPGLP
-=RxjI
+iQGzBAEBCgAdFiEE/w8GnpkBI9uOygqoZvABD5pY/6gFAmjfBugACgkQZvABD5pY
+/6jNlQv8CzCvHwZMa+hZ9XVBfh4Q7mJsZHKIrlr78+mL7izcJoJ2sHBltpVv3n9D
+Mpa2KEFh8KpC3xFuPrkaWteaNei0AGObNs6YPQ/5Xlbuo3E37fRihr8bBtMGg6A/
+1erW8fx6677ypUnZsBl34V98Uyj60U2kSQXkIV2BI/gjjif66RMQ7JZPVmJQeknN
+MKaE10UFfKNeasWdWRwzw9bMpi9f23B0VK9djEBRljHNaTBTW21iHv718Px2jJtY
+I7ewjOsDDhkHkJj9OtsYP6k6VnE+a2oCEZwo6o0pK7p+bYyFJlJE0zGE0XyhETTZ
+lNo72c5RYe6Pm8p9bdNKo47KjfZsDhsVaRPuRRAut6DXRRav4etltGBMJ+ws0JaU
+276sgHk7HkbWYqxfGF2JyyranQp/0c8cpSnM/4eo8z77GgPrIT2VPysBvQTnEVzH
+zG8KsKW1zJJclz8FGP8U9ZgVNyEefsCOIclJlVOUcH/tMznEMMh+FkrPBB5N40pu
+sI8Rx0Z0
+=qsit
 -----END PGP SIGNATURE-----
