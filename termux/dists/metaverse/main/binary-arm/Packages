@@ -6,7 +6,7 @@ Depends: tsu
 Installed-Size: 0
 Homepage: 
 Description: Run command as root user
-Filename: dists/xenoverse/main/binary-arm/sudo_8.6.0-SR_arm.deb
+Filename: dists/metaverse/main/binary-arm/sudo_8.6.0-SR_arm.deb
 Size: 968
 MD5Sum: 469f479706b52e062def59772aea28ff
 SHA1: 681e7b13c5713058e7acf243a90e6f5bb368eb70

@@ -6,7 +6,7 @@ Depends: tsu
 Installed-Size: 0
 Homepage: 
 Description: Run command as root user
-Filename: dists/xenoverse/main/binary-i686/sudo_8.6.0-SR_i686.deb
+Filename: dists/metaverse/main/binary-i686/sudo_8.6.0-SR_i686.deb
 Size: 960
 MD5Sum: a8a7c4c7436bba56259dc60310459d2b
 SHA1: 80bc90be3d598614f4ece3de47159f1645464e36

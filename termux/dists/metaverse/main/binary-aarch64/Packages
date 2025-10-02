@@ -6,7 +6,7 @@ Depends: tsu
 Installed-Size: 0
 Homepage: 
 Description: Run command as root user
-Filename: dists/xenoverse/main/binary-aarch64/sudo_8.6.0-SR_aarch64.deb
+Filename: dists/metaverse/main/binary-aarch64/sudo_8.6.0-SR_aarch64.deb
 Size: 964
 MD5Sum: 9e92a4e30226c8a03a389c755bba787d
 SHA1: de3d3850c57ecece22abd03d94df5ef8bc33e3b2

@@ -1,8 +1,8 @@
 Package: box64
 Priority: extra
 Section: utils
-Installed-Size: 41136
-Maintainer: Arie-SR91
+Installed-Size: 40600
+Maintainer: root@cd2b68852a7e
 Architecture: arm64
 Version: 0.3.7-SR
 Provides: box64
@@ -10,11 +10,11 @@ Conflicts: qemu-user-static, box64-arm64, box64-sdoryon1, box64-sd888, box64-rpi
 Description: Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
  Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
 Filename: dists/metaverse/main/binary-arm64/box64_0.3.7-SR_arm64.deb
-Size: 8272568
-MD5Sum: a10277f65ded1b7cdc4e3535f14ed21f
-SHA1: f4ecff3180282c20db32fd801116cd264913b0d6
-SHA256: 13666a5affff9ff0d289b664c80164dd2e5ae4c43ba8d7a626068fa1d46dc040
-SHA512: 8298566d93bbc564660420c3e8322957bf5935b9efbfd30c395faa961bd0ea45ebe6317e35b67fa29b51fa7dfda1e18ed1d64a2919beb14170c65bb3607a53c0
+Size: 8227596
+MD5Sum: 354b46c6b71d01fbc7a5c5f47ef05553
+SHA1: 5b1979905a2dfe830c5c321767150f7ff4517428
+SHA256: 9202370256e4518d5ac009e6c1e172d18903cf8e03cf7725bdd3839318a6d630
+SHA512: 621b040896e1203d84c296df28bd939f08e41a42c97c10c24abdad69987f76b8d6268e14b006f9bbc8ba9d4dfe664328090f03fc826e8aae7eff4c4f663dfd0c
 
 Package: srgpt
 Version: 2.8.3-SR

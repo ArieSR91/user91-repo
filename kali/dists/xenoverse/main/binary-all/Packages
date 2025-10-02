@@ -1,17 +1,33 @@
+Package: blesh
+Version: 0.4.0-SR
+Architecture: all
+Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: 
+Installed-Size: 4000
+Homepage: 
+Description: Bash syntax highlight
+Filename: dists/metaverse/main/binary-all/blesh_0.4.0-SR_all.deb
+Size: 547864
+MD5Sum: 4a3469de02aaf050f3d445f584bc5046
+SHA1: aad036fb0f137f039afcefbe788cf7999a3691f9
+SHA256: c5b185821d5a248cdf0e12dd6571aeed6cf58e070e90da46df1b6b3beb8d822d
+SHA512: ee7165af3b6b197b61b0f74ee46bc109ee36ad46a47be56f6c64ad632edba3003b76187b7a6cdf17e1e8e59097ac5e5333885ee8cd3c1a166e89eb53894d9495
+
 Package: build-repo
-Version: 1.8.6-SR
+Version: 1.8.7-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: bash
 Recommends: gnupg, git, sudo, xdotool, python3, xz-utils
 Installed-Size: 132
 Description: Build git repository with deb files
-Filename: dists/metaverse/main/binary-all/build-repo_1.8.6-SR_all.deb
-Size: 5620
-MD5Sum: 97a78ca820603af6214378a9a16c7ae2
-SHA1: 1468f1c4ae966719e29ea6d80627b5f8856afe1d
-SHA256: 3b3c9b559bc6e95ea39062c556b416a578b7cb9f04eac86ddb8e4d4399570819
-SHA512: fe66ed8a840f5b787ad8be1208cf02f100273eb5513d557c2b8e6171b5b91b1d4e4fa12bd9c327894a095ed869811d1667c61c6a325f47a07cfa49b9003ecb0b
+Filename: dists/metaverse/main/binary-all/build-repo_1.8.7-SR_all.deb
+Size: 5856
+MD5Sum: 5d759d21a98b2a9f3b3a783d0b3b6eb8
+SHA1: c90b99ce5023cca1a16bd52286e76d5659d72e5d
+SHA256: 8db27944dd534482fe8e4e8c6e3ba4034b8156dd21f6f9688ec3e14a3e099d5b
+SHA512: a8aa0f7302cbb67338953411846caa6e45cc5eaf14d2487187fb5dd91e89864a7155d11c115e7995fa6cecdb3c4efe82c271c9dbb2694e29bea4d33279a79414
 
 Package: create-bin
 Version: 1.1.0-SR
@@ -78,7 +94,7 @@ SHA256: d577d98b874366bd68de79bc66e744439f3eee7efeda18026352b350ac372a29
 SHA512: cdbd1a5eaf034d1016e9407677e0324ac1e3c57b0d55491d60fde9344c8df03788d3b24bb15780eb9f8981b052cf4cc27cd742cbaaa7b2eb4696029afc6ed208
 
 Package: repo-manager
-Version: 2.1.5-SR
+Version: 2.1.6-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3, build-repo
@@ -86,12 +102,12 @@ Recommends: gnupg, sudo, git, binutils, tar, xz-utils
 Installed-Size: 92
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
-Filename: dists/metaverse/main/binary-all/repo-manager_2.1.5-SR_all.deb
-Size: 3124
-MD5Sum: 5367e847bb81fd85eae9592f602d1c12
-SHA1: aa356b13a6fffd0fb71482db7472759a3812542f
-SHA256: 90f74c129096dd62f58b917c51c7639976ef063d1a9bedf0849d905e5e6d516a
-SHA512: 61e0ad9559e05791a3521b379fd526ef59032bba76855cd320630cc79b9256e83f7c8a70c0685cdb1dae74d905afe0c5c8bef47d64857e39f0667ec1aeb80498
+Filename: dists/metaverse/main/binary-all/repo-manager_2.1.6-SR_all.deb
+Size: 3132
+MD5Sum: 7f1a52bb0f00060e3c6ff6788f345304
+SHA1: 52c03423eab4fbe0380b42c2997d4aaa8221c5bb
+SHA256: 1a8acaded7f1a9bc4095ac46a712a62621af9a59d0dda00f874a5bbb0adb6652
+SHA512: 7ae03f92d3b29f8ece51a837e35c0402cedc37ff41f0eb0a46ee057c522bed9993a1c72dca3257018df21ed576428aff5866867a3bd5712038be7cd8c6debd2e
 
 Package: sr-undercover
 Version: 1.2.1-SR
