@@ -22,8 +22,8 @@ wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh 
 move user91-repo file to your bin folder to make it easy\
 then you can run it by type: user91-repo -m.
 
-![user91-repo](https://ariesr91.github.io/user91-repo/)
-![Join Whatspp](https://chat.whatsapp.com/EBnkCoxUasQH87y0EexWL8?mode=ems_copy_t)
+[user91-repo](https://ariesr91.github.io/user91-repo/) \
+[Join Whatspp](https://chat.whatsapp.com/EBnkCoxUasQH87y0EexWL8?mode=ems_copy_t)
 ## Available packages
 #### Debian Based
 > build-repo (all) \
