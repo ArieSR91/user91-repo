@@ -94,11 +94,6 @@ data/data/com.termux/files/home/.termux/colors.properties                       
 data/data/com.termux/files/home/.termux/font.ttf                                 kali-dark-style
 data/data/com.termux/files/home/.termux/termux.properties                        kali-dark-style
 data/data/com.termux/files/home/bash.bashrc                                      kali-dark-style
-data/data/com.termux/files/home/.bash_aliases                                    kali-dark-style
-data/data/com.termux/files/home/.termux/colors.properties                        kali-dark-style
-data/data/com.termux/files/home/.termux/font.ttf                                 kali-dark-style
-data/data/com.termux/files/home/.termux/termux.properties                        kali-dark-style
-data/data/com.termux/files/home/bash.bashrc                                      kali-dark-style
 data/data/com.termux/files/home/zshrc                                            kali-dark-style
 data/data/com.termux/files/usr/share/doc/zsh-autosuggestions/README.Debian       kali-dark-style
 data/data/com.termux/files/usr/share/doc/zsh-autosuggestions/README.md.gz        kali-dark-style

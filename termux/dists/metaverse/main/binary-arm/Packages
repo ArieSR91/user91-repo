@@ -1,3 +1,18 @@
+Package: aircrack-ng
+Architecture: arm
+Installed-Size: 1700
+Maintainer: Marlin Sööse <marlin.soose@laro.se>
+Version: 3.1.7
+Homepage: https://www.aircrack-ng.org/
+Depends: libc++, libnl, libpcap, libsqlite, openssl, pcre, zlib
+Description: WiFi security auditing tools suite
+Filename: dists/metaverse/main/binary-arm/aircrack-ng_3.1.7-SR_arm.deb
+Size: 391388
+MD5Sum: 04ce62e481defeac6b152ef4593bd18f
+SHA1: cd040a7820a6a8311090b26a992e38b7a5b5f00c
+SHA256: 2f94747f669db650a0c72bf1e8c794553727063604872b91b61e2d6e84c83d90
+SHA512: c42cd89ec067df6b6c0afbcb83afb9f18289915d9efd1451cd0006f29ff533e680003788fe3a81f32994749ae88ed82ec2249423a5918375d9bd745eeea84267
+
 Package: sudo
 Version: 8.6.0-SR
 Architecture: arm

@@ -8,11 +8,11 @@ Installed-Size: 4000
 Homepage: 
 Description: Bash syntax highlight
 Filename: dists/metaverse/main/binary-all/blesh_0.4.0-SR_all.deb
-Size: 547864
-MD5Sum: 4a3469de02aaf050f3d445f584bc5046
-SHA1: aad036fb0f137f039afcefbe788cf7999a3691f9
-SHA256: c5b185821d5a248cdf0e12dd6571aeed6cf58e070e90da46df1b6b3beb8d822d
-SHA512: ee7165af3b6b197b61b0f74ee46bc109ee36ad46a47be56f6c64ad632edba3003b76187b7a6cdf17e1e8e59097ac5e5333885ee8cd3c1a166e89eb53894d9495
+Size: 547872
+MD5Sum: ff6488fad962faca703a4d26f9437041
+SHA1: 4aac4b33e0f127778de6e5391ca71c610ea9c686
+SHA256: 0b41d6e738de8438fe15eb9be379206a853e66783d11f3413154ccd4e3378be6
+SHA512: edbcbd125440df51dae45f210643d1022607e77019788699d3bfdd5c4bd1fee421be56ab56b72a980dc2bb4a0f13cfbf6f25a6db08bdbb23455cf9608d1a9246
 
 Package: build-repo
 Version: 1.8.7-SR
@@ -23,11 +23,11 @@ Recommends: gnupg, git, sudo, xdotool, python3, xz-utils
 Installed-Size: 132
 Description: Build git repository with deb files
 Filename: dists/metaverse/main/binary-all/build-repo_1.8.7-SR_all.deb
-Size: 5856
-MD5Sum: 5d759d21a98b2a9f3b3a783d0b3b6eb8
-SHA1: c90b99ce5023cca1a16bd52286e76d5659d72e5d
-SHA256: 8db27944dd534482fe8e4e8c6e3ba4034b8156dd21f6f9688ec3e14a3e099d5b
-SHA512: a8aa0f7302cbb67338953411846caa6e45cc5eaf14d2487187fb5dd91e89864a7155d11c115e7995fa6cecdb3c4efe82c271c9dbb2694e29bea4d33279a79414
+Size: 5872
+MD5Sum: 8e916c18caf105125cf5f4818f01a8a4
+SHA1: 8d4ee5b85d33305eda6eea19604da62128b9fc31
+SHA256: 706c474c3cc628e1b6a4e7e7a7f55017aa65ba077fdc71f25f01126e418e57e9
+SHA512: 0b5563147a8b193deb65bb5691020af777313d88a78b864c3c664e43a80887c7dbeeef5adcbc2f467e755f4d31fdf3653a2d96fa7127cb2b8ba37b92cd7f94c5
 
 Package: create-bin
 Version: 1.1.0-SR

@@ -6,14 +6,14 @@ Depends: python3, gnupg, git, repo-manager, xdotool
 Installed-Size: 68
 Description: Build git repository with deb files
 Filename: dists/metaverse/main/binary-all/build-repo_1.8.7-SR_all.deb
-Size: 5644
-MD5Sum: 56135bd3c53f78125cdeebb02fb498a9
-SHA1: 84e45d298475f78384abc918f40ed097b9055e3b
-SHA256: bc6efe64f95f6aef13ab2b56869198a20b3a390fb873490bee495a45c23459b8
-SHA512: c9dfdd63c3ef6640dde3a249c6834f99b859a6b1e53cb6802aeb7ed317bc5e045a38bc04ab9c626fa51b4ef9e605c44ecbbce4013c575d31a45bdeeaa79bd12f
+Size: 5768
+MD5Sum: 441023a8e71c533bbd5f2d7f9cfe30e3
+SHA1: b87b2a80cd803ea814fdd874c89957b8ae3d3511
+SHA256: 63e34d34213bc90dfb4b2c5816adc37ec2c2654768241fb9c3a454e74bcf092d
+SHA512: 71175a0de9d6cab37d69bf0655f61fe2a62ff2237459dcf1909ba469b0520e8e31d9562a51ced60ba4dd9217143736abd1e1403c59315dc5bbfc3929f129d538
 
 Package: fake-sudo
-Version: 1.5.4-SR
+Version: 1.5.5-SR
 Architecture: all
 Maintainer: Syahri Ramadhan <syahri.ramadhan2022@gmail.com>
 Depends: proot, which
@@ -21,12 +21,12 @@ Installed-Size: 136
 Conflicts: tsu
 Homepage: https://ariesr91.github.io/user91-repo
 Description: Run command as root user.
-Filename: dists/metaverse/main/binary-all/fake-sudo_1.5.4-SR_all.deb
-Size: 2552
-MD5Sum: 52e1bb6ee5cc8faa64d263c7faea760c
-SHA1: cf32e3a244788ec9343d699e8a82802505161e0c
-SHA256: ce78bb3eba634381ed0cc6ba1b2b4e02bd7f45761274edf8f8056e9293237b3c
-SHA512: 16af1e9b170a23376eaf7abcdbafd7eeae145eb77ba95762e618e7318c3067e33e38c087f097fb7293aaeee9fae23d5a181d41f7982412f07191641843bdf95d
+Filename: dists/metaverse/main/binary-all/fake-sudo_1.5.5-SR_all.deb
+Size: 2592
+MD5Sum: dfa753b6c6761664610dd09fb392c1f6
+SHA1: 5bee4a91ae9b0af18059035acbdf71e9c29704a0
+SHA256: 2ad97cf785fb83159968fd411aa9b069325872e8ed8f9e28be177dd85f21b64a
+SHA512: 9cb1ba49e19371edac43cbdcddf95658ec8dd5b00b50dc106a69b431c3d70f1ee11a11e7205e2bea41e7c0d2efd5b11b5bf64524bcd9c25ee9a76558efa4a284
 
 Package: fonts-firacode
 Version: 6.2.2-SR
@@ -121,22 +121,6 @@ SHA256: d6deb413296462b68673d6f5cb5e9ad8c3ecc817eb89a1805c4907bd7b260063
 SHA512: b8ca153865f98292a0f6bfc8353cdf86f7ae0dda71b99d6d83e179fc10f77e68e994d9805f8516dc02a506c610a1c809f2e27a10f75610b67f1a72299de2f3a7
 
 Package: kali-dark-style
-Version: 1.3.4-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash
-Recommends: x11-repo, kali-colorscheme
-Suggests: kali-icon-theme
-Installed-Size: 412
-Description: Termux kali dark style
-Filename: dists/metaverse/main/binary-all/kali-dark-style_1.3.4-SR_all.deb
-Size: 117764
-MD5Sum: 68d47ad99d54228da7b40da749ddfbd2
-SHA1: 1ea7c3079713cbab4f0107a656541da73134cd5e
-SHA256: e5309c6a9e10f03be8a11a5018d24fcdbe6c39ca12376d96161ff85e368aa32a
-SHA512: 15257e6b5ed01ab7c96f9282dd6e1ab180d41c03976028dddbf7489ba02aea9213eb9ff6b31616d71917e6f51db5cbe0eb09db4f07c1c2dc6477dccd18e65dd2
-
-Package: kali-dark-style
 Version: 1.3.5-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
@@ -146,11 +130,11 @@ Suggests: kali-icon-theme, zsh
 Installed-Size: 932
 Description: Termux kali dark style
 Filename: dists/metaverse/main/binary-all/kali-dark-style_1.3.5-SR_all.deb
-Size: 181968
-MD5Sum: e6f16ef2626e777c6f4fe6419c861711
-SHA1: 7c067cfc81ab6ce9e771b384d285ffa5f8f9dce1
-SHA256: 013df816183ecbd7ecb3bd03f62ac6c57603341b4d457a82e721819cb5822961
-SHA512: f4be4546c4771f50e89431e8895c373f900965cc04c9d045d2e6f41e6baab18727a06a6600557e3dbd2ca1e1dd6e126ac0216551d413bed4aee6589401e176cf
+Size: 181972
+MD5Sum: c33a7586c6b568423e26b2243e6a169f
+SHA1: 4a670f2835262c28df529c6ff367917e1aefa094
+SHA256: de005ff39ac3ce3546af8f3c8a5aab21c016690a3675bcd4a26ec597e5091044
+SHA512: 67a55d93ca74eeaa7f5968fb6789b78c96cb27ecf035d74d0b2db8c81733638a860ddd24cee2a2bde25bce61d5008c4876d78d78bfbf50dde12c140b7b0d6169
 
 Package: kali-icon-theme
 Version: 2025.1.2-SR
