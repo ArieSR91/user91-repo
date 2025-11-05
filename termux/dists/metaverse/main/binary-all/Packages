@@ -2,15 +2,15 @@ Package: build-repo
 Version: 1.8.7-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3, gnupg, git, repo-manager
+Depends: python3, gnupg, git, repo-manager, xdotool
 Installed-Size: 68
 Description: Build git repository with deb files
 Filename: dists/metaverse/main/binary-all/build-repo_1.8.7-SR_all.deb
-Size: 5632
-MD5Sum: 719081d0f4ba65e56b0e0d8b63560ed8
-SHA1: b6e5eb1eb60533859f1b7452a76c19f82d773861
-SHA256: 1006bd08582d9db8bfc98d156290f912d520874a1bddf1efb3e6e8248741bc8d
-SHA512: f185d2fe253fc666f00c58e1fc6c4aaaaeb022d4c3a4a7f4858e47fa18a40cb0e8b18c4da53ed2f53532b0d90944b1a927f488c7b849adeab37c23652ca90089
+Size: 5644
+MD5Sum: 56135bd3c53f78125cdeebb02fb498a9
+SHA1: 84e45d298475f78384abc918f40ed097b9055e3b
+SHA256: bc6efe64f95f6aef13ab2b56869198a20b3a390fb873490bee495a45c23459b8
+SHA512: c9dfdd63c3ef6640dde3a249c6834f99b859a6b1e53cb6802aeb7ed317bc5e045a38bc04ab9c626fa51b4ef9e605c44ecbbce4013c575d31a45bdeeaa79bd12f
 
 Package: fake-sudo
 Version: 1.5.4-SR
@@ -136,6 +136,22 @@ SHA1: 1ea7c3079713cbab4f0107a656541da73134cd5e
 SHA256: e5309c6a9e10f03be8a11a5018d24fcdbe6c39ca12376d96161ff85e368aa32a
 SHA512: 15257e6b5ed01ab7c96f9282dd6e1ab180d41c03976028dddbf7489ba02aea9213eb9ff6b31616d71917e6f51db5cbe0eb09db4f07c1c2dc6477dccd18e65dd2
 
+Package: kali-dark-style
+Version: 1.3.5-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: x11-repo, kali-colorscheme, ncurses-utils
+Suggests: kali-icon-theme, zsh
+Installed-Size: 932
+Description: Termux kali dark style
+Filename: dists/metaverse/main/binary-all/kali-dark-style_1.3.5-SR_all.deb
+Size: 181968
+MD5Sum: e6f16ef2626e777c6f4fe6419c861711
+SHA1: 7c067cfc81ab6ce9e771b384d285ffa5f8f9dce1
+SHA256: 013df816183ecbd7ecb3bd03f62ac6c57603341b4d457a82e721819cb5822961
+SHA512: f4be4546c4771f50e89431e8895c373f900965cc04c9d045d2e6f41e6baab18727a06a6600557e3dbd2ca1e1dd6e126ac0216551d413bed4aee6589401e176cf
+
 Package: kali-icon-theme
 Version: 2025.1.2-SR
 Architecture: all
@@ -189,10 +205,10 @@ Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/metaverse/main/binary-all/repo-manager_2.1.6-SR_all.deb
 Size: 3176
-MD5Sum: 528582e611927673296c9026049e7f45
-SHA1: 01657a6f770428c10a1d60446abcbd27982dee85
-SHA256: 8ca0f8f0a99d38ac18ace3f28ba66f272df938d206000b1dd18b4d3ff614d6fa
-SHA512: fbbf83603bc2b424c5170a529f8787662550de2b89542b741136205a6eafe6d0d5e1507e89793c03b7fbce4c75d0ee6b4e1312ad97ecfc448875aa89464f5b73
+MD5Sum: d9e5ef8abfa3edf49552e6c7516c1348
+SHA1: 75a7460e8d40c4499a078eb9a8f732953bfddb52
+SHA256: 38ac16dbad766cc777f4eca4deb4cfb1df1077912fed0e63fde3726a1f2108b7
+SHA512: 200e23770585da2f56e9945483e8fc2401f0274efcd86527880942c8c6599ad9a64e9c364475b520e34062acf4abd1d661c0b162125f26ab05b620f921844179
 
 Package: srlocks
 Version: 1.1.1-SR
