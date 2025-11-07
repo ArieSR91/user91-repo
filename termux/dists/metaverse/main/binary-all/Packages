@@ -166,11 +166,11 @@ Description: Kali Linux custom menu
  It is used by any desktop that complies with the Freedesktop menu
  specification at http://standards.freedesktop.org/menu-spec/menu-spec-1.0.html
 Filename: dists/metaverse/main/binary-all/kali-menu_2025.4.2_all.deb
-Size: 9900400
-MD5Sum: 165a77d7f5341c07c519c0b57faaeb09
-SHA1: e92a454724f17ce252d3329bd62502e9b4f8ec0f
-SHA256: f93e8ff4af5adef081a13c0b9b5ec06b3ba9cce7a0622f9bbef822853a09d744
-SHA512: b9c72de1e7332c8b12ff31e72f4e6d88c1c35dec9aa8aed76896e928433dc6327426672662054d6739438abc487604b1124b5cc8776a824acea6a8232d497e12
+Size: 9900408
+MD5Sum: 39868356f3952278b1f18037be251e00
+SHA1: cbd3c802c38e471e4c00335178938951395e2420
+SHA256: 9539d20574ca97aac4135f6838f79899fe59823da40e158b2423d30f71079923
+SHA512: ffd9f0d97313061e4a3940b3c75d390d89b5cac80d7224bd583da9deeb189c909a893342bcee1bda81638606179bcb859a4cdbd442de985a22a0a6fc258a2370
 
 Package: linuxdeploy
 Version: 1.2.4-SR
