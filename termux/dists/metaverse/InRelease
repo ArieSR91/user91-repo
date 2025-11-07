@@ -3,17 +3,17 @@ Hash: SHA512
 
 Codename: metaverse
 Version: 1
-Architectures: aarch64 i686 all arm
+Architectures: all aarch64 arm i686
 Description: metaverse repository
 Suite: metaverse
-Date: Fri, 07 Nov 2025 11:12:32 UTC
+Date: Fri, 07 Nov 2025 11:20:32 UTC
 MD5Sum:
  aa6b29ed0aecfa2439eddfa30d91562d 1243 main/binary-aarch64/Packages
  62729d4462ffb35aebabc68dcda5897b 828 main/binary-aarch64/Packages.xz
  7057f1410cfce473ad3c6b2e33abeaa1 1216 main/binary-arm/Packages
  6a1a04c90498991ad8fb9612373b7c6b 816 main/binary-arm/Packages.xz
- e14ba0f4b83e412368ef4fb58226fb8e 14457 main/binary-all/Packages
- cec270277d6c397627c703f998a08d27 5356 main/binary-all/Packages.xz
+ 2c105a69d96c2660caaba55452b35ca4 14457 main/binary-all/Packages
+ 6e4dec191ac0230aab16015ef41be2fe 5356 main/binary-all/Packages.xz
  3b1c96c40b101515473c54a021c6fdc1 560 main/binary-i686/Packages
  6f156f5265ba94cf9b5a85a0a67f6994 496 main/binary-i686/Packages.xz
  1353886428f40b8d7f44d079d8396476 9774 main/Contents-aarch64
@@ -29,8 +29,8 @@ SHA1:
  0912e5f01d6daa425c4d2e7a2cecf243c1117187 828 main/binary-aarch64/Packages.xz
  cb210db79d2d4d55a2b86da169180c464a243c27 1216 main/binary-arm/Packages
  eb2c8f9b310a1d737f1d41b911f2190a8a84261e 816 main/binary-arm/Packages.xz
- 83e40c26228aa429a6627a3db9b3727a54857e5a 14457 main/binary-all/Packages
- e40a08b5ff24df3d2432e0b0b6dcc51d45839a2a 5356 main/binary-all/Packages.xz
+ c8d7ca5259683cd38f151361b79108248d6a6dda 14457 main/binary-all/Packages
+ 3eba5b9e523650ee69dd8db1fd1843ce49b07611 5356 main/binary-all/Packages.xz
  b9e96ef490981aad9622ba37acf63373a9a6ec8b 560 main/binary-i686/Packages
  d50fe0b0d2c85a2aaa36ea0b0776b0f60cddc1e1 496 main/binary-i686/Packages.xz
  43c553697ce227bd60ad3752bc1a6248d808033c 9774 main/Contents-aarch64
@@ -46,8 +46,8 @@ SHA256:
  663dd451a304fd8ab2417ff700df5d2d045244a9a6f7f4694491a453f08c03e9 828 main/binary-aarch64/Packages.xz
  5a5622fd9191c48bcbd2b0102b441c72c97c3bf44ab7ab6f0add1a7fa432f08d 1216 main/binary-arm/Packages
  840efeb27265761b328f00f4fb711ad973db95ee34122b01fcac82205dbecc61 816 main/binary-arm/Packages.xz
- a66e758fc01ea774fcae51119b74030647a8863ebcb11ae93409f62ddd35b5c4 14457 main/binary-all/Packages
- 861575a4f54e022c3382e7750f09f94f9920b31f02fec9f2c7613f8d0998b796 5356 main/binary-all/Packages.xz
+ 58020b6c4ca3a44b1339d3d0de75358f2930f0eaff9eb314771831f756b568b6 14457 main/binary-all/Packages
+ 8bdfa126a68126b02245503a908237edc3d48c4c80807533e8f9a21d15ff6080 5356 main/binary-all/Packages.xz
  d75d4c34dc6fc6746f9c25d6dbe4791e86360182f56e5e3409cedf76009f1adb 560 main/binary-i686/Packages
  996c131987e19cbb89f84c823a61b6852cab4af787e677b6d9e3b5034b5189f7 496 main/binary-i686/Packages.xz
  1c29ee719630d11871454f5400cd7c8019b6452e09cc0b766dad0e495f79b06e 9774 main/Contents-aarch64
@@ -63,8 +63,8 @@ SHA512:
  6396420fde9aa576d6baf0a56bb81528e18acc40f2fdf516cc76b271cc7dfe04b2ca94fc33ea0ee4620f3a84e68524c0d1bcc747eb9d69cdfe4d166393b28fba 828 main/binary-aarch64/Packages.xz
  bcf825f5c8bc418e263d96568cc74f412b0b4c81e18dc6311a9071cf7e69c3bbc84676f6df99e52239f8b23b19d3991aa17c0d0b7d781aa022f0b53483466ed3 1216 main/binary-arm/Packages
  c2c7aadbcbcd3e71ae1eef70fbc9f5fa49aa428d7f97aad8418f05f865d34ffa0d7218e758346b4631303e7663d8978f8d91f0ccd631f0919b8acec61e2a4bfb 816 main/binary-arm/Packages.xz
- d062b1454fb4651711b7ce73a182678233ac515008879a3f836859efa811d0d8ce1c80d7b6216d9fedbe30c7346ae6612f7b5aedbf9278f6d157853b0ce35949 14457 main/binary-all/Packages
- 24dcc595c45b0721a9c19dc0b92d992ed5a4b9cc403f51b70c883edb90837f4cdfef1f95255f62803b96964f197fbbc836b434a34c1aeaa6451d1eab09c96308 5356 main/binary-all/Packages.xz
+ 151dbaddde107eeb363b2fe30bc554f32df264a538b31c30685242eb018728efbbae86f62735e4bb28dbe7fc19a446e295422e3639f7d244990abf293df4143a 14457 main/binary-all/Packages
+ e22826d5ee83a7781174f76ff3046b3a471b4af1a4625893e52e93c287b3620c5f61e035417d1af0f11c6ceff6858ec6ce5cb9fb0cbe0795b70e1dc808e35c3b 5356 main/binary-all/Packages.xz
  9292ffb35324a948db769a91a0e8f8b9b7b10898f0e0c71c09b1e900372226ba33cc8eb2ce87056d5ce060d1158834f8ee12c4a2d784e9a963e98629f09b1b3a 560 main/binary-i686/Packages
  6c991f64090b47b1f01068fb49b154409c8e5295eb82f7b10fee382bbb2a50f541e8299e2deb9ee6c89c0b2917b46e39423b0f5c94eff192ad97cca2f7e31a26 496 main/binary-i686/Packages.xz
  be1b5ac253ac795d1183c20cf3442a4b86b5eb1cc2542614f9f5592ebb412ffc5843c5b465ea145d2e33c81e35cdd84bae32a1ed55ac4d61b51493cd9726d65a 9774 main/Contents-aarch64
@@ -77,15 +77,15 @@ SHA512:
  034b32f1138322638c7a5b7949a3b184c6a4cdfd003360a496c08c56c2cc645c94fbe9cdf9d84c963af6dda6c442717cd61d7e1cecf7024bd463f6f5196c5527 32 main/Contents-i686.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE/w8GnpkBI9uOygqoZvABD5pY/6gFAmkN1DUACgkQZvABD5pY
-/6g2Ogv8Dzc5xyfqcfKe9qdNjY4/FMoM1V7d+6+S3JX0r2rNSNZ+W6FjOtJ+VxgV
-itZhSSDBfUF7yXXujaOpmldj68Y7e0m/JtmSDsBOY6Qy8wrs4O3KPlWuegI1IqW4
-ZVME7e3qSq147wGpEzLvP3Q1VV4R6kWjFLcO5UgrJZqWizjGb9zCbvvADlIG+yzr
-rkRjMkM7ahOv6pDIOlXgggIkqAFcxiKIQKutRbWxphRsVADqsX9JbfTE9qFm5GzG
-NR/T7aaXDYuZA2QFHye1N30wI3qD1+Efa711OccHOiwvtEOYYT/nZmdciJDVAiND
-76dLDkDerzFYJU98ni+vhLVO/jnAA+LMRPKOiYEBt2OE5TMZJHcpUBSrKRvh+lDF
-a+nqNHI+n/JNaCkFbkhvKn3sxQHdZFwq6c3HXHGFNUCaJt6daPWd5zz4RCkHeEfo
-19rqV85M6yeOx8AGyQj8atMDEysRQeE9b1f845dpxCEzWRLfRxlPtYXBDVE+q63D
-oFRGQoZH
-=GOP+
+iQGzBAEBCgAdFiEE/w8GnpkBI9uOygqoZvABD5pY/6gFAmkN1ggACgkQZvABD5pY
+/6i1QAv/RTgpIIyQbY5Y2k8jOXMkBV2g7kpMJMC2Un2HRIbe5tFXiPHS9qhiRE/l
+vw8uskJjpNEv6oKJUvN0tWQhSdw0qkVuTRbqPjDdt56/5G72/QKaUFLjS/SvU3T8
+P7cAHCsdEHum9nPkL123BJNGNeIUlh6MpZdKi6M1ds9DNywf40WURE0tW/YenhPd
+2iEHyMddwqTQuWbzlWRAr6HjUCAWrgJILzq+iNu1aXP43l08TvDQzOHNQOG4Af6G
+m9sjW13RrDPV0DWl0dnCzhFvmcGkTOFHL2pIt6e2Uj7HxtscIpVZi0oNiZLQP398
+Ecgq4uZpm9TCdCuIuAg/vIYY3Oc9e+pp9MDNlmWXvlUDzzVhfEEZ4PObaKWxaxmo
+4iuC9rsCWL1phSDfPQl1XBMLLmmU0CXN24/JViiODLOztNRc52ZhdpiBOvgbNakJ
+tsBkppMq4E2MtHQKOXRcxzQLNzMhaSXglJZa7KsC3ZvsmLnH6puH26ZFkkzY+bFx
+r+UIE6C7
+=qxoM
 -----END PGP SIGNATURE-----
