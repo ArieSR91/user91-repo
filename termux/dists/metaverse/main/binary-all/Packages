@@ -151,6 +151,27 @@ SHA1: 2b1a84e2551bbd25096387c8831d0a3ea60671fe
 SHA256: 3fe8d95e9aeed215aad3422e3d2e4924c54354b8a64f57c9cb3c65c80e941cec
 SHA512: 04b96f73ef5085dba4c5bb9ec611e1228d7d5415ff644ef06e3ea52cc7bf78c760ff15ba71bd0d7813e4a6e8a67a9cc16564ca3470382134ffacb9cf8d8c480a
 
+Package: kali-menu
+Version: 2025.4.2
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 18321
+Depends: perl
+Suggests: 
+Section: x11
+Priority: optional
+Description: Kali Linux custom menu
+ This package provides a custom menu for Kali Linux.
+ .
+ It is used by any desktop that complies with the Freedesktop menu
+ specification at http://standards.freedesktop.org/menu-spec/menu-spec-1.0.html
+Filename: dists/metaverse/main/binary-all/kali-menu_2025.4.2_all.deb
+Size: 9900392
+MD5Sum: 5df8c5c05847aa23026c98945eb0a599
+SHA1: f87f5e94767990bb34ed712507f77efa4d77e467
+SHA256: 98eac735c176d4345d6b638a013373958ea04e0260423300b8e62137ac9bd11e
+SHA512: 747f1b0f640abfbcc2f5ab3e07e18be68a865c44f8ba71202f1ccf4fb6a2fae4d88ce51d6ddad2accebdf51dc9fb0abfecd7e70fa82735b66b49a22e36fe5ec5
+
 Package: linuxdeploy
 Version: 1.2.4-SR
 Architecture: all
@@ -193,6 +214,22 @@ MD5Sum: d9e5ef8abfa3edf49552e6c7516c1348
 SHA1: 75a7460e8d40c4499a078eb9a8f732953bfddb52
 SHA256: 38ac16dbad766cc777f4eca4deb4cfb1df1077912fed0e63fde3726a1f2108b7
 SHA512: 200e23770585da2f56e9945483e8fc2401f0274efcd86527880942c8c6599ad9a64e9c364475b520e34062acf4abd1d661c0b162125f26ab05b620f921844179
+
+Package: sqlmap
+Version: 1.9.11-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3
+Recommends: 
+Installed-Size: 12421
+Homepage: 
+Description: Sqlmap
+Filename: dists/metaverse/main/binary-all/sqlmap_1.9.11-SR_all.deb
+Size: 6952464
+MD5Sum: 892807880b0b7764d135143781040d0c
+SHA1: 6be451bbb948b276213d67216d3807f7eb76634e
+SHA256: b3eb92d2ce3aec507427320396eac50bd839a623bb6152f6174dedfe5f7bc88c
+SHA512: babf3fe8beedb44f634e60d1de03d00ec1a1b49e584cfc054074af74c91a60c4f500a6962cd1bd8baa2cce46c9aff254c5b9d148bacd4ab1f1954a3963f87563
 
 Package: srlocks
 Version: 1.1.1-SR
