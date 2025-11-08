@@ -13,6 +13,54 @@ SHA1: b3dcb6154bff92d8aabea080b8403cc9d118ccb3
 SHA256: a1d6a00225a031b9a75e79d90dee45b2257847c0320f367ee95bc4c8a6e1334d
 SHA512: f01a2bdecd936282ad575421189b17316c0bcefc49ee2c3227f4260c553f30b96b87fe02891a3a615b9ccb23f9df4a58019a5a19d9bf0bda9e0558dd4232b2f8
 
+Package: libfile-fcntllock-perl
+Version: 0.22.4-SR
+Architecture: aarch64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 182
+Depends: perl
+Suggests: 
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/File-FcntlLock
+Description: Perl module for file locking with fcntl(2)
+ File::FcntlLock is a Perl module to do file locking in an object oriented
+ fashion using the fcntl(2) system call. This allows locks on parts of a file
+ as well as on the whole file and overcomes some known problems with flock(2),
+ on which Perl's flock() function is based.
+ .
+ Furthermore due to its design it supports reliable locking over NFS.
+Filename: dists/metaverse/main/binary-aarch64/libfile-fcntllock-perl_0.22-4+b4_arm64.deb
+Size: 34076
+MD5Sum: fe1e47fdd00fe58cd2e632d8139bca59
+SHA1: b2a597d249e32553b87b89dfa0e1933baecaa135
+SHA256: 534bd6caf66ee93518219aa683f52422e433550668f7b2a4f68c46db22469e77
+SHA512: 94969d04ada37ae65c74359c76bb16b6bf8a9706f0ff51878bd23387e244877be4af19c573f8018b673e2ce698a2e7314f02b8b97fcfc95e7a6c2d063a766a9d
+
+Package: libfile-fcntllock-perl
+Version: 0.22.4-SR
+Architecture: aarch64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 182
+Depends: perl
+Suggests: 
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/File-FcntlLock
+Description: Perl module for file locking with fcntl(2)
+ File::FcntlLock is a Perl module to do file locking in an object oriented
+ fashion using the fcntl(2) system call. This allows locks on parts of a file
+ as well as on the whole file and overcomes some known problems with flock(2),
+ on which Perl's flock() function is based.
+ .
+ Furthermore due to its design it supports reliable locking over NFS.
+Filename: dists/metaverse/main/binary-aarch64/libfile-fcntllock-perl_0.22.4-SR_aarch64.deb
+Size: 34072
+MD5Sum: 7b4ce36d2cb26df6f77e82afcb3588c3
+SHA1: 91426591f5ee8676047121bcc0432f8c9a3173dd
+SHA256: 42642444d9a66e53eb4c6980a3e7aeb0649c274388dec325dbe9e4111305b1da
+SHA512: 910a8abea384771060a4b1e289110ee3a979af363fbbb909847d5bbe265eb68e425103b319f33c53e95f385a24ac3fa3a92dff1c84f30d08102f9590fc5030fe
+
 Package: sudo
 Version: 8.6.0-SR
 Architecture: aarch64
