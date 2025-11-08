@@ -30,30 +30,6 @@ Description: Perl module for file locking with fcntl(2)
  on which Perl's flock() function is based.
  .
  Furthermore due to its design it supports reliable locking over NFS.
-Filename: dists/metaverse/main/binary-aarch64/libfile-fcntllock-perl_0.22-4+b4_arm64.deb
-Size: 34076
-MD5Sum: fe1e47fdd00fe58cd2e632d8139bca59
-SHA1: b2a597d249e32553b87b89dfa0e1933baecaa135
-SHA256: 534bd6caf66ee93518219aa683f52422e433550668f7b2a4f68c46db22469e77
-SHA512: 94969d04ada37ae65c74359c76bb16b6bf8a9706f0ff51878bd23387e244877be4af19c573f8018b673e2ce698a2e7314f02b8b97fcfc95e7a6c2d063a766a9d
-
-Package: libfile-fcntllock-perl
-Version: 0.22.4-SR
-Architecture: aarch64
-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Installed-Size: 182
-Depends: perl
-Suggests: 
-Section: perl
-Priority: optional
-Homepage: https://metacpan.org/release/File-FcntlLock
-Description: Perl module for file locking with fcntl(2)
- File::FcntlLock is a Perl module to do file locking in an object oriented
- fashion using the fcntl(2) system call. This allows locks on parts of a file
- as well as on the whole file and overcomes some known problems with flock(2),
- on which Perl's flock() function is based.
- .
- Furthermore due to its design it supports reliable locking over NFS.
 Filename: dists/metaverse/main/binary-aarch64/libfile-fcntllock-perl_0.22.4-SR_aarch64.deb
 Size: 34072
 MD5Sum: 7b4ce36d2cb26df6f77e82afcb3588c3
