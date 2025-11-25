@@ -109,6 +109,22 @@ SHA1: 52c03423eab4fbe0380b42c2997d4aaa8221c5bb
 SHA256: 1a8acaded7f1a9bc4095ac46a712a62621af9a59d0dda00f874a5bbb0adb6652
 SHA512: 7ae03f92d3b29f8ece51a837e35c0402cedc37ff41f0eb0a46ee057c522bed9993a1c72dca3257018df21ed576428aff5866867a3bd5712038be7cd8c6debd2e
 
+Package: shizuku
+Version: 1.0.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: 
+Installed-Size: 42
+Homepage: 
+Description: Run command as shizuku/SUI user.
+Filename: dists/metaverse/main/binary-all/shizuku_1.0.0-SR_all.deb
+Size: 4752
+MD5Sum: 0df06921db5fbdd432f6acc10690fb94
+SHA1: dcc4dd9dc28c3e31849b14fd9e2605e1fd21a865
+SHA256: ff214287bf26894738b188a95372cce14ad8b30167a9d616d35a53bc3f190fb7
+SHA512: 6d95722b8816b54a4f619127697bb4e94dcaac50cf9a8eec27e3c56cc1bb53fda872339f2eac3cc999a6235ddbc9ad0ecc707ddabedd3734d86fd751096399b9
+
 Package: sr-undercover
 Version: 1.2.1-SR
 Architecture: all

@@ -31138,6 +31138,9 @@ usr/share/themes/Kali-Purple-Light/gtk-4.0/assets                               
 usr/local/bin/git-repo                                                           repo-manager
 usr/local/bin/repo-index                                                         repo-manager
 usr/local/bin/repo-manager                                                       repo-manager
+usr/local/bin/shizuku                                                            shizuku
+usr/local/bin/shizuku.bin                                                        shizuku
+usr/local/bin/sui                                                                shizuku
 usr/bin/sr-undercover                                                            sr-undercover
 usr/share/applications/sr-undercover.desktop                                     sr-undercover
 usr/share/doc/sr-undercover/changelog.gz                                         sr-undercover
