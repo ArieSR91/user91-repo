@@ -43,6 +43,7 @@ srgpt (all) \
 srlocks (all) \
 srtool (all) \
 sr-undercover (all) \
+shizuku (all) \
 tiktok-download (all) \
 winebox (armhf, arm64) \
 wine-old (armhf) \
