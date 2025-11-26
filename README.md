@@ -6,7 +6,7 @@ Before add the repository you must to install gnupg
 ```
 apt install wget gnupg dialog -y
 ```
-## Manual Install
+### Manual Install
 Debian based:
 ```
 . /etc/os-release;echo "deb https://ariesr91.github.io/user91-repo/$ID metaverse main non-free contrib" | sudo tee /etc/apt/sources.list.d/user91-repo.list; wget -qO - https://raw.githubusercontent.com/ArieSR91/user91-repo/metaverse/user91-repo.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/user91-repo.gpg > /dev/null; sudo apt update
@@ -15,12 +15,11 @@ Termux:
 ```
 mkdir $PREFIX/etc/apt/sources.list.d/; echo "deb https://ariesr91.github.io/user91-repo/termux metaverse main" | tee $PREFIX/etc/apt/sources.list.d/user91-repo.list; wget -qO - https://raw.githubusercontent.com/ArieSR91/user91-repo/metaverse/user91-repo.key | gpg --dearmor | tee $PREFIX/etc/apt/trusted.gpg.d/user91-repo.gpg > /dev/null; apt update
 ```
-## Graphical Install (recommended)
+### Graphical Install (recommended)
 ```
 wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh -O $PREFIX/bin/user91-repo; chmod 775 $PREFIX/bin/user91-repo; user91-repo -m
 ```
-move user91-repo file to your bin folder to make it easy\
-then you can run it by type: user91-repo -m.
+run: user91-repo -m
 
 [user91-repo](https://ariesr91.github.io/user91-repo/) site\
 [Join](https://chat.whatsapp.com/EBnkCoxUasQH87y0EexWL8?mode=ems_copy_t) Whatsapp Channel
