@@ -17,7 +17,7 @@ mkdir $PREFIX/etc/apt/sources.list.d/; echo "deb https://ariesr91.github.io/user
 ```
 ## Graphical Install (recommended)
 ```
-wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh -O user91-repo; chmod 775 user91-repo; bash user91-repo -m
+wget https://raw.githubusercontent.com/ArieSR91/user91-repo/main/user91-repo.sh -O $PREFIX/bin/user91-repo; chmod 775 $PREFIX/bin/user91-repo; user91-repo -m
 ```
 move user91-repo file to your bin folder to make it easy\
 then you can run it by type: user91-repo -m.
