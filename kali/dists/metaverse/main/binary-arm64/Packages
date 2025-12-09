@@ -48,19 +48,3 @@ SHA1: 4068b2afea482f5de11470a76d7dc0a82c95165a
 SHA256: c2b8a541838ac498b77021d81e408996e08d2aa3b4c77c04fc8a103ded88e41e
 SHA512: 7019c14cbbb7780b9ab928893fe8739f2f0f2c236cefe259b5d993e700d02ce88c951a1441f0dbd13b0b706186a9754e92989f297c26f801b115c03e42410e34
 
-Package: wine-stable
-Version: 11.0-SR
-Architecture: arm64
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: libgl1, libasound2 | libasound2t64, libc6, libglib2.0-0, libgstreamer-plugins-base1.0-0, libgstreamer1.0-0, libpcap0.8, libpulse0, libsane1, libudev1, libunwind8, libusb-1.0-0, libx11-6, libxext6, ocl-icd-libopencl1, ocl-icd-libopencl1, libasound2-plugins, libncurses6, libcups2 | libcups2t64, libdbus-1-3, libfontconfig1, libfreetype6, libglu1-mesa, libglu1, libgnutls30, libgsm1, libgssapi-krb5-2, libkrb5-3, libpng16-16, libsdl2-2.0-0, libxcomposite1, libxcursor1, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxslt1.1, libxxf86vm1, libvulkan-dev, libopenal1, libtinfo6
-Recommends: libosmesa6
-Installed-Size: 671848
-Homepage: https://github.com/ArieSR91/
-Description: Windows Emulator
-Filename: dists/metaverse/main/binary-arm64/wine-stable_11.0-SR_arm64.deb
-Size: 74257300
-MD5Sum: b19470f99192957a9f423327817ee11f
-SHA1: 52d4f8ea600893ea6eecba1249fcfdee5a268037
-SHA256: ef1331b6081163508f3157f155fcc723beb2b68f767d87708b72257f20ac9dc5
-SHA512: 4b4b3f6ffd7f83cb676c521a8d8dfa5bd145a8bbf82e3d1e6e2a28a0f6d088706eac6a7f837973529f1da79af061ab509bb8bbdbbc4554acd1f64b9a177a8189
-
