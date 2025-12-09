@@ -2,7 +2,7 @@ Package: box86
 Priority: extra
 Section: utils
 Installed-Size: 10380
-Maintainer: root@6ff22fbb521b
+Maintainer: root@8221c9ed248c
 Architecture: armhf
 Version: 0.3.9-SR
 Provides: box86
@@ -10,11 +10,11 @@ Conflicts: qemu-user-static, box86-generic-arm, box86-rpi4arm64, box86-rpi3arm64
 Description: Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)
  Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)
 Filename: dists/metaverse/main/binary-armhf/box86_0.3.9-SR_armhf.deb
-Size: 2097720
-MD5Sum: ef8fc8bbaf5d60d6141aeb212eebee25
-SHA1: cbeeb345ebc5ea1508b08d1212d9faa53fe515de
-SHA256: e5bb37f1e872e8040a1632f06402d6d42e1fc826b6446e315fbb09d8108409fd
-SHA512: 8acdae5cc4f4115137dbd2e1d3fc8c92036d392f6af26143610acbd59e4e971539210bd4d4d22d17dca0d09fe8d4d3ec5be5bd97cb90b29570b782f3cf747cd7
+Size: 2097460
+MD5Sum: bdb2ec35ca135abb642d3d7a26fe8f9e
+SHA1: 8e239059aff21b65171b6b69cce5a70450566ad7
+SHA256: 13bc50331b605b70301fb74cb8549d0ceb46b3001ba4cbf9003edcad92da69e1
+SHA512: d56741c8c720be43294ccbf9b0929e143756b835577d343d263c9f8c37ede3b329c1dd1551b55145d7792902ba785484942047eddbc0f3b82d5a918298fb9d41
 
 Package: libtinfo5
 Source: ncurses
@@ -80,4 +80,19 @@ MD5Sum: 33b360178057d74b83d7a0bfa5d34c58
 SHA1: fc9cb58aae654f84dd97b786032fb15ef4a9e3e8
 SHA256: 17cbee5cbf9a108d90b3d140568e8c84340c5caf8c49cccfded4a08c46bd4a1e
 SHA512: f9d7b49af18611941e764e013b8c63fc1c1598138a1b4337cb36f355bc093264b414786a5306e6e4d6d9d14326589e806560b1891b26abba0819afd869b82e5d
+
+Package: wine-stable
+Version: 9.16-SR
+Architecture: armhf
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: libc6, libfreetype6, libfontconfig, libxext6, libxinerama-dev, libxxf86vm1, libxrender1, libxcomposite1, libxrandr2, libxi6, libxcursor1, libvulkan-dev, libcups2 | libcups2t64, libncurses6, libmpg123-0 | libmpg123-0t64, libtinfo6, libpulse0, libasound2 | libasound2t64, libtinfo5, libgl1, libopenal1
+Installed-Size: 297556
+Homepage: https://github.com/ArieSR91/
+Description: Windows Emulator
+Filename: dists/metaverse/main/binary-armhf/wine-stable_9.16-SR_armhf.deb
+Size: 31668004
+MD5Sum: 3f28ec3e3e54d3050f268d8528b3066f
+SHA1: 92df7a97c8fef952606a5a27518eb937219cb206
+SHA256: 4104983ea1a59f972096b08f0ab88a725da491e744a1a661e018753a71c9c880
+SHA512: 9a09a0a81c523ad904d91a3cab38edccc8d09dcca0977750ac32c9c79b4f76b452b0994561a7c07691c1ef4c8948f0339743a430ec596d8148e297fec5f6407c
 
