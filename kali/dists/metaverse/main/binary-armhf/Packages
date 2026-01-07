@@ -60,11 +60,11 @@ Installed-Size: 322868
 Homepage: https://github.com/ArieSR91/
 Description: Windows Emulator
 Filename: dists/metaverse/main/binary-armhf/wine-old_5.13-SR_armhf.deb
-Size: 32260296
-MD5Sum: b1ae71ab9c718a8594bf7791dc5c39d5
-SHA1: 3f6bcfb2cfa7c91cb96cf3bd28119d519385db7c
-SHA256: 4e138e7c05ba61045f0caf3ecfb5df3f003adccd9ef6f9361824f4912dbaefaf
-SHA512: 063482585d9199c6939f6be76fe87d2f5d5d732a052cf255a12cb9ced5892d2648285f3c738bb081b3da92f78f60fa4b6c2b68aa7ac07593d3256108714ea21d
+Size: 32266468
+MD5Sum: 8e65185a0945c5ea53c771e3288410b3
+SHA1: a351a2a03120ffa936dbfe19ec3c30dcfe6b4880
+SHA256: 6dc85f6b9b2478cadcba5759a7c3a27df33769770c993c3e1749138d30670df2
+SHA512: 07a206067d37a376713087dcad2ca50fc048055ae1dd8366fa51910d87a0f1deaf245a0416c5862fc7b23cab448b01a00f34854ebd30f3009935359b7cdaaf13
 
 Package: wine-stable
 Version: 8.0-SR

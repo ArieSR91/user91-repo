@@ -16,6 +16,22 @@ SHA1: 70673b63f7726e729c7f93dc79ecfa4d9b9d1c81
 SHA256: afa2c278b98f5302472f3a0fabe9e4c3f4c81df76f281fa9d6f359692eaae6f2
 SHA512: a8ff940a9a42c8b3dc7b7456496b6e784af5f5c0ba4c7b32bd9e94e0f8657da6d5ededd7d33d70888ef1b2d7bf6bc56c07b39df5826b8aa122c0a300152e4e9e
 
+Package: libvortek1
+Version: 1.0.0
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: mesa-vulkan-drivers
+Recommends: 
+Installed-Size: 1000
+Homepage: 
+Description: Vulkan vortek drivers
+Filename: dists/metaverse/main/binary-arm64/libvortek1_1.0.0_arm64.deb
+Size: 191896
+MD5Sum: 32a3836c3f48314fe17763eeaa09bf93
+SHA1: 1e3305b393510a4203678aea6f293ab6a008bcd1
+SHA256: cb97ca4e8fc4e00f3adb00c14a11129f8a0e918d592ee30cae3dc755689a7750
+SHA512: 3813d2d9a7d7942d0f29768bc74ebbca55f55092b93c4cbbaece7510eeea9e741327844ec182f8531a7e68c75a0e6e949487466d1e60017a7a491410a650fcf6
+
 Package: srgpt
 Version: 2.8.3-SR
 Architecture: arm64

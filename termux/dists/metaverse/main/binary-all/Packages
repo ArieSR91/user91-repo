@@ -285,6 +285,22 @@ SHA1: 75a7460e8d40c4499a078eb9a8f732953bfddb52
 SHA256: 38ac16dbad766cc777f4eca4deb4cfb1df1077912fed0e63fde3726a1f2108b7
 SHA512: 200e23770585da2f56e9945483e8fc2401f0274efcd86527880942c8c6599ad9a64e9c364475b520e34062acf4abd1d661c0b162125f26ab05b620f921844179
 
+Package: shizuku
+Version: 1.0.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: 
+Installed-Size: 9548
+Homepage: 
+Description: Runing shizuku SUI shell
+Filename: dists/metaverse/main/binary-all/shizuku_1.0.0-SR_all.deb
+Size: 9561176
+MD5Sum: 03cfb5c6f72970f4721087829eb0ebd5
+SHA1: 2cd56eddc2b3be35fd341d9e99b5a550f503bebd
+SHA256: ffd27aaeef72b5c7a537f2dcf25a7d182985f9c1f650be6b9e3aa0dc3b746742
+SHA512: c1d85ef2cdc866b8651194c3a4f87a6974803814d8d1db043b88643c37977eb9c7abab1e42f8dccd631864777a06df12b7229f158c5fb6c3215e6ae4caebbfcb
+
 Package: sqlmap
 Version: 1.9.11-SR
 Architecture: all

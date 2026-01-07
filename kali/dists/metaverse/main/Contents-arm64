@@ -27,6 +27,11 @@ usr/share/doc/box64/CHANGELOG.md                                                
 usr/share/doc/box64/LICENSE                                                      box64
 usr/share/doc/box64/README.md                                                    box64
 usr/share/doc/box64/USAGE.md                                                     box64
+usr/lib/libvulkan.so                                                             libvortek1
+usr/lib/libvulkan_vortek.so                                                      libvortek1
+usr/share/vulkan/icd.d/vortek_icd.aarch64.json                                   libvortek1
+usr/lib/libvulkan.so.1                                                           libvortek1
+usr/lib/libvulkan.so.1.3.288                                                     libvortek1
 usr/local/bin/srgpt                                                              srgpt
 opt/wine-stable/bin/function_grep.pl                                             wine-stable
 opt/wine-stable/bin/msidb                                                        wine-stable
