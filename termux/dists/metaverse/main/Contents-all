@@ -34655,9 +34655,10 @@ data/data/com.termux/files/usr/etc/proot-distro/kali.sh                         
 data/data/com.termux/files/usr/bin/git-repo                                      repo-manager
 data/data/com.termux/files/usr/bin/repo-index                                    repo-manager
 data/data/com.termux/files/usr/bin/repo-manager                                  repo-manager
+data/data/com.termux/files/home/.cache/shizuku.tar                               shizuku
 data/data/com.termux/files/usr/bin/shizuku                                       shizuku
 data/data/com.termux/files/usr/bin/shizuku.bin                                   shizuku
-data/data/com.termux/files/usr/tmp/shizuku.zip                                   shizuku
+data/data/com.termux/files/usr/bin/sui                                           shizuku
 data/data/com.termux/files/usr/bin/sqlmap                                        sqlmap
 data/data/com.termux/files/usr/opt/sqlmap/LICENSE                                sqlmap
 data/data/com.termux/files/usr/opt/sqlmap/README.md                              sqlmap

@@ -109,22 +109,6 @@ SHA1: 52c03423eab4fbe0380b42c2997d4aaa8221c5bb
 SHA256: 1a8acaded7f1a9bc4095ac46a712a62621af9a59d0dda00f874a5bbb0adb6652
 SHA512: 7ae03f92d3b29f8ece51a837e35c0402cedc37ff41f0eb0a46ee057c522bed9993a1c72dca3257018df21ed576428aff5866867a3bd5712038be7cd8c6debd2e
 
-Package: shizuku
-Version: 1.0.0-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash
-Recommends: 
-Installed-Size: 42
-Homepage: 
-Description: Run command as shizuku/SUI user.
-Filename: dists/metaverse/main/binary-all/shizuku_1.0.0-SR_all.deb
-Size: 4772
-MD5Sum: d42eeef947313db86cc2d2a3dd3df5e0
-SHA1: f090cb68c0b23895338feca05d223024f8ba1930
-SHA256: 1bf3593d0c669f6fa7f50c6b5d06b3df3dd7fc7b1756ed9729a7b5b074043717
-SHA512: fa6c8a9da0f2944cd5691ba611373ee7c7a6f06ae2b69dc331a4e420da342d4f60cd28f46b23e53beebc68e00714a088812725e4399519bad7fc61bf2770a5b7
-
 Package: sr-undercover
 Version: 1.2.1-SR
 Architecture: all
@@ -207,6 +191,22 @@ MD5Sum: 1549a9c5c403293d5c26e0abdefc8e87
 SHA1: 1c270e22da76966729dde68cd1fd2a50123d4afe
 SHA256: 71fbba3913a07b2cf7d09414c47842cb673929675797ae93fef96b3df42f8d42
 SHA512: b4cac6a2f7f2d280b9852ca8408c68396c1faa4e4dc0e8193395d4e1696177d7a551bf8804e5059e8d0a6099f549b291670a42e9286febab93f25aa63738dc97
+
+Package: xfce4-battery-status
+Version: 1.0.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: xfce4-genmon-plugin
+Recommends: 
+Installed-Size: 100
+Homepage: 
+Description: Battery plugin for xfce4 using Termux API.
+Filename: dists/metaverse/main/binary-all/xfce4-battery-status_1.0.0-SR_all.deb
+Size: 1524
+MD5Sum: 8a881814769b75abcc0e943c557f1672
+SHA1: 2c58a1a3123ef25bbdef66b612ec3c3395c0514d
+SHA256: 6ca3fce4661116a8cd8f3cde9e83d800375e4557227971b4cfec765993430178
+SHA512: 22ba866ee3b688fbcda8bd7ec37b1bae4b8cf2b100d3ec2c0ec687896d185089cb3351f0c48a16d49d15bb9af801543943d67544f97005bac4c22caa397a3125
 
 Package: youtube-download
 Version: 1.1.0-SR

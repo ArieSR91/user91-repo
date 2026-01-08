@@ -291,15 +291,15 @@ Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: bash
 Recommends: 
-Installed-Size: 9548
+Installed-Size: 21095
 Homepage: 
 Description: Runing shizuku SUI shell
 Filename: dists/metaverse/main/binary-all/shizuku_1.0.0-SR_all.deb
-Size: 9561176
-MD5Sum: 03cfb5c6f72970f4721087829eb0ebd5
-SHA1: 2cd56eddc2b3be35fd341d9e99b5a550f503bebd
-SHA256: ffd27aaeef72b5c7a537f2dcf25a7d182985f9c1f650be6b9e3aa0dc3b746742
-SHA512: c1d85ef2cdc866b8651194c3a4f87a6974803814d8d1db043b88643c37977eb9c7abab1e42f8dccd631864777a06df12b7229f158c5fb6c3215e6ae4caebbfcb
+Size: 6820164
+MD5Sum: d7fdc314e752298ca741b54730d3485c
+SHA1: 6e69c27b2db15d9ccaba4ba6c9ba182ddadd7850
+SHA256: d60a4c025ea2b4ce85d26d4fa6595314655584d73219f853ffec1cbe47490273
+SHA512: 51b0ebdcf816bcb7bbb28a6e0f7500bc7ae0618f4bd60f9214d43a87cd8a779ec942c7062e5ae5d3290f54068a68f76dcf748a6a17937dc3ef964bd486f85014
 
 Package: sqlmap
 Version: 1.9.11-SR
