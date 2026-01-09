@@ -1,16 +1,16 @@
 Codename: metaverse
 Version: 1
-Architectures: i686 arm all aarch64
+Architectures: arm all i686 aarch64
 Description: metaverse repository
 Suite: metaverse
-Date: Fri, 09 Jan 2026 22:47:37 UTC
+Date: Fri, 09 Jan 2026 22:55:34 UTC
 MD5Sum:
  09a4e0768a76282219ef6460a283f8b2 2332 main/binary-aarch64/Packages
  3201a77c8b512c88c12e9029a58eb317 1368 main/binary-aarch64/Packages.xz
  7057f1410cfce473ad3c6b2e33abeaa1 1216 main/binary-arm/Packages
  6a1a04c90498991ad8fb9612373b7c6b 816 main/binary-arm/Packages.xz
- 3009336349f1722218ab42985d0a3f02 19147 main/binary-all/Packages
- e186fe86ed17e8d7170fabb001b8a56f 6936 main/binary-all/Packages.xz
+ 75108780802aa75038faac856c90f3a0 19147 main/binary-all/Packages
+ bd461d9d0b4a23155e7f1b5096744c54 6932 main/binary-all/Packages.xz
  3b1c96c40b101515473c54a021c6fdc1 560 main/binary-i686/Packages
  6f156f5265ba94cf9b5a85a0a67f6994 496 main/binary-i686/Packages.xz
  dc608cd8726b333556697417c8ee48fd 11762 main/Contents-aarch64
@@ -26,8 +26,8 @@ SHA1:
  8ed8f361f29c44deea4ca979c96b1223a55e00b5 1368 main/binary-aarch64/Packages.xz
  cb210db79d2d4d55a2b86da169180c464a243c27 1216 main/binary-arm/Packages
  eb2c8f9b310a1d737f1d41b911f2190a8a84261e 816 main/binary-arm/Packages.xz
- 1b3ef85e03b7be7818f72eeddbb92581068a4fd5 19147 main/binary-all/Packages
- a7d1734a867a6fcb0dbd77d23911d1bc5457ec6c 6936 main/binary-all/Packages.xz
+ fe7f78faeeb980a4bb707fa0e0f2c8317bce7620 19147 main/binary-all/Packages
+ 8a57ff2494224ed23c9b11ec07adacc8049cd008 6932 main/binary-all/Packages.xz
  b9e96ef490981aad9622ba37acf63373a9a6ec8b 560 main/binary-i686/Packages
  d50fe0b0d2c85a2aaa36ea0b0776b0f60cddc1e1 496 main/binary-i686/Packages.xz
  6606ad7f977850b8a0c66156ce11e45d16b60f73 11762 main/Contents-aarch64
@@ -43,8 +43,8 @@ SHA256:
  ce11cb4565ec4b4cf3ea88141134a60902d3b2e0046ffdbc8b5098eb5aa1bb5a 1368 main/binary-aarch64/Packages.xz
  5a5622fd9191c48bcbd2b0102b441c72c97c3bf44ab7ab6f0add1a7fa432f08d 1216 main/binary-arm/Packages
  840efeb27265761b328f00f4fb711ad973db95ee34122b01fcac82205dbecc61 816 main/binary-arm/Packages.xz
- ae43d5f881562358f2c296390ece8bf58b9138ba394299f6ed3c2f059543e054 19147 main/binary-all/Packages
- db90cc452aafc06c63375b0a4203d80f8efada3acb173e0def7cffe43611c5f7 6936 main/binary-all/Packages.xz
+ 55ac8cd6302aadc01ccee9340c3a1757f3cb8e4cb6c2fcc3ec13616fa05f255c 19147 main/binary-all/Packages
+ adfb86cff43e6328280ae20dc04217ba44a53a1bb6afcd24eb7bae873c44235a 6932 main/binary-all/Packages.xz
  d75d4c34dc6fc6746f9c25d6dbe4791e86360182f56e5e3409cedf76009f1adb 560 main/binary-i686/Packages
  996c131987e19cbb89f84c823a61b6852cab4af787e677b6d9e3b5034b5189f7 496 main/binary-i686/Packages.xz
  edc8e6bd9462ce48ba5b13bfe8c62ca374b65c1d91eb2e70d64c824442875d87 11762 main/Contents-aarch64
@@ -60,8 +60,8 @@ SHA512:
  7b807367512d02365304fe57c17d944bfeb416bee71433a869eab7c2fc6ac663c86a68676867c135234a57e450b08f6aa4d021b658e73ff6af4ab2825eb04771 1368 main/binary-aarch64/Packages.xz
  bcf825f5c8bc418e263d96568cc74f412b0b4c81e18dc6311a9071cf7e69c3bbc84676f6df99e52239f8b23b19d3991aa17c0d0b7d781aa022f0b53483466ed3 1216 main/binary-arm/Packages
  c2c7aadbcbcd3e71ae1eef70fbc9f5fa49aa428d7f97aad8418f05f865d34ffa0d7218e758346b4631303e7663d8978f8d91f0ccd631f0919b8acec61e2a4bfb 816 main/binary-arm/Packages.xz
- 6d6dc87f70c48b921c99b9afe3bfd39e9ecb51b51ce70c726b9bb4999421a482f73fb24f7f0cffd0128d02bb1eef205d2e687bfb2cddeb36caa3870919c2efa2 19147 main/binary-all/Packages
- 59416fca25113458304d0ee90516dde2085397e640206ce7ecdd817420fc6c8f16c26c26b0f02069d1446ca221537186694de3208288219e602eecb8311c3498 6936 main/binary-all/Packages.xz
+ 3c13fe756086c56a498e79352871240c464e4a6b5d07dc706ccc2ba6d1bfef754a7b1dd6e3f6c438bce906086253c189314d937b487c5eeb5df7b487781e3ac9 19147 main/binary-all/Packages
+ ccaeacd621b225b97dbf590d73d475895669819a948d7acfdff769cd1660cb4af61f668de4b51407f8ab8ae7141150b8e1dc50c7f85d785cb7656d75e23b0fdc 6932 main/binary-all/Packages.xz
  9292ffb35324a948db769a91a0e8f8b9b7b10898f0e0c71c09b1e900372226ba33cc8eb2ce87056d5ce060d1158834f8ee12c4a2d784e9a963e98629f09b1b3a 560 main/binary-i686/Packages
  6c991f64090b47b1f01068fb49b154409c8e5295eb82f7b10fee382bbb2a50f541e8299e2deb9ee6c89c0b2917b46e39423b0f5c94eff192ad97cca2f7e31a26 496 main/binary-i686/Packages.xz
  b86024412d7cb6be278840c9a3896f70bda9b17361fb7b295347efb2ea89b2d53048cb000856522535a430cdd8e683118b1166c4b0af79992cc310543afd7133 11762 main/Contents-aarch64

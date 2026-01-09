@@ -201,11 +201,11 @@ Insted-Size: 80
 Homepage: https://github.com/ArieSR91
 Description: Download tiktok photo and video from terminal.
 Filename: dists/metaverse/main/binary-all/tiktok-download_1.3.0-SR_all.deb
-Size: 1880
-MD5Sum: 5981ac0687b5dbe4c259dee196f77a63
-SHA1: b4c06317aed9d6748d0f1591fba28d229d783693
-SHA256: 33cd1dda2c9c3ce9fedef05217f619b764f780f6467c48d52f19afe2508aa77b
-SHA512: bfea43913ee4673e99b81a2dcf1c30f00d5d0d2106f34a6afca92a1e56c59a39c3540cae7bda9c5983287f78fb95d668d244966667107c16d86d356f14cdf61c
+Size: 1876
+MD5Sum: 5433b8bae675d85b21ae4401c7e5a5ec
+SHA1: 2a8a3ff6addad6ca69dbb3a90d9ec341200fcde0
+SHA256: 314e7a6f280d7876d3476c64824685411aae53f727a39131eaad0a493924f8e8
+SHA512: 88d887dfefea0b189d85cc00c5248b6308948debd1839782a7aba1ec15494c479ff0cc617b7b7441e468055e7b838ace676972e34e2032cf2c989ea4b70127d4
 
 Package: xfce4-battery-status
 Version: 1.0.0-SR
