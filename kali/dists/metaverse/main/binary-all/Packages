@@ -192,6 +192,21 @@ SHA1: 1c270e22da76966729dde68cd1fd2a50123d4afe
 SHA256: 71fbba3913a07b2cf7d09414c47842cb673929675797ae93fef96b3df42f8d42
 SHA512: b4cac6a2f7f2d280b9852ca8408c68396c1faa4e4dc0e8193395d4e1696177d7a551bf8804e5059e8d0a6099f549b291670a42e9286febab93f25aa63738dc97
 
+Package: tiktok-download
+Version: 1.3.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: aria2, wget, curl
+Insted-Size: 80
+Homepage: https://github.com/ArieSR91
+Description: Download tiktok photo and video from terminal.
+Filename: dists/metaverse/main/binary-all/tiktok-download_1.3.0-SR_all.deb
+Size: 1880
+MD5Sum: 5981ac0687b5dbe4c259dee196f77a63
+SHA1: b4c06317aed9d6748d0f1591fba28d229d783693
+SHA256: 33cd1dda2c9c3ce9fedef05217f619b764f780f6467c48d52f19afe2508aa77b
+SHA512: bfea43913ee4673e99b81a2dcf1c30f00d5d0d2106f34a6afca92a1e56c59a39c3540cae7bda9c5983287f78fb95d668d244966667107c16d86d356f14cdf61c
+
 Package: xfce4-battery-status
 Version: 1.0.0-SR
 Architecture: all

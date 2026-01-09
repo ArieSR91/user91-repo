@@ -39433,6 +39433,7 @@ usr/local/bin/encrypt-sr                                                        
 usr/local/bin/srlocks                                                            srlocks
 usr/local/bin/srtool                                                             srtool
 usr/local/bin/tiktok-download                                                    tiktok-download
+usr/local/bin/tiktok-download                                                    tiktok-download
 usr/local/bin/battery-status                                                     xfce4-battery-status
 usr/local/bin/youtube-download                                                   youtube-download
 usr/local/bin/yt-dlp                                                             youtube-download

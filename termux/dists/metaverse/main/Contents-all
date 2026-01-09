@@ -35309,5 +35309,6 @@ data/data/com.termux/files/usr/etc/user-dirs/autostart/termux-user-dirs.desktop 
 data/data/com.termux/files/usr/etc/user-dirs/user-dirs.conf                      termux-user-dirs
 data/data/com.termux/files/usr/etc/user-dirs/user-dirs.defaults                  termux-user-dirs
 data/data/com.termux/files/usr/bin/tiktok-download                               tiktok-download
+data/data/com.termux/files/usr/bin/tiktok-download                               tiktok-download
 data/data/com.termux/files/usr/bin/youtube-download                              youtube-download
 data/data/com.termux/files/usr/bin/yt-dlp                                        youtube-download
