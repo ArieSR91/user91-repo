@@ -193,6 +193,22 @@ SHA1: 381607a72caa30639b6f11ee3c812504f246a338
 SHA256: 33fa5c130c40ae98d3eb0eddb14f7d8025893950a1e6be75a8f489af9a448bb0
 SHA512: 7b2c4eea5b99172b2caf720341b40ceeb9e5366e827fe15303e3de3115be5964d0d04a27955be75ff39c35dc8ee0f68c4c83939b342862b38c063dd8f212cac8
 
+Package: srtool
+Version: 1.4.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: bc, highlight, ffmpeg, imagemagick
+Installed-Size: 88
+Homepage: 
+Description: srtool is a typing simulation like xdotool.
+Filename: dists/metaverse/main/binary-all/srtool_1.4.0-SR_all.deb
+Size: 15672
+MD5Sum: baa0bc940d49f8ee771c4c7f2348d961
+SHA1: 7a0a0276ad58d5e81297cba05279351c826f04bd
+SHA256: 10763d1b1e3ad4d9b0de86308b5951c931104a5a808138b6a2ae14d46ccbdced
+SHA512: d63ef73579db96f0e9bc41d7ffe720b45d1731dd4d6a46b2ce19b613505ffe836d6c230776cdb0c2f28236b58fd0a376ba02377c609137e4525fd5061d23646f
+
 Package: tiktok-download
 Version: 1.2.0-SR
 Architecture: all
