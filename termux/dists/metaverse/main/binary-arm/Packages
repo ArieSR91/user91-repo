@@ -1,0 +1,30 @@
+Package: aircrack-ng
+Architecture: arm
+Installed-Size: 1700
+Maintainer: Marlin Sööse <marlin.soose@laro.se>
+Version: 3.1.7
+Homepage: https://www.aircrack-ng.org/
+Depends: libc++, libnl, libpcap, libsqlite, openssl, pcre, zlib
+Description: WiFi security auditing tools suite
+Filename: dists/metaverse/main/binary-arm/aircrack-ng_3.1.7-SR_arm.deb
+Size: 391388
+MD5Sum: 04ce62e481defeac6b152ef4593bd18f
+SHA1: cd040a7820a6a8311090b26a992e38b7a5b5f00c
+SHA256: 2f94747f669db650a0c72bf1e8c794553727063604872b91b61e2d6e84c83d90
+SHA512: c42cd89ec067df6b6c0afbcb83afb9f18289915d9efd1451cd0006f29ff533e680003788fe3a81f32994749ae88ed82ec2249423a5918375d9bd745eeea84267
+
+Package: sudo
+Version: 8.6.0-SR
+Architecture: arm
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: tsu
+Installed-Size: 0
+Homepage: 
+Description: Run command as root user
+Filename: dists/metaverse/main/binary-arm/sudo_8.6.0-SR_arm.deb
+Size: 968
+MD5Sum: 469f479706b52e062def59772aea28ff
+SHA1: 681e7b13c5713058e7acf243a90e6f5bb368eb70
+SHA256: 4241641bef17c634709114a74b28873366224d442517cfd26aad345c53b709ae
+SHA512: 0023d29878b83b381aea1c5cd6dfe0c7b69562f605894b6ea06460dccbb978b14d075bdcab4d268cfe0cd519f8fe5ac93d05d4a847eb29d15e4dd50728be668b
+

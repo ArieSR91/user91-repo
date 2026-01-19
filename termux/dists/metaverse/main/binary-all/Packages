@@ -1,0 +1,453 @@
+Package: build-repo
+Version: 1.8.7-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git, repo-manager, xdotool
+Installed-Size: 68
+Description: Build git repository with deb files
+Filename: dists/metaverse/main/binary-all/build-repo_1.8.7-SR_all.deb
+Size: 5768
+MD5Sum: 441023a8e71c533bbd5f2d7f9cfe30e3
+SHA1: b87b2a80cd803ea814fdd874c89957b8ae3d3511
+SHA256: 63e34d34213bc90dfb4b2c5816adc37ec2c2654768241fb9c3a454e74bcf092d
+SHA512: 71175a0de9d6cab37d69bf0655f61fe2a62ff2237459dcf1909ba469b0520e8e31d9562a51ced60ba4dd9217143736abd1e1403c59315dc5bbfc3929f129d538
+
+Package: fake-sudo
+Version: 1.5.5-SR
+Architecture: all
+Maintainer: Syahri Ramadhan <syahri.ramadhan2022@gmail.com>
+Depends: proot, which
+Installed-Size: 136
+Conflicts: tsu
+Homepage: https://ariesr91.github.io/user91-repo
+Description: Run command as root user.
+Filename: dists/metaverse/main/binary-all/fake-sudo_1.5.5-SR_all.deb
+Size: 2592
+MD5Sum: dfa753b6c6761664610dd09fb392c1f6
+SHA1: 5bee4a91ae9b0af18059035acbdf71e9c29704a0
+SHA256: 2ad97cf785fb83159968fd411aa9b069325872e8ed8f9e28be177dd85f21b64a
+SHA512: 9cb1ba49e19371edac43cbdcddf95658ec8dd5b00b50dc106a69b431c3d70f1ee11a11e7205e2bea41e7c0d2efd5b11b5bf64524bcd9c25ee9a76558efa4a284
+
+Package: fonts-firacode
+Version: 6.2.2-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: termux-fonts
+Installed-Size: 1856
+Homepage: 
+Description: Fira Code font.
+Filename: dists/metaverse/main/binary-all/fonts-firacode_6.2.2-SR_all.deb
+Size: 384764
+MD5Sum: 794caa5e03ffd8044f8df68602d1de64
+SHA1: 0918ffa5b64a22cff1e51eb9b1461b41d09c7449
+SHA256: 57ed46f1c742b5ecb964af81a0c7ed7cfdcf954d6b0d7a83b7b3b8fe4ee095f8
+SHA512: 3ce7701188e0bcdb7e48f9ded9a5aad015c7f93eb1c1ec2f34ba28b059de62504500a3e228b20c207d7255e46c80a102f45f592873b58be0cc645cb98a59e919
+
+Package: fonts-hack
+Version: 3.0.3-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: termux-fonts
+Installed-Size: 1332
+Homepage: 
+Description: Hack font.
+Filename: dists/metaverse/main/binary-all/fonts-hack_3.0.3-SR_all.deb
+Size: 359508
+MD5Sum: 8c3a2475cdca4259e4108924e9ba93a8
+SHA1: c6590b997797d2a0b3bd477a639cd04a06769787
+SHA256: 10458444cbb089b32fa40157e4dc129d5d3e110d45db4ce690ed84235359178e
+SHA512: 3808ef1ed64975fb6f196525c3e6ce8e6f2d3cb7cbec364c38bc5be0840da7e236603ce4f9527fff0c0138d20bb72871636435f927bb9af0b8acac92a3ffca1b
+
+Package: fonts-liberation
+Version: 1.1.4-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: termux-fonts
+Installed-Size: 2440
+Homepage: 
+Description: Liberation font.
+Filename: dists/metaverse/main/binary-all/fonts-liberation_1.1.4-SR_all.deb
+Size: 816748
+MD5Sum: f1b3753aeec9cbf72b861acb7784391b
+SHA1: 8759f99993fafc1f0dd3ece3edb7c2443d1eb3ee
+SHA256: f3b67aaf38f33b80d0dfc601c65e509035c395706e524e09140ec526b105dd8a
+SHA512: 3ed1b026579d569e126a9962af61efb6f1d1b27fbd75cc65a1495bc7aaff746bac184f03033278a7bfbc31c77ed90084ea94fcab1019d8d53ca3c8eb60aba57b
+
+Package: fonts-meslo
+Version: 1.2.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: termux-fonts
+Installed-Size: 2632
+Homepage: 
+Description: Meslo GLS font.
+Filename: dists/metaverse/main/binary-all/fonts-meslo_1.2.0-SR_all.deb
+Size: 1187716
+MD5Sum: 511023faa32d662cfd6f0e44a1c41bed
+SHA1: 3be91503dfce3d0b35d821cde95c1be28cc13965
+SHA256: 5780f244868ca95d43448d705b5722d304edc7b57ce1884a4df8e602b9ad1772
+SHA512: 83f20088fbf7a5a4807b36041d5875c38aceae7d8f2c9ade05d2dc52c43383c712f48f4ef1e407b6c5f451da65c6df8df07710314da4b484db1bf828ea6bd152
+
+Package: fonts-quicksand
+Version: 0.2.1-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: termux-fonts
+Installed-Size: 488
+Homepage: 
+Description: Quicksand font.
+Filename: dists/metaverse/main/binary-all/fonts-quicksand_0.2.1-SR_all.deb
+Size: 124784
+MD5Sum: 6364f9cc2d9cca34932c2c363f246ded
+SHA1: 1a498e8e6adfe7ef49bcad095e1bdb8721e5e638
+SHA256: 5089d9898d5b02e911bd3d0100966a2baabfc335a43cc3eae8bccb8a05cac9fb
+SHA512: c25828edb078642896cdb9f98d2e615ece5ebcd81be002ca9fcc539b58f14f715a11a455a516c40b2ed3d3d65abc90f37f4f4cc95a53f1eb89cb91757092613b
+
+Package: kali-colorscheme
+Version: 2025.1.2
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 3024
+Depends: bash
+Suggests: gdk-pixbuf
+Section: misc
+Priority: optional
+Description: Kali Themes
+Filename: dists/metaverse/main/binary-all/kali-colorscheme_2025.1.2_all.deb
+Size: 629508
+MD5Sum: e5a5f368d358dd19bb48408abfee893a
+SHA1: 298c9d4f0a33e0b54f2fe63c29560ae4b4f0972d
+SHA256: d6deb413296462b68673d6f5cb5e9ad8c3ecc817eb89a1805c4907bd7b260063
+SHA512: b8ca153865f98292a0f6bfc8353cdf86f7ae0dda71b99d6d83e179fc10f77e68e994d9805f8516dc02a506c610a1c809f2e27a10f75610b67f1a72299de2f3a7
+
+Package: kali-dark-style
+Version: 1.3.5-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: x11-repo, kali-colorscheme, ncurses-utils
+Suggests: kali-icon-theme, zsh
+Installed-Size: 932
+Description: Termux kali dark style
+Filename: dists/metaverse/main/binary-all/kali-dark-style_1.3.5-SR_all.deb
+Size: 181972
+MD5Sum: c33a7586c6b568423e26b2243e6a169f
+SHA1: 4a670f2835262c28df529c6ff367917e1aefa094
+SHA256: de005ff39ac3ce3546af8f3c8a5aab21c016690a3675bcd4a26ec597e5091044
+SHA512: 67a55d93ca74eeaa7f5968fb6789b78c96cb27ecf035d74d0b2db8c81733638a860ddd24cee2a2bde25bce61d5008c4876d78d78bfbf50dde12c140b7b0d6169
+
+Package: kali-icon-theme
+Version: 2025.1.2-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: gtk-update-icon-cache, hicolor-icon-theme
+Installed-Size: 210648
+Homepage: https://github.com/ArieSR91
+Description: Kali linux icon themes
+Filename: dists/metaverse/main/binary-all/kali-icon-theme_2025.1.2-SR_all.deb
+Size: 4522380
+MD5Sum: 7f0c77c39f2e7b1baa43b1394a69b24f
+SHA1: 2b1a84e2551bbd25096387c8831d0a3ea60671fe
+SHA256: 3fe8d95e9aeed215aad3422e3d2e4924c54354b8a64f57c9cb3c65c80e941cec
+SHA512: 04b96f73ef5085dba4c5bb9ec611e1228d7d5415ff644ef06e3ea52cc7bf78c760ff15ba71bd0d7813e4a6e8a67a9cc16564ca3470382134ffacb9cf8d8c480a
+
+Package: kali-menu
+Version: 2025.4.2
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 18321
+Depends: perl, libdpkg-perl, libfile-fcntllock-perl
+Suggests: 
+Section: x11
+Priority: optional
+Description: Kali Linux custom menu
+ This package provides a custom menu for Kali Linux.
+ .
+ It is used by any desktop that complies with the Freedesktop menu
+ specification at http://standards.freedesktop.org/menu-spec/menu-spec-1.0.html
+Filename: dists/metaverse/main/binary-all/kali-menu_2025.4.2_all.deb
+Size: 9900432
+MD5Sum: 2c3da747bf24585fd4dae76ccd969be6
+SHA1: 59389c321e35f538230dbd226396cdd5b5365224
+SHA256: 3bdf9df7b712f48b5bbc62dcc1b97eaa4b2fd7f78f9978759b762a46197b8ff6
+SHA512: 58cc16d572e36348bd155fd0ae46b10e77ebbc3d1ce9e3312eff87019a3ed36dc2ca115efd30e72e06ecd8543dfced9e4eb4b4ee2bbcc6fb948ff57240a7d905
+
+Package: libdpkg-perl
+Source: dpkg
+Version: 1.22.21-SR
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 2091
+Depends: perl, dpkg
+Recommends: libfile-fcntllock-perl, bzip2, xz-utils
+Suggests: 
+Section: perl
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://wiki.debian.org/Teams/Dpkg
+Description: Dpkg perl modules
+ This package provides the perl modules used by the scripts
+ in dpkg-dev. They cover a wide range of functionality. Among them
+ there are the following public modules:
+ .
+  - Dpkg: core variables
+  - Dpkg::Arch: architecture handling functions
+  - Dpkg::BuildFlags: set, modify and query compilation build flags
+  - Dpkg::BuildInfo: build information functions
+  - Dpkg::BuildOptions: parse and manipulate DEB_BUILD_OPTIONS
+  - Dpkg::BuildProfiles: parse and manipulate build profiles
+  - Dpkg::Changelog: parse changelogs
+  - Dpkg::Changelog::Entry: represents a changelog entry
+  - Dpkg::Changelog::Parse: generic changelog parser for dpkg-parsechangelog
+  - Dpkg::Checksums: generate and parse checksums
+  - Dpkg::Compression: simple database of available compression methods
+  - Dpkg::Compression::FileHandle: transparently (de)compress files
+  - Dpkg::Compression::Process: wrapper around compression tools
+  - Dpkg::Conf: parse dpkg configuration files
+  - Dpkg::Control: parse and manipulate Debian control information
+    (.dsc, .changes, Packages/Sources entries, etc.)
+  - Dpkg::Control::Changelog: represent fields output by dpkg-parsechangelog
+  - Dpkg::Control::Fields: manage (list of known) control fields
+  - Dpkg::Control::Hash: parse and manipulate a block of RFC822-like fields
+  - Dpkg::Control::Info: parse files like debian/control
+  - Dpkg::Control::Tests: parse files like debian/tests/control
+  - Dpkg::Control::Tests::Entry: represents a debian/tests/control stanza
+  - Dpkg::Deps: parse and manipulate dependencies
+  - Dpkg::Deps::Simple: represents a single dependency statement
+  - Dpkg::Deps::Multiple: base module to represent multiple dependencies
+  - Dpkg::Deps::Union: list of unrelated dependencies
+  - Dpkg::Deps::AND: list of AND dependencies
+  - Dpkg::Deps::OR: list of OR dependencies
+  - Dpkg::Deps::KnownFacts: list of installed and virtual packages
+  - Dpkg::Exit: push, pop and run exit handlers
+  - Dpkg::Gettext: wrapper around Locale::gettext
+  - Dpkg::IPC: spawn sub-processes and feed/retrieve data
+  - Dpkg::Index: collections of Dpkg::Control (Packages/Sources files for
+    example)
+  - Dpkg::Interface::Storable: base object serializer
+  - Dpkg::Path: common path handling functions
+  - Dpkg::Source::Format: manipulate debian/source/format files
+  - Dpkg::Source::Package: extract Debian source packages
+  - Dpkg::Substvars: substitute variables in strings
+  - Dpkg::Vendor: identify current distribution vendor
+  - Dpkg::Version: parse and manipulate Debian package versions
+ .
+ All the packages listed in Suggests or Recommends are used by some of the
+ modules.
+Original-Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
+Filename: dists/metaverse/main/binary-all/libdpkg-perl_1.22.21-SR_all.deb
+Size: 645808
+MD5Sum: be71a8081e4c8b49e68cc71d06b78457
+SHA1: a90108edcf4980ba885d0488ea79b2b94a1f94c5
+SHA256: 1df177d257eaf062e82e135d953c92438a4c3f0f43747bc080040b7f911c02b1
+SHA512: 8a7ea6c70bbe50eccf5040820a58a0095694c5db67116bb52f0765c57d925aadd3c5fff782ab8f3d624121d0b1378b4ea6d400d8e92464672b485a821c53ca77
+
+Package: linuxdeploy
+Version: 1.2.4-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: root-repo, sudo, pulseaudio
+Installed-Size: 17656
+Description: Run linux deploy via termux
+Filename: dists/metaverse/main/binary-all/linuxdeploy_1.2.4-SR_all.deb
+Size: 16863488
+MD5Sum: f237c89c310790cea04cfd0a87b20fd4
+SHA1: 4ebcb91825eb4db6f4f7952487b9cc3c71735736
+SHA256: 5b2ff8ae4f1ad56b3a579ed09b1c014eba2b6cd2b17a1d46b021eeda0f3052bf
+SHA512: aa643dcbba8cc71ab66ac5f807bddbb9eef2f1196b06ce2a9093bd8261a8a27ad84da0d6a216f5a935119e5025240655ad6be22f894367da4b1ed2d3e61213cd
+
+Package: proot-distro-kali
+Version: 1.1.0-SR
+Architecture: all
+Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 100
+Homepage: https://github.com/ArieSR91
+Description: Add Kali Linux to proot-distro
+Filename: dists/metaverse/main/binary-all/proot-distro-kali_1.1.0-SR_all.deb
+Size: 1328
+MD5Sum: 643fb8dc0710d1040ff1ce3b4b871b27
+SHA1: ed8aa1a67130605d584c60f5e6fd6fea26193c51
+SHA256: faeb117b0e733791fa23924b6b3557e5eafed3742e15f21c5fcb272ce2b560ae
+SHA512: 741ac12f30ce2ab56812f41148906404875590a3d713c1138ee0d97c1f20292faa2ee36051c3933561215bcee4c6e8721e8f259dd59b4a4369216e2ed5ca2cc0
+
+Package: repo-manager
+Version: 2.1.6-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git, build-repo, binutils, xz-utils
+Installed-Size: 56
+Homepage: https://github.com/ArieSR91
+Description: Repository manager
+Filename: dists/metaverse/main/binary-all/repo-manager_2.1.6-SR_all.deb
+Size: 3176
+MD5Sum: d9e5ef8abfa3edf49552e6c7516c1348
+SHA1: 75a7460e8d40c4499a078eb9a8f732953bfddb52
+SHA256: 38ac16dbad766cc777f4eca4deb4cfb1df1077912fed0e63fde3726a1f2108b7
+SHA512: 200e23770585da2f56e9945483e8fc2401f0274efcd86527880942c8c6599ad9a64e9c364475b520e34062acf4abd1d661c0b162125f26ab05b620f921844179
+
+Package: shizuku
+Version: 1.0.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: 
+Installed-Size: 21095
+Homepage: 
+Description: Runing shizuku SUI shell
+Filename: dists/metaverse/main/binary-all/shizuku_1.0.0-SR_all.deb
+Size: 6820164
+MD5Sum: d7fdc314e752298ca741b54730d3485c
+SHA1: 6e69c27b2db15d9ccaba4ba6c9ba182ddadd7850
+SHA256: d60a4c025ea2b4ce85d26d4fa6595314655584d73219f853ffec1cbe47490273
+SHA512: 51b0ebdcf816bcb7bbb28a6e0f7500bc7ae0618f4bd60f9214d43a87cd8a779ec942c7062e5ae5d3290f54068a68f76dcf748a6a17937dc3ef964bd486f85014
+
+Package: sqlmap
+Version: 1.9.11-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3
+Recommends: 
+Installed-Size: 12421
+Homepage: 
+Description: Sqlmap
+Filename: dists/metaverse/main/binary-all/sqlmap_1.9.11-SR_all.deb
+Size: 6952464
+MD5Sum: 892807880b0b7764d135143781040d0c
+SHA1: 6be451bbb948b276213d67216d3807f7eb76634e
+SHA256: b3eb92d2ce3aec507427320396eac50bd839a623bb6152f6174dedfe5f7bc88c
+SHA512: babf3fe8beedb44f634e60d1de03d00ec1a1b49e584cfc054074af74c91a60c4f500a6962cd1bd8baa2cce46c9aff254c5b9d148bacd4ab1f1954a3963f87563
+
+Package: srlocks
+Version: 1.1.1-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash, figlet, android-tools, ncurses-utils
+Installed-Size: 124
+Homepage: https://github.com/ArieSR91
+Description: Brute force android pin lockscreen.
+Filename: dists/metaverse/main/binary-all/srlocks_1.1.1-SR_all.deb
+Size: 7680
+MD5Sum: f1c2d867d7a39e8eb0987ad74f0cb5e3
+SHA1: ca1d654c09708130581ca712bb0fec1fdb3d2a23
+SHA256: ee4c538388fa2a8c9d2633b944cfbd8fd8e1cdef50f91cc2172e5ee704270243
+SHA512: 5d5cdf42a7772caa9abcb7c2ecdb49b6f0300c9ff62c9ac09d0a5635d31dfb0a6ecab615bb8e0cf7b18118b5b1c0a0bc646ff1ee0896b8ee75eb316dc143f8ba
+
+Package: srtool
+Version: 1.1.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: bc
+Installed-Size: 112
+Homepage: 
+Description: srtool is a typing simulation like xdotool.
+Filename: dists/metaverse/main/binary-all/srtool_1.1.0-SR_all.deb
+Size: 12812
+MD5Sum: 08477a085d70a16ec820c3ec5b5a8ba3
+SHA1: ab472959e50bda7e61b852709a2f06f0033def0b
+SHA256: 661542642992d853747096084274957594ce9b16b819c856ca42f6d910bf14f5
+SHA512: 32a80b4f2a6b5459d366ba5f0b2e80b3486745308a6d13d668e200c4707660023c630f476a8a658c901a1451a0da4ad296be6a1ab0cd0024a0f2ff8ef87fbbf8
+
+Package: termux-desktop-lxqt
+Version: 1.2.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: x11-repo, lxqt, termux-x11-nightly,  tigervnc, audacious, featherpad, papirus-icon-theme, pulseaudio, xkeyboard-config
+Installed-Size: 160
+Homepage: https://github.com/ArieSR91
+Description: Termux lxqt desktop
+Filename: dists/metaverse/main/binary-all/termux-desktop-lxqt_1.2.0-SR_all.deb
+Size: 2088
+MD5Sum: 8985b2c8bd19e18e8b96335bccd863dd
+SHA1: 762749159e8817cea89a8305303e6a813db82606
+SHA256: 0bd5850b5020571485ec36cae3e8e637c968f091879f88f53ffa762ed15fc282
+SHA512: f1f2420d41c8b82d8fd5194ad4788b0b29d2cc7b6e007b56fa7c0cc23fc46259a45cb6e6ed6429154320b30f4deebf821339d115ca02fad91182a82593581317
+
+Package: termux-desktop-xfce
+Version: 1.2.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: x11-repo, xfce4, tigervnc, parole, mousepad, xfce4-goodies, pavucontrol, xfce4-pulseaudio-plugin, xkeyboard-config, termux-x11-nightly
+Installed-Size: 136
+Homepage: https://github.com/ArieSR91
+Description: Termux xfce4 desktop
+Filename: dists/metaverse/main/binary-all/termux-desktop-xfce_1.2.0-SR_all.deb
+Size: 1852
+MD5Sum: 19bd6a24bfbca59a752af8bc6a682c51
+SHA1: 7b51f8f82a086d05d9d60cc7a19034ae842bc5d5
+SHA256: 6cab8ef2113338741ccf4a86e4a17ba4b5c802a4d9d1e29296071aa12401c137
+SHA512: 16903a0dc231f326c54026c156217c9ba77fd29f070d8f6ba91812528de6f6deac81ba80f141c26735cc418b9a1e9b584e13c6270e223562a648a64bde6dfa64
+
+Package: termux-fonts
+Version: 1.2.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: fonts-meslo
+Installed-Size: 96
+Description: Change termux fonts
+Filename: dists/metaverse/main/binary-all/termux-fonts_1.2.0-SR_all.deb
+Size: 1444
+MD5Sum: 89a6a54c538b0211bdda071a1f08d106
+SHA1: 5335b6855dce5a3787d1ac7a8943418389e6dcab
+SHA256: 456c8cd58c9a2841dfb3650045620cd2b4c81971119710ca67ea240ed13aa995
+SHA512: ca3dfab0836e785c45de897e5bee1bd37e95bd06f7dd87aabfd2e5de021aac0c36babab3c37c0130022fec8eb5ea17340e4e172e7f3ffc80d77f034dbdcf70bd
+
+Package: termux-user-dirs
+Version: 1.1.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 416
+Depends: bash
+Homepage: https://github.com/ArieSR91
+Description: tool to manage well known user directories
+Filename: dists/metaverse/main/binary-all/termux-user-dirs_1.1.0-SR_all.deb
+Size: 2060
+MD5Sum: c63a15c36e58dab76c26746246dfd040
+SHA1: c9b845cea7c3f4134bbda74887696d361dd6f3e3
+SHA256: 77e197db7f82dfd100a557aba5e50bb88b0bcbdf777beba7b7b2907c8ce5998a
+SHA512: f7cdfe1e02779686f2579ac3ed3685d7f2bd3a22e611379eca6fd9bc842b72841a08745b5b4256bc59156d7ab2fcb2009d990ea7930ebc283b936a8a8175883f
+
+Package: tiktok-download
+Version: 1.2.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: aria2, wget, curl
+Installed-Size: 104
+Homepage: https://github.com/ArieSR91
+Description: Download tiktok photo and video from terminal.
+Filename: dists/metaverse/main/binary-all/tiktok-download_1.2.0-SR_all.deb
+Size: 6856
+MD5Sum: a90bf97c69352ee523bd71f9ad0de388
+SHA1: 8ca0fa748a6b83d9e2c87c2a0120a4f807f0bfe4
+SHA256: e6acf0447abc15c11339019ba2d520db7a08f0f221468f9d66fe93cda8bdcd27
+SHA512: be795f171a891576b3fbf64540114d08790c78052182c34e8819882c0c757816405ee6b76bd00237114f46fbf80ab051d8e1f55a4ea3521f95efbc28044f2c45
+
+Package: tiktok-download
+Version: 1.3.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: aria2, wget, curl
+Installed-Size: 104
+Homepage: https://github.com/ArieSR91
+Description: Download tiktok photo and video from terminal.
+Filename: dists/metaverse/main/binary-all/tiktok-download_1.3.0-SR_all.deb
+Size: 1924
+MD5Sum: 7de6dc084ba0aa45b005871e57916fae
+SHA1: 08683fbf6d9f2c7cdba1c24209c76cf1215dedf4
+SHA256: d9e6e5283721c7a7e7e6f113716c7e6043725ec6ff968c4c973d95f000db1625
+SHA512: 40d51c2b6f8884edfda25d92501c477153eca7924d649fb0bdb47ddd8ba3bc36ebc3854c210b145bacd36ee3dbcf3cba58e5c3d28c4b26bf1ae0a3b26c7f4d54
+
+Package: youtube-download
+Version: 1.1.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: ffmpeg, python
+Installed-Size: 3040
+Description: Download video and music from Youtube.
+Filename: dists/metaverse/main/binary-all/youtube-download_1.1.0-SR_all.deb
+Size: 2877240
+MD5Sum: 5d4cedd845c9a2dbd5374ccc95e11ade
+SHA1: be43f6049e35e000bb1201893aa23708a47d3d62
+SHA256: 4567efa639ddcee283012518dc951c1ee48c2435fd8c5c15c713145cee6d2b29
+SHA512: de224228dd4304cbf5c6c939754e3d6d5561e9902537fd10a09496e3b2f5135847550daf014921ab64015bd2c4b0b856f91899a2c656d8ee18e2d13c5aa4effd
+
