@@ -1,0 +1,358 @@
+Package: blesh
+Version: 0.4.0-SR
+Architecture: all
+Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: 
+Installed-Size: 4000
+Homepage: 
+Description: Bash syntax highlight
+Filename: dists/metaverse/universe/binary-all/blesh_0.4.0-SR_all.deb
+Size: 547872
+MD5Sum: ff6488fad962faca703a4d26f9437041
+SHA1: 4aac4b33e0f127778de6e5391ca71c610ea9c686
+SHA256: 0b41d6e738de8438fe15eb9be379206a853e66783d11f3413154ccd4e3378be6
+SHA512: edbcbd125440df51dae45f210643d1022607e77019788699d3bfdd5c4bd1fee421be56ab56b72a980dc2bb4a0f13cfbf6f25a6db08bdbb23455cf9608d1a9246
+
+Package: build-repo
+Version: 1.8.7-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: gnupg, git, sudo, xdotool, python3, xz-utils
+Installed-Size: 132
+Description: Build git repository with deb files
+Filename: dists/metaverse/universe/binary-all/build-repo_1.8.7-SR_all.deb
+Size: 5872
+MD5Sum: 8e916c18caf105125cf5f4818f01a8a4
+SHA1: 8d4ee5b85d33305eda6eea19604da62128b9fc31
+SHA256: 706c474c3cc628e1b6a4e7e7a7f55017aa65ba077fdc71f25f01126e418e57e9
+SHA512: 0b5563147a8b193deb65bb5691020af777313d88a78b864c3c664e43a80887c7dbeeef5adcbc2f467e755f4d31fdf3653a2d96fa7127cb2b8ba37b92cd7f94c5
+
+Package: create-bin
+Version: 1.1.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash, nano
+Installed-Size: 72
+Homepage: 
+Description: Create bash binary files
+Filename: dists/metaverse/universe/binary-all/create-bin_1.1.0-SR_all.deb
+Size: 1180
+MD5Sum: dc388b2c8b4c1ca8c341376afcc8770f
+SHA1: 60601bf7a5e583a5431527e3ef435b4f237dd4cf
+SHA256: 916f0fd0d849d3f4ae2843e88fdf0a99e0b2d5a495c9fc7da3f91d5d478dfece
+SHA512: 97723d2724d707600ab619163f3e7b8d4340b92b18615dfc7879af1a378d768a6a2c59662872971c914b6d73b18cecb185c84d5e23e24963d297e648fd4f29ff
+
+Package: ddos
+Version: 1.2.0-SR
+Architecture: all
+Maintainer: name <syahri.ramadhan2022@gmail.com>
+Depends: python3
+Installed-Size: 76
+Description: ddos attack
+Filename: dists/metaverse/universe/binary-all/ddos_1.2.0-SR_all.deb
+Size: 3032
+MD5Sum: ba8bd8554ecac71bce6db60e1fb67e60
+SHA1: 6e2ecaac7b090a7ae579ccf7c8e0d1af8ff8e5b9
+SHA256: 2504b4e3f3ae5c6b2c164f255793fc46aad2d6eca4b9639936fb980629d1eda3
+SHA512: 6ea653b27d941328fe9231eeae36ef76ee83d9857bce1cd02d8eba4e6fa573fca50140cb6b6025adcc3e44c2628423f229dc8b424b21330672644c170c80f58c
+
+Package: fake-monitor
+Version: 1.3.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022a@gmail.com>
+Depends: network-manager-gnome
+Installed-Size: 72
+Homepage: https://github.com/ArieSR91
+Description: Fake network interface
+Filename: dists/metaverse/universe/binary-all/fake-monitor_1.3.0-SR_all.deb
+Size: 1688
+MD5Sum: d3c37e03e0d2f9e7bfade343f665fe0b
+SHA1: 3138e2934a4786511cd1a91bcd0ff6b7eac457bc
+SHA256: 14714b22365409ee4117feff6c8e8d2fb927c33acfcd1df8b42a4f6ca0be4efd
+SHA512: aa5af6b8244a72719d1fe91493045fb955d52e4e3f6eb2d35ecaac8459f03dce86688a4a4001c4ef0970bb3ee80a1d0a7c0fac67ac9136ad5a0e48102165bea0
+
+Package: ipgeolocation
+Version: 2.0.4-SR
+Architecture: all
+Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, python3-termcolor, python3-colorama
+Installed-Size: 192
+Homepage: 
+Description: Trace location from ip
+Filename: dists/metaverse/universe/binary-all/ipgeolocation_2.0.4-SR_all.deb
+Size: 19852
+MD5Sum: 575d7f9241395b1a8e580e645f7e9e01
+SHA1: c235b9ed4968ee07a6065779a8be0f440d802d47
+SHA256: 0b0500c467c0d67f46f5ece1bc158e971b357247c8005c74e8647259e4e27ea5
+SHA512: 9584c5f1ca75e33eeff253cb565937058d477bc9c218a228443b3040a03833e0dec4e90d58cedae0e977813f80aededb990b873d5f11554790fd399330089aa3
+
+Package: kali-colorscheme
+Version: 2025.1.2
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 1516
+Depends: desktop-base
+Suggests: gtk2-engines-pixbuf
+Section: misc
+Priority: optional
+Description: Kali Themes
+Filename: dists/metaverse/universe/binary-all/kali-colorscheme_2025.1.2_all.deb
+Size: 633256
+MD5Sum: d561f2960ebe3101d727778fe3c8fa6f
+SHA1: b62f152c6142bc996e7b8eb3bd36a1467f0d7f29
+SHA256: 8f0510860b67cb603de0cc7f759aad9282ee8f77dde8e9bbe2cb2ca8f0f8ed93
+SHA512: 3b0d532c5efc65bb11e9cf699c2a233364a571506a340388c45bb66f627351942220860cfbe1be9adb355ba1cc86783a53cb69ddf3a86b8a1bf6fb9c7e5bc1e4
+
+Package: kali-icon-theme
+Version: 2025.1.2
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 144168
+Depends: desktop-base
+Suggests: gtk2-engines-pixbuf
+Section: misc
+Priority: optional
+Description: Kali icon theme
+Filename: dists/metaverse/universe/binary-all/kali-icon-theme_2025.1.2_all.deb
+Size: 4318964
+MD5Sum: 8fb5d408f1b93f8bf139e788aa2f8ab0
+SHA1: 256b644883920a08c030f0410b1f902efe3b10c8
+SHA256: d577d98b874366bd68de79bc66e744439f3eee7efeda18026352b350ac372a29
+SHA512: cdbd1a5eaf034d1016e9407677e0324ac1e3c57b0d55491d60fde9344c8df03788d3b24bb15780eb9f8981b052cf4cc27cd742cbaaa7b2eb4696029afc6ed208
+
+Package: repo-manager
+Version: 2.1.6-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, build-repo
+Recommends: gnupg, sudo, git, binutils, tar, xz-utils
+Installed-Size: 92
+Homepage: https://github.com/ArieSR91
+Description: Repository manager
+Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.6-SR_all.deb
+Size: 3132
+MD5Sum: 7f1a52bb0f00060e3c6ff6788f345304
+SHA1: 52c03423eab4fbe0380b42c2997d4aaa8221c5bb
+SHA256: 1a8acaded7f1a9bc4095ac46a712a62621af9a59d0dda00f874a5bbb0adb6652
+SHA512: 7ae03f92d3b29f8ece51a837e35c0402cedc37ff41f0eb0a46ee057c522bed9993a1c72dca3257018df21ed576428aff5866867a3bd5712038be7cd8c6debd2e
+
+Package: seeker
+Version: 1.3.1-SR
+Architecture: all
+Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, python3-requests, python3-packaging, python3-psutil, php
+Installed-Size: 3860
+Homepage: 
+Description: Accurately Locate Smartphones using Social Engineering
+Filename: dists/metaverse/universe/binary-all/seeker_1.3.1-SR_all.deb
+Size: 1192696
+MD5Sum: 936ebcaa6c7d872ba9631a2642a9d630
+SHA1: d578ec84b637a912631c2ef9ff6b01aaefeab753
+SHA256: cf001b8f4536fe0d32c3a03ad6ad78fecd08e4c9acb423ca92ae302131975bdf
+SHA512: f778a70e9ec54c5422407ecb33763d8ad3dc55e5a574d766be4ed5d13f6e6de03b95192070aec56bd73ccdfb8c9977260b527d0b88252be2a066a404a104eeaf
+
+Package: sr-undercover
+Version: 1.2.1-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 73396
+Depends: python3, fonts-liberation, gir1.2-glib-2.0, libnotify-bin, mousepad, procps, psmisc, xdotool, xfce4, xfce4-datetime-plugin, xfce4-power-manager-plugins, xfce4-pulseaudio-plugin, xfce4-whiskermenu-plugin
+Suggests: gtk2-engines-murrine
+Section: misc
+Priority: optional
+Description: SR Undercover Mode
+ Run “sr-undercover” and you will instantly switch your Xfce desktop into
+ a Windows 10 desktop that will no longer draw attention to your activities.
+ .
+ Run it a second time to escape the cover mode and get back your original
+ desktop settings.
+Filename: dists/metaverse/universe/binary-all/sr-undercover_1.2.1-SR_all.deb
+Size: 7940924
+MD5Sum: 3c2851c19dc80c83dd4ba93ff1d07d99
+SHA1: 35cd8d342881f8e2cade7fc5b29311bde37fd21e
+SHA256: 56c7d16d14c963ded2c3846036de9d41326793802414721817984d12df2424f3
+SHA512: 7843afe743bf0b945d32fa4a9c93b65cc0032c4a8b1b02005d7cd5e7a885f3acd0ce8bd7906cb754cf0a6bd1142aa23bbb2c3ee4243057511c1c1181729daa11
+
+Package: srcrypt
+Version: 1.0.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Installed-Size: 84
+Homepage: https://github.com/ArieSR91
+Description: Encrypt and Descrypt your bscript
+Filename: dists/metaverse/universe/binary-all/srcrypt_1.0.0-SR_all.deb
+Size: 5720
+MD5Sum: 95ee9223cc08ccd13d0bcb802ae779f1
+SHA1: 54a4011df0becb212d70fab23f4ca0d9d5d23c11
+SHA256: 92e488eadded9f8c005e38363cbd2dc87651d4cec73c50743b28827dd0592651
+SHA512: 781e6ceaf965c965593456f64c48e19d2ce42db17c8d146e933a3fa0e87c5943848fa6cac4ac97118fc187b5ec46f5bb5e1797cb6df84528bac02c9b6cf92c7f
+
+Package: srlocks
+Version: 1.1.1-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: figlet, adb, bash, ncurses-bin
+Installed-Size: 80
+Homepage: https://github.com/ArieSR91
+Description: Brute force android pin lockscreen
+Filename: dists/metaverse/universe/binary-all/srlocks_1.1.1-SR_all.deb
+Size: 7620
+MD5Sum: 51984b333777f8132f8afac707e8f3a8
+SHA1: 95359b203a04aeeaf629a80bd62cbbe260ad6822
+SHA256: 49e9139fa743a855efb67167b70156a540312d5562cd1eb8866d60da64c3ab02
+SHA512: 30fd9cf11665424798b90dd13326df8c1e6eeaab80ba1d0ff299aa3885432c72ee29a49ea626828f5b1ede3a4f5aebe0de93ff963bc32b19b5282078cba7d363
+
+Package: srtool
+Version: 1.2.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: bc, highlight
+Installed-Size: 88
+Homepage: 
+Description: srtool is a typing simulation like xdotool.
+Filename: dists/metaverse/universe/binary-all/srtool_1.2.0-SR_all.deb
+Size: 13252
+MD5Sum: b70341c5a145932e8be93230fb82b37a
+SHA1: 08259ab3abe7b921e86925a4e13038e199d526b9
+SHA256: a3fbe04ccdf6cfd3b5e3410ea9fdfb309f29ae413334e553b8aa5a99dbf78ab2
+SHA512: cc4c1b8d6287a331de96e7d4a9de35652bc5231b5c12bf0a001879a6a8f5fadbf8731d0adfb3763dbb0a0ba9499219789f88ba50e5cc1334cf2a3ee48032bf66
+
+Package: srtool
+Version: 1.3.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: bc, highlight, ffmpeg, imagemagick
+Installed-Size: 88
+Homepage: 
+Description: srtool is a typing simulation like xdotool.
+Filename: dists/metaverse/universe/binary-all/srtool_1.3.0-SR_all.deb
+Size: 14816
+MD5Sum: d502c4cbbcf47fb0d052e69d2fa09d62
+SHA1: 381607a72caa30639b6f11ee3c812504f246a338
+SHA256: 33fa5c130c40ae98d3eb0eddb14f7d8025893950a1e6be75a8f489af9a448bb0
+SHA512: 7b2c4eea5b99172b2caf720341b40ceeb9e5366e827fe15303e3de3115be5964d0d04a27955be75ff39c35dc8ee0f68c4c83939b342862b38c063dd8f212cac8
+
+Package: srtool
+Version: 1.4.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: bc, highlight, ffmpeg, imagemagick
+Installed-Size: 88
+Homepage: 
+Description: srtool is a typing simulation like xdotool.
+Filename: dists/metaverse/universe/binary-all/srtool_1.4.0-SR_all.deb
+Size: 15672
+MD5Sum: baa0bc940d49f8ee771c4c7f2348d961
+SHA1: 7a0a0276ad58d5e81297cba05279351c826f04bd
+SHA256: 10763d1b1e3ad4d9b0de86308b5951c931104a5a808138b6a2ae14d46ccbdced
+SHA512: d63ef73579db96f0e9bc41d7ffe720b45d1731dd4d6a46b2ce19b613505ffe836d6c230776cdb0c2f28236b58fd0a376ba02377c609137e4525fd5061d23646f
+
+Package: tiktok-download
+Version: 1.2.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: aria2, wget, curl
+Insted-Size: 80
+Homepage: https://github.com/ArieSR91
+Description: Download tiktok photo and video from terminal.
+Filename: dists/metaverse/universe/binary-all/tiktok-download_1.2.0-SR_all.deb
+Size: 6828
+MD5Sum: 1549a9c5c403293d5c26e0abdefc8e87
+SHA1: 1c270e22da76966729dde68cd1fd2a50123d4afe
+SHA256: 71fbba3913a07b2cf7d09414c47842cb673929675797ae93fef96b3df42f8d42
+SHA512: b4cac6a2f7f2d280b9852ca8408c68396c1faa4e4dc0e8193395d4e1696177d7a551bf8804e5059e8d0a6099f549b291670a42e9286febab93f25aa63738dc97
+
+Package: tiktok-download
+Version: 1.3.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: aria2, wget, curl
+Insted-Size: 80
+Homepage: https://github.com/ArieSR91
+Description: Download tiktok photo and video from terminal.
+Filename: dists/metaverse/universe/binary-all/tiktok-download_1.3.0-SR_all.deb
+Size: 1876
+MD5Sum: 5433b8bae675d85b21ae4401c7e5a5ec
+SHA1: 2a8a3ff6addad6ca69dbb3a90d9ec341200fcde0
+SHA256: 314e7a6f280d7876d3476c64824685411aae53f727a39131eaad0a493924f8e8
+SHA512: 88d887dfefea0b189d85cc00c5248b6308948debd1839782a7aba1ec15494c479ff0cc617b7b7441e468055e7b838ace676972e34e2032cf2c989ea4b70127d4
+
+Package: usbmount
+Version: 0.0.24-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 44
+Depends: lockfile-progs, udev
+Recommends: pmount
+Suggests: ntfs-3g
+Section: admin
+Priority: extra
+Homepage: http://github.com/rbrito/usbmount
+Description: automatically mount removable storage devices
+ This package automatically mounts USB mass storage devices (typically USB
+ pendrives) when they are plugged in. The mountpoints (/media/usb[0-7] by
+ default), filesystem types to consider, and mount options are
+ configurable. When multiple devices are plugged in, the first available
+ mountpoint is automatically selected. If the device provides a model name,
+ a symbolic link /var/run/usbmount/MODELNAME pointing to the mountpoint is
+ automatically created.
+ .
+ Despite the name, any removable device (like Firewire drives) is also
+ supported by USBmount.
+ .
+ USBmount is intended as a lightweight, minimalistic solution which is
+ independent of a desktop environment.
+ .
+ NOTE: The package usbmount is not meant to be used by people using a
+ regular desktop environment (like KDE, or GNOME, among others).  The
+ Desktop Environments already provide a way for users to accomplish the task
+ of automatically mounting filesystems and problems with this "auto
+ mounting" have no relation to the package usbmount.
+ .
+ The usbmount package is only meant for use with minimalistic systems (or
+ for embedded systems) and should only be installed under such
+ circumstances: problems mounting USB sticks with a regular desktop
+ environment are not bugs with the package automount.
+Filename: dists/metaverse/universe/binary-all/usbmount_0.0.24-SR_all.deb
+Size: 13336
+MD5Sum: cc65c1d30e20ed7216e97ae310175b11
+SHA1: 5baee9d50cc07434a1a98f285eef628f59dbd650
+SHA256: d2fbfa5b5b6bf8e376793d984a1535dc16d816060dfadf91f22993312e3085c0
+SHA512: eb1d91dcb55dd7e31ead19f7efbfdd5f4b81ef48f05868ec5632947e4475901519d5baf726115d15b4d11b7a6e4ba85da2d2a5d451a9b12c59ed61e30b64c7fb
+
+Package: xfce4-battery-status
+Version: 1.0.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: xfce4-genmon-plugin
+Recommends: 
+Installed-Size: 100
+Homepage: 
+Description: Battery plugin for xfce4 using Termux API.
+Filename: dists/metaverse/universe/binary-all/xfce4-battery-status_1.0.0-SR_all.deb
+Size: 1524
+MD5Sum: 8a881814769b75abcc0e943c557f1672
+SHA1: 2c58a1a3123ef25bbdef66b612ec3c3395c0514d
+SHA256: 6ca3fce4661116a8cd8f3cde9e83d800375e4557227971b4cfec765993430178
+SHA512: 22ba866ee3b688fbcda8bd7ec37b1bae4b8cf2b100d3ec2c0ec687896d185089cb3351f0c48a16d49d15bb9af801543943d67544f97005bac4c22caa397a3125
+
+Package: youtube-download
+Version: 1.1.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: ffmpeg
+Installed-Size: 3016
+Description: Download video and music from Youtube.
+Filename: dists/metaverse/universe/binary-all/youtube-download_1.1.0-SR_all.deb
+Size: 2877200
+MD5Sum: 1c56ecb4d23d790737bf02c314c05141
+SHA1: 68f4b82d69bb1bc9eae531ad87733ae7fba4b4be
+SHA256: 76ccb54b69e7df0fa5c2e2846811e87595aa4383d9f6b53789495652facf1b9b
+SHA512: 6e374373e184223ef92ed2c437a7d46f1e4f696c0ed5203017c784a84d307783cadeb2e3bc6109b8a62cf91a0475e80d934bd22061755f8f8671ee62ca36cc59
+

@@ -1,0 +1,30 @@
+Package: ngrok
+Version: 3.35.0-SR
+Architecture: i386
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends:
+Installed-Size: 29238
+Description: ngrok secure tunnel agent
+Filename: dists/metaverse/universe/binary-i386/ngrok_3.35.0-SR_i386.deb
+Size: 7659684
+MD5Sum: 11b1e6f480c975d0056a4522da6238ef
+SHA1: 16d98aff3eff5d108970e58629e7c1e3d9baa057
+SHA256: 21c7162241d84db3b288789bba3e768046458736f7694fde1460fef7b7f36ca3
+SHA512: fa56643b3952d4fc483bf59c6077d52995c3053a84ce676bf1d2febcf89d28454c24552b0898e83ed714ed62e51253ae276f87d0eba8c4109f5b9bbaba292b62
+
+Package: srgpt
+Version: 2.11.0-SR
+Architecture: i386
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: python3
+Installed-Size: 9762
+Homepage: https://github.com/ArieSR91
+Description: ChatGPT in linux terminal.
+Filename: dists/metaverse/universe/binary-i386/srgpt_2.11.0-SR_i386.deb
+Size: 2942280
+MD5Sum: edb4f738f6a85b594c115b4a10ae4c0c
+SHA1: a0cb53a88f7e6bb8a60783cfdb1f3b57f136a783
+SHA256: d64228a40f30c68c65842c63b584b30794f551311032c52286329770ffe75fa7
+SHA512: 870d1bd61ba9bfccac7d25934f9d1f12d6f4041268c0bb51f8b16317d56a2834e5ae23b82e56a334c0ace08b007dfe2ec7164c4745579cdfb60214523aa79a02
+
