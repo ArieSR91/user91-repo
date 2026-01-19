@@ -33,7 +33,7 @@ SHA256: cb97ca4e8fc4e00f3adb00c14a11129f8a0e918d592ee30cae3dc755689a7750
 SHA512: 3813d2d9a7d7942d0f29768bc74ebbca55f55092b93c4cbbaece7510eeea9e741327844ec182f8531a7e68c75a0e6e949487466d1e60017a7a491410a650fcf6
 
 Package: srgpt
-Version: 2.8.3-SR
+Version: 2.11.0-SR
 Architecture: arm64
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: bash
@@ -41,12 +41,12 @@ Recommends: python3
 Installed-Size: 9164
 Homepage: https://github.com/ArieSR91
 Description: ChatGPT in linux terminal.
-Filename: dists/metaverse/main/binary-arm64/srgpt_2.8.3-SR_arm64.deb
-Size: 2488404
-MD5Sum: d614ab15550392f327c8c028ab310edd
-SHA1: f40c3f79075b4685de5bfe4b90aeb20ed2915d2b
-SHA256: 727ebf383b9ad28c81d15db840a0f74d4efed3d2aeec9302724e5d50858eef15
-SHA512: 7670f433854ef1ced4642feffbd3d0a88696d3d093e3865cb30868dae4cd00008b698e07d5eef79a56c2ba2ffed870f9b01dbe57625fdfbe5d9b328f24dd16fb
+Filename: dists/metaverse/main/binary-arm64/srgpt_2.11.0-SR_arm64.deb
+Size: 2652308
+MD5Sum: 07568c57617c28b852a5d7f1a47238ec
+SHA1: 5f58ceeea1ce30ea5339587fb56240b8f634659a
+SHA256: 331a8a62f13db3c0dbaba6552db5f0bec48503c0575e85e14b973306a422d302
+SHA512: 2841e35444d8a95ae06e594ff60aed84bd42b2773e837671f799e5481c315296ec77f85c3aed977377585820df4166a066aedf8cd58033ea2874ee710c6ecf0e
 
 Package: wine-stable
 Version: 10.0-SR

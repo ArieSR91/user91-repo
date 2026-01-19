@@ -1,5 +1,5 @@
 Package: srgpt
-Version: 2.8.3-SR
+Version: 2.11.0-SR
 Architecture: amd64
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: bash
@@ -7,10 +7,10 @@ Recommends: python3
 Installed-Size: 9808
 Homepage: https://github.com/ArieSR91
 Description: ChatGPT in linux terminal.
-Filename: dists/metaverse/main/binary-amd64/srgpt_2.8.3-SR_amd64.deb
-Size: 2916824
-MD5Sum: a83e313de1aeda8446a84b780f001227
-SHA1: 53a3bd42ef3bd51442c9016f3c263baf020bd2db
-SHA256: 8c53f16b62fded65bc799a23ace0cdc5f040fffb51c6ddf88bee6a6900f6aec8
-SHA512: 479b5edbdf5e41d6a9451f46d6af497dd3e127d239b054e482a626aa8424021cab448aabbb893e2e177f5b67064a5cc67d074cd2cec3c6b5003bbef7c62c0b16
+Filename: dists/metaverse/main/binary-amd64/srgpt_2.11.0-SR_amd64.deb
+Size: 3117216
+MD5Sum: 66c562122225beda0e4f66eed2540b7d
+SHA1: 39afb484e5dd58f129da3e4f360844a4ffd6b67f
+SHA256: 0abeb83f41129d412bac68e689bd88c606d356c8bbeb80c138de9097c6a03018
+SHA512: 77eeacb0258ebabec9aff4071415cc35d35bae8fd04d4e96c1f518fe0aa2ac8bcb1f417064a0365aee1aa68bb853c50d529d0d1a9d4a0ae34a6c8bd2c1fe16aa
 
