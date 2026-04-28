@@ -32,6 +32,7 @@ blesh (all) \
 create-bin (all) \
 ddos (all) \
 fake-monitor (all) \
+google-cloud-shell (all) \
 ipgeolocation (all) \
 kali-colorshceme (all) \
 ngrok-sr (all) \
@@ -47,6 +48,7 @@ tiktok-download (all) \
 winebox (armhf, arm64) \
 wine-old (armhf) \
 wine-stable (armhf, arm64) \
+xfce4-battery-status (all) \
 > youtube-download (all)
 #### Termux
 > build-repo (all) \
