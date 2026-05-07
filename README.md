@@ -33,8 +33,14 @@ create-bin (all) \
 ddos (all) \
 fake-monitor (all) \
 google-cloud-shell (all) \
+hangover-libarm64ecfex (arm64) \
+hangover-libwow64fex (arm64) \
+hangover-wine (arm64) \
+hangover-wowbox64 (arm64) \
 ipgeolocation (all) \
 kali-colorshceme (all) \
+kali-icon-theme (all) \
+libosmesa6 (all) \
 ngrok-sr (all) \
 repo-manager (all) \
 seeker (all) \
