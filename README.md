@@ -57,7 +57,8 @@ wine-stable (armhf, arm64) \
 xfce4-battery-status (all) \
 > youtube-download (all)
 #### Termux
-> build-repo (all) \
+> aircrack-ng (arm, aarch64) \
+build-repo (all) \
 fake-sudo (all) \
 fonts-firacode (all) \
 fonts-hack (all) \
@@ -68,13 +69,22 @@ google-cloud-shell (all) \
 kali-colorscheme (all) \
 kali-dark-style (all) \
 kali-icon-theme (all) \
+kali-menu (all) \
+libdpkg-perl (all) \
+libfile-fcntllock-perl (aarch64) \
+libgamefusion-vk-icd (aarch64) \
 linuxdeploy (all) \
+mesa-vulkan-icd-wrapper (aarch64) \
 proot-distro-kali (all) \
 repo-manager (all) \
+sqlmap (all) \
+srtool (all) \
 srlocks (all) \
+shizuku (all) \
 sudo (all) \
 termux-desktop-lxqt (all) \
 termux-desktop-xfce (all) \
 termux-fonts (all) \
 termux-user-dirs (all) \
-> tiktok-download (all)
+tiktok-download (all) \
+> wine-hangover (aarch64) 
