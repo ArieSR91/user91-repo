@@ -59,6 +59,7 @@ xfce4-battery-status (all) \
 #### Termux
 > aircrack-ng (arm, aarch64) \
 build-repo (all) \
+chdman (all) \
 fake-sudo (all) \
 fonts-firacode (all) \
 fonts-hack (all) \
