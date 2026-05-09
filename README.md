@@ -67,12 +67,10 @@ fonts-liberation (all) \
 fonts-meslo (all) \
 fonts-quicksand (all) \
 google-cloud-shell (all) \
+ipgeolocation (all) \
 kali-colorscheme (all) \
 kali-dark-style (all) \
 kali-icon-theme (all) \
-kali-menu (all) \
-libdpkg-perl (all) \
-libfile-fcntllock-perl (aarch64) \
 libgamefusion-vk-icd (aarch64) \
 linuxdeploy (all) \
 mesa-vulkan-icd-wrapper (aarch64) \
