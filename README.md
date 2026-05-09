@@ -41,7 +41,7 @@ ipgeolocation (all) \
 kali-colorshceme (all) \
 kali-icon-theme (all) \
 libosmesa6 (all) \
-ngrok-sr (all) \
+ngrok (all) \
 repo-manager (all) \
 seeker (all) \
 srcrypt (all) \
