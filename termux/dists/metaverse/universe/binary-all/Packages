@@ -286,11 +286,11 @@ Installed-Size: 76
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.7-SR_all.deb
-Size: 8344
-MD5Sum: 99411e4cc158f770e2927ee0f162bc9f
-SHA1: 0609d27cf6386532c2218fe97c603bd89ff99f86
-SHA256: ad356543d02c8ace4a0554dc8057e35b377db079b8c4bc0806f167b817e55487
-SHA512: 7f5b1798da9da2fa470f46791b9d09e7f06b51719c3613883b7c299b9dab5ee4ee96698558f98112f55455c3153f3f7376508b0972e49ef86a0c9dbf575540bc
+Size: 8376
+MD5Sum: 8f0592ec3200fafd97acc0efefd7ca5e
+SHA1: f2dc9471a97df50039e76951cb6477c720d8a075
+SHA256: 92aa9a91bc7b24ee777f3a0e8a6d01e08fe5f09a04882f58a59c922b6755c537
+SHA512: 1328e7130e552f70806063b92a29e8860b8416bc0ae13eb6d079721897f3a4d4415022c8ba55745e6d1dfbfc3bbadde34f8dd98fcb3dd2fa4489651a6c45dee1
 
 Package: shizuku-rootfs
 Version: 1.1.1-SR

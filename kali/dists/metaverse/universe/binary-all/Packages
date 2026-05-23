@@ -164,11 +164,11 @@ Installed-Size: 64
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.7-SR_all.deb
-Size: 8328
-MD5Sum: f3aae23349428e2b8000106c91f7de5f
-SHA1: bc5ad82340cf209f5ec6a4b5fc2497a4f1110fae
-SHA256: cf10324a814a4dab036d763a608f65488ecb6aafbf974041a575ee93a020f85a
-SHA512: ddf1279f59e4619411b2ae448dc0d0f695a36ebc21d5edddd59406e3ccc4075eb21c8b46a506d1b3c84665695c7d32c4835a603eadb671255eb14f9994b44a08
+Size: 8356
+MD5Sum: 484b9f8619f691b89577d453aa2833cf
+SHA1: 0c3fdba1548270f1aaab3f69c9cfe8b027298ade
+SHA256: 3c9fab0e6ff131656dbfa1848404d65f87831b8a3f315fa2845fe3aacff4934d
+SHA512: 6f11fad5dc7e605a6fcc7cc8393e7921417e075e1055e726ee5b5ffd9dddd3227cff4ff223053424ad51fe5202761843fdc77ea753c9a1a9d403638942614265
 
 Package: seeker
 Version: 1.3.1-SR
