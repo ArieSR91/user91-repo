@@ -1,5 +1,6 @@
 # Simple workflow for deploying static content to GitHub Pages
 name: Status
+run-name: Deploy by @${{ github.actor }} at ${{ github.event.head_commit.message }}
 
 on:
   # Runs on pushes targeting the default branch
