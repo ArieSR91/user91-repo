@@ -1,14 +1,14 @@
 Codename: metaverse
 Version: 1
-Architectures: i686 aarch64 all arm
+Architectures: aarch64 arm i686 all
 Description: metaverse repository
 Suite: metaverse
-Date: Sat, 23 May 2026 15:01:52 UTC
+Date: Sat, 23 May 2026 15:13:18 UTC
 MD5Sum:
  aa684dfb61dc29bf906a5929c0dbd7f9 1224 universe/binary-arm/Packages
  217e8f84a9eee542e833a07e765f06b2 816 universe/binary-arm/Packages.xz
- e8e3e94195fc4f3a457ef5a7eb6592a2 22121 universe/binary-all/Packages
- 705f1e77f9eeae427fbba6919a56d368 7460 universe/binary-all/Packages.xz
+ 6be9698f74a52721b92f6e09833bd5a7 22121 universe/binary-all/Packages
+ 8a525701383d2a869b2aa47e89a0a44a 7460 universe/binary-all/Packages.xz
  ce43d06df24bae14a1fc3e5918b231c1 4572 universe/binary-aarch64/Packages
  8322199061944c54bd4b2ba17db83cc2 2088 universe/binary-aarch64/Packages.xz
  def561ba2a6abaf058c367296742da92 564 universe/binary-i686/Packages
@@ -24,8 +24,8 @@ MD5Sum:
 SHA1:
  dc4650383d15edc832d388b3eb873540d8946d37 1224 universe/binary-arm/Packages
  26cba5909aa1d2c38c30751c1448e40673e94eb4 816 universe/binary-arm/Packages.xz
- db9bc4bfc3d63d57b914359ef7e7413a3e4a9ee6 22121 universe/binary-all/Packages
- d239cc0ca08344d685be0c6014653e9e0fa36c32 7460 universe/binary-all/Packages.xz
+ ad90b98033dadd84cae04913fed964fb25414dcf 22121 universe/binary-all/Packages
+ e4c823447e6dc401b63089d5e20f890c2458a77f 7460 universe/binary-all/Packages.xz
  633b13a38674576d36141dc35dd787af4fefd271 4572 universe/binary-aarch64/Packages
  9685b33968831a41f0962cf38bb5a38cda2c34c8 2088 universe/binary-aarch64/Packages.xz
  13cd0bb0a0a641dd4c762a0e5d1bc2da36ddc2f5 564 universe/binary-i686/Packages
@@ -41,8 +41,8 @@ SHA1:
 SHA256:
  2a879dc27e80b2989a18a1ffc5a8a28d8c23f4942c9e455d4c7495319e6deee8 1224 universe/binary-arm/Packages
  4cc4f8b2f85eb1b0d4742b6414e5feb6e7120e974d3141080836a6b709e24e17 816 universe/binary-arm/Packages.xz
- d78091aba4b53aa667896e79d8330e6dd965930e42bb519fc91ee8dcf87038f6 22121 universe/binary-all/Packages
- 0391675c265fb37a46aa094c07d77b4a248e1d0c528664003853c67aa44a57df 7460 universe/binary-all/Packages.xz
+ f1fd046df12e3edb6266156996d1110276d117ed24b27e6910f552257615bfe3 22121 universe/binary-all/Packages
+ 84297c86dfaa740f878bf97589f5897da08456733c0fdbc4ad5d4fd6cb60ad50 7460 universe/binary-all/Packages.xz
  20dc1c76aec34f1ce77beb3e165dfe16908aaf7d6fa5ce5433efddae70625070 4572 universe/binary-aarch64/Packages
  26e0fb0a7732fcd79bb135a6af02627ca3458778d741357bad801cc7e2955604 2088 universe/binary-aarch64/Packages.xz
  c1080298426d9a4289d18bb93377a5cac295289db22608e017b3c01faf3fb604 564 universe/binary-i686/Packages
@@ -58,8 +58,8 @@ SHA256:
 SHA512:
  8223ff9a073268fa314d89b28c143c8ba8aea4b8fded25980a69854caaeff356bd5c48433f87cc07a2a1310a4777695707c133db085927645466b41220772f82 1224 universe/binary-arm/Packages
  149848cd9bc8d4948d0f23a1f27889929a3014738a5e6a60402a3bd5de9a023fc034d96b62365483840cbef69b522dec7d57edc09bed16f67c5fb5991ca9fa08 816 universe/binary-arm/Packages.xz
- c8d437c7875a7876a4f012afaa97799675a10c8feef63fc1e93188ef221151ed15d8f38c01f21b4e5d93f84076823a7f9a4e4a2b43aa865547a06a78971ef7e2 22121 universe/binary-all/Packages
- e3c71063c8102bb7e54d8916d2826940209a0b5fb99c88ba67f9cd1d958da8fdbf97f440220ef01dfb3ead881c91eb149d18f8e50e7d43494ebd5b3f11813e55 7460 universe/binary-all/Packages.xz
+ 4968d3afe87dabd6aaab98197dee73b15d6d2c7541ca7c3bbaa0d494ee9048f7f8017a6bf1912ca7b955eb4e4ec32933141a68d6ad10ef2c5effb36de427fde2 22121 universe/binary-all/Packages
+ f84bde0ac7144d79d7c67a22d8fbd4ad5ec2c750f5c702c7f81b0ed44f506c9bae3b547850afa965f4bbcad938ccaf53f202abc61eecc78d8c2917a65795b485 7460 universe/binary-all/Packages.xz
  f4920b54eca4e9e1ac694fdad19bc3f3b810c4ed6c1b673306e5004dd46128d4f027916ba62b86e35d447f3977541b3492862f5651b0e49e242c046d168a50ec 4572 universe/binary-aarch64/Packages
  a1826215d8b2976c23a0f85254e1ac6a2eea81cb0177df60c0a9aa2caf9c87b6aa4097cf805bd90377e3d68047f465617354216457a7917c104dca68a70ac7c1 2088 universe/binary-aarch64/Packages.xz
  04157acd2275d8497089f969220117af132686d5f75470b865159e66796e39f9938f93738571f7b2e6594ab55108282581505d06a112efd9cc0eb167b39d80b2 564 universe/binary-i686/Packages
