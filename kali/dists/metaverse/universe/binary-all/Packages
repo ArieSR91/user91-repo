@@ -154,6 +154,22 @@ SHA1: 3ace2cd6c5908897bfb02d3f87099c70cb61034b
 SHA256: ca678996800a989459ce122e1a98dfad098c941469c90b5280941a3b1be84c3c
 SHA512: f28ab3ed194f3899945fee4d3fa92330938392cfed04a98aa2fbff50ecdac66c4e1f111b64fa1ec129b037fd48a2d545849c8c0f51243708d06157c33d45cb93
 
+Package: repo-manager
+Version: 2.1.7-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3
+Recommends: gnupg, sudo, git, binutils, tar, xz-utils
+Installed-Size: 64
+Homepage: https://github.com/ArieSR91
+Description: Repository manager
+Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.7-SR_all.deb
+Size: 7280
+MD5Sum: 51fa848ab70054ae586f4188bb396086
+SHA1: 01749f0b4d0c89f1fbd7b932e2b35a9c0425373b
+SHA256: d0f1ccdb65fad7f3e942cdb265b6fc65bfc982952d21c0e24bf5b59edc24de81
+SHA512: 1134f34a35bae6345957752c6ab9321052aab49f3a91e7abdec5039973da89b1071a1ee5526ffe99f9e9d31638609f3291f93380a113897517e15c1385ce6b16
+
 Package: seeker
 Version: 1.3.1-SR
 Architecture: all
