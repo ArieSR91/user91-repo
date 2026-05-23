@@ -56428,6 +56428,8 @@ data/data/com.termux/files/usr/etc/proot-distro/kali.sh                         
 data/data/com.termux/files/usr/bin/git-repo                                      repo-manager
 data/data/com.termux/files/usr/bin/repo-index                                    repo-manager
 data/data/com.termux/files/usr/bin/repo-manager                                  repo-manager
+data/data/com.termux/files/usr/bin/repo-index                                    repo-manager
+data/data/com.termux/files/usr/bin/repo-manager                                  repo-manager
 data/data/com.termux/files/home/.cache/shizuku.tar                               shizuku-rootfs
 data/data/com.termux/files/home/.cache/shizuku.apk                               shizuku
 data/data/com.termux/files/usr/bin/shizuku                                       shizuku
