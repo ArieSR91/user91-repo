@@ -1,9 +1,9 @@
 Codename: metaverse
 Version: 1
-Architectures: all arm64 amd64 i386 armhf
+Architectures: arm64 all i386 amd64 armhf
 Description: metaverse repository
 Suite: metaverse
-Date: Sat, 23 May 2026 15:55:01 UTC
+Date: Sat, 23 May 2026 16:02:53 UTC
 MD5Sum:
  df8fd2297e7d09edf33becbad8866b11 2349 universe/binary-i386/Packages
  eef8b71c02e44d6129b37cb08bd73f05 1348 universe/binary-i386/Packages.xz
