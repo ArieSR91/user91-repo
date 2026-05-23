@@ -3,15 +3,15 @@ Hash: SHA512
 
 Codename: metaverse
 Version: 1
-Architectures: all arm64 armhf amd64 i386
+Architectures: armhf all arm64 i386 amd64
 Description: metaverse repository
 Suite: metaverse
-Date: Sat, 23 May 2026 16:04:46 UTC
+Date: Sat, 23 May 2026 19:40:19 UTC
 MD5Sum:
  df8fd2297e7d09edf33becbad8866b11 2349 universe/binary-i386/Packages
  eef8b71c02e44d6129b37cb08bd73f05 1348 universe/binary-i386/Packages.xz
- 5bc070aa3efc86e9d916ea56efe9dc8c 16883 universe/binary-all/Packages
- 57ef2bc50a805ea72df5c9b0ad13fc1e 6204 universe/binary-all/Packages.xz
+ 348b13a2d1d3794542ae68b0ad895fbf 16883 universe/binary-all/Packages
+ 0c3416d80e37c2d1b9a5f5e029a5c32b 6216 universe/binary-all/Packages.xz
  4a19ea0e28f58805f618f0486e77e937 9155 universe/binary-arm64/Packages
  1a5ff2ec69b9d12afc133157196e8b96 3680 universe/binary-arm64/Packages.xz
  d1011b36bcb286b15c9e6d38f770cc14 2360 universe/binary-amd64/Packages
@@ -36,8 +36,8 @@ MD5Sum:
 SHA1:
  37e131255bb3cda6b1aeb2ed8b85144a01f4163b 2349 universe/binary-i386/Packages
  dcc5d7716eed22c93262d31a3773b11f43762e5a 1348 universe/binary-i386/Packages.xz
- 17ee096d555471276ad0d3ef4fd28d982465b6c4 16883 universe/binary-all/Packages
- a6ea683d1e7f867b2e10bf66411ca5786937c966 6204 universe/binary-all/Packages.xz
+ 13d316606b7c69ac4787ede55fad02bb84eead1f 16883 universe/binary-all/Packages
+ ce6c5438c23eb971f871cc2bb82024c1907e3768 6216 universe/binary-all/Packages.xz
  7c87215e9add8b29638171347b856498b933b673 9155 universe/binary-arm64/Packages
  11fb1c55a670d34ca94b43e26e9fbe7dadc5691e 3680 universe/binary-arm64/Packages.xz
  6c281fecb4aa7f3d37a6526fd19644dc3383ded9 2360 universe/binary-amd64/Packages
@@ -62,8 +62,8 @@ SHA1:
 SHA256:
  03e59df04e9ff6dbe08502bf2c7a1781a5c18a88999263e0f7a9f55b452bfa7b 2349 universe/binary-i386/Packages
  b5ca9b208edc85a2c6e188931e3d1a0cafb368c591d2e97d7dd65a2076bcd11e 1348 universe/binary-i386/Packages.xz
- 414434d9c8e7c728562dc45901b19398446ba9622081fd816f703220eef78672 16883 universe/binary-all/Packages
- 4924f865a1535a6c1250d5757701ffa0e5456ef0aca4f465a2480362f620391d 6204 universe/binary-all/Packages.xz
+ fcd8199ddc283130fcc7802754e47d64755f34e5567be5af3a17b5609a047d69 16883 universe/binary-all/Packages
+ 08ff1f0957b9491d250115c851d892cbcfa66b07bc0c429e0219c3e58c9e5c83 6216 universe/binary-all/Packages.xz
  a1379d3528afc9252b090ebd021ea68789e160896174f207d79bf87392f761b7 9155 universe/binary-arm64/Packages
  dafbbdf438c4a52fff538899d0559eb3becbb94344992b06485fd6d4ee21f138 3680 universe/binary-arm64/Packages.xz
  c70b9575bf6e8fc31907c7416e011453e55ca878f7f3bf0fc6839392dbd083b3 2360 universe/binary-amd64/Packages
@@ -88,8 +88,8 @@ SHA256:
 SHA512:
  860578a7e2de9470e894fb867fc4be44102eaa05532a966a2b69f242c07cfb2ce7ed96ecc582115ec118b81ac939cf30d6d91f9ab9154b7ae017343c6622f545 2349 universe/binary-i386/Packages
  fe2b7845a2b582aacb2f07c6aff04d957cf00093ad9c45a8d4aa27667e23d748ce014ceefa7e68a594bdfed0b8d68ccf577f4f8d2a0eccf949c06b8797664162 1348 universe/binary-i386/Packages.xz
- 6e61dca500ab0524d4626fb263f199f76d7a7471a3a640c9933ce6e66f69fb2bfa07a661f509faf5df6ebe0d053b0f5e767f467deead3c8e462d1b65baabcd1c 16883 universe/binary-all/Packages
- c450efba5ffa55ba6f6a19f573de3c9c8f5138775e7492455049e2f9c5a7c11e65e487f178332b468567039f479164caeaae6489c815740387adec9ff5752a12 6204 universe/binary-all/Packages.xz
+ 919c63979b7a85a7d86540e215c56fa67508c20c186a1cf60bbc0332c95c273fa814fe2972b232a17b7fee4e8f13c5c5e47420e52de5105403ba6a7d85ca1438 16883 universe/binary-all/Packages
+ 5d71aa4bbf567405ca3a18b567dfdd85e7c4844b32c5fc37fd805d26f021cb994fcec3fd95f15151e90ef651e05cae9e43ee3142f15534c6aa608250c4b635cb 6216 universe/binary-all/Packages.xz
  3ba12268f67fd2e69f5e66c3b0cc01c36e94e330b64ad7b78f2d1b6ef0b6f364b682c96fbd45118d4f4771b5b7bd0969060d820cbda4610414a7929a18fd2834 9155 universe/binary-arm64/Packages
  fcbd55052e14de151a3ad0f7b2237511bc450d3eee0d90dc2522cb62c4544d4c5e06bb2786898696208a24c33159d20fde3b65ebfbab42cc3064c59b113cd5e2 3680 universe/binary-arm64/Packages.xz
  23faca9898632da4af6ad7bbcd8c300f73c24662215be83fa74bd2a7cd95c4c2ee1b7346f292f1cbbe86f452b3f9602a4d5233156166218a88ef08ae50d7a4d6 2360 universe/binary-amd64/Packages
@@ -113,15 +113,15 @@ SHA512:
  5ce59864ddfe6b1b21f733470b7122b02590bb60446e8d3e870d0db9eb1d265d2ae7018b10df4383009a19e697ef1751b7e0b655837bf2ff2dd00c722304d42d 27976 universe/Contents-arm64.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE/w8GnpkBI9uOygqoZvABD5pY/6gFAmoR0CQACgkQZvABD5pY
-/6jJrwwAmB56ZXutY+Qqpy5a0rRwGG43rJvujT26heNDYl6BR/CPhrmYYlEz4heY
-7QC3fsR8/6oZC/+RQoSQJi8zp6ohqF7LEdxqMjMSyffuGtO116MREtURIKQpWMHk
-rpgoBiMum1NLAQCp4EmpPv3wC7+GBJuOZcvrtGIs2QDgpCcPXyKlfaorMr1zXxOW
-3hrDpa7Q8klBK6liuZPqNCFtd638KZeeEs8d1TKFIrhAyNtjPkgwEQ6MYPzm5Zmy
-ZaR7e3qznQ6iJwhBYvuK4Qfyt5me6JzfmQYu8mmNmAoHpK3nuYcTNKWu+1t2knG0
-xw0rvMcfxnyEPA/JsDgTUQF3VE/bvPAYlIPQ3J16qH8NZ8zXF3OmOeCBflSpml6+
-n9r+M46To197hDdjGfAxFLXQaDIuAXB7zR9JZV5q3ORTzlxNGDbm1pVwiqVI/uSy
-IVUGK5JH+1hM0yu62nlI/otSsB8pR7mKBrPuLkC6v0gXvS5kn/p9MfjPzuorc2jY
-mzUa3Kvz
-=JQkt
+iQGzBAEBCgAdFiEE/w8GnpkBI9uOygqoZvABD5pY/6gFAmoSAqkACgkQZvABD5pY
+/6hmQAv/fH5W1FMrjZLy3IYDHeWlatMCF3wCRMq0JLrDYzALT8AMWeBW4iq5zk1i
+zjvE/6zGk+Dvrq/aJWyGnN1Tb9sbXflcyE1/Jnx+gvw4rEGTSZ99AJPg5mAZWUim
+PZvfqpTBJnNQh3w2IPyFLCUGeE4uRmNCPjMeBPIZNmGMjBNJlUU6M5XRFr53Tr2j
+i+8DW5hyGzeaNsBKWnsF/rNs2XnxD3UygSCI76knxJ+PWT4Yvf/GFq2QJ553ZgH5
+aBzvqTWxaZBtD1FjJpuhHXJidUVWN83bpyG3pjjz155mFQ1xfl0piYnt8KR1eTte
+lJHwzNIQ8kBnPGajr0KD7Ih3CsovevY/8tExjsFUsTI9y4bW1RaPAbwVKmEbDmyc
+zafuyZMUY2zwUtI0sVoBhs4WDC3G/lPqXBkmejt78XYOMLa7LEUrOeSv/hXQo/4e
+4PsvUXaByEB7ub7UXbuOkpW0m1ob/+zPEAJBsH5VrKmku2TPc14D2HtapUoMAmB6
+f9DDgWON
+=Q9aQ
 -----END PGP SIGNATURE-----
