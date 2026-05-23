@@ -1,4 +1,5 @@
-[![Deploy static content to Pages](https://github.com/ArieSR91/user91-repo/actions/workflows/static.yml/badge.svg?branch=xenoverse&event=deployment_status)](https://github.com/ArieSR91/user91-repo/actions/workflows/static.yml)
+#[![Deploy static content to Pages](https://github.com/ArieSR91/user91-repo/actions/workflows/static.yml/badge.svg?branch=xenoverse&event=deployment_status)](https://github.com/ArieSR91/user91-repo/actions/workflows/static.yml)
+![Repo Status](https://github.com/ArieSR91/user91-repo/actions/workflows/static.yml/badge.svg?branch=metaverse)
 # user91-repo
 Wellcome to my repository.
 
