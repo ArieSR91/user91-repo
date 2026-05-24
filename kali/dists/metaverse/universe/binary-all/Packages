@@ -139,22 +139,6 @@ SHA256: d577d98b874366bd68de79bc66e744439f3eee7efeda18026352b350ac372a29
 SHA512: cdbd1a5eaf034d1016e9407677e0324ac1e3c57b0d55491d60fde9344c8df03788d3b24bb15780eb9f8981b052cf4cc27cd742cbaaa7b2eb4696029afc6ed208
 
 Package: repo-manager
-Version: 2.1.6-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3, build-repo
-Recommends: gnupg, sudo, git, binutils, tar, xz-utils
-Installed-Size: 92
-Homepage: https://github.com/ArieSR91
-Description: Repository manager
-Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.6-SR_all.deb
-Size: 3160
-MD5Sum: 29cad74e773a4a7c87809fb4be204f34
-SHA1: 3ace2cd6c5908897bfb02d3f87099c70cb61034b
-SHA256: ca678996800a989459ce122e1a98dfad098c941469c90b5280941a3b1be84c3c
-SHA512: f28ab3ed194f3899945fee4d3fa92330938392cfed04a98aa2fbff50ecdac66c4e1f111b64fa1ec129b037fd48a2d545849c8c0f51243708d06157c33d45cb93
-
-Package: repo-manager
 Version: 2.1.7-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
@@ -164,11 +148,11 @@ Installed-Size: 64
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.7-SR_all.deb
-Size: 12592
-MD5Sum: c01b4913fdf7e55528c207e41a78c897
-SHA1: 8cfc9e1126d3a427abc6aec5d61c1796e7db76c8
-SHA256: c481fd98b4401a9ca61a96ade16821cf4626a3a8dcb1aea85ce22c369495e31e
-SHA512: d2999215d290c924a19412f2ecbe9ef4095fcea4bad6ace650b1a01365d8cfa362409cf67d03c3f7ac924b1b5ce4c8f8e2bb3ddbbbffca9417bef9a97d87d593
+Size: 12604
+MD5Sum: fb5c56061b498f93bc7a0889f58e9d2c
+SHA1: 5c2afcc5ff08fb177600736c20c69802482bb911
+SHA256: f6266d322f0872a749c01cde987d4dc5f49d3b7ead3269a38fa3ea4bf813a4a5
+SHA512: 8d31c973fbf41aace8c6a14bb92bd1990353a8383f58027e1fe6c821666643164467dea1a58d39d04a34c319af3c836a66e852b1b205c0cfa620afca07287257
 
 Package: seeker
 Version: 1.3.1-SR
@@ -223,36 +207,6 @@ SHA256: 92e488eadded9f8c005e38363cbd2dc87651d4cec73c50743b28827dd0592651
 SHA512: 781e6ceaf965c965593456f64c48e19d2ce42db17c8d146e933a3fa0e87c5943848fa6cac4ac97118fc187b5ec46f5bb5e1797cb6df84528bac02c9b6cf92c7f
 
 Package: srlocks
-Version: 1.2.0-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: figlet, adb, bash, ncurses-bin
-Installed-Size: 80
-Homepage: https://github.com/ArieSR91
-Description: Brute force android pin lockscreen
-Filename: dists/metaverse/universe/binary-all/srlocks_1.2.0-SR_all.deb
-Size: 7800
-MD5Sum: 7aadbe7257af6e8d94b2ed63584b3f0c
-SHA1: c74a348933cef26680bd76bebb5a563cdd15e7f6
-SHA256: 6dda4d2eefa57d6d9de458fd9d620e5e1bd85521133591702de1ea5556a24ac4
-SHA512: 8ec1ae1dbab496f0486315c8c9bedfaab752aeae20b1e8569f5ec2f29df2240375eb9e29f9deaf406779ff3e386b41b6877bf07d304caead0569e82fd61bc485
-
-Package: srlocks
-Version: 1.2.1-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: figlet, adb, bash, ncurses-bin
-Installed-Size: 80
-Homepage: https://github.com/ArieSR91
-Description: Brute force android pin lockscreen
-Filename: dists/metaverse/universe/binary-all/srlocks_1.2.1-SR_all.deb
-Size: 8348
-MD5Sum: 1c6ed5fcddbcfb6fbc482fd7acfce2d7
-SHA1: 73c8ec3df9eb7f1b5ff4253ae87ebb8d87c96ccd
-SHA256: dc8baa55ee5d69245bf6741f638ff9bb1da9007513bf78983184ecdffb7b8ddc
-SHA512: 2566eb841fbb7c58b1e003fdbcac0af81c5b3e7262cb2b0cd60b41cbf5a627566bb7c90d2387b6bf5da190447ab10e05cba4818cf5d7996e33c1e1033a96f959
-
-Package: srlocks
 Version: 1.2.2-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
@@ -268,54 +222,6 @@ SHA256: e8b2d7e02ff6a34b3f0a5ffef16402ce1df9e5d2a8e9327abb603ae99145202e
 SHA512: 7137f91584b922a2aebcf73e0e4e64455e9e849816af7754f3f29387021ae784034d1396b827e60ece8499cad07156fa56d659b203ac2f2c995b2195c1f357e3
 
 Package: srtool
-Version: 1.4.0-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash
-Recommends: bc, highlight, ffmpeg, imagemagick
-Installed-Size: 88
-Homepage: 
-Description: srtool is a typing simulation like xdotool.
-Filename: dists/metaverse/universe/binary-all/srtool_1.4.0-SR_all.deb
-Size: 15672
-MD5Sum: baa0bc940d49f8ee771c4c7f2348d961
-SHA1: 7a0a0276ad58d5e81297cba05279351c826f04bd
-SHA256: 10763d1b1e3ad4d9b0de86308b5951c931104a5a808138b6a2ae14d46ccbdced
-SHA512: d63ef73579db96f0e9bc41d7ffe720b45d1731dd4d6a46b2ce19b613505ffe836d6c230776cdb0c2f28236b58fd0a376ba02377c609137e4525fd5061d23646f
-
-Package: srtool
-Version: 1.4.1-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash
-Recommends: bc, highlight, ffmpeg, imagemagick
-Installed-Size: 88
-Homepage: 
-Description: srtool is a typing simulation like xdotool.
-Filename: dists/metaverse/universe/binary-all/srtool_1.4.1-SR_all.deb
-Size: 16308
-MD5Sum: 845e7fe22c4e6b6f1c03ae3fcd94c4c9
-SHA1: ce8796c13fd8f1d4b2112e36d6c6a92ec95c6914
-SHA256: 006c0eb672970343e67d7a66bd56cbc07d7fa628b345ff4d79d69e5b8df407c2
-SHA512: 573d3e1662180cf83fa9f2973250f946c0c0d7b814fd6afaa68af151519c62133b4fef15e5182ac46f76eed3ee45435b1672a2baea927672baf41e0c2718cda6
-
-Package: srtool
-Version: 1.4.2-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash
-Recommends: bc, highlight, ffmpeg, imagemagick
-Installed-Size: 68
-Homepage: 
-Description: srtool is a typing simulation like xdotool.
-Filename: dists/metaverse/universe/binary-all/srtool_1.4.2-SR_all.deb
-Size: 17364
-MD5Sum: 2332cc702755462ab0532f2811131d32
-SHA1: 8e378c5a80c0b2fbccbb337030dd2bd197302337
-SHA256: ce476b9a994a2bfb6472c7af19d9ea19fcbd174baac97742496f7ea34fec8fa1
-SHA512: 3aa33de127a11e072c17c7fc4c5dc4d1c732d176515b06f3c3ca31158cce6a978b531859339b601c11f2adabbd10084d6026c41f3036f135f15f37135fd89db9
-
-Package: srtool
 Version: 1.4.3-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
@@ -326,10 +232,10 @@ Homepage:
 Description: srtool is a typing simulation like xdotool.
 Filename: dists/metaverse/universe/binary-all/srtool_1.4.3-SR_all.deb
 Size: 11724
-MD5Sum: 9aad9cfc0c02d3b82f932af5318d14fe
-SHA1: 88367f3644e87fac9b6575bea6c577d4cc6d456d
-SHA256: 43d957dc89d9a219e8364013d21ed6b293cbf813feaaec77f5d38c806f86c554
-SHA512: af058d9c7815d28cd039b1a5a07f147103e3d8973674ab5123cb8800d7986f205c2aeb9c5b4e5c1bb84cbb64d6225425c5e87561b596296bb528eee44184fde2
+MD5Sum: 71db7d427f9f1b57a8f1fbdeb1a3ada1
+SHA1: f96b30a94354798d9e358040cd4c0f5bc7c5a4a6
+SHA256: 0eaf499e0eda5ff3194dcaf97ff09020b0f60fa820f59ddbb2b5164c9477d054
+SHA512: 808edca78dc3dbffd37e0dde82ff8723080089b6ce5c24af68cfcd2e042a78148c202dff046081a396e7992a50ea54d1e02838730fd502be3a9733b83bde7f71
 
 Package: tiktok-download
 Version: 1.3.0-SR

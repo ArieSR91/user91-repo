@@ -56590,9 +56590,6 @@ usr/share/themes/Kali-Purple-Dark/gtk-3.0/gtk-dark.css                          
 usr/share/themes/Kali-Purple-Dark/gtk-4.0/assets                                 kali-icon-theme
 usr/share/themes/Kali-Purple-Light/gtk-3.0/assets                                kali-icon-theme
 usr/share/themes/Kali-Purple-Light/gtk-4.0/assets                                kali-icon-theme
-usr/local/bin/git-repo                                                           repo-manager
-usr/local/bin/repo-index                                                         repo-manager
-usr/local/bin/repo-manager                                                       repo-manager
 usr/local/bin/repo-index                                                         repo-manager
 usr/local/bin/repo-manager                                                       repo-manager
 opt/seeker/Dockerfile                                                            seeker
@@ -66393,11 +66390,6 @@ usr/share/themes/Windows-10/gtk-3.0/assets/radio-unchecked-unfocused@2.png      
 usr/local/bin/decrypt-sr                                                         srcrypt
 usr/local/bin/encrypt-sr                                                         srcrypt
 usr/local/bin/srlocks                                                            srlocks
-usr/local/bin/srlocks                                                            srlocks
-usr/local/bin/srlocks                                                            srlocks
-usr/local/bin/srtool                                                             srtool
-usr/local/bin/srtool                                                             srtool
-usr/local/bin/srtool                                                             srtool
 usr/local/bin/srtool                                                             srtool
 usr/local/bin/tiktok-download                                                    tiktok-download
 etc/usbmount/mount.d/00_create_model_symlink                                     usbmount
