@@ -423,17 +423,17 @@ Package: srtool
 Version: 1.4.3-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash
+Depends: python3
 Recommends: bc, highlight, ffmpeg, imagemagick
 Installed-Size: 80
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
 Filename: dists/metaverse/universe/binary-all/srtool_1.4.3-SR_all.deb
-Size: 11772
-MD5Sum: a5543bdd40f7a9640525a649d4a8a25d
-SHA1: 6f814107549b97326620cfa5ef9d08de0837bad8
-SHA256: 3ea735d55535eadbd81235bb16be7dcb6c150b5b27517ceae0166dd38f4c953b
-SHA512: 89fb06fc48dee1a816b2f560dfc478994ea3344c5bf5dae168bfbe817efb60a259def7ab6ed3744c3304a51de81ae795e92f57713f58d0f34117ab4cee8b49ff
+Size: 11776
+MD5Sum: a2b43e71436e1fe4aabc544c37a01933
+SHA1: 0148938f2894dfa0053e6efcbe12157a0ec94349
+SHA256: 8eb4eb5e77d5e061b5153814210a76e96fe6a1bdd5d5ea4b3318e22708bf0884
+SHA512: c07ed353b32068aa2d4980f8a75e4a05916d5db0b5e6b2d4fb5b7fd2617cf60839b7b42373ab9891634cff21662676c0b93fecf33f4f34314d4cde439744e6a0
 
 Package: termux-desktop-lxqt
 Version: 1.2.0-SR

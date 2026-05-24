@@ -319,17 +319,17 @@ Package: srtool
 Version: 1.4.3-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash
+Depends: python3
 Recommends: bc, highlight, ffmpeg, imagemagick
 Installed-Size: 68
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
 Filename: dists/metaverse/universe/binary-all/srtool_1.4.3-SR_all.deb
 Size: 11724
-MD5Sum: b1ee3fd51558b4f7d3d3e9e7363058f8
-SHA1: 5e7f17545b264c099f19361a7c299c94153d1667
-SHA256: 2aa5d7dcfe1618192729a1a0c623a336ff9e9c40b1b15c60c8ec7dfa9c19bed0
-SHA512: c62b32987eeb52a44d20f1ee507b7abe42d7d449ca82e63388615c5b23316b2c9ba9bd42b733e5450e2154ff61d6a9478cf6a6b77fca49c9b87edc235ad81921
+MD5Sum: bec6b32c47425e1780093c28a67a52fe
+SHA1: 57784d032208354cc154c1b9337d6b3d43ab0a3b
+SHA256: e3fbe3990550e46fb098e8474a1cb1976732559a046525d43eebc70b96437577
+SHA512: bc01bcfed43e74601e59eac8f1c15aa2245c721c80b8e315ffae00fa68f06cd9ef54c777d7ecabcc94e2ee876565d53572d619ea6ed66734d02b910a681e60de
 
 Package: tiktok-download
 Version: 1.3.0-SR
