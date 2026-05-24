@@ -148,11 +148,11 @@ Installed-Size: 64
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.7-SR_all.deb
-Size: 12604
-MD5Sum: fb5c56061b498f93bc7a0889f58e9d2c
-SHA1: 5c2afcc5ff08fb177600736c20c69802482bb911
-SHA256: f6266d322f0872a749c01cde987d4dc5f49d3b7ead3269a38fa3ea4bf813a4a5
-SHA512: 8d31c973fbf41aace8c6a14bb92bd1990353a8383f58027e1fe6c821666643164467dea1a58d39d04a34c319af3c836a66e852b1b205c0cfa620afca07287257
+Size: 12564
+MD5Sum: 157a00f4351aeb9eb415620d07f019d8
+SHA1: 7a5029db13398adfba7169a50d799a17f7ac8be0
+SHA256: 882ea0f1afeccabb2dcc413701edc6e1c4d6d379f254d90e1d631efb7ab04c33
+SHA512: a0b58573402005e19dff1a065643c04a2c213bd2b8d81e57d5fc6fa601782d672309121514509b2d7ca98dcbcf3e2245a540a6d6d0f816dee9cb8fa033b1e7c5
 
 Package: seeker
 Version: 1.3.1-SR
@@ -231,11 +231,11 @@ Installed-Size: 68
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
 Filename: dists/metaverse/universe/binary-all/srtool_1.4.3-SR_all.deb
-Size: 11724
-MD5Sum: 71db7d427f9f1b57a8f1fbdeb1a3ada1
-SHA1: f96b30a94354798d9e358040cd4c0f5bc7c5a4a6
-SHA256: 0eaf499e0eda5ff3194dcaf97ff09020b0f60fa820f59ddbb2b5164c9477d054
-SHA512: 808edca78dc3dbffd37e0dde82ff8723080089b6ce5c24af68cfcd2e042a78148c202dff046081a396e7992a50ea54d1e02838730fd502be3a9733b83bde7f71
+Size: 11900
+MD5Sum: 529fc0d166d23453a86115025f103f46
+SHA1: eb9806dd3ff3548a6df17b2ae150ccd4910b2aad
+SHA256: 87e7a7e03896034608bf9986d8cfd795b2ae8d55f5735b4da12d791fdeac138b
+SHA512: 4f2809faf33b6ac24823fbaec1aa8132930e2748c5f453bb87a60b6b1479cb6d47429b4b61882b924f6aabe8fc8e4832029562fe7adc2b533ad89afbb60b0914
 
 Package: tiktok-download
 Version: 1.3.0-SR

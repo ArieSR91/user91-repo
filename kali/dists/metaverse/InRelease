@@ -1,15 +1,15 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
+Hash: SHA512
 
 Codename: metaverse
 Version: 1
-Architectures: i386 arm64 amd64 armhf all
+Architectures: amd64 i386 all armhf arm64
 Description: metaverse repository
 Suite: metaverse
-Date: Sun, 24 May 2026 12:48:16 UTC
+Date: Sun, 24 May 2026 13:44:19 UTC
 MD5Sum:
- 478982e92fb381ed71015f75df75a8be 13681 universe/binary-all/Packages
- 07d0a5f2c61f2993d45fce91776eae3d 5396 universe/binary-all/Packages.xz
+ 1b62ef395371edd8508b69a8f32dafd0 13681 universe/binary-all/Packages
+ 258272b238751d21dd9ab0964d58e0dc 5388 universe/binary-all/Packages.xz
  d201bdaf404942dd23236f56cbbac9a6 9155 universe/binary-arm64/Packages
  1d451171e73c35a1c36ed2f65697cc0c 3684 universe/binary-arm64/Packages.xz
  b9709521567a691e1a5f770a6c91a138 6056 universe/binary-armhf/Packages
@@ -34,8 +34,8 @@ MD5Sum:
  3dd2fcb132983d2bd6fcdf49a5092c7f 256 universe/Contents-amd64.xz
  f05791390b2bd3e2c51bbbed8ffbc447 252 universe/Contents-i386.xz
 SHA1:
- c2f6c30bbac639e28c1d290d2ddc8a742d02aa41 13681 universe/binary-all/Packages
- 53dc4d450715aff8e14a65e985bac42b70d3cdef 5396 universe/binary-all/Packages.xz
+ 80931979ff7a67aa4675b0aa236fb14ab939335b 13681 universe/binary-all/Packages
+ 481f00704a6410b0c5371a91acb74c0c85113d87 5388 universe/binary-all/Packages.xz
  87655e584d994430d6bbb8fdbb572280c568524d 9155 universe/binary-arm64/Packages
  1011f6f2bd0195e41b39aa59815f38f07d5ef40f 3684 universe/binary-arm64/Packages.xz
  684a86ce9dc0fd3e1334f703f4e68776a72245b5 6056 universe/binary-armhf/Packages
@@ -60,8 +60,8 @@ SHA1:
  ced00e029901610ad44bd5113ec29eef2d392f81 256 universe/Contents-amd64.xz
  73b670b52cb78cb3a51eb390da90f1abaa8c7f5b 252 universe/Contents-i386.xz
 SHA256:
- 2517b32980daa522fdf94a55664e1ebcf4cbb272472dcdf014e0803e77f80f24 13681 universe/binary-all/Packages
- 73760901d49e4405971f2bd169977ef0f8ad28c68c93f1e6df56d35123965b24 5396 universe/binary-all/Packages.xz
+ 8ba55287d4596319770fe8714c8ef0bc1e9cca013e8e001b9b26e6a5727fabd1 13681 universe/binary-all/Packages
+ d3dfd18c7592607278cb82e79dc68aa589694a89ba0399e110d51db47c0c3e57 5388 universe/binary-all/Packages.xz
  736731667c1ff2cb0d08c00ec6c453615ce7e405e2fca5dd2a236a9929d4bb79 9155 universe/binary-arm64/Packages
  0bd25b45343c154b95fe09cb260c34f2f693d56ee34343b2242de8b5f6e7abff 3684 universe/binary-arm64/Packages.xz
  3448e40b83b2800465d34fbdd515adc5a1c00ad42add66c47f544b89080cb96a 6056 universe/binary-armhf/Packages
@@ -86,8 +86,8 @@ SHA256:
  8a7cc6bb27be528895dca1892c95931ecffc6dea49a800f58960ee603b87e5a9 256 universe/Contents-amd64.xz
  6095d3452eef7b934efdd489a6986f293dc340c31e9ee36017f04bed6a5d5eb1 252 universe/Contents-i386.xz
 SHA512:
- 441fec230a775381e52932c1680e5e95d8a75e437272f4516d3a907d719a9bb7a349962483cca1fc7208d5db0ad7f7ba938c6fe227841c88b7579e6a201c8ae5 13681 universe/binary-all/Packages
- 2a6a86e5e050bbae23fb6649895e20428c58b7681405d831ad16f99d6900304a2907c1abc57ddb93044007e974b4c7f7591ff430fa9fd64221804f1367c0b35d 5396 universe/binary-all/Packages.xz
+ 48e3b276385c26ac0a7f9c0d3a9650c0f2647aa2ce8360e491bec2bfa395b8a625edd7c4021eae79330e2d94d6bd8dac5ef76a5a23ccbf58eba20cecb0d58520 13681 universe/binary-all/Packages
+ 0f8352af2e947d64f7db31774d391a955b8b02bdb06906d9037df890a51540bac1e7f3e6fa60acf8c558d7f70200f9aebbeb93e4507e4b85a6de160cb0d0a1be 5388 universe/binary-all/Packages.xz
  aac17f132f77c0d2093401163fe91bf1c701c74656b030356952e6b826d068b45805cf5578044f7e967b370e79e0ab5c8c0a136c725ef97c2b5af2364d1bd6c5 9155 universe/binary-arm64/Packages
  422ffcc3ca833ddce5b73f370005c2bd96a2dd40487559bce2ff9955ebbbd63fc9ae93a5354e8983c7301db24fa93f7c801cee65167d3023faf6b77384f8e8a3 3684 universe/binary-arm64/Packages.xz
  384bd8841e190426f4dbcd2d6cac4469cdba9225c25d7a02ecaa4023e660bc4878435b8e18c4a0b5ae0d3b7c30c2f0e8ab3e5ffdf318e9ca8e5919f7edb91a71 6056 universe/binary-armhf/Packages
@@ -113,15 +113,15 @@ SHA512:
  871b6a61e0f102623f7d891c8a569b2e3b801a9278e95d4b076a629f9057d3da8f2c26a6ed6c408478094f423530c72423193b888f2847991969e9e14b039e9f 252 universe/Contents-i386.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQHPBAEBCAA5FiEE/w8GnpkBI9uOygqoZvABD5pY/6gFAmoS850bFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMywyAAoJEGbwAQ+aWP+oUC4MAKz28BBQbuYeUiMGZQEI
-ZuQMm5b6HojzhkvzrTm4G6E2k81pBSTTpKjQQwhH7bvUs1wWE8wsv617p7jcc8rO
-dV9bLv36EkencJb1WvZ6Vg7VVqkWDn6dTeLfGdBgl7AGZ4SE2gZebzvuS88dGRq8
-ktDp7YWmkwf9xqHOgQymw/Xj8vTvuLqy7CakulwZsyBKJSYLra6oklF1IFqixEcz
-9Dc97XGmTTY9Pl0pLT9dTuv13QdhnRsguGa8OCCPVNkc+YQF3ou9iBIuIjTCray8
-cuiQFqbUaxsITvVuKihOI6GpGd4XKh7nnQvIr5EPLUS6EauQwkbDhG3RNPhvx2yw
-xLUPvm0Wn8fSW7Rs0b2J3NtRVwGnfko2J4Z2a0lsJNtOZPM2A025rrjsR24YED8j
-e/2eotW9MD7b4t5OzF6cpAzg2h4pC0v4x0sethD445ejjzXUOeDuUsVnzgXAvKck
-S8vBDgsylBkl0Dgtm5jgRkfjvKgf8kXuFuMUF9ltQlaxcA==
-=Umrl
+iQGzBAEBCgAdFiEE/w8GnpkBI9uOygqoZvABD5pY/6gFAmoTAMQACgkQZvABD5pY
+/6glXgv+Ka+V0EtdgfIHHHue8pL1FwSuHyWM560Hy5Mtly4RGgVKlTIzCwFOVBnD
+TvYdKfCr/VagxxL7EKeZc8VgF1IltmAhxtpV2VMbas84mPsEASsrvIIJQ0RUmMDz
+F3IARAg4EVZByVu8Hv/n+JZdFvogdshINQ+f5spS/f56vPfvAt18zOzLzepKmTuG
+4MEfKR39E1gvAmlK91PAAyI3WRJOYiyqLcfwsfMVtyLrvBlJbaEiHSm20VP1bJo5
+Wnmu/qEIce+b/fbrFY/rr8urP6qVIYJKaoyCj2n/nFW+7AhEQQH22p13a7hRFzKu
+oNEy2j0F5Bu1wI2zLkY0v+nQzjMEYrsYOtGYAmUeo41hV7SlDdLHOgHPiVh11Dru
++XQfihdIe6AsDtcNX//ju/sfO6yeDKJJABqHNS5Dn2YSTxmWDJimlFxYbBXiyEf7
+0nhcKE2A9imCXdpf0uxyFYyQHOBn4OYNLNUa+7LEI70uqs39IYDpbcU3k9lFQem6
+kuiwIrT/
+=SZ0I
 -----END PGP SIGNATURE-----

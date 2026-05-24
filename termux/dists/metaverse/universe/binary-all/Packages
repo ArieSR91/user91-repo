@@ -239,11 +239,11 @@ Installed-Size: 76
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.7-SR_all.deb
-Size: 12632
-MD5Sum: 89288d36a37fa4381d2556fa269c055f
-SHA1: 6b6446e90874f3394e3b6e80689b251725479428
-SHA256: e8c7bb42dc8d0a9714c9e678a4091cff6fb1f79ddc433dcbce432b2a63837ac8
-SHA512: c55894bdfaa9a662c8660b22ad9a5efddf46b2789138f70d237b2f75ed0f4ee1fb7a98a1856ec791cb93e71a23794e5b83b0e76133ec06f2ded5234401f8467f
+Size: 12604
+MD5Sum: 53feee24a53e22b343ceb308c88b9968
+SHA1: 3a304e8e6445fd3594464c3748d61315ff7cf887
+SHA256: 71358468aaf1482dc4f03f0bbe0e78236380e4766620f2e92811f4c9b35633e1
+SHA512: fc6a46d5f06f6c872c73fc0f6d8e654e6d0d7003b3f3405ad17c66e49f4648e9a0e5cc8d36dc01b43065f3223bd386bdd7e8a00398a371373f2d62e3dbc6823a
 
 Package: shizuku-rootfs
 Version: 1.1.1-SR
@@ -320,11 +320,11 @@ Installed-Size: 80
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
 Filename: dists/metaverse/universe/binary-all/srtool_1.4.3-SR_all.deb
-Size: 11776
-MD5Sum: 96938825d06ba35dd6aaa295f93225ea
-SHA1: 415213a8aa878308831a35157e478949e54ea247
-SHA256: c0dc439bd2d8cdbcba844a1174df586d02e8a3c76a9d622573ed4d1f7b1506b5
-SHA512: 6575c93823670572d7ba0f185565fd31eabaf3f57f6a968eca4503ce8a8e3df0a10d1b4ccf45f0b24f0294edb2d45b8294e3406d4445ef112dfc12e9ed98ce32
+Size: 11948
+MD5Sum: dfb46640811daae3c0005d55a77037a7
+SHA1: 151dd1ac9a55ea890a5a669948584537e238f520
+SHA256: 33688cf4142314839d801e53eb99b6119309189f669fa57a379b2cea67913aaa
+SHA512: 8673b91a1b146df651dfe389c434aeaa60a27ff324a7700d703eda26c4baa98e5b1e91cf53581e95e4ac126b879c1fc7c66dd6b7f9845c55c00724138e4e0cc5
 
 Package: termux-desktop-lxqt
 Version: 1.2.0-SR
