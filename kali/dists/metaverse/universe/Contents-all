@@ -66398,6 +66398,7 @@ usr/local/bin/srlocks                                                           
 usr/local/bin/srtool                                                             srtool
 usr/local/bin/srtool                                                             srtool
 usr/local/bin/srtool                                                             srtool
+usr/local/bin/srtool                                                             srtool
 usr/local/bin/tiktok-download                                                    tiktok-download
 etc/usbmount/mount.d/00_create_model_symlink                                     usbmount
 etc/usbmount/umount.d/00_remove_model_symlink                                    usbmount
