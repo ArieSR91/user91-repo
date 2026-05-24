@@ -47,9 +47,9 @@ Installed-Size: 10924
 Homepage: https://github.com/ArieSR91
 Description: ChatGPT in linux terminal.
 Filename: dists/metaverse/universe/binary-amd64/srgpt_2.11.1-SR_amd64.deb
-Size: 3218016
-MD5Sum: dc7ffeaded755069a41c0619c9ec98f9
-SHA1: a11988546993ac7b1e4e266897f7aa72c7dc487d
-SHA256: c3d7cff866145d7343ac7e0d5884bb957f8685d205e4dffbc0d92fcfb704053f
-SHA512: c5b713901ee70b4f66d4be5c1bb5a7e980fe19904ef55f4481da6e25c6249a2f80dce65ef85713dde5e4f367249a5cd66b1ddda93a6942078a10310834122a85
+Size: 3219164
+MD5Sum: ea1385ef6ddcb39b4cc49aef60ff0e81
+SHA1: c31894c446b4c456e19b8104b9617dcd2fe70f54
+SHA256: 055d8533b974854b3a32ca7dd569f7235e9b7dda17705fa2438320ee76fb3be2
+SHA512: 78b8f48c3b248bcb14490eb1639dc17c6cd7b61374066eddea2316547f3d9eb52672195f3f4d95cd453a7c31c9f23d9fe9aed05f323a267a389bcdbeab13fbea
 

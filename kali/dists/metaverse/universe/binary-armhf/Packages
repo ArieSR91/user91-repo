@@ -84,11 +84,11 @@ Installed-Size: 10084
 Homepage: https://github.com/ArieSR91
 Description: ChatGPT in linux terminal.
 Filename: dists/metaverse/universe/binary-armhf/srgpt_2.11.1-SR_armhf.deb
-Size: 2840148
-MD5Sum: e43df964f3930b7ff225722b9d7c6c02
-SHA1: 93f3990877e7299afa7a20a2de7a62154663aa7e
-SHA256: 81e393857caefbf388edf13e5193078c5ff72065084d1b6cf2100a40d5ee52d1
-SHA512: ecd487f76489fc0c39692909e0cc58cb1dc7482f3adbd87b9de0e27fbef990389f1de7d1da0c9211cd5e161bb31af55f9e8f562bfe86f96c57504cb9d44c682b
+Size: 2840856
+MD5Sum: ca97289b2eb1c87067aa54436074ae7d
+SHA1: 4d135ae66bfc526dc0d7e860baf45cc4b85e50ec
+SHA256: e19b8a63cdff4318336e76dc5fc13c063704138986847027eef1f1a5e1907a5a
+SHA512: 91d120cf5e3d0d24a5b34636ad971a8cb57ece18305f844f1107b829d7d6f8337224b2fad5a1cc7c065d602ea6101908955d087866502a3f557c2d0a194099af
 
 Package: wine-old
 Version: 5.13-SR

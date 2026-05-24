@@ -29,22 +29,6 @@ SHA256: af8ac3d83766238f28a71b8e973b492f8a9a33615248a3252d2dddd1da45e7b4
 SHA512: 3045b0c0dca077407cb782d7f73516a0e378ad2cd4b5cc1b299954ce4ba80189af6a9c7952a9da3ab0b6d329b07711679a4f755ef1d6c83e09f7e86abf74a6a5
 
 Package: fake-sudo
-Version: 1.5.5-SR
-Architecture: all
-Maintainer: Syahri Ramadhan <syahri.ramadhan2022@gmail.com>
-Depends: proot, which
-Installed-Size: 136
-Conflicts: tsu
-Homepage: https://ariesr91.github.io/user91-repo
-Description: Run command as root user.
-Filename: dists/metaverse/universe/binary-all/fake-sudo_1.5.5-SR_all.deb
-Size: 2588
-MD5Sum: 57251ffdb9193903ce1ff484bd2d2d70
-SHA1: 0196bde2d722acee9e8e976fe77f9d2d759a3a45
-SHA256: 9fe6af2d7eb664363f1ef00b555f57b00bab497f31af848fb9a7e1563ca2d620
-SHA512: f5dd5e278d8a1d3d302e5761376d26f894042b1b072246e84c2009df892f1dc36ccd20f4fec4e5db5d5196b23661047b9d4c328312b045be216e96d45dfd3660
-
-Package: fake-sudo
 Version: 1.5.6-SR
 Architecture: all
 Maintainer: Syahri Ramadhan <syahri.ramadhan2022@gmail.com>
@@ -188,22 +172,6 @@ SHA256: d6deb413296462b68673d6f5cb5e9ad8c3ecc817eb89a1805c4907bd7b260063
 SHA512: b8ca153865f98292a0f6bfc8353cdf86f7ae0dda71b99d6d83e179fc10f77e68e994d9805f8516dc02a506c610a1c809f2e27a10f75610b67f1a72299de2f3a7
 
 Package: kali-dark-style
-Version: 1.3.5-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash
-Recommends: x11-repo, kali-colorscheme, ncurses-utils
-Suggests: kali-icon-theme, zsh
-Installed-Size: 932
-Description: Termux kali dark style
-Filename: dists/metaverse/universe/binary-all/kali-dark-style_1.3.5-SR_all.deb
-Size: 181972
-MD5Sum: c33a7586c6b568423e26b2243e6a169f
-SHA1: 4a670f2835262c28df529c6ff367917e1aefa094
-SHA256: de005ff39ac3ce3546af8f3c8a5aab21c016690a3675bcd4a26ec597e5091044
-SHA512: 67a55d93ca74eeaa7f5968fb6789b78c96cb27ecf035d74d0b2db8c81733638a860ddd24cee2a2bde25bce61d5008c4876d78d78bfbf50dde12c140b7b0d6169
-
-Package: kali-dark-style
 Version: 1.3.6-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
@@ -263,21 +231,6 @@ SHA256: faeb117b0e733791fa23924b6b3557e5eafed3742e15f21c5fcb272ce2b560ae
 SHA512: 741ac12f30ce2ab56812f41148906404875590a3d713c1138ee0d97c1f20292faa2ee36051c3933561215bcee4c6e8721e8f259dd59b4a4369216e2ed5ca2cc0
 
 Package: repo-manager
-Version: 2.1.6-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3, gnupg, git, build-repo, binutils, xz-utils
-Installed-Size: 56
-Homepage: https://github.com/ArieSR91
-Description: Repository manager
-Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.6-SR_all.deb
-Size: 3192
-MD5Sum: 2ed31473b1297cd24ef49b680e35cfa8
-SHA1: dd4426c2a6490f3e8e062106fdd34eaa956db9e9
-SHA256: b9447d443d056e7f95953a6cf1b4e886343fa94e691f614e59982ca6fd112577
-SHA512: 01043cfd5db27d1f2dcdb708a3b03564bdb82c0147f49b29bf0381b574d5306c0dc363f38abc4a170f6958c0952217ce0b6ca49a40557cc8178e59671e726734
-
-Package: repo-manager
 Version: 2.1.7-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
@@ -286,11 +239,11 @@ Installed-Size: 76
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.7-SR_all.deb
-Size: 12624
-MD5Sum: ddc10f428cd849c7df58748411c91f71
-SHA1: 70e0b2f2999db8d6ea0c2d29ac16dbae1d4ad5f0
-SHA256: 697e925cc79b9636d5f5e7c4169cc88bb5f0f31ad125f9b5684cb842025f9287
-SHA512: 669f15e8ea80e2ad3b0e9a5c19686b7c4adcb6c78d0b6699a613b5cd8681272cdecc2f9ab7c9db63d7f5b80487cac6fe6902dbcfeb7a320f107ac607aaf0bf99
+Size: 12632
+MD5Sum: 89288d36a37fa4381d2556fa269c055f
+SHA1: 6b6446e90874f3394e3b6e80689b251725479428
+SHA256: e8c7bb42dc8d0a9714c9e678a4091cff6fb1f79ddc433dcbce432b2a63837ac8
+SHA512: c55894bdfaa9a662c8660b22ad9a5efddf46b2789138f70d237b2f75ed0f4ee1fb7a98a1856ec791cb93e71a23794e5b83b0e76133ec06f2ded5234401f8467f
 
 Package: shizuku-rootfs
 Version: 1.1.1-SR
@@ -343,36 +296,6 @@ SHA256: 49afe1c163b402fea20aa7b5d60a725a6c856e89b8e99cd48477bf1b5c8c5a3a
 SHA512: 7938213f8ca3988e63e7060c72564d7ad09f7cd77ae22fd9f6e728d12e3b120e94841bfa3264902b21edfea4daa5d70382fc46e8107d9103369eb1aaf9eec6e6
 
 Package: srlocks
-Version: 1.2.0-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash, figlet, android-tools, ncurses-utils
-Installed-Size: 124
-Homepage: https://github.com/ArieSR91
-Description: Brute force android pin lockscreen.
-Filename: dists/metaverse/universe/binary-all/srlocks_1.2.0-SR_all.deb
-Size: 7860
-MD5Sum: 42f864ea64abc6bf7bd423e2e56ebe32
-SHA1: 4902559182be2aec5c6f605eeb8054217c9209cd
-SHA256: 1dcea222c6c61fe154a10ce85fe45b8e441397169a9a3be2653e70b005b88db0
-SHA512: b43c15a9dc17ab0083574436bf397735583b8b1acafeb98304724a6a8daf39c2de59d97781762fdaf3649e681f6d09c71b1fac3826f7227296d1c853558bde88
-
-Package: srlocks
-Version: 1.2.1-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash, figlet, android-tools, ncurses-utils
-Installed-Size: 124
-Homepage: https://github.com/ArieSR91
-Description: Brute force android pin lockscreen.
-Filename: dists/metaverse/universe/binary-all/srlocks_1.2.1-SR_all.deb
-Size: 8404
-MD5Sum: 9dd5543177c3713394e18e27968c9b3f
-SHA1: 0ba75a329f8f4f9d8d2347f5ba13523fafc2a768
-SHA256: a8f233317fbb47bf3081a7ed84a52876f7234ba5da3025232d8cbb746fb39e62
-SHA512: 0092587e7a79fdac265194e22756364a24dcdc8cebc373ab21a1daacda854ac0937d6af05b33fb16bfbc2b8b170c2b059f70637ecf7c5ca36a1a4de17856c205
-
-Package: srlocks
 Version: 1.2.2-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
@@ -381,43 +304,11 @@ Installed-Size: 68
 Homepage: https://github.com/ArieSR91
 Description: Brute force android pin lockscreen.
 Filename: dists/metaverse/universe/binary-all/srlocks_1.2.2-SR_all.deb
-Size: 11584
-MD5Sum: 6b2c344e11abf24abb44006e6677a699
-SHA1: 8456e991462990d4b52a690baeb4b51afe1f356d
-SHA256: 3b3aa5604dc24ee00115d55747c95155fc4ac21ee4956f2b278121f7d933b2ec
-SHA512: 5fa0721d1aa5df8cdb71e75b6cf36e7f3b0d156d23605b33b1b84c6e430f3be9c784b0b62b28ec44acb22d833d3f0e07bbd63521fc8907889cd6c52f28d700a4
-
-Package: srtool
-Version: 1.4.1-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash
-Recommends: bc, highlight
-Installed-Size: 112
-Homepage: 
-Description: srtool is a typing simulation like xdotool.
-Filename: dists/metaverse/universe/binary-all/srtool_1.4.1-SR_all.deb
-Size: 16464
-MD5Sum: c6e6d5fe527ce6da526b96457aeae7bb
-SHA1: 6509afc32bfb6bfebd22c7bebba273093b8d25bc
-SHA256: 5df1569ae3e2255dd997677da654cc752db256706c85356b38b7075f0ad0321b
-SHA512: 8296e187510984286ee434b9587dfd9420dc73687e975bd871ddd4452dabcb27c5149d29e3c64c95ea52e2c5a0563fa0f5dd4773399fe04c334028668d054a0e
-
-Package: srtool
-Version: 1.4.2-SR
-Architecture: all
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash
-Recommends: bc, highlight, ffmpeg, imagemagick
-Installed-Size: 80
-Homepage: 
-Description: srtool is a typing simulation like xdotool.
-Filename: dists/metaverse/universe/binary-all/srtool_1.4.2-SR_all.deb
-Size: 17456
-MD5Sum: 9a7c1d796aa16f7be7f63bdbe7d80010
-SHA1: 3a90a3e7b49a4dffd03db897253349ba22028a11
-SHA256: 0a1e62b54caab5e2d9041893f59b86b7620e3ecfb3c0c8da806a12f3c0a94518
-SHA512: a09b3af9658fec76ddadeaccf0998d232b1d61c458474eea578a928c88a881dd8f4c4666da8526a773028e9913e1620b8827e2d4aef97b53e0df172dd59c94f2
+Size: 11588
+MD5Sum: a4479bdda846cd637c6af86889617a56
+SHA1: 618dac7daed28554f22338aaba7abc17bed0da1f
+SHA256: 660ff74bbbc17562a050007512946277877afe2c6e292782a50b76a02abc072a
+SHA512: f421ad168a9d88ce4a68a4c821d34825a6d9968605becee7c0e3e81aae8f1e4dbe30aa94f648acb2a48979fe78b153111bec2d6a84eb0239372a68d21b41f616
 
 Package: srtool
 Version: 1.4.3-SR
@@ -429,11 +320,11 @@ Installed-Size: 80
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
 Filename: dists/metaverse/universe/binary-all/srtool_1.4.3-SR_all.deb
-Size: 11772
-MD5Sum: 51d8035ca5362a0d68f461fb422c33dc
-SHA1: 34db261966d27bea1ca6d062dde5006311c834d6
-SHA256: d6e7be3af0dfca2953236c247f5754b93eca522c159ab813b00e00eff282e888
-SHA512: 8357b8f8a58abb1228a75a932233de361ab29976ca6864eb157e8d9a8b516f508ed4395b98f80209d73b5630fb395160d5696cfed5b7c7646e64192c9a04fac2
+Size: 11776
+MD5Sum: 96938825d06ba35dd6aaa295f93225ea
+SHA1: 415213a8aa878308831a35157e478949e54ea247
+SHA256: c0dc439bd2d8cdbcba844a1174df586d02e8a3c76a9d622573ed4d1f7b1506b5
+SHA512: 6575c93823670572d7ba0f185565fd31eabaf3f57f6a968eca4503ce8a8e3df0a10d1b4ccf45f0b24f0294edb2d45b8294e3406d4445ef112dfc12e9ed98ce32
 
 Package: termux-desktop-lxqt
 Version: 1.2.0-SR
