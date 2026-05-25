@@ -44,6 +44,7 @@ kali-icon-theme (all) \
 libosmesa6 (all) \
 ngrok (all) \
 repo-manager (all) \
+repo-manager-menu (all) \
 seeker (all) \
 srcrypt (all) \
 srgpt (all) \
@@ -77,6 +78,7 @@ linuxdeploy (all) \
 mesa-vulkan-icd-wrapper (aarch64) \
 proot-distro-kali (all) \
 repo-manager (all) \
+repo-manager-menu (all) \
 sqlmap (all) \
 srtool (all) \
 srlocks (all) \
