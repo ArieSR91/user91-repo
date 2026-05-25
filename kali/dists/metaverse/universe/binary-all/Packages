@@ -138,6 +138,22 @@ SHA1: 256b644883920a08c030f0410b1f902efe3b10c8
 SHA256: d577d98b874366bd68de79bc66e744439f3eee7efeda18026352b350ac372a29
 SHA512: cdbd1a5eaf034d1016e9407677e0324ac1e3c57b0d55491d60fde9344c8df03788d3b24bb15780eb9f8981b052cf4cc27cd742cbaaa7b2eb4696029afc6ed208
 
+Package: repo-manager-menu
+Version: 1.0.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: repo-manager
+Enhances: repo-manager
+Installed-Size: 70
+Homepage: https://github.com/Arie-SR91
+Description: Repo manager menu to help creating, building, updating, and editing DEB package
+Filename: dists/metaverse/universe/binary-all/repo-manager-menu_1.0.0-SR_all.deb
+Size: 8304
+MD5Sum: 24f67614dca688cdb87848274b5cefff
+SHA1: 00689a450d1988f0299ca54a1da9d6e0224814b5
+SHA256: 971530da378725d3743426d99fa93fd1edb8187a3e9374ba1aebb0daeb657069
+SHA512: 010d48121cd23596f4251b963b3d0009a1b3f76d8c443a5c61bf00db9759814e3c194a669c13ecdb4fed125c897700eacd14352367128f0310b55c908c3f60e1
+
 Package: repo-manager
 Version: 2.1.7-SR
 Architecture: all
@@ -200,11 +216,11 @@ Installed-Size: 84
 Homepage: https://github.com/ArieSR91
 Description: Encrypt and Descrypt your bscript
 Filename: dists/metaverse/universe/binary-all/srcrypt_1.0.0-SR_all.deb
-Size: 5720
-MD5Sum: 95ee9223cc08ccd13d0bcb802ae779f1
-SHA1: 54a4011df0becb212d70fab23f4ca0d9d5d23c11
-SHA256: 92e488eadded9f8c005e38363cbd2dc87651d4cec73c50743b28827dd0592651
-SHA512: 781e6ceaf965c965593456f64c48e19d2ce42db17c8d146e933a3fa0e87c5943848fa6cac4ac97118fc187b5ec46f5bb5e1797cb6df84528bac02c9b6cf92c7f
+Size: 5728
+MD5Sum: 0e52701b084ae4d29d2f3627dce0e049
+SHA1: 1c7e2302f42f94e664d3d9c0d55c3833ff5d3629
+SHA256: 7a835001668e7eeea206ed5eeffa3bb523d8e63a33eecba746e9ba642c0a3203
+SHA512: ed80dd8d8658ffd3bd0ddd9e1db924934ed2138ebba88aef8bbb1ea9036bd43eb93e62fa65e2632d6cb0d1d7df1ce7f8d6b12a38fc219e4de8d189b59cae1b67
 
 Package: srlocks
 Version: 1.2.2-SR
@@ -231,11 +247,11 @@ Installed-Size: 68
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
 Filename: dists/metaverse/universe/binary-all/srtool_1.4.3-SR_all.deb
-Size: 11900
-MD5Sum: 529fc0d166d23453a86115025f103f46
-SHA1: eb9806dd3ff3548a6df17b2ae150ccd4910b2aad
-SHA256: 87e7a7e03896034608bf9986d8cfd795b2ae8d55f5735b4da12d791fdeac138b
-SHA512: 4f2809faf33b6ac24823fbaec1aa8132930e2748c5f453bb87a60b6b1479cb6d47429b4b61882b924f6aabe8fc8e4832029562fe7adc2b533ad89afbb60b0914
+Size: 11792
+MD5Sum: 2dbcdee000acddf3ec2f3e4b74536fcb
+SHA1: cbf6ad74dbd44f1a55fe39e1e524439bb49f7a54
+SHA256: e507a20a3b2d7b55d334c6458df343c0777d14b5d82eb8c9d7e5f974b83f80ce
+SHA512: 987f7a81647fc9094307df0300e4698dd29ef623913c8b002a20ab3d9f765f07161102aee6d6993dbb48ac8f9c3e37b6a7061c6ff99be103362aeef7ae2049e9
 
 Package: tiktok-download
 Version: 1.3.0-SR

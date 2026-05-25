@@ -230,6 +230,22 @@ SHA1: ed8aa1a67130605d584c60f5e6fd6fea26193c51
 SHA256: faeb117b0e733791fa23924b6b3557e5eafed3742e15f21c5fcb272ce2b560ae
 SHA512: 741ac12f30ce2ab56812f41148906404875590a3d713c1138ee0d97c1f20292faa2ee36051c3933561215bcee4c6e8721e8f259dd59b4a4369216e2ed5ca2cc0
 
+Package: repo-manager-menu
+Version: 1.0.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: repo-manager
+Enhances: repo-manager
+Installed-Size: 70
+Homepage: https://github.com/ArieSR91
+Description: Repo manager menu to help creating, building, updating, and editing DEB package.
+Filename: dists/metaverse/universe/binary-all/repo-manager-menu_1.0.0-SR_all.deb
+Size: 8344
+MD5Sum: 6f771c9b7cfe6d777e79ab51c9d9beba
+SHA1: 695467f7ff3e2b8df8a489f8a649c6b945ef94d6
+SHA256: 13445dde33f33d9e2d13d9ec59f75ad3d2bad3373a808567827d3280a3dc823c
+SHA512: 4ee4dc83d8ceb84901f68c4a33885b226f3ddda2775dea56076355e1d2b293ca9743178280ec2c50c727b9300f1d079cc3618473f5a38c544cdfc995f5be2892
+
 Package: repo-manager
 Version: 2.1.7-SR
 Architecture: all
@@ -320,11 +336,11 @@ Installed-Size: 80
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
 Filename: dists/metaverse/universe/binary-all/srtool_1.4.3-SR_all.deb
-Size: 11948
-MD5Sum: dfb46640811daae3c0005d55a77037a7
-SHA1: 151dd1ac9a55ea890a5a669948584537e238f520
-SHA256: 33688cf4142314839d801e53eb99b6119309189f669fa57a379b2cea67913aaa
-SHA512: 8673b91a1b146df651dfe389c434aeaa60a27ff324a7700d703eda26c4baa98e5b1e91cf53581e95e4ac126b879c1fc7c66dd6b7f9845c55c00724138e4e0cc5
+Size: 11848
+MD5Sum: 5337b021733e3810d0982ae4323c7586
+SHA1: 7ef81d75caf51160a14b99cfca5f83ec4c44be4f
+SHA256: 2113a76087e851eeebfd959923f908aebe075f05b9f0b3ca551882649bd5d3e6
+SHA512: e4f7894cf2c59e0400c2a3e8959fa9b19f39750cb6fdb079048b7898e4e240007af776425668e1d27a3110ee492889f4b377b0c2f0f487dfdcf8150e3ab2bae4
 
 Package: termux-desktop-lxqt
 Version: 1.2.0-SR

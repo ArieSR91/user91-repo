@@ -56385,6 +56385,7 @@ data/data/com.termux/files/usr/bin/runlinux                                     
 data/data/com.termux/files/usr/bin/x11                                           linuxdeploy
 data/data/com.termux/files/usr/libexec/linuxdeploy/linuxdeploy.apk               linuxdeploy
 data/data/com.termux/files/usr/etc/proot-distro/kali.sh                          proot-distro-kali
+data/data/com.termux/files/usr/bin/repo-manager-menu                             repo-manager-menu
 data/data/com.termux/files/usr/bin/repo-index                                    repo-manager
 data/data/com.termux/files/usr/bin/repo-manager                                  repo-manager
 data/data/com.termux/files/home/.cache/shizuku.tar                               shizuku-rootfs
