@@ -56590,6 +56590,7 @@ usr/share/themes/Kali-Purple-Dark/gtk-3.0/gtk-dark.css                          
 usr/share/themes/Kali-Purple-Dark/gtk-4.0/assets                                 kali-icon-theme
 usr/share/themes/Kali-Purple-Light/gtk-3.0/assets                                kali-icon-theme
 usr/share/themes/Kali-Purple-Light/gtk-4.0/assets                                kali-icon-theme
+usr/local/bin/repo-manager-menu                                                  repo-manager-menu
 usr/local/bin/repo-index                                                         repo-manager
 usr/local/bin/repo-manager                                                       repo-manager
 opt/seeker/Dockerfile                                                            seeker
