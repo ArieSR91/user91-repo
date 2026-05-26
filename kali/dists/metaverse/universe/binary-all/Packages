@@ -142,33 +142,33 @@ Package: repo-manager-menu
 Version: 1.0.0-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: repo-manager
+Depends: repo-manager, dialog, python3-tk, python3-dialog
 Enhances: repo-manager
 Installed-Size: 70
 Homepage: https://github.com/Arie-SR91
-Description: Repo manager menu to help creating, building, updating, and editing DEB package
+Description: Repo manager menu to help creating, building, updating, and editing DEB package.
 Filename: dists/metaverse/universe/binary-all/repo-manager-menu_1.0.0-SR_all.deb
-Size: 8304
-MD5Sum: 24f67614dca688cdb87848274b5cefff
-SHA1: 00689a450d1988f0299ca54a1da9d6e0224814b5
-SHA256: 971530da378725d3743426d99fa93fd1edb8187a3e9374ba1aebb0daeb657069
-SHA512: 010d48121cd23596f4251b963b3d0009a1b3f76d8c443a5c61bf00db9759814e3c194a669c13ecdb4fed125c897700eacd14352367128f0310b55c908c3f60e1
+Size: 14428
+MD5Sum: c51672b6d2d60e79b9f5b07b81e09658
+SHA1: facf7cea7ac2a0dbc966b515cc2a1e105b7317a8
+SHA256: 5b35bffe91cba8dbf1a9a72216770e085c3e1349f80f834bc27fea841ae27f21
+SHA512: ecde009f26cb3d843cdeb5ea965ffd1a60bd23785a1f2b852c8cf860350c99e472f7bf5ebeb1be54c3726a2275e07eb9f8fe4617b893a566a105921c7a0c8a20
 
 Package: repo-manager
-Version: 2.1.7-SR
+Version: 2.1.8-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3
-Recommends: gnupg, sudo, git, binutils, tar, xz-utils
+Recommends: gnupg, sudo, git, binutils, tar, xz-utils, repo-manager-menu
 Installed-Size: 64
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
-Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.7-SR_all.deb
-Size: 12564
-MD5Sum: 157a00f4351aeb9eb415620d07f019d8
-SHA1: 7a5029db13398adfba7169a50d799a17f7ac8be0
-SHA256: 882ea0f1afeccabb2dcc413701edc6e1c4d6d379f254d90e1d631efb7ab04c33
-SHA512: a0b58573402005e19dff1a065643c04a2c213bd2b8d81e57d5fc6fa601782d672309121514509b2d7ca98dcbcf3e2245a540a6d6d0f816dee9cb8fa033b1e7c5
+Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.8-SR_all.deb
+Size: 12592
+MD5Sum: 90cc5168070d417278940bee32b9d88d
+SHA1: b4718b06ff43751e16348ed239bcb806602794a4
+SHA256: 306c9e7fd2ad1757eeaf1ee05f83074c0b777ef0d93dc283ffba83bb66d5b74a
+SHA512: 7e6da10f0d20d29799e707d944a561a63a49afc8348ee75b9d2969e2d9b73f03e9d146909bb03beae73c78ef534086860dd97a705106348297d7e9441be9ce33
 
 Package: seeker
 Version: 1.3.1-SR
@@ -238,7 +238,7 @@ SHA256: e8b2d7e02ff6a34b3f0a5ffef16402ce1df9e5d2a8e9327abb603ae99145202e
 SHA512: 7137f91584b922a2aebcf73e0e4e64455e9e849816af7754f3f29387021ae784034d1396b827e60ece8499cad07156fa56d659b203ac2f2c995b2195c1f357e3
 
 Package: srtool
-Version: 1.4.3-SR
+Version: 1.4.4-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3
@@ -246,12 +246,12 @@ Recommends: bc, highlight, ffmpeg, imagemagick
 Installed-Size: 68
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
-Filename: dists/metaverse/universe/binary-all/srtool_1.4.3-SR_all.deb
-Size: 11792
-MD5Sum: 2dbcdee000acddf3ec2f3e4b74536fcb
-SHA1: cbf6ad74dbd44f1a55fe39e1e524439bb49f7a54
-SHA256: e507a20a3b2d7b55d334c6458df343c0777d14b5d82eb8c9d7e5f974b83f80ce
-SHA512: 987f7a81647fc9094307df0300e4698dd29ef623913c8b002a20ab3d9f765f07161102aee6d6993dbb48ac8f9c3e37b6a7061c6ff99be103362aeef7ae2049e9
+Filename: dists/metaverse/universe/binary-all/srtool_1.4.4-SR_all.deb
+Size: 11832
+MD5Sum: 8bb6bcb0ce6fb8e879a46100b9de7f16
+SHA1: 771501228b2b7d5f4bd62b2afcf11ee4660726bd
+SHA256: c6b6a3cf44ba17c01b4d0df0a963948c7a44dbd3ca386f37f7ea7e6e7a1c51e5
+SHA512: 1bd4e4e60f90160bf12f657240d11d1a5e484e6a6cdd7726bb0e4e48574b1bedc2c3041e89680257db8c20012993263bf2b6c01a56113986a95b3580ac90ba89
 
 Package: tiktok-download
 Version: 1.3.0-SR
