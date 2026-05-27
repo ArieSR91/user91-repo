@@ -336,11 +336,11 @@ Installed-Size: 80
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
 Filename: dists/metaverse/universe/binary-all/srtool_1.4.4-SR_all.deb
-Size: 11888
-MD5Sum: 2c23f41c5f754104843362694a2f6d1d
-SHA1: 8125f69d2ed87b1f48c8a26b210f095ef9595fce
-SHA256: 19d8cc9672780e3b5dc14382d6870ac7c1fdf4cdabc56625b18932627efce2cc
-SHA512: e9e442f1b59fb22b04f75890b9f452eb28b4e8c0167237883e00f8ad1d4b3e3853e051dfce719aabcfb2b5a2ce8157e34b5cf52e245983e9330551cce2d21b3d
+Size: 11884
+MD5Sum: a285189b82d041b86399022f28938f0b
+SHA1: defd85f63dbd2db85541b5634e22d62723739626
+SHA256: 1fa32870804154d30aab25de2ac8dfe4d199c60b1b8e32ea738f64a40bd04339
+SHA512: f2587de5be4839d7f0b282813cff70372b44b121a965ce9a47f5e0c3788fa0623dd02c5d86cfd75efd3153e100e24121f8650a25666d0801f7a93ec61feb4c21
 
 Package: termux-desktop-lxqt
 Version: 1.2.0-SR
