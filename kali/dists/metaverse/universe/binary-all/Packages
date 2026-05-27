@@ -248,10 +248,10 @@ Homepage:
 Description: srtool is a typing simulation like xdotool.
 Filename: dists/metaverse/universe/binary-all/srtool_1.4.4-SR_all.deb
 Size: 11832
-MD5Sum: 8bb6bcb0ce6fb8e879a46100b9de7f16
-SHA1: 771501228b2b7d5f4bd62b2afcf11ee4660726bd
-SHA256: c6b6a3cf44ba17c01b4d0df0a963948c7a44dbd3ca386f37f7ea7e6e7a1c51e5
-SHA512: 1bd4e4e60f90160bf12f657240d11d1a5e484e6a6cdd7726bb0e4e48574b1bedc2c3041e89680257db8c20012993263bf2b6c01a56113986a95b3580ac90ba89
+MD5Sum: 8def1d286e83c7249dc5862f7a6b4d4e
+SHA1: de8e5176fdc54408101d7668183e72ce9369f085
+SHA256: a93106fd0e778b3d45dc725e9ff6995b77c33d52be276c867779b6c86fc9304d
+SHA512: a358f01081d70fcab2fd5dac8fa75e39a2b5526da561ea4f9cbd6096447a548b6101175b77e9666703c227fa16547217bda1c7634ce2987aafd5a445a4e29cf0
 
 Package: tiktok-download
 Version: 1.3.0-SR
