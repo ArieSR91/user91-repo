@@ -57058,6 +57058,7 @@ data/data/com.termux/files/home/.vnc/xstartup                                   
 data/data/com.termux/files/usr/bin/vnc                                           termux-desktop-xfce
 data/data/com.termux/files/usr/bin/x11                                           termux-desktop-xfce
 data/data/com.termux/files/usr/bin/termux-fonts                                  termux-fonts
+data/data/com.termux/files/usr/bin/termux-fonts                                  termux-fonts
 data/data/com.termux/files/usr/bin/termux-user-dirs-update                       termux-user-dirs
 data/data/com.termux/files/usr/etc/user-dirs/autostart/termux-user-dirs.desktop  termux-user-dirs
 data/data/com.termux/files/usr/etc/user-dirs/user-dirs.conf                      termux-user-dirs
