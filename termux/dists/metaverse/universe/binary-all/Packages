@@ -386,6 +386,20 @@ SHA1: 5335b6855dce5a3787d1ac7a8943418389e6dcab
 SHA256: 456c8cd58c9a2841dfb3650045620cd2b4c81971119710ca67ea240ed13aa995
 SHA512: ca3dfab0836e785c45de897e5bee1bd37e95bd06f7dd87aabfd2e5de021aac0c36babab3c37c0130022fec8eb5ea17340e4e172e7f3ffc80d77f034dbdcf70bd
 
+Package: termux-fonts
+Version: 1.2.1-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: fonts-meslo
+Installed-Size: 96
+Description: Change termux fonts
+Filename: dists/metaverse/universe/binary-all/termux-fonts_1.2.1-SR_all.deb
+Size: 1640
+MD5Sum: dd5dc0ceb43db35516c013560a57edf3
+SHA1: 4921ada07713bc4dec3d60dadb2a9801f1a34f83
+SHA256: 30f0b1bff1b489f994eaa62fdc86ab34421a4dbf8a9d9cfe0885aa33300eb9d8
+SHA512: 30dede841dbeb8e520d31651f20cdb32637388a7e39d6b26bd14fa70cb0d8dcb5f662f3d6411f3b8aaa83128cff3c2cd6eefa256830c359708847caf22a0e3d9
+
 Package: termux-user-dirs
 Version: 1.1.0-SR
 Architecture: all
