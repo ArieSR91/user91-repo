@@ -677,8 +677,11 @@ data/data/com.termux/files/usr/share/vulkan/icd.d/gamefusionvk_icd.aarch64.json 
 data/data/com.termux/files/usr/lib/libvulkan_wrapper.so                          mesa-vulkan-icd-wrapper
 data/data/com.termux/files/usr/share/doc/mesa-vulkan-icd-wrapper/license.rst     mesa-vulkan-icd-wrapper
 data/data/com.termux/files/usr/share/vulkan/icd.d/wrapper_icd.aarch64.json       mesa-vulkan-icd-wrapper
+<<<<<<< HEAD
 data/data/com.termux/files/usr/bin/sudo                                          sudo
 data/data/com.termux/files/usr/bin/tsu                                           sudo
+=======
+>>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
 data/data/com.termux/files/usr/bin/msidb                                         wine-hangover
 data/data/com.termux/files/usr/bin/msiexec                                       wine-hangover
 data/data/com.termux/files/usr/bin/notepad                                       wine-hangover
