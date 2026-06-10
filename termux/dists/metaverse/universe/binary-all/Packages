@@ -265,16 +265,16 @@ Package: repo-manager
 Version: 2.1.9-SR
 Architecture: all
 Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: python3, gnupg, git, binutils, xz-utils
+Depends: python3, gnupg, git, binutils, xz-utils, dialog, python-tkinter
 Installed-Size: 141
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
 Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.9-SR_all.deb
-Size: 24332
-MD5Sum: d093ddd74b805464c32d078e47c24b3c
-SHA1: abbacb21c979d12334778dbd1ace1e4bd91068e7
-SHA256: 79fc8a529b317314ea1225b73d3829c455d50e96db4d6766a289dcb4c8dd2322
-SHA512: 113c1aa94c031d7bc65545f80a48b2a8a4b786b076d0595340ef9b7d1558c72e73e151c90cb7094bcd658ea23361d907691c73f1d903036de66188982fec204f
+Size: 24328
+MD5Sum: 8b79398509473d33c57351e052caa8e9
+SHA1: fea532c11d1ca2f16e362bcd8d1b98c14d01320a
+SHA256: eb98758b3a523966907dbca60fa1e667b12b93d014f58af7380db578b4a5c723
+SHA512: 06d5b8997acb0d2d721af52755f454522278d3636776b0b28e0ff9c0c4845dd91b00a8a5fc96ed8a65bbc449e220704b8b5f480c33ee9e45c48b9aabeb545736
 
 Package: shizuku-alpine
 Version: 1.0.0-SR
