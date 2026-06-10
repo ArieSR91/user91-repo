@@ -103,8 +103,5 @@ data/data/com.termux/files/usr/share/man/man8/wesside-ng.8.gz                   
 data/data/com.termux/files/usr/lib/libaircrack-ce-wpa.so                         aircrack-ng
 data/data/com.termux/files/usr/lib/libaircrack-osdep.so                          aircrack-ng
 data/data/com.termux/files/usr/share/doc/aircrack-ng/LICENSE                     aircrack-ng
-<<<<<<< HEAD
 data/data/com.termux/files/usr/bin/sudo                                          sudo
 data/data/com.termux/files/usr/bin/tsu                                           sudo
-=======
->>>>>>> 730240d9539df24f149da356320e17e8d5a151eb

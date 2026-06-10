@@ -56388,12 +56388,9 @@ data/data/com.termux/files/usr/etc/proot-distro/kali.sh                         
 data/data/com.termux/files/usr/bin/repo-manager-menu                             repo-manager-menu
 data/data/com.termux/files/usr/bin/repo-index                                    repo-manager
 data/data/com.termux/files/usr/bin/repo-manager                                  repo-manager
-<<<<<<< HEAD
 data/data/com.termux/files/usr/bin/repo-index                                    repo-manager
 data/data/com.termux/files/usr/bin/repo-manager                                  repo-manager
 data/data/com.termux/files/home/.cache/shizuku.tar                               shizuku-alpine
-=======
->>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
 data/data/com.termux/files/home/.cache/shizuku.tar                               shizuku-rootfs
 data/data/com.termux/files/home/.cache/shizuku.apk                               shizuku
 data/data/com.termux/files/usr/bin/shizuku                                       shizuku
@@ -57054,10 +57051,7 @@ data/data/com.termux/files/usr/opt/sqlmap/thirdparty/wininetpton/__init__.py    
 data/data/com.termux/files/usr/opt/sqlmap/thirdparty/wininetpton/win_inet_pton.py sqlmap
 data/data/com.termux/files/usr/bin/srlocks                                       srlocks
 data/data/com.termux/files/usr/bin/srtool                                        srtool
-<<<<<<< HEAD
 data/data/com.termux/files/usr/bin/srtool                                        srtool
-=======
->>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
 data/data/com.termux/files/home/.vnc/config                                      termux-desktop-lxqt
 data/data/com.termux/files/home/.vnc/xstartup                                    termux-desktop-lxqt
 data/data/com.termux/files/usr/bin/desktop                                       termux-desktop-lxqt
