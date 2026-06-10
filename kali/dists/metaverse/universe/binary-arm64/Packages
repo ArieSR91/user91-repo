@@ -1,0 +1,170 @@
+Package: box64
+Priority: extra
+Section: utils
+Installed-Size: 40808
+Maintainer: root@93d7c2960a03
+Architecture: arm64
+Version: 0.3.9-SR
+Provides: box64
+Conflicts: qemu-user-static, box64-arm64, box64-sdoryon1, box64-sd888, box64-rpi4arm64, box64-rpi3arm64, box64-tegrax1, box64-rk3399, box64-rk3588, box64-rpi5arm64, box64-rpi5arm64ps16k, box64-lx2160a, box64-tegra-t194, box64-m1
+Description: Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+ Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+Filename: dists/metaverse/universe/binary-arm64/box64_0.3.9-SR_arm64.deb
+Size: 8216048
+MD5Sum: 1126169012c6f7136d60684f1317eede
+SHA1: 70673b63f7726e729c7f93dc79ecfa4d9b9d1c81
+SHA256: afa2c278b98f5302472f3a0fabe9e4c3f4c81df76f281fa9d6f359692eaae6f2
+SHA512: a8ff940a9a42c8b3dc7b7456496b6e784af5f5c0ba4c7b32bd9e94e0f8657da6d5ededd7d33d70888ef1b2d7bf6bc56c07b39df5826b8aa122c0a300152e4e9e
+
+Package: hangover-libarm64ecfex
+Version: 10.10
+Architecture: arm64
+Maintainer: André Zwing <nerv@dawncrow.de>
+Description: FEX based x86-64 emulator library for Hangover
+Conflicts: fex-emu-wine
+Filename: dists/metaverse/universe/binary-arm64/hangover-libarm64ecfex_10.10_arm64.deb
+Size: 814516
+MD5Sum: be73b281e62debfb1553246d560fe9f0
+SHA1: 4bd64d04de73f32136c82751c842c4f4545afafc
+SHA256: d4d220346e7626ad4d3461f1452b1a44123d827635a5639df92814c0e33a72c3
+SHA512: 0d5956b56513a88adc4cb5230a02008a2c29664f72f28d051c9ded12bcb47e906af25d42f71e95d7188067281ff3b79417706b2bb1ab797b8a0f5bbd0d183785
+
+Package: hangover-libwow64fex
+Version: 10.10
+Architecture: arm64
+Maintainer: André Zwing <nerv@dawncrow.de>
+Description: FEX based x86 emulator library for Hangover
+Conflicts: fex-emu-wine
+Filename: dists/metaverse/universe/binary-arm64/hangover-libwow64fex_10.10_arm64.deb
+Size: 727340
+MD5Sum: 078e7f636e995d900555558475163247
+SHA1: 9e79fec84c87e8a5c3cb5877241e76c2481e18bc
+SHA256: 6a0f31292ff4fdc18d46883cc4d6a6dd692faf2529863c4e6ce4f917ad8a2a1c
+SHA512: d740cc898f65bcaa376fd8a955fba0b330b4881b5af1c353684b027d71c3297d687125640e54f4a107d4d7d9f10c5ccb8be224fab50d71d4df5fcfda20d5a590
+
+Package: hangover-wine
+Version: 10.10-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 1067365
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: libasound2t64, libavcodec61 | libavcodec62, libavformat61 | libavformat62, libavutil59 | libavutil60, libc6, libglib2.0-0t64, libgphoto2-6t64, libgphoto2-port12t64, libgstreamer-plugins-base1.0-0, libgstreamer1.0-0, libpulse0, libsane1, libudev1, libusb-1.0-0, libwayland-client0, libwayland-egl1, libx11-6, libxext6, libxkbcommon0, libxkbregistry0, libncurses6 | libncurses5 | libncurses, hangover-libarm64ecfex | fex-emu-wine, hangover-wowbox64
+Recommends: libasound2-plugins, libcap2-bin, libcups2 | libcups2t64, libdbus-1-3, libfontconfig1, libfreetype6, libglu1-mesa | libglu1, libgnutls30 | libgnutls30t64 | libgnutls28 | libgnutls26, libgssapi-krb5-2, libjpeg62-turbo | libjpeg8, libkrb5-3, libodbc2, libosmesa6, libsdl2-2.0-0 | libsdl2-compat-shim, libv4l-0 | libv4l-0t64, libxcomposite1, libxcursor1, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxxf86vm1
+Conflicts: wine, wine-amd64, wine-i386
+Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
+Provides: wine, wine-i386, wine1.4, wine1.4-i386, wine1.5, wine1.5-i386, wine1.6, wine1.6-i386, wine1.7, wine1.7-i386, wine32, wine64
+Section: otherosfs
+Priority: optional
+Multi-Arch: foreign
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This package contains the files needed to support 64-bit Windows
+ programs.
+Filename: dists/metaverse/universe/binary-arm64/hangover-wine_10.10-SR_arm64.deb
+Size: 74464048
+MD5Sum: 4f92952c0c7fbbd1fd107396b08e4f08
+SHA1: 2ce5ed1f84337d5141e8e4004ed2583ce22bdc39
+SHA256: 2389c20fd5b96ce97613895468e8127d24fd65dcd29389af9574400b7da102ff
+SHA512: e7084ab3ee062a1a811e188f81b192319b6c6e98c36c358d811aaea736ebdef1aa118a706b3c179b11063723b08b76ffc257d70399e39de4618b9f04025fcee7
+
+Package: hangover-wowbox64
+Version: 10.10
+Architecture: arm64
+Maintainer: André Zwing <nerv@dawncrow.de>
+Description: Box64 based x86 emulator library for Hangover
+Filename: dists/metaverse/universe/binary-arm64/hangover-wowbox64_10.10_arm64.deb
+Size: 895912
+MD5Sum: d6ddd5a512a981d9b41877da7e1c414a
+SHA1: d7ce9b3279b616a4d4f38dda6a9408db8be9af3f
+SHA256: 9fbe42351e3dc60660ae659e43471d980e0ced556d0a8c0bdc353798a0623cfc
+SHA512: e3bc17d0a81f156925e943513994e70159603acc44cc811cd59240915660c3b798d92f8cb9145476d6dc688c1ba3b3a9abba1d8f37ebc6cedf4c2e0bbc1859de
+
+Package: libosmesa6
+Source: mesa
+Version: 25.0.7-2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 14910
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.121), libgcc-s1 (>= 3.0), libllvm19 (>= 1:19.1.0), libstdc++6 (>= 11), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Description: Mesa Off-screen rendering extension
+ OSmesa is a Mesa extension that allows programs to render to an
+ off-screen buffer using the OpenGL API without having to create a
+ rendering context on an X Server.  It uses a pure software renderer.
+ .
+ This package provides both 16-bit and 32-bit versions of the off-screen
+ renderer which do not require external libraries to work.
+Filename: dists/metaverse/universe/binary-arm64/libosmesa6_25.0.7-2_arm64.deb
+Size: 2837868
+MD5Sum: 9dd0ace0b8dbd10ebac6967e8d67881a
+SHA1: b4927bac7be88eaa62515ce7fcff47f70b76fe7c
+SHA256: 1c491ceec3a4370e2fb2a0aad90cfeb2cf11a3fd73f53effe79a3ddc2a9d0bc8
+SHA512: 9e14fc771c07b66b3f72a506bc609edf4f80a79b487b5f399181a23d7cebe38bb80a8bb653c663c94e257514360c9f4f809f0cd92850cee62ff0c78883a50c6a
+
+Package: libvortek1
+Version: 1.0.0
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: mesa-vulkan-drivers
+Recommends: 
+Installed-Size: 1000
+Homepage: 
+Description: Vulkan vortek drivers
+Filename: dists/metaverse/universe/binary-arm64/libvortek1_1.0.0_arm64.deb
+Size: 191896
+MD5Sum: 32a3836c3f48314fe17763eeaa09bf93
+SHA1: 1e3305b393510a4203678aea6f293ab6a008bcd1
+SHA256: cb97ca4e8fc4e00f3adb00c14a11129f8a0e918d592ee30cae3dc755689a7750
+SHA512: 3813d2d9a7d7942d0f29768bc74ebbca55f55092b93c4cbbaece7510eeea9e741327844ec182f8531a7e68c75a0e6e949487466d1e60017a7a491410a650fcf6
+
+Package: ngrok
+Version: 3.35.0-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends:
+Installed-Size: 28930
+Description: ngrok secure tunnel agent
+Filename: dists/metaverse/universe/binary-arm64/ngrok_3.35.0-SR_arm64.deb
+Size: 7008164
+MD5Sum: b7c8de138a3482ecc3e946dcc334f9c9
+SHA1: 409b34a6654349a807261cb99a236762202a4190
+SHA256: 79464cf32439902b6bb74d999b7a5464c3ee3769e63c9bd2501532d2040ae993
+SHA512: c07cba768ca2e5409a265f974250216230f9d6b5d3b0a86151cd69c58e17789f7c415e38113a85db392836854a54b35c072234b7b941e45b898f142b1423e03d
+
+Package: srgpt
+Version: 2.11.1-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: python3
+Installed-Size: 9956
+Homepage: https://github.com/ArieSR91
+Description: ChatGPT in linux terminal.
+Filename: dists/metaverse/universe/binary-arm64/srgpt_2.11.1-SR_arm64.deb
+Size: 2734504
+MD5Sum: fba2c2365eb221ef1b0668e321b05749
+SHA1: f3a911bf1a557373c98e9a758c6d9c7f16a311d0
+SHA256: 1614e8185c268286b230d68b273f11f6c358d99cf658e382047f6c71baabbeff
+SHA512: 5abfba6f1ade810f5b981b363f1ac7660cf9341a23c884098fc23f36687cdbf42cb99e376b076792556ae65bcdafb1c59ed2246bdc7ba1a6f8a211599ba623c2
+
+Package: wine-stable
+Version: 10.0-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: libgl1, libasound2 | libasound2t64, libc6, libglib2.0-0, libgstreamer-plugins-base1.0-0, libgstreamer1.0-0, libpcap0.8, libpulse0, libsane1, libudev1, libunwind8, libusb-1.0-0, libx11-6, libxext6, ocl-icd-libopencl1, ocl-icd-libopencl1, libasound2-plugins, libncurses6, libcups2 | libcups2t64, libdbus-1-3, libfontconfig1, libfreetype6, libglu1-mesa, libglu1, libgnutls30, libgsm1, libgssapi-krb5-2, libkrb5-3, libpng16-16, libsdl2-2.0-0, libxcomposite1, libxcursor1, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxslt1.1, libxxf86vm1, libvulkan-dev, libopenal1, libtinfo6
+Recommends: libosmesa6
+Installed-Size: 671848
+Homepage: https://github.com/ArieSR91/
+Description: Windows Emulator
+Filename: dists/metaverse/universe/binary-arm64/wine-stable_10.0-SR_arm64.deb
+Size: 68403636
+MD5Sum: d58cef30a9c93525227d7a3adbc24524
+SHA1: 4068b2afea482f5de11470a76d7dc0a82c95165a
+SHA256: c2b8a541838ac498b77021d81e408996e08d2aa3b4c77c04fc8a103ded88e41e
+SHA512: 7019c14cbbb7780b9ab928893fe8739f2f0f2c236cefe259b5d993e700d02ce88c951a1441f0dbd13b0b706186a9754e92989f297c26f801b115c03e42410e34
+

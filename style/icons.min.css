@@ -1,0 +1,130 @@
+pre a[href$=""]:before,pre a[href]:before{
+  content:"";
+  padding:5px 25px 0 0;
+  background-repeat:no-repeat;
+  background-position:left bottom;
+  background-size:23px
+}
+
+a[href]:before{
+  background:url(icons/default_file.svg)
+}
+
+a[href$="/"]:before{
+  background:url(icons/default_folder.svg)
+}
+
+a[href$="image/"]:before,a[href$="images/"]:before,a[href$="img/"]:before{
+background:url(icons/folder_type_images.svg)
+
+}
+
+a[href$="javascript/"]:before,a[href$="js/"]:before{
+  background:url(icons/folder_type_js.svg)
+}
+
+a[href$="less/"]:before{
+background:url(icons/folder_type_less.svg)
+}
+
+a[href$="sass/"]:before,a[href$="scss/"]:before{
+  background:url(icons/folder_type_light_sass.svg)
+}
+
+a[href$="video/"]:before,a[href$="videos/"]:before{
+  background:url(icons/folder_type_video.svg)
+}
+
+a[href$="view/"]:before,a[href$="views/"]:before{
+  background:url(icons/folder_type_view.svg)
+}
+
+a[href$="style/"]:before,a[href$="styles/"]:before{
+  background:url(icons/folder_type_style.svg)
+}
+
+a[href$="public/"]:before{
+  background:url(icons/folder_type_public.svg)
+}
+
+a[href$="lib/"]:before,a[href$="library/"]:before,a[href$="librarys/"]:before,a[href$="libs/"]:before{
+  background:url(icons/folder_type_library.svg)
+}
+
+a[href$=".bin"]:before,a[href$=".cue"]:before{
+  background:url(icons/file_type_binary.svg)
+}
+
+a[href$=".deb"]:before{
+  background:url(icons/folder_type_debian.svg)
+}
+
+a[href$=".iso"]:before{
+  background:url(icons/file_type_iso.svg)
+}
+
+a[href$=".7z"]:before,a[href$=".bz2"]:before,a[href$=".rar"]:before,a[href$=".tar"]:before,a[href$=".tar.gz"]:before,a[href$=".tgz"]:before,a[href$=".zip"]:before{
+  background:url(icons/file_type_zip.svg)
+}
+
+a[href$=".csv"]:before{
+  background:url(icons/file_type_csv.svg)
+}
+
+a[href$=".ini"]:before{
+  background:url(icons/file_type_ini.svg)
+}
+
+a[href$=".json"]:before{
+  background:url(icons/file_type_json.svg)
+}
+
+a[href$=".sql"]:before{
+  background:url(icons/file_type_sql.svg)
+}
+
+a[href$=".sqlite"]:before{
+  background:url(icons/file_type_sqlite.svg)
+}
+
+a[href$=".reg"]:before{
+  background:url(icons/file_type_registry.svg)
+}
+
+a[href$=".xml"]:before{
+  background:url(icons/file_type_xml.svg)
+}
+
+a[href$=".yaml"]:before,a[href$=".yml"]:before{
+  background:url(icons/file_type_yaml.svg)
+}
+
+a[href$=".md"]:before{
+  background:url(icons/file_type_markdown.svg)
+}
+
+a[href$=".pdf"]:before{
+  background:url(icons/file_type_pdf.svg)
+}
+
+a[href$=".txt"]:before{
+  background:url(icons/file_type_text.svg)
+}
+
+a[href~=README]:before,a[href~=readme]:before{
+  background:url(icons/file_type_readme.svg)
+}
+
+a[href~=INSTALL]:before{
+  background:url(icons/download.svg)
+}
+
+a[href~=LICENSE]:before{
+  background:url(icons/file_type_license.svg)
+}
+
+a[href="termux/"]:before{
+  background:url(icons/folder_type_termux.svg)
+
+}
+a[href$=".log"]:before{background:url(icons/file_type_log.svg)}a[href$=".flac"]:before,a[href$=".mp3"]:before,a[href$=".wav"]:before{background:url(icons/file_type_audio.svg)}a[href$=".bmp"]:before,a[href$=".gif"]:before,a[href$=".jpeg"]:before,a[href$=".jpg"]:before,a[href$=".png"]:before{background:url(icons/file_type_image.svg)}a[href$=".ico"]:before{background:url(icons/file_type_favicon.svg)}a[href$=".ai"]:before{background:url(icons/file_type_ai.svg)}a[href$=".psd"]:before{background:url(icons/file_type_photoshop.svg)}a[href$=".svg"]:before{background:url(icons/file_type_svg.svg)}a[href$=".avi"]:before,a[href$=".flv"]:before,a[href$=".mkv"]:before,a[href$=".mov"]:before,a[href$=".mp4"]:before,a[href$=".ra"]:before,a[href$=".rv"]:before{background:url(icons/file_type_video.svg)}a[href$=".sh"]:before{background:url(icons/file_type_shell.svg)}a[href$=".cpp"]:before{background:url(icons/file_type_cpp.svg)}a[href$=".h"]:before{background:url(icons/file_type_cppheader.svg)}a[href$=".c"]:before{background:url(icons/file_type_c.svg)}a[href$=".go"]:before{background:url(icons/file_type_go.svg)}a[href$=".htm"]:before,a[href$=".html"]:before{background:url(icons/file_type_html.svg)}a[href$=".class"]:before,a[href$=".java"]:before{background:url(icons/file_type_java.svg)}a[href$=".lua"]:before{background:url(icons/file_type_lua.svg)}a[href$=".nim"]:before{background:url(icons/file_type_nim.svg)}a[href$=".js"]:before{background:url(icons/file_type_js.svg)}a[href$=".pl"]:before{background:url(icons/file_type_perl.svg)}a[href$=".py"]:before{background:url(icons/file_type_python.svg)}a[href$=".rb"]:before{background:url(icons/file_type_ruby.svg)}a[href$=".rlib"]:before,a[href$=".rs"]:before{background:url(icons/file_type_rust.svg)}a[href$=".jsp"]:before{background:url(icons/file_type_jsp.svg)}a[href$=".css"]:before{background:url(icons/file_type_css.svg)}a[href$=".less"]:before{background:url(icons/file_type_less.svg)}a[href$=".sass"]:before{background:url(icons/file_type_sass.svg)}a[href$=".scss"]:before{background:url(icons/file_type_scss.svg)}a[href$=".vue"]:before{background:url(icons/file_type_vue.svg)}a[href$=".pug"]:before{background:url(icons/file_type_pug.svg)}a[href="yarn.lock"]:before{background:url(icons/file_type_yarn.svg)}a[href="package.json"]:before,a[href="package.lock"]:before{background:url(icons/file_type_npm.svg)}a[href$=".php"]:before{background:url(icons/file_type_php.svg)}a[href$=".blade.php"]:before{background:url(icons/file_type_blade.svg)}a[href=".composer"]:before{background:url(icons/file_type_composer.svg)}a[href$=".doc"]:before,a[href$=".docx"]:before{background:url(icons/file_type_word.svg)}a[href$=".ppt"]:before,a[href$=".pptx"]:before{background:url(icons/file_type_powerpoint.svg)}a[href$=".xls"]:before,a[href$=".xlsx"]:before{background:url(icons/file_type_excel.svg)}a[href=".gitignore"]:before{background:url(icons/file_type_git.svg)}a[href=".git/"]:before{background:url(icons/folder_type_git.svg)}a[href=".github/"]:before{background:url(icons/folder_type_github.svg)}a[href="kernel/"]:before,a[href="linux/"]:before{background:url(icons/folder_type_linux.svg)}a[href="ubuntu/"]:before{background:url(icons/folder_type_ubuntu.svg)}a[href="arch/"]:before,a[href="archlinux/"]:before{background:url(icons/folder_type_arch.svg)}a[href="alpine/"]:before{background:url(icons/folder_type_alpine.svg)}a[href="blackarch/"]:before,a[href="blackarchlinux/"]:before{background:url(icons/folder_type_blackarch.svg)}a[href="gentoo/"]:before{background:url(icons/folder_type_gentoo.svg)}a[href="debian/"]:before{background:url(icons/folder_type_debian.svg)}a[href="fedora/"]:before{background:url(icons/folder_type_fedora.svg)}a[href="kali/"]:before,a[href="kalilinux/"]:before{background:url(icons/folder_type_kali.svg)}a[href="CentOS/"]:before,a[href="CentOs/"]:before,a[href="centos/"]:before{background:url(icons/folder_type_centos.svg)}a[href="bsd/"]:before,a[href="freebsd/"]:before{background:url(icons/folder_type_bsd.svg)}a[href="opensuse/"]:before{background:url(icons/folder_type_opensuse.svg)}a[href="mx-linux/"]:before,a[href="mx-workspace/"]:before,a[href="mxlinux/"]:before{background:url(icons/folder_type_mxlinux.svg)}a[href="KDE/"]:before,a[href="kde/"]:before{background:url(icons/folder_type_kde.svg)}a[href="robots.txt"]:before{background:url(icons/file_type_robots.svg)}a[href=DockerFile]:before{background:url(icons/file_type_docker.svg)}a[href=".travis.yml"]:before{background:url(icons/file_type_travis.svg)}a[href~=MAKEFILE]:before,a[href~=Makefile]:before,a[href~=makefile]:before{background:url(icons/file_type_makefile.svg)}
