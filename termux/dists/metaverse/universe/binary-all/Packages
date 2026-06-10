@@ -181,11 +181,19 @@ Suggests: kali-icon-theme, zsh
 Installed-Size: 932
 Description: Termux kali dark style
 Filename: dists/metaverse/universe/binary-all/kali-dark-style_1.3.6-SR_all.deb
+<<<<<<< HEAD
 Size: 182612
 MD5Sum: e631b38760fb7a3954572d7791e00f7e
 SHA1: f70439143bae0b818e1eb0c7d5c98a8c579c2a34
 SHA256: bad802ccbc33c90e74ce4d1e7670f1508e38e9c151d71f4baf973412a5c9aaad
 SHA512: f884116e940c9fd8d621291adf1eea1641c6e3fa5606f7ba43be4b49ea4b8598e9065c31409bc2f5c768c669509377fb5bbc7107fa91d7273c8fdcd1428a8fd4
+=======
+Size: 182636
+MD5Sum: 2cf22d9ccd98c236ffb7fe30b12c66a5
+SHA1: d0119231297051cc3cdbff73afa26e52cf6df80d
+SHA256: b898fb60824c6fcc3d3385719be015131a53c50f1b4a0d42e8d0cb40d7548095
+SHA512: 88fedf01561ee8d2e05fd417e7960bc78c45a5180a64a218c3bf8d46ceaddc32274e5f2b339f49d9bc09fb2625f1df5d2abefeb5053e1ffff1b18c0e36d73c34
+>>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
 
 Package: kali-icon-theme
 Version: 2025.1.2-SR
@@ -261,6 +269,7 @@ SHA1: b22b856ae3376bed581bf6b0f95c4ca3ca187010
 SHA256: 9afde8a029d79f4047148caea54dd64d71bba9ac769b3db5f2f4484b40cd4d69
 SHA512: e231bac0b19d9c2cb62c649b77ca0359b099f9fc54b0c1714905b1e0b674d59ef840664340aeef410f5811cde5db49f181e98784396e01cf097c022a758ab580
 
+<<<<<<< HEAD
 Package: repo-manager
 Version: 2.1.9-SR
 Architecture: all
@@ -294,6 +303,8 @@ SHA1: 632c064f71a00c76f23e70950e3b7d139c4ed8bb
 SHA256: 01fe29b017225c0d3d02169a4ce4683c3ee09551a95c655b77431f3ea630a3fe
 SHA512: c20987614a00e7338a7ffcb8a63a0981fd2429ae2dda88714ca26b4115266c4575a587d775f0c22d6a38b0ac51371cdfc4008bcabe058c7971b2184d8b17dcdf
 
+=======
+>>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
 Package: shizuku-rootfs
 Version: 1.1.1-SR
 Architecture: all
@@ -301,6 +312,7 @@ Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: bash, shizuku
 Recommends: 
 Provides: shizuku
+<<<<<<< HEAD
 Installed-Size: 11396
 Homepage: 
 Description: Runing shizuku-rootfs SUI shell
@@ -310,6 +322,17 @@ MD5Sum: 09cfa7f3a8cd1fdc0bcb8476b1f10232
 SHA1: b825681b7a29eb30b7875e2b41f32d1c6a125240
 SHA256: 1d7b5f9d5876b51000b506ba3b6782ef23d80e00193eff3626debe5edba9b24e
 SHA512: 46ecc19f6b86566ef09283a6bb7c588ff2813675d1a3899334696228f8d1ce0629f325f3842cd15c356aed319bd34f5932ddb5435d9ecf5c5037e947c214933b
+=======
+Installed-Size: 21088
+Homepage: 
+Description: Runing shizuku-rootfs SUI shell
+Filename: dists/metaverse/universe/binary-all/shizuku-rootfs_1.1.1-SR_all.deb
+Size: 6811324
+MD5Sum: 7edbadb44c8fc5fdf829052e13aba3ce
+SHA1: 436d9c0ed0171bd3ea068a7adca38f8932c8501a
+SHA256: 68fb8c141c844ec338411bbd05893ca33c087f6c94d292d6c8bbfe1fac782e53
+SHA512: 8884d8de2ef2341aecce199ad98fb1128262b3786d37a35c1365fd549eba8d72378d517d76290b72f9f12ad5b63b737644379ab81dc468dd116dfc6fa78964f2
+>>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
 
 Package: shizuku
 Version: 1.1.1-SR
@@ -322,11 +345,19 @@ Installed-Size: 3420
 Homepage: 
 Description: Runing shizuku SUI shell
 Filename: dists/metaverse/universe/binary-all/shizuku_1.1.1-SR_all.deb
+<<<<<<< HEAD
 Size: 2053632
 MD5Sum: 2d86cbf6ec6136970e8fda181ee6aeed
 SHA1: 144772ed6d50ef397f95eace8aef71e0598b0235
 SHA256: f93248b5d47fed41f5227cc385c2c86ec6d03a2b077aaf06345d9115abcd6f2a
 SHA512: 2e8e761d9239a9e185ab6f6d793287f83a531b3d314b9ef569eb9cbcd182e5d8ce866400b2e8e9876543f90d8c482db65cfff3f772def5dbfe11a65530fd0732
+=======
+Size: 2053460
+MD5Sum: 50e01ea15e2cdf548f989ea82f66d17c
+SHA1: 009d9ba5261cf51ef4de0cb5db07a84b880ce0a2
+SHA256: 2256b1d0056fdc8aaca501c3679304eede88fe4f27990f5d6e439f3ef6dea023
+SHA512: 11c0700d88af9278057b45c7686f1f3713f71f6131a383d83053e9047c0b54a231c7cf612d616c6243b8b05201bb92727d89f5e595f14ea02471d7784de8a3c0
+>>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
 
 Package: sqlmap
 Version: 1.10.5-SR
@@ -375,6 +406,7 @@ SHA1: defd85f63dbd2db85541b5634e22d62723739626
 SHA256: 1fa32870804154d30aab25de2ac8dfe4d199c60b1b8e32ea738f64a40bd04339
 SHA512: f2587de5be4839d7f0b282813cff70372b44b121a965ce9a47f5e0c3788fa0623dd02c5d86cfd75efd3153e100e24121f8650a25666d0801f7a93ec61feb4c21
 
+<<<<<<< HEAD
 Package: srtool
 Version: 1.4.5-SR
 Architecture: all
@@ -391,6 +423,8 @@ SHA1: b410cfe3e0a84b7dfa918990523f27b0bec5908e
 SHA256: 8f8123e31c58175a8fb9bae393a08320ed679c1546cf2b39a6442d7574334e5d
 SHA512: dbdd18413679aab4caaa35871c7eaed459d29e03dbb926e902a72e71de0b49f7cf0482dd4dd843be6d1d30ba2ddb78fb0d2714aa5828c046ab3e4caac8d0a8b8
 
+=======
+>>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
 Package: termux-desktop-lxqt
 Version: 1.2.0-SR
 Architecture: all

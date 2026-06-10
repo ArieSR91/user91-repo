@@ -56593,7 +56593,10 @@ usr/share/themes/Kali-Purple-Light/gtk-4.0/assets                               
 usr/local/bin/repo-manager-menu                                                  repo-manager-menu
 usr/local/bin/repo-index                                                         repo-manager
 usr/local/bin/repo-manager                                                       repo-manager
+<<<<<<< HEAD
 usr/local/bin/repo-manager                                                       repo-manager
+=======
+>>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
 opt/seeker/Dockerfile                                                            seeker
 opt/seeker/Dockerfile.dev                                                        seeker
 opt/seeker/__pycache__/utils.cpython-312.pyc                                     seeker
@@ -66393,7 +66396,10 @@ usr/local/bin/decrypt-sr                                                        
 usr/local/bin/encrypt-sr                                                         srcrypt
 usr/local/bin/srlocks                                                            srlocks
 usr/local/bin/srtool                                                             srtool
+<<<<<<< HEAD
 usr/local/bin/srtool                                                             srtool
+=======
+>>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
 usr/local/bin/tiktok-download                                                    tiktok-download
 etc/usbmount/mount.d/00_create_model_symlink                                     usbmount
 etc/usbmount/umount.d/00_remove_model_symlink                                    usbmount
