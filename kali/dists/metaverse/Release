@@ -1,22 +1,12 @@
 Codename: metaverse
 Version: 1
-<<<<<<< HEAD
-Architectures: amd64 armhf arm64 all i386
+Architectures: all i386 amd64 arm64 armhf
 Description: metaverse repository
 Suite: metaverse
-Date: Wed, 10 Jun 2026 10:18:10 UTC
+Date: Wed, 10 Jun 2026 11:15:51 UTC
 MD5Sum:
  20b85986fb863799006fbc9ac090887e 15744 universe/binary-all/Packages
  ab24dce515db80313450ba488f1d6c74 5988 universe/binary-all/Packages.xz
-=======
-Architectures: i386 arm64 all amd64 armhf
-Description: metaverse repository
-Suite: metaverse
-Date: Wed, 27 May 2026 07:32:30 UTC
-MD5Sum:
- 558c860f971da83bd4d56ad458211a1e 14442 universe/binary-all/Packages
- 3fd09646a17bcf34ef081d121e8a9ddf 5640 universe/binary-all/Packages.xz
->>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
  d201bdaf404942dd23236f56cbbac9a6 9155 universe/binary-arm64/Packages
  1d451171e73c35a1c36ed2f65697cc0c 3684 universe/binary-arm64/Packages.xz
  b9709521567a691e1a5f770a6c91a138 6056 universe/binary-armhf/Packages
@@ -25,13 +15,8 @@ MD5Sum:
  bff93a9e686e809eb4c3e257d49f7fa8 1348 universe/binary-amd64/Packages.xz
  a6bb2f9a8db4bc5adadd65217a6e2dd4 2349 universe/binary-i386/Packages
  3145cc55a08374bf98bea96132b53a4d 1348 universe/binary-i386/Packages.xz
-<<<<<<< HEAD
  aacb7e7dd6bbf8228e2bdb7db6d1bff3 6779375 universe/Contents-all
  08081c18810836ae53c92a944ee6960d 304568 universe/Contents-all.xz
-=======
- 1b58139caca98165f3baa3ab37882b7e 6779193 universe/Contents-all
- cbd69f0d8e24d6048f7757c5514a2027 304568 universe/Contents-all.xz
->>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
  90b446dbc4a253ea06bb458d8b5798e3 605179 universe/Contents-arm64
  4168623aff9c72033b993becd528c397 27976 universe/Contents-arm64.xz
  9ae1fe4be8883fb8333b0c122fc3d07a 429428 universe/Contents-armhf
@@ -40,23 +25,14 @@ MD5Sum:
  3dd2fcb132983d2bd6fcdf49a5092c7f 256 universe/Contents-amd64.xz
  c857d0c6ac139f3051b10303bbc3defe 1002 universe/Contents-i386
  f05791390b2bd3e2c51bbbed8ffbc447 252 universe/Contents-i386.xz
-<<<<<<< HEAD
  08081c18810836ae53c92a944ee6960d 304568 universe/Contents-all.xz
-=======
- cbd69f0d8e24d6048f7757c5514a2027 304568 universe/Contents-all.xz
->>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
  4168623aff9c72033b993becd528c397 27976 universe/Contents-arm64.xz
  cdadc352289503c4251a99cf8c3469b9 20476 universe/Contents-armhf.xz
  3dd2fcb132983d2bd6fcdf49a5092c7f 256 universe/Contents-amd64.xz
  f05791390b2bd3e2c51bbbed8ffbc447 252 universe/Contents-i386.xz
 SHA1:
-<<<<<<< HEAD
  54e790c1a44496a8707647f3886078358e94b8b3 15744 universe/binary-all/Packages
  8dc87277c999c1664eaa35aa554488e50e6f9299 5988 universe/binary-all/Packages.xz
-=======
- 045daf04c3c41f152a103000095e3e9dd65cae7b 14442 universe/binary-all/Packages
- 96fe405ff216b056d01e07b9ebcb252b7fb8fbbd 5640 universe/binary-all/Packages.xz
->>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
  87655e584d994430d6bbb8fdbb572280c568524d 9155 universe/binary-arm64/Packages
  1011f6f2bd0195e41b39aa59815f38f07d5ef40f 3684 universe/binary-arm64/Packages.xz
  684a86ce9dc0fd3e1334f703f4e68776a72245b5 6056 universe/binary-armhf/Packages
@@ -65,13 +41,8 @@ SHA1:
  a864c0a064e99062a98d61f550c82af24dfe22a8 1348 universe/binary-amd64/Packages.xz
  018ed0740e992ff6691f49daa02c879f164285ee 2349 universe/binary-i386/Packages
  97d897f6820a4acd9506420f665da9541f47f75b 1348 universe/binary-i386/Packages.xz
-<<<<<<< HEAD
  f25074e8e1d50679ad7297948f27c662de6d0a26 6779375 universe/Contents-all
  ac2f627b6327ebd5d2e36b7bf5dab1b253e08fe8 304568 universe/Contents-all.xz
-=======
- da38f8a3e7794914c433f5491e5cba74f41e5d1c 6779193 universe/Contents-all
- 9dad340465217d7be41a378c21b5494e3ceb103b 304568 universe/Contents-all.xz
->>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
  6e81e69498012d72d82e3d6855ef791dae5f9771 605179 universe/Contents-arm64
  5c6616c6d2f373aab3767de3cc763a9f6ce1fcb1 27976 universe/Contents-arm64.xz
  d16eace2e9894b03a13e624c15d2dd590fefb025 429428 universe/Contents-armhf
@@ -80,23 +51,14 @@ SHA1:
  ced00e029901610ad44bd5113ec29eef2d392f81 256 universe/Contents-amd64.xz
  55c3c5c20ece78be2017f360714292d3cf3c4d41 1002 universe/Contents-i386
  73b670b52cb78cb3a51eb390da90f1abaa8c7f5b 252 universe/Contents-i386.xz
-<<<<<<< HEAD
  ac2f627b6327ebd5d2e36b7bf5dab1b253e08fe8 304568 universe/Contents-all.xz
-=======
- 9dad340465217d7be41a378c21b5494e3ceb103b 304568 universe/Contents-all.xz
->>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
  5c6616c6d2f373aab3767de3cc763a9f6ce1fcb1 27976 universe/Contents-arm64.xz
  a4e7de1af0dfed64c739f9d1afff7aa3e7f0b95f 20476 universe/Contents-armhf.xz
  ced00e029901610ad44bd5113ec29eef2d392f81 256 universe/Contents-amd64.xz
  73b670b52cb78cb3a51eb390da90f1abaa8c7f5b 252 universe/Contents-i386.xz
 SHA256:
-<<<<<<< HEAD
  b542fce5e37a4728d44a59b1889bea4e60b2c421b02a132e28cf67a43bd1f54e 15744 universe/binary-all/Packages
  7eb3426d687c0ce8dc0be381a02b89c4398594f04371c26f7fcc9812b323814e 5988 universe/binary-all/Packages.xz
-=======
- 5e179b4da2872ba3005b22b2d3cf7af58db5f011d379a7dcf9227c452ba0297b 14442 universe/binary-all/Packages
- 8dee274684b426843a61089fbe93dfb6183e90797be3714cbaf2120044444216 5640 universe/binary-all/Packages.xz
->>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
  736731667c1ff2cb0d08c00ec6c453615ce7e405e2fca5dd2a236a9929d4bb79 9155 universe/binary-arm64/Packages
  0bd25b45343c154b95fe09cb260c34f2f693d56ee34343b2242de8b5f6e7abff 3684 universe/binary-arm64/Packages.xz
  3448e40b83b2800465d34fbdd515adc5a1c00ad42add66c47f544b89080cb96a 6056 universe/binary-armhf/Packages
@@ -105,13 +67,8 @@ SHA256:
  30910a43ea44292b45e2de26341fb111c8358c620fb302f85adf7ae287a4eff8 1348 universe/binary-amd64/Packages.xz
  6317217a781fb478eb4dfc1da654fd9ef975fb00bd41f899979e711026a43097 2349 universe/binary-i386/Packages
  79e127b632c5419438fa171a6ec3e541751a0560b6961c627ca3ce8afdad3a6d 1348 universe/binary-i386/Packages.xz
-<<<<<<< HEAD
  119476fad105246a9e115b79998ab9d0b75e5c4fff0ca8c7d2216f0dc21b09c6 6779375 universe/Contents-all
  961760928e4d1e43e3bdb9f0b6f8ce98b0319a2638c483b1ea3fe98b252f1d7b 304568 universe/Contents-all.xz
-=======
- f98df2b01fae0bcc2d2df38bac6341cb048c3eb766c0808df76e66eb4a3e125d 6779193 universe/Contents-all
- af914ad3d9771058faafe548770af0b4665fa5a1f4f20d04f0d4fc15703781ef 304568 universe/Contents-all.xz
->>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
  729ec02db66f86b4646ddf1d9cc24b7b33f6fd276aea130cff1f4febaf950ed7 605179 universe/Contents-arm64
  0c18616f1791093515bc5a9d8891ac1f98ea267f29ff74df43d995d9f09251b3 27976 universe/Contents-arm64.xz
  8929fb7a14751d0665a9797218b2334b9f192cf4e855e2cd58bfbe42c073d242 429428 universe/Contents-armhf
@@ -120,23 +77,14 @@ SHA256:
  8a7cc6bb27be528895dca1892c95931ecffc6dea49a800f58960ee603b87e5a9 256 universe/Contents-amd64.xz
  ae6c6b29461d969ce723741b01edf8fba3cadca2694c20c4402e26df1e688bef 1002 universe/Contents-i386
  6095d3452eef7b934efdd489a6986f293dc340c31e9ee36017f04bed6a5d5eb1 252 universe/Contents-i386.xz
-<<<<<<< HEAD
  961760928e4d1e43e3bdb9f0b6f8ce98b0319a2638c483b1ea3fe98b252f1d7b 304568 universe/Contents-all.xz
-=======
- af914ad3d9771058faafe548770af0b4665fa5a1f4f20d04f0d4fc15703781ef 304568 universe/Contents-all.xz
->>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
  0c18616f1791093515bc5a9d8891ac1f98ea267f29ff74df43d995d9f09251b3 27976 universe/Contents-arm64.xz
  bcf2b0bb06a511f3e96de237860365680d305025d4947e91849dca4393c09a72 20476 universe/Contents-armhf.xz
  8a7cc6bb27be528895dca1892c95931ecffc6dea49a800f58960ee603b87e5a9 256 universe/Contents-amd64.xz
  6095d3452eef7b934efdd489a6986f293dc340c31e9ee36017f04bed6a5d5eb1 252 universe/Contents-i386.xz
 SHA512:
-<<<<<<< HEAD
  962e34f4c18e7d30744d51098526a741f97b018565c7b636ec09242bf55817195661a93eb6dcf20c3fab42505ffd9735e32c4417e339988e0e96b078f2e71b2a 15744 universe/binary-all/Packages
  9b8e006011b01ae71cdcfa2ae26dfa84a38c569fad6c158f621887c5f6f4fe5783262efc9c6d655d162086f4de7f44ea35e377c69d1e5c9e3e0cebd9c1faaefe 5988 universe/binary-all/Packages.xz
-=======
- a75e78b0a37f13b3dd5aebd1be0c157cb9d15790358b7ae8b0cc0b4f970f3517d253c48056b17d17e7d1bdaad11ec004814115518b91ee481dc8591c3c456487 14442 universe/binary-all/Packages
- c4e91a47ea4bdd55dcca867f6859bf84e383cd4bc16179f51f44a762bad6ce88f6aec09d382fa0f1dd40d52b130ece272917bfa365f7f3c6b9d7a1d6bcaa4f1b 5640 universe/binary-all/Packages.xz
->>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
  aac17f132f77c0d2093401163fe91bf1c701c74656b030356952e6b826d068b45805cf5578044f7e967b370e79e0ab5c8c0a136c725ef97c2b5af2364d1bd6c5 9155 universe/binary-arm64/Packages
  422ffcc3ca833ddce5b73f370005c2bd96a2dd40487559bce2ff9955ebbbd63fc9ae93a5354e8983c7301db24fa93f7c801cee65167d3023faf6b77384f8e8a3 3684 universe/binary-arm64/Packages.xz
  384bd8841e190426f4dbcd2d6cac4469cdba9225c25d7a02ecaa4023e660bc4878435b8e18c4a0b5ae0d3b7c30c2f0e8ab3e5ffdf318e9ca8e5919f7edb91a71 6056 universe/binary-armhf/Packages
@@ -145,13 +93,8 @@ SHA512:
  273d63a9059432a8900076702a0a53d340d71964c426dae1e72657ad0e4275f7e90a962c2974e3091e417d6f7ea42cf6d73d673186c8706afce4cd5654cdf3cc 1348 universe/binary-amd64/Packages.xz
  a3a8682d3885d844eb97342e701f6e4b187664df010616e40f2061968147cf4912e93ab39881023889d8169e3d5baa3bb2d5e5a92c3fff9c30b833a3ea494308 2349 universe/binary-i386/Packages
  433874ddebeb6dfaa083cdf16c1fd0554a29cf2feba15fef0dc379e315ae9c0910742e938db06a4fa1ea3ca428b0dcf122c65fb7136e1505ade08f091cdd07b9 1348 universe/binary-i386/Packages.xz
-<<<<<<< HEAD
  f209b5ce372947d2e614ea58a26d2d4579c941cb022d2c67c72cefc652da8134f255673a6eff80d2f91c16f02494815a3b0ebd25893d6a1abc18173660ca765d 6779375 universe/Contents-all
  015693ec9cb37691d588524c53e01e925b75fac1b2335835db77db000dbee1bb70d3555abbb9ffa676b5657155514b0b078ab3909a9b6f68f8e4ac460a22bf4e 304568 universe/Contents-all.xz
-=======
- 5c8e20e57eece1886c52cf813e6e3f2237e51b3509468db325614ca38dfa88c1d1cc3f85ce2b35e9c9c12b5dc3f30aea0fd50c9b46e9018239007134f48c683d 6779193 universe/Contents-all
- 5875044d2b36bf7734c15c41252c4d86f30bb281dad8128b6720a4d8c1d84dde668e06d5d91b0e55fea946c585d77df73acb46cd799f256aaa6da1202653036d 304568 universe/Contents-all.xz
->>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
  40c00c3a1638bd61c0e48eb5eefbd6be21c59eb20368e8e0b264f545f9707a023070731b67ef9d520d300f31841ef78a91fc45349e1a1f9e91335106b3c943ba 605179 universe/Contents-arm64
  5ce59864ddfe6b1b21f733470b7122b02590bb60446e8d3e870d0db9eb1d265d2ae7018b10df4383009a19e697ef1751b7e0b655837bf2ff2dd00c722304d42d 27976 universe/Contents-arm64.xz
  2ac40cc46a4be9e4bcc794e606845cb775efdcb239b7e21f6e5a14285f4da2763801f1c7d4e95eb976b4f017265d79a802972800380274f403b56feb5688ecd3 429428 universe/Contents-armhf
@@ -160,11 +103,7 @@ SHA512:
  88fb6e3ec94009f236d02c5265ec7deceee16ba583ebaaff74cf36bf23e448992d2b4a9b291ded77a34b733f865cf139c151810eb6407cb4e4a93932d2a68b89 256 universe/Contents-amd64.xz
  cde1c3a0d0e8b159dbb17a00b1b35131575e155bca77cf177c13dc152c454b4abf168a167cd1625e52218923f7dd2e950a2dd22a0a2b149edeb2eeb967e372e3 1002 universe/Contents-i386
  871b6a61e0f102623f7d891c8a569b2e3b801a9278e95d4b076a629f9057d3da8f2c26a6ed6c408478094f423530c72423193b888f2847991969e9e14b039e9f 252 universe/Contents-i386.xz
-<<<<<<< HEAD
  015693ec9cb37691d588524c53e01e925b75fac1b2335835db77db000dbee1bb70d3555abbb9ffa676b5657155514b0b078ab3909a9b6f68f8e4ac460a22bf4e 304568 universe/Contents-all.xz
-=======
- 5875044d2b36bf7734c15c41252c4d86f30bb281dad8128b6720a4d8c1d84dde668e06d5d91b0e55fea946c585d77df73acb46cd799f256aaa6da1202653036d 304568 universe/Contents-all.xz
->>>>>>> 730240d9539df24f149da356320e17e8d5a151eb
  5ce59864ddfe6b1b21f733470b7122b02590bb60446e8d3e870d0db9eb1d265d2ae7018b10df4383009a19e697ef1751b7e0b655837bf2ff2dd00c722304d42d 27976 universe/Contents-arm64.xz
  f96c080ce7ad3471bacf1ffa02a88eca24f992f49102d210e72f0603a4b6bd95aac46af08e203c1da19a559572027c8868dc0161a394c94e6b96ee28ba1e92ad 20476 universe/Contents-armhf.xz
  88fb6e3ec94009f236d02c5265ec7deceee16ba583ebaaff74cf36bf23e448992d2b4a9b291ded77a34b733f865cf139c151810eb6407cb4e4a93932d2a68b89 256 universe/Contents-amd64.xz
