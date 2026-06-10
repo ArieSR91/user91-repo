@@ -1,0 +1,16 @@
+Package: sudo
+Version: 8.7.0-SR
+Architecture: x86_64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: root-repo
+Conflicts: tsu
+Installed-Size: 37
+Homepage: https://github.com/ArieSR91
+Description: Run command as root user
+Filename: dists/metaverse/universe/binary-x86_64/sudo_8.7.0-SR_x86_64.deb
+Size: 4364
+MD5Sum: 6b0e0ee58ad0d6cf73acd50f63969b67
+SHA1: d0eec4899df5207e9e2d2e5960bd86647e8b7d33
+SHA256: 635a538c5d844d88143474d190a2d4ce408bdecab44d4dcf0a2133efb732f307
+SHA512: 290ff2061d5d49e381e34a5c65005b2dc3f6bb64a057a2fe34305936c17ffa28fc32119bf4dfc970e6978057625d6f6b27b8f3aedf1abcaee5695999c8392d51
+
