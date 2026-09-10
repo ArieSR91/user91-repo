@@ -28,7 +28,6 @@ run: user91-repo -m
 ```
 apt list | grep metaverse
 ```
-## or
 #### Debian Based
 > build-repo (all) \
 box64 (arm64) \
