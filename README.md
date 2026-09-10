@@ -25,6 +25,10 @@ run: user91-repo -m
 [user91-repo](https://ariesr91.github.io/user91-repo/) site\
 [Join](https://chat.whatsapp.com/EBnkCoxUasQH87y0EexWL8?mode=ems_copy_t) Whatsapp Channel
 ## Available packages
+```
+apt list | grep metaverse
+```
+## or
 #### Debian Based
 > build-repo (all) \
 box64 (arm64) \
