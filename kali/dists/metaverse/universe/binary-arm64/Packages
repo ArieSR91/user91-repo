@@ -16,6 +16,22 @@ SHA1: 70673b63f7726e729c7f93dc79ecfa4d9b9d1c81
 SHA256: afa2c278b98f5302472f3a0fabe9e4c3f4c81df76f281fa9d6f359692eaae6f2
 SHA512: a8ff940a9a42c8b3dc7b7456496b6e784af5f5c0ba4c7b32bd9e94e0f8657da6d5ededd7d33d70888ef1b2d7bf6bc56c07b39df5826b8aa122c0a300152e4e9e
 
+Package: extract-xiso
+Version: 2.7.1-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: 
+Installed-Size: 90
+Homepage: https://github.com/ArieSR91
+Description: Xbox iso extractor to .xbe format
+Filename: dists/metaverse/universe/binary-arm64/extract-xiso_2.7.1-SR_arm64.deb
+Size: 15056
+MD5Sum: e33908a07e24569f0d0637b11f279781
+SHA1: 93b379db7140afb2a4fedcaf90f42b93acedcda5
+SHA256: 08ab2496062921eb6760d7fc670f8b7460b3f585d9f4235bafbca74e982a3c13
+SHA512: f1655b784aba85ba34f6ea3f4000cc03189ed78b625c4d71236a92ee0f538cb32281f9c392561fbdbf128630a8bc988e922f9d3e0ff8a87c933f6cedb7b08eff
+
 Package: hangover-libarm64ecfex
 Version: 10.10
 Architecture: arm64
@@ -41,6 +57,33 @@ MD5Sum: 078e7f636e995d900555558475163247
 SHA1: 9e79fec84c87e8a5c3cb5877241e76c2481e18bc
 SHA256: 6a0f31292ff4fdc18d46883cc4d6a6dd692faf2529863c4e6ce4f917ad8a2a1c
 SHA512: d740cc898f65bcaa376fd8a955fba0b330b4881b5af1c353684b027d71c3297d687125640e54f4a107d4d7d9f10c5ccb8be224fab50d71d4df5fcfda20d5a590
+
+Package: hangover-wine9
+Version: 9.0-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Installed-Size: 971011
+Pre-Depends: dpkg
+Depends: libasound2t64, libavcodec61 | libavcodec62, libavformat61 | libavformat62, libavutil59 | libavutil60, libc6, libglib2.0-0t64, libgphoto2-6t64, libgphoto2-port12t64, libgstreamer-plugins-base1.0-0, libgstreamer1.0-0, libpulse0, libsane1, libudev1, libusb-1.0-0, libwayland-client0, libwayland-egl1, libx11-6, libxext6, libxkbcommon0, libxkbregistry0, libncurses6 | libncurses5 | libncurses
+Recommends: libasound2-plugins, libcap2-bin, libcups2 | libcups2t64, libdbus-1-3, libfontconfig1, libfreetype6, libglu1-mesa | libglu1, libgnutls30 | libgnutls30t64 | libgnutls28 | libgnutls26, libgssapi-krb5-2, libjpeg62-turbo | libjpeg8, libkrb5-3, libodbc2, libosmesa6, libsdl2-2.0-0 | libsdl2-compat-shim, libv4l-0 | libv4l-0t64, libxcomposite1, libxcursor1, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxxf86vm1
+Conflicts: wine, wine-amd64, wine-i386
+Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
+Provides: wine, wine-i386, wine1.4, wine1.4-i386, wine1.5, wine1.5-i386, wine1.6, wine1.6-i386, wine1.7, wine1.7-i386, wine32, wine64
+Section: otherosfs
+Priority: optional
+Multi-Arch: foreign
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This package contains the files needed to support 64-bit Windows
+ programs.
+Filename: dists/metaverse/universe/binary-arm64/hangover-wine9_9.0-SR_arm64.deb
+Size: 148911092
+MD5Sum: 47bcc5d8384b2f549bceeaa2c356052d
+SHA1: 21a6104514e4c18a910fad2d04eb6ad0ca197d0f
+SHA256: 394f70488629e0f81a8eb2996158f0288d0e8944627c0384bb3ec436fd380261
+SHA512: 1e8ac550908aa0214b5e8690670ce928fa127c11f4853c16d012289209fa63ed1aab2dff46d1d110160b80a39683323dd89dc9d58c9e1d7ee59e4619e7245f8e
 
 Package: hangover-wine
 Version: 10.10-SR
@@ -80,6 +123,21 @@ MD5Sum: d6ddd5a512a981d9b41877da7e1c414a
 SHA1: d7ce9b3279b616a4d4f38dda6a9408db8be9af3f
 SHA256: 9fbe42351e3dc60660ae659e43471d980e0ced556d0a8c0bdc353798a0623cfc
 SHA512: e3bc17d0a81f156925e943513994e70159603acc44cc811cd59240915660c3b798d92f8cb9145476d6dc688c1ba3b3a9abba1d8f37ebc6cedf4c2e0bbc1859de
+
+Package: libgamefusion-vk-icd
+Architecture: arm64
+Maintainer: @gamefusionvk
+Installed-Size: 3268
+Version: 1.0.0-SR
+Homepage: https://gamefusionvk.com
+Depends: 
+Description: libGameFusionVK
+Filename: dists/metaverse/universe/binary-arm64/libgamefusion-vk-icd_1.0.0-SR_arm64.deb
+Size: 301040
+MD5Sum: 075cc0846d7ea251a5aafe413633dfb0
+SHA1: c098246b6e6e242b51d2595e08c55dbf5cd1353b
+SHA256: 69933e3fdff774ff6eeb84701648b9d7bd9cbd0dff304e3ba16d5b083f00d01d
+SHA512: eb454f5474532776fa3098ae2913aa8e6bbf4992337cdc119c5c3062360e2924349e9f6a74789ba0fd8e9d0c5904f74b8bf7d93b30151c4a15c12549591365a6
 
 Package: libosmesa6
 Source: mesa
@@ -121,6 +179,21 @@ MD5Sum: 32a3836c3f48314fe17763eeaa09bf93
 SHA1: 1e3305b393510a4203678aea6f293ab6a008bcd1
 SHA256: cb97ca4e8fc4e00f3adb00c14a11129f8a0e918d592ee30cae3dc755689a7750
 SHA512: 3813d2d9a7d7942d0f29768bc74ebbca55f55092b93c4cbbaece7510eeea9e741327844ec182f8531a7e68c75a0e6e949487466d1e60017a7a491410a650fcf6
+
+Package: libvulkan-wraper
+Architecture: arm64
+Maintainer: Arie-SR91
+Installed-Size: 3268
+Version: 1.0.0-SR
+Homepage: https://gamefusionvk.com
+Depends: 
+Description: libGameFusionVK
+Filename: dists/metaverse/universe/binary-arm64/libvulkan-wraper_1.0.0-SR_arm64.deb
+Size: 3152
+MD5Sum: cfd9336335e0511c3fb91cd33c999c4f
+SHA1: b98a2034951c1a316089b15e6f032d103ec7957b
+SHA256: 82e82cbfb1bbf5193029eb1349186727c358c4fcce34b1e3cf61c6ca94a9afa0
+SHA512: 5bf7c0e61b228570de76179bf44c44e2d97bae185594b41bdafb3524a2069f07ec9fec60783a23ac391909e41e3f95f9dfc6dda99299d343f1e19efa724efd2c
 
 Package: ngrok
 Version: 3.35.0-SR
