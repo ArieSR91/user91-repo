@@ -7,7 +7,6 @@ Conflicts: tsu
 Installed-Size: 37
 Homepage: https://github.com/ArieSR91
 Description: Run command as root user
-
 Filename: dists/metaverse/universe/binary-x86_64/sudo_8.7.0-SR_x86_64.deb
 Size: 4364
 MD5Sum: 6b0e0ee58ad0d6cf73acd50f63969b67

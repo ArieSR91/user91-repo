@@ -6,7 +6,6 @@ Version: 3.1.7-SR
 Homepage: https://www.aircrack-ng.org/
 Depends: libc++, libnl, libpcap, libsqlite, openssl, pcre, zlib
 Description: WiFi security auditing tools suite
-
 Filename: dists/metaverse/universe/binary-aarch64/aircrack-ng_3.1.7-SR_aarch64.deb
 Size: 406016
 MD5Sum: d8fd94367ae25fa061cb70b0c1b07cd7
@@ -23,7 +22,6 @@ Recommends:
 Installed-Size: 128
 Homepage: https://github.com/ArieSR91
 Description: Xbox iso extractor to .xbe format
-
 Filename: dists/metaverse/universe/binary-aarch64/extract-xiso_2.7.1-SR_aarch64.deb
 Size: 32756
 MD5Sum: a351cd8f0667db01898689016046177f
@@ -41,7 +39,6 @@ Recommends:
 Installed-Size: 5452
 Homepage: 
 Description: Universal source code to formatted text converter
-
 Filename: dists/metaverse/universe/binary-aarch64/highlight_4.19.0-SR_aarch64.deb
 Size: 748864
 MD5Sum: cdd8408eb302201ee86e4b2f29edae1c
@@ -57,7 +54,6 @@ Version: 1.0.0-SR
 Homepage: https://gamefusionvk.com
 Depends: libandroid-shmem, libc++, libdrm, libx11, libxcb, libxshmfence, libwayland, vulkan-loader-generic, zlib, zstd
 Description: libGameFusionVK
-
 Filename: dists/metaverse/universe/binary-aarch64/libgamefusion-vk-icd_1.0.0-SR_aarch64.deb
 Size: 301316
 MD5Sum: 26143573e487f3258893421112f4971b
@@ -73,7 +69,6 @@ Version: 24.2.5-SR
 Homepage: https://www.mesa3d.org
 Depends: libandroid-shmem, libc++, libdrm, libx11, libxcb, libxshmfence, libwayland, vulkan-loader-generic, zlib, zstd
 Description: Android Vulkan wrapper
-
 Filename: dists/metaverse/universe/binary-aarch64/mesa-vulkan-icd-wrapper_24.2.5-SR_aarch64.deb
 Size: 991948
 MD5Sum: 373ffd074ec8f84d5926c194d9073547
@@ -89,7 +84,6 @@ Depends: tsu
 Installed-Size: 0
 Homepage: 
 Description: Run command as root user
-
 Filename: dists/metaverse/universe/binary-aarch64/sudo_8.6.0-SR_aarch64.deb
 Size: 964
 MD5Sum: 9e92a4e30226c8a03a389c755bba787d
@@ -106,7 +100,6 @@ Conflicts: tsu
 Installed-Size: 37
 Homepage: https://github.com/ArieSR91
 Description: Run command as root user
-
 Filename: dists/metaverse/universe/binary-aarch64/sudo_8.7.0-SR_aarch64.deb
 Size: 4368
 MD5Sum: c3018de4a3066ac2c475823b1befe49b
@@ -123,7 +116,6 @@ Recommends: fontconfig, freetype, git, gnutls, libandroid-shmem-static, libx11, 
 Installed-Size: 623144
 Homepage: 
 Description: Run window program in Termux
-
 Filename: dists/metaverse/universe/binary-aarch64/wine-hangover_9.22-SR_aarch64.deb
 Size: 70261572
 MD5Sum: 10266e3343ed3e56688f646074dc1d73
