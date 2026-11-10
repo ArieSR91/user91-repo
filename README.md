@@ -35,6 +35,7 @@ box86 (armhf) \
 blesh (all) \
 create-bin (all) \
 ddos (all) \
+extract-xiso (arm64) \
 fake-monitor (all) \
 google-cloud-shell (all) \
 hangover-libarm64ecfex (arm64) \
@@ -64,6 +65,7 @@ xfce4-battery-status (all) \
 > aircrack-ng (arm, aarch64) \
 build-repo (all) \
 chdman (all) \
+extract-xiso (aarch64) \
 fake-sudo (all) \
 fonts-firacode (all) \
 fonts-hack (all) \
