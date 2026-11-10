@@ -6,7 +6,6 @@ Version: 3.1.7
 Homepage: https://www.aircrack-ng.org/
 Depends: libc++, libnl, libpcap, libsqlite, openssl, pcre, zlib
 Description: WiFi security auditing tools suite
-
 Filename: dists/metaverse/universe/binary-arm/aircrack-ng_3.1.7-SR_arm.deb
 Size: 391388
 MD5Sum: 04ce62e481defeac6b152ef4593bd18f
@@ -22,7 +21,6 @@ Depends: tsu
 Installed-Size: 0
 Homepage: 
 Description: Run command as root user
-
 Filename: dists/metaverse/universe/binary-arm/sudo_8.6.0-SR_arm.deb
 Size: 968
 MD5Sum: 469f479706b52e062def59772aea28ff
@@ -39,7 +37,6 @@ Conflicts: tsu
 Installed-Size: 37
 Homepage: https://github.com/ArieSR91
 Description: Run command as root user
-
 Filename: dists/metaverse/universe/binary-arm/sudo_8.7.0-SR_arm.deb
 Size: 4360
 MD5Sum: 1f7024e02045a0b9bbb215cb49398c0d
