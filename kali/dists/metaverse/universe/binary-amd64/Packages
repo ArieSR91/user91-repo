@@ -16,6 +16,7 @@ Description: Mesa Off-screen rendering extension
  .
  This package provides both 16-bit and 32-bit versions of the off-screen
  renderer which do not require external libraries to work.
+
 Filename: dists/metaverse/universe/binary-amd64/libosmesa6_25.0.7-2_amd64.deb
 Size: 3197436
 MD5Sum: dadf476fbda10e220be0d29e9adc7c69
@@ -30,6 +31,7 @@ Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends:
 Installed-Size: 30514
 Description: ngrok secure tunnel agent
+
 Filename: dists/metaverse/universe/binary-amd64/ngrok_3.35.0-SR_amd64.deb
 Size: 8177452
 MD5Sum: 66842546080652a074e1ec5f9c880b27
@@ -46,6 +48,7 @@ Recommends: python3
 Installed-Size: 10924
 Homepage: https://github.com/ArieSR91
 Description: ChatGPT in linux terminal.
+
 Filename: dists/metaverse/universe/binary-amd64/srgpt_2.11.1-SR_amd64.deb
 Size: 3219164
 MD5Sum: ea1385ef6ddcb39b4cc49aef60ff0e81

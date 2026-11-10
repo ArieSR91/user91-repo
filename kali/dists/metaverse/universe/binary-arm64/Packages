@@ -9,6 +9,7 @@ Provides: box64
 Conflicts: qemu-user-static, box64-arm64, box64-sdoryon1, box64-sd888, box64-rpi4arm64, box64-rpi3arm64, box64-tegrax1, box64-rk3399, box64-rk3588, box64-rpi5arm64, box64-rpi5arm64ps16k, box64-lx2160a, box64-tegra-t194, box64-m1
 Description: Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
  Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+
 Filename: dists/metaverse/universe/binary-arm64/box64_0.3.9-SR_arm64.deb
 Size: 8216048
 MD5Sum: 1126169012c6f7136d60684f1317eede
@@ -25,6 +26,7 @@ Recommends:
 Installed-Size: 90
 Homepage: https://github.com/ArieSR91
 Description: Xbox iso extractor to .xbe format
+
 Filename: dists/metaverse/universe/binary-arm64/extract-xiso_2.7.1-SR_arm64.deb
 Size: 15056
 MD5Sum: e33908a07e24569f0d0637b11f279781
@@ -38,6 +40,7 @@ Architecture: arm64
 Maintainer: André Zwing <nerv@dawncrow.de>
 Description: FEX based x86-64 emulator library for Hangover
 Conflicts: fex-emu-wine
+
 Filename: dists/metaverse/universe/binary-arm64/hangover-libarm64ecfex_10.10_arm64.deb
 Size: 814516
 MD5Sum: be73b281e62debfb1553246d560fe9f0
@@ -51,6 +54,7 @@ Architecture: arm64
 Maintainer: André Zwing <nerv@dawncrow.de>
 Description: FEX based x86 emulator library for Hangover
 Conflicts: fex-emu-wine
+
 Filename: dists/metaverse/universe/binary-arm64/hangover-libwow64fex_10.10_arm64.deb
 Size: 727340
 MD5Sum: 078e7f636e995d900555558475163247
@@ -78,6 +82,7 @@ Description: WINE Is Not An Emulator - runs MS Windows programs
  .
  This package contains the files needed to support 64-bit Windows
  programs.
+
 Filename: dists/metaverse/universe/binary-arm64/hangover-wine_10.10-SR_arm64.deb
 Size: 74464048
 MD5Sum: 4f92952c0c7fbbd1fd107396b08e4f08
@@ -90,6 +95,7 @@ Version: 10.10
 Architecture: arm64
 Maintainer: André Zwing <nerv@dawncrow.de>
 Description: Box64 based x86 emulator library for Hangover
+
 Filename: dists/metaverse/universe/binary-arm64/hangover-wowbox64_10.10_arm64.deb
 Size: 895912
 MD5Sum: d6ddd5a512a981d9b41877da7e1c414a
@@ -105,6 +111,7 @@ Version: 1.0.0-SR
 Homepage: https://gamefusionvk.com
 Depends: 
 Description: libGameFusionVK
+
 Filename: dists/metaverse/universe/binary-arm64/libgamefusion-vk-icd_1.0.0-SR_arm64.deb
 Size: 301040
 MD5Sum: 075cc0846d7ea251a5aafe413633dfb0
@@ -130,6 +137,7 @@ Description: Mesa Off-screen rendering extension
  .
  This package provides both 16-bit and 32-bit versions of the off-screen
  renderer which do not require external libraries to work.
+
 Filename: dists/metaverse/universe/binary-arm64/libosmesa6_25.0.7-2_arm64.deb
 Size: 2837868
 MD5Sum: 9dd0ace0b8dbd10ebac6967e8d67881a
@@ -146,6 +154,7 @@ Recommends:
 Installed-Size: 1000
 Homepage: 
 Description: Vulkan vortek drivers
+
 Filename: dists/metaverse/universe/binary-arm64/libvortek1_1.0.0_arm64.deb
 Size: 191896
 MD5Sum: 32a3836c3f48314fe17763eeaa09bf93
@@ -161,6 +170,7 @@ Version: 1.0.0-SR
 Homepage: https://gamefusionvk.com
 Depends: 
 Description: libGameFusionVK
+
 Filename: dists/metaverse/universe/binary-arm64/libvulkan-wraper_1.0.0-SR_arm64.deb
 Size: 3152
 MD5Sum: cfd9336335e0511c3fb91cd33c999c4f
@@ -175,6 +185,7 @@ Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends:
 Installed-Size: 28930
 Description: ngrok secure tunnel agent
+
 Filename: dists/metaverse/universe/binary-arm64/ngrok_3.35.0-SR_arm64.deb
 Size: 7008164
 MD5Sum: b7c8de138a3482ecc3e946dcc334f9c9
@@ -191,6 +202,7 @@ Recommends: python3
 Installed-Size: 9956
 Homepage: https://github.com/ArieSR91
 Description: ChatGPT in linux terminal.
+
 Filename: dists/metaverse/universe/binary-arm64/srgpt_2.11.1-SR_arm64.deb
 Size: 2734504
 MD5Sum: fba2c2365eb221ef1b0668e321b05749
@@ -207,6 +219,7 @@ Recommends: libosmesa6
 Installed-Size: 671848
 Homepage: https://github.com/ArieSR91/
 Description: Windows Emulator
+
 Filename: dists/metaverse/universe/binary-arm64/wine-stable_10.0-SR_arm64.deb
 Size: 68403636
 MD5Sum: d58cef30a9c93525227d7a3adbc24524

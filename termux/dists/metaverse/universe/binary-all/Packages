@@ -5,6 +5,7 @@ Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: python3, gnupg, git, repo-manager, xdotool
 Installed-Size: 68
 Description: Build git repository with deb files
+
 Filename: dists/metaverse/universe/binary-all/build-repo_1.8.8-SR_all.deb
 Size: 5824
 MD5Sum: 35db2ae7e691a16477de4dcdd0c272c2
@@ -21,6 +22,7 @@ Recommends: bash
 Installed-Size: 6928
 Homepage: https://github.com/ArieSR91
 Description: CD tools
+
 Filename: dists/metaverse/universe/binary-all/chdman_1.0.0-SR_all.deb
 Size: 1358320
 MD5Sum: 5a940f9610a718c7dc5fde1a5ef9fc22
@@ -41,6 +43,8 @@ Priority: optional
 Homepage: https://ariesr91.github.io/user91-repo
 Description: Fake sudo command simulation for Termux
  A lightweight bash script that simulates the Linux sudo command in Termux.
+
+
 Filename: dists/metaverse/universe/binary-all/fake-sudo_1.5.6-SR_all.deb
 Size: 10008
 MD5Sum: fc22c555af0e98ee7abc482a29e0ab75
@@ -56,6 +60,7 @@ Depends: termux-fonts
 Installed-Size: 1856
 Homepage: 
 Description: Fira Code font.
+
 Filename: dists/metaverse/universe/binary-all/fonts-firacode_6.2.2-SR_all.deb
 Size: 384764
 MD5Sum: 794caa5e03ffd8044f8df68602d1de64
@@ -71,6 +76,7 @@ Depends: termux-fonts
 Installed-Size: 1332
 Homepage: 
 Description: Hack font.
+
 Filename: dists/metaverse/universe/binary-all/fonts-hack_3.0.3-SR_all.deb
 Size: 359508
 MD5Sum: 8c3a2475cdca4259e4108924e9ba93a8
@@ -86,6 +92,7 @@ Depends: termux-fonts
 Installed-Size: 2440
 Homepage: 
 Description: Liberation font.
+
 Filename: dists/metaverse/universe/binary-all/fonts-liberation_1.1.4-SR_all.deb
 Size: 816748
 MD5Sum: f1b3753aeec9cbf72b861acb7784391b
@@ -101,6 +108,7 @@ Depends: termux-fonts
 Installed-Size: 2632
 Homepage: 
 Description: Meslo GLS font.
+
 Filename: dists/metaverse/universe/binary-all/fonts-meslo_1.2.0-SR_all.deb
 Size: 1187716
 MD5Sum: 511023faa32d662cfd6f0e44a1c41bed
@@ -116,6 +124,7 @@ Depends: termux-fonts
 Installed-Size: 488
 Homepage: 
 Description: Quicksand font.
+
 Filename: dists/metaverse/universe/binary-all/fonts-quicksand_0.2.1-SR_all.deb
 Size: 124784
 MD5Sum: 6364f9cc2d9cca34932c2c363f246ded
@@ -132,6 +141,7 @@ Recommends: python3
 Installed-Size: 434496
 Homepage: https://githun.com/ArieSR91
 Description: Control google cloud shell from linux.
+
 Filename: dists/metaverse/universe/binary-all/google-cloud-shell_1.0.0-SR_all.deb
 Size: 36935084
 MD5Sum: 3242c98de06112514e6b0255d82b93b7
@@ -147,6 +157,7 @@ Depends: python3
 Installed-Size: 388
 Homepage: 
 Description: Trace location from ip
+
 Filename: dists/metaverse/universe/binary-all/ipgeolocation_2.0.4-SR_all.deb
 Size: 42632
 MD5Sum: 956cb31bbf011e340569f75410ec7809
@@ -164,6 +175,7 @@ Suggests: gdk-pixbuf
 Section: misc
 Priority: optional
 Description: Kali Themes
+
 Filename: dists/metaverse/universe/binary-all/kali-colorscheme_2025.1.2_all.deb
 Size: 629508
 MD5Sum: e5a5f368d358dd19bb48408abfee893a
@@ -180,6 +192,7 @@ Recommends: x11-repo, kali-colorscheme, ncurses-utils
 Suggests: kali-icon-theme, zsh
 Installed-Size: 932
 Description: Termux kali dark style
+
 Filename: dists/metaverse/universe/binary-all/kali-dark-style_1.3.6-SR_all.deb
 Size: 182612
 MD5Sum: e631b38760fb7a3954572d7791e00f7e
@@ -195,6 +208,7 @@ Depends: gtk-update-icon-cache, hicolor-icon-theme
 Installed-Size: 210648
 Homepage: https://github.com/ArieSR91
 Description: Kali linux icon themes
+
 Filename: dists/metaverse/universe/binary-all/kali-icon-theme_2025.1.2-SR_all.deb
 Size: 4522380
 MD5Sum: 7f0c77c39f2e7b1baa43b1394a69b24f
@@ -209,6 +223,7 @@ Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: root-repo, sudo, pulseaudio
 Installed-Size: 17656
 Description: Run linux deploy via termux
+
 Filename: dists/metaverse/universe/binary-all/linuxdeploy_1.2.4-SR_all.deb
 Size: 16863488
 MD5Sum: f237c89c310790cea04cfd0a87b20fd4
@@ -223,6 +238,7 @@ Maintainer: ArieSR91 <syahri.ramadhan2022@gmail.com>
 Installed-Size: 100
 Homepage: https://github.com/ArieSR91
 Description: Add Kali Linux to proot-distro
+
 Filename: dists/metaverse/universe/binary-all/proot-distro-kali_1.1.0-SR_all.deb
 Size: 1328
 MD5Sum: 643fb8dc0710d1040ff1ce3b4b871b27
@@ -239,6 +255,7 @@ Enhances: repo-manager
 Installed-Size: 70
 Homepage: https://github.com/ArieSR91
 Description: Repo manager menu to help creating, building, updating, and editing DEB package.
+
 Filename: dists/metaverse/universe/binary-all/repo-manager-menu_1.0.0-SR_all.deb
 Size: 14488
 MD5Sum: a2e81a4403ff89339bd4a2037810364e
@@ -254,6 +271,7 @@ Depends: python3, gnupg, git, binutils, xz-utils, repo-manager-menu
 Installed-Size: 76
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
+
 Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.8-SR_all.deb
 Size: 12644
 MD5Sum: e7f8dbc645cc365446e3ab684fc5508c
@@ -269,6 +287,7 @@ Depends: python3, gnupg, git, binutils, xz-utils, dialog, python-tkinter
 Installed-Size: 141
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
+
 Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.9-SR_all.deb
 Size: 24328
 MD5Sum: 8b79398509473d33c57351e052caa8e9
@@ -287,6 +306,7 @@ Provides: shizuku
 Installed-Size: 11396
 Homepage: 
 Description: Runing shizuku-rootfs SUI shell
+
 Filename: dists/metaverse/universe/binary-all/shizuku-alpine_1.0.0-SR_all.deb
 Size: 3279776
 MD5Sum: 31992f8093bb7bd9fdcfba47a71d11a2
@@ -304,6 +324,7 @@ Provides: shizuku
 Installed-Size: 11396
 Homepage: 
 Description: Runing shizuku-rootfs SUI shell
+
 Filename: dists/metaverse/universe/binary-all/shizuku-rootfs_1.1.1-SR_all.deb
 Size: 7730364
 MD5Sum: 09cfa7f3a8cd1fdc0bcb8476b1f10232
@@ -321,6 +342,7 @@ Suggests: shizuku-rootfs
 Installed-Size: 3420
 Homepage: 
 Description: Runing shizuku SUI shell
+
 Filename: dists/metaverse/universe/binary-all/shizuku_1.1.1-SR_all.deb
 Size: 2053632
 MD5Sum: 2d86cbf6ec6136970e8fda181ee6aeed
@@ -337,6 +359,7 @@ Recommends:
 Installed-Size: 12421
 Homepage: 
 Description: Sqlmap
+
 Filename: dists/metaverse/universe/binary-all/sqlmap_1.10.5-SR_all.deb
 Size: 6965572
 MD5Sum: e45788dcaec0460605774570af320c70
@@ -352,6 +375,7 @@ Depends: bash, figlet, android-tools, ncurses-utils
 Installed-Size: 68
 Homepage: https://github.com/ArieSR91
 Description: Brute force android pin lockscreen.
+
 Filename: dists/metaverse/universe/binary-all/srlocks_1.2.2-SR_all.deb
 Size: 11588
 MD5Sum: a4479bdda846cd637c6af86889617a56
@@ -368,6 +392,7 @@ Recommends: bc, highlight, ffmpeg, imagemagick
 Installed-Size: 80
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
+
 Filename: dists/metaverse/universe/binary-all/srtool_1.4.4-SR_all.deb
 Size: 11884
 MD5Sum: a285189b82d041b86399022f28938f0b
@@ -384,6 +409,7 @@ Recommends: bc, highlight, ffmpeg, imagemagick
 Installed-Size: 101
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
+
 Filename: dists/metaverse/universe/binary-all/srtool_1.4.5-SR_all.deb
 Size: 19808
 MD5Sum: 6a2c17596b5542bee84e6ed2a3dfdfda
@@ -399,6 +425,7 @@ Depends: x11-repo, lxqt, termux-x11-nightly,  tigervnc, audacious, featherpad, p
 Installed-Size: 160
 Homepage: https://github.com/ArieSR91
 Description: Termux lxqt desktop
+
 Filename: dists/metaverse/universe/binary-all/termux-desktop-lxqt_1.2.0-SR_all.deb
 Size: 2088
 MD5Sum: 8985b2c8bd19e18e8b96335bccd863dd
@@ -414,6 +441,7 @@ Depends: x11-repo, xfce4, tigervnc, parole, mousepad, xfce4-goodies, pavucontrol
 Installed-Size: 136
 Homepage: https://github.com/ArieSR91
 Description: Termux xfce4 desktop
+
 Filename: dists/metaverse/universe/binary-all/termux-desktop-xfce_1.2.0-SR_all.deb
 Size: 1852
 MD5Sum: 19bd6a24bfbca59a752af8bc6a682c51
@@ -428,6 +456,7 @@ Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: fonts-meslo
 Installed-Size: 96
 Description: Change termux fonts
+
 Filename: dists/metaverse/universe/binary-all/termux-fonts_1.2.0-SR_all.deb
 Size: 1444
 MD5Sum: 89a6a54c538b0211bdda071a1f08d106
@@ -442,6 +471,7 @@ Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: fonts-meslo
 Installed-Size: 96
 Description: Change termux fonts
+
 Filename: dists/metaverse/universe/binary-all/termux-fonts_1.2.1-SR_all.deb
 Size: 1640
 MD5Sum: dd5dc0ceb43db35516c013560a57edf3
@@ -457,6 +487,7 @@ Installed-Size: 416
 Depends: bash
 Homepage: https://github.com/ArieSR91
 Description: tool to manage well known user directories
+
 Filename: dists/metaverse/universe/binary-all/termux-user-dirs_1.1.0-SR_all.deb
 Size: 2060
 MD5Sum: c63a15c36e58dab76c26746246dfd040
@@ -472,6 +503,7 @@ Depends: aria2, wget, curl
 Installed-Size: 104
 Homepage: https://github.com/ArieSR91
 Description: Download tiktok photo and video from terminal.
+
 Filename: dists/metaverse/universe/binary-all/tiktok-download_1.3.0-SR_all.deb
 Size: 1924
 MD5Sum: 7de6dc084ba0aa45b005871e57916fae
@@ -486,6 +518,7 @@ Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: ffmpeg, python
 Installed-Size: 3040
 Description: Download video and music from Youtube.
+
 Filename: dists/metaverse/universe/binary-all/youtube-download_1.1.0-SR_all.deb
 Size: 2877240
 MD5Sum: 5d4cedd845c9a2dbd5374ccc95e11ade
@@ -502,6 +535,7 @@ Recommends: zsh
 Installed-Size: 100
 Homepage: 
 Description: Zsh auto suggestions
+
 Filename: dists/metaverse/universe/binary-all/zsh-autosuggestions_0.7.1-SR_all.deb
 Size: 16496
 MD5Sum: 125570040df60b201836b287205e18a7
@@ -518,6 +552,7 @@ Recommends: zsh
 Installed-Size: 100
 Homepage: 
 Description: Zsh syntax highlighting
+
 Filename: dists/metaverse/universe/binary-all/zsh-syntax-highlighting_0.8.0-SR_all.deb
 Size: 48780
 MD5Sum: 6ef5aa629b67f3315c9275585e5e9d1e

@@ -7,6 +7,7 @@ Recommends:
 Installed-Size: 4000
 Homepage: 
 Description: Bash syntax highlight
+
 Filename: dists/metaverse/universe/binary-all/blesh_0.4.0-SR_all.deb
 Size: 547872
 MD5Sum: ff6488fad962faca703a4d26f9437041
@@ -22,6 +23,7 @@ Depends: bash
 Recommends: gnupg, git, sudo, xdotool, python3, xz-utils
 Installed-Size: 132
 Description: Build git repository with deb files
+
 Filename: dists/metaverse/universe/binary-all/build-repo_1.8.8-SR_all.deb
 Size: 5916
 MD5Sum: 536432968ddaebc7c9e4bcca28cbde9c
@@ -37,6 +39,7 @@ Depends: bash, nano
 Installed-Size: 72
 Homepage: 
 Description: Create bash binary files
+
 Filename: dists/metaverse/universe/binary-all/create-bin_1.1.0-SR_all.deb
 Size: 1180
 MD5Sum: dc388b2c8b4c1ca8c341376afcc8770f
@@ -51,6 +54,7 @@ Maintainer: name <syahri.ramadhan2022@gmail.com>
 Depends: python3
 Installed-Size: 76
 Description: ddos attack
+
 Filename: dists/metaverse/universe/binary-all/ddos_1.2.0-SR_all.deb
 Size: 3032
 MD5Sum: ba8bd8554ecac71bce6db60e1fb67e60
@@ -66,6 +70,7 @@ Depends: network-manager-gnome
 Installed-Size: 72
 Homepage: https://github.com/ArieSR91
 Description: Fake network interface
+
 Filename: dists/metaverse/universe/binary-all/fake-monitor_1.3.0-SR_all.deb
 Size: 1688
 MD5Sum: d3c37e03e0d2f9e7bfade343f665fe0b
@@ -82,6 +87,7 @@ Recommends: python3
 Installed-Size: 434476
 Homepage: https://githun.com/ArieSR91
 Description: Control google cloud shell from linux.
+
 Filename: dists/metaverse/universe/binary-all/google-cloud-shell_1.0.0-SR_all.deb
 Size: 36696880
 MD5Sum: e5925d45119dd13de1a7fab71d54a1ca
@@ -97,6 +103,7 @@ Depends: python3, python3-termcolor, python3-colorama
 Installed-Size: 192
 Homepage: 
 Description: Trace location from ip
+
 Filename: dists/metaverse/universe/binary-all/ipgeolocation_2.0.4-SR_all.deb
 Size: 19852
 MD5Sum: 575d7f9241395b1a8e580e645f7e9e01
@@ -114,6 +121,7 @@ Suggests: gtk2-engines-pixbuf
 Section: misc
 Priority: optional
 Description: Kali Themes
+
 Filename: dists/metaverse/universe/binary-all/kali-colorscheme_2025.1.2_all.deb
 Size: 633256
 MD5Sum: d561f2960ebe3101d727778fe3c8fa6f
@@ -131,6 +139,7 @@ Suggests: gtk2-engines-pixbuf
 Section: misc
 Priority: optional
 Description: Kali icon theme
+
 Filename: dists/metaverse/universe/binary-all/kali-icon-theme_2025.1.2_all.deb
 Size: 4318964
 MD5Sum: 8fb5d408f1b93f8bf139e788aa2f8ab0
@@ -147,6 +156,7 @@ Enhances: repo-manager
 Installed-Size: 70
 Homepage: https://github.com/Arie-SR91
 Description: Repo manager menu to help creating, building, updating, and editing DEB package.
+
 Filename: dists/metaverse/universe/binary-all/repo-manager-menu_1.0.0-SR_all.deb
 Size: 14428
 MD5Sum: c51672b6d2d60e79b9f5b07b81e09658
@@ -163,6 +173,7 @@ Recommends: gnupg, sudo, git, binutils, tar, xz-utils, repo-manager-menu
 Installed-Size: 64
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
+
 Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.8-SR_all.deb
 Size: 12592
 MD5Sum: 90cc5168070d417278940bee32b9d88d
@@ -179,6 +190,7 @@ Recommends: gnupg, sudo, git, binutils, tar, xz-utils, python3-tk, python3-dialo
 Installed-Size: 114
 Homepage: https://github.com/ArieSR91
 Description: Repository manager
+
 Filename: dists/metaverse/universe/binary-all/repo-manager_2.1.9-SR_all.deb
 Size: 24144
 MD5Sum: e5b8b640b672b59e0a803023556e5e4e
@@ -194,6 +206,7 @@ Depends: python3, python3-requests, python3-packaging, python3-psutil, php
 Installed-Size: 3860
 Homepage: 
 Description: Accurately Locate Smartphones using Social Engineering
+
 Filename: dists/metaverse/universe/binary-all/seeker_1.3.1-SR_all.deb
 Size: 1192696
 MD5Sum: 936ebcaa6c7d872ba9631a2642a9d630
@@ -216,6 +229,7 @@ Description: SR Undercover Mode
  .
  Run it a second time to escape the cover mode and get back your original
  desktop settings.
+
 Filename: dists/metaverse/universe/binary-all/sr-undercover_1.2.1-SR_all.deb
 Size: 7940924
 MD5Sum: 3c2851c19dc80c83dd4ba93ff1d07d99
@@ -231,6 +245,7 @@ Depends: bash
 Installed-Size: 84
 Homepage: https://github.com/ArieSR91
 Description: Encrypt and Descrypt your bscript
+
 Filename: dists/metaverse/universe/binary-all/srcrypt_1.0.0-SR_all.deb
 Size: 5728
 MD5Sum: 0e52701b084ae4d29d2f3627dce0e049
@@ -246,6 +261,7 @@ Depends: figlet, adb, bash, ncurses-bin
 Installed-Size: 56
 Homepage: https://github.com/ArieSR91
 Description: Brute force android pin lockscreen
+
 Filename: dists/metaverse/universe/binary-all/srlocks_1.2.2-SR_all.deb
 Size: 11520
 MD5Sum: 3d8475369019e43d13fa2e10af5f270e
@@ -262,6 +278,7 @@ Recommends: bc, highlight, ffmpeg, imagemagick
 Installed-Size: 68
 Homepage: 
 Description: srtool is a typing simulation like xdotool.
+
 Filename: dists/metaverse/universe/binary-all/srtool_1.4.4-SR_all.deb
 Size: 11832
 MD5Sum: 8def1d286e83c7249dc5862f7a6b4d4e
@@ -278,6 +295,7 @@ Recommends: bc, highlight, ffmpeg, imagemagick
 Installed-Size: 68
 Homepage: 
 Description: srtool is a powerfull tools with many function.
+
 Filename: dists/metaverse/universe/binary-all/srtool_1.4.5-SR_all.deb
 Size: 19752
 MD5Sum: 123ef051869bc52f365f27ac520a83c9
@@ -293,6 +311,7 @@ Depends: aria2, wget, curl
 Insted-Size: 80
 Homepage: https://github.com/ArieSR91
 Description: Download tiktok photo and video from terminal.
+
 Filename: dists/metaverse/universe/binary-all/tiktok-download_1.3.0-SR_all.deb
 Size: 1876
 MD5Sum: 5433b8bae675d85b21ae4401c7e5a5ec
@@ -336,6 +355,7 @@ Description: automatically mount removable storage devices
  for embedded systems) and should only be installed under such
  circumstances: problems mounting USB sticks with a regular desktop
  environment are not bugs with the package automount.
+
 Filename: dists/metaverse/universe/binary-all/usbmount_0.0.24-SR_all.deb
 Size: 13336
 MD5Sum: cc65c1d30e20ed7216e97ae310175b11
@@ -352,6 +372,7 @@ Recommends:
 Installed-Size: 100
 Homepage: 
 Description: Battery plugin for xfce4 using Termux API.
+
 Filename: dists/metaverse/universe/binary-all/xfce4-battery-status_1.0.0-SR_all.deb
 Size: 1524
 MD5Sum: 8a881814769b75abcc0e943c557f1672
@@ -366,6 +387,7 @@ Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
 Depends: ffmpeg
 Installed-Size: 3016
 Description: Download video and music from Youtube.
+
 Filename: dists/metaverse/universe/binary-all/youtube-download_1.1.0-SR_all.deb
 Size: 2877200
 MD5Sum: 1c56ecb4d23d790737bf02c314c05141

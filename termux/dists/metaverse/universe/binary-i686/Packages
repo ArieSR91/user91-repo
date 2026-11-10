@@ -6,6 +6,7 @@ Depends: tsu
 Installed-Size: 0
 Homepage: 
 Description: Run command as root user
+
 Filename: dists/metaverse/universe/binary-i686/sudo_8.6.0-SR_i686.deb
 Size: 960
 MD5Sum: a8a7c4c7436bba56259dc60310459d2b
@@ -22,6 +23,7 @@ Conflicts: tsu
 Installed-Size: 37
 Homepage: https://github.com/ArieSR91
 Description: Run command as root user
+
 Filename: dists/metaverse/universe/binary-i686/sudo_8.7.0-SR_i686.deb
 Size: 4352
 MD5Sum: 527d41656d7d9461706e5683a7aa0384
