@@ -1,0 +1,73 @@
+
+name: Repository Health Badge
+
+on:
+  workflow_run:
+    workflows: ["Status"]
+    types: [requested, in_progress, completed]
+    branches: [metaverse]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repository-health-badge
+  cancel-in-progress: false
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Determine repository status
+        id: status
+        env:
+          ACTION: ${{ github.event.action }}
+          CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+        run: |
+          if [ "$ACTION" = "completed" ]; then
+            if [ "$CONCLUSION" = "success" ]; then
+              echo "message=AKTIF" >> "$GITHUB_OUTPUT"
+              echo "color=brightgreen" >> "$GITHUB_OUTPUT"
+            else
+              echo "message=TIDAK AKTIF" >> "$GITHUB_OUTPUT"
+              echo "color=red" >> "$GITHUB_OUTPUT"
+            fi
+          else
+            echo "message=DEPLOYING" >> "$GITHUB_OUTPUT"
+            echo "color=yellow" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate badge status
+        env:
+          MESSAGE: ${{ steps.status.outputs.message }}
+          COLOR: ${{ steps.status.outputs.color }}
+        run: |
+          cat > status.json <<EOF
+          {
+            "schemaVersion": 1,
+            "label": "GitHub Pages",
+            "message": "$MESSAGE",
+            "color": "$COLOR",
+            "logo": "github",
+            "logoColor": "white",
+            "cacheSeconds": 60
+          }
+          EOF
+
+      - name: Publish badge status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add status.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update repository deployment status"
+            git push origin HEAD:main
+          fi
