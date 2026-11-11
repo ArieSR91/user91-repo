@@ -56390,6 +56390,7 @@ data/data/com.termux/files/usr/bin/repo-index                                   
 data/data/com.termux/files/usr/bin/repo-manager                                  repo-manager
 data/data/com.termux/files/usr/bin/repo-index                                    repo-manager
 data/data/com.termux/files/usr/bin/repo-manager                                  repo-manager
+data/data/com.termux/files/usr/bin/repo-manager                                  repo-manager
 data/data/com.termux/files/home/.cache/shizuku.tar                               shizuku-alpine
 data/data/com.termux/files/home/.cache/shizuku.tar                               shizuku-rootfs
 data/data/com.termux/files/home/.cache/shizuku.apk                               shizuku
@@ -57050,6 +57051,7 @@ data/data/com.termux/files/usr/opt/sqlmap/thirdparty/termcolor/termcolor.py     
 data/data/com.termux/files/usr/opt/sqlmap/thirdparty/wininetpton/__init__.py     sqlmap
 data/data/com.termux/files/usr/opt/sqlmap/thirdparty/wininetpton/win_inet_pton.py sqlmap
 data/data/com.termux/files/usr/bin/srlocks                                       srlocks
+data/data/com.termux/files/usr/bin/srtool                                        srtool
 data/data/com.termux/files/usr/bin/srtool                                        srtool
 data/data/com.termux/files/usr/bin/srtool                                        srtool
 data/data/com.termux/files/home/.vnc/config                                      termux-desktop-lxqt

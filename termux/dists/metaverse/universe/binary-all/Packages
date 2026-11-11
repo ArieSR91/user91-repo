@@ -276,6 +276,21 @@ SHA1: fea532c11d1ca2f16e362bcd8d1b98c14d01320a
 SHA256: eb98758b3a523966907dbca60fa1e667b12b93d014f58af7380db578b4a5c723
 SHA512: 06d5b8997acb0d2d721af52755f454522278d3636776b0b28e0ff9c0c4845dd91b00a8a5fc96ed8a65bbc449e220704b8b5f480c33ee9e45c48b9aabeb545736
 
+Package: repo-manager
+Version: 2.2.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3, gnupg, git, binutils, xz-utils, dialog, python-tkinter
+Installed-Size: 141
+Homepage: https://github.com/ArieSR91
+Description: Repository manager
+Filename: dists/metaverse/universe/binary-all/repo-manager_2.2.0-SR_all.deb
+Size: 27660
+MD5Sum: 45025299f866ab02989f68800f432d42
+SHA1: d3098473feed6aaadd5549a5ae6d35c86381e32e
+SHA256: b83650adae5b6c8ac831812cf85e62fc4fc91e39faf50e6c361c865e1d6c354a
+SHA512: 66c33e407b6a29855c538cbfe3d7dde71ebe0798a1da050732a96a7f793954b08c7faf434fb7228266eb77f73de7de43ab8cbe2b9aafc8bfe6de8c6cb4408419
+
 Package: shizuku-alpine
 Version: 1.0.0-SR
 Architecture: all
@@ -390,6 +405,22 @@ MD5Sum: 6a2c17596b5542bee84e6ed2a3dfdfda
 SHA1: b1a518a00eb871c5e84ef30f2ee2d444318a4d1e
 SHA256: 3ed8ef9099b02455fd66a8906f25e8dbb7f4044d69314b4207c0885e85b6a540
 SHA512: 000963a5f0d4e4291b1ead18fa4c25fc03e35b3ee62ba1fdaaa9ea19e67fff27babd97fd34e511882ead7b99e6340be733dae80b777408f988f4ef9963dbdfaa
+
+Package: srtool
+Version: 1.4.6-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3
+Recommends: bc, highlight, ffmpeg, imagemagick
+Installed-Size: 101
+Homepage: 
+Description: srtool is a typing simulation like xdotool.
+Filename: dists/metaverse/universe/binary-all/srtool_1.4.6-SR_all.deb
+Size: 23904
+MD5Sum: d95379cc346a25d8b0b091dd9eb4ea39
+SHA1: 1aff75b234016e9b4398e55ef452aedd753ac449
+SHA256: e38d35834ca686144c1921e5e2967da7a6edd4bb6adc0c7c87fc2d3514020903
+SHA512: 9d30eeeca1430da33e3a8b9a1f5f0faaa7eb38909ad9a0ab9277f3b6c8166cb5988b2e75c0cae4377955db6bb36231b675043186cee81d1d913af1818b726148
 
 Package: termux-desktop-lxqt
 Version: 1.2.0-SR

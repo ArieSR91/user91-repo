@@ -56594,6 +56594,7 @@ usr/local/bin/repo-manager-menu                                                 
 usr/local/bin/repo-index                                                         repo-manager
 usr/local/bin/repo-manager                                                       repo-manager
 usr/local/bin/repo-manager                                                       repo-manager
+usr/local/bin/repo-manager                                                       repo-manager
 opt/seeker/Dockerfile                                                            seeker
 opt/seeker/Dockerfile.dev                                                        seeker
 opt/seeker/__pycache__/utils.cpython-312.pyc                                     seeker
@@ -66392,6 +66393,7 @@ usr/share/themes/Windows-10/gtk-3.0/assets/radio-unchecked-unfocused@2.png      
 usr/local/bin/decrypt-sr                                                         srcrypt
 usr/local/bin/encrypt-sr                                                         srcrypt
 usr/local/bin/srlocks                                                            srlocks
+usr/local/bin/srtool                                                             srtool
 usr/local/bin/srtool                                                             srtool
 usr/local/bin/srtool                                                             srtool
 usr/local/bin/tiktok-download                                                    tiktok-download

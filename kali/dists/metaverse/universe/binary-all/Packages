@@ -186,6 +186,22 @@ SHA1: de06a10975add95f3f41e090bf4bfc019db3602d
 SHA256: 2c43450f09ddf1703d6e46b9eb9d463db3cdfa3c1620bb9f4337d4563a9a9698
 SHA512: 0b5c7dfbbfcc223a30321dc9ef9ba8d128ade6f9db244be0ae3262fa0ddd1712d87525cac5474065eb0bec313f1b1b8000b0b57b46e42265675dd8036af52762
 
+Package: repo-manager
+Version: 2.2.0-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3
+Recommends: gnupg, sudo, git, binutils, tar, xz-utils, python3-tk, python3-dialog, dialog
+Installed-Size: 114
+Homepage: https://github.com/ArieSR91
+Description: Repository manager
+Filename: dists/metaverse/universe/binary-all/repo-manager_2.2.0-SR_all.deb
+Size: 27624
+MD5Sum: 22cb75dd66bccec0e8e989485f7e1a5c
+SHA1: 7b4a8b811bc7bcc74d9bb4742432d256d5dc3c91
+SHA256: a0e45d24472795de31b8cd3fab197f7c4c611434a916d844caccef562759b1bd
+SHA512: aff257db98b71e67170d171707af53419eaafff689366b70009a3066bdd1d6ca004e7025a6478a3a78314cb67b1fd090ae1047a90b3be75b9439642a6265f14f
+
 Package: seeker
 Version: 1.3.1-SR
 Architecture: all
@@ -284,6 +300,22 @@ MD5Sum: 123ef051869bc52f365f27ac520a83c9
 SHA1: 6ab6a12bb87add1d830101e08f89995077d2ba57
 SHA256: 4c92f44068994c1007ee523aa9ab73d5aa007866cfca704c97581242004870c5
 SHA512: d2393cf0f8dbe28078b43425c739d7cc6711d5ef494051346cf870982ec2a56e11c3cf42a6805cb297e4bf56987835711003988c927efdac2feee226f727e7ee
+
+Package: srtool
+Version: 1.4.6-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3
+Recommends: bc, highlight, ffmpeg, imagemagick
+Installed-Size: 68
+Homepage: 
+Description: srtool is a powerfull tools with many function.
+Filename: dists/metaverse/universe/binary-all/srtool_1.4.6-SR_all.deb
+Size: 23984
+MD5Sum: 87ddba0f185ad1932b35079329a105d4
+SHA1: 16d019883bf47cbcf383904e30d6322bb9a68421
+SHA256: bbc17829cda21a3f51b1ea5c7c8cff58ba51d4477ab2d49c886c4b43dc3b15d8
+SHA512: 89ae2428948f14e14c91afcc7cbc7a7b657f3cf3528f058d8d9220a17efaefe58848a6dbbac88ee4c23239a9c29b4c33fe8595205f20793e58a1f03bf8f156f1
 
 Package: tiktok-download
 Version: 1.3.0-SR
