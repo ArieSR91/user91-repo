@@ -1,8 +1,9 @@
 {
   "schemaVersion": 1,
-  "label": "GitHub Pages",
-  "message": "ACTIVE",
-  "color": "lightgreen",
+  "label": "Repository",
+  "message": "AKTIF",
+  "color": "brightgreen",
+  "labelColor": "brightgreen",
   "logo": "github",
-  "cacheSeconds": 60
+  "cacheSeconds": 300
 }
