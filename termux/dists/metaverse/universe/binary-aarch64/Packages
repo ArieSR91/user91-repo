@@ -13,22 +13,6 @@ SHA1: b3dcb6154bff92d8aabea080b8403cc9d118ccb3
 SHA256: a1d6a00225a031b9a75e79d90dee45b2257847c0320f367ee95bc4c8a6e1334d
 SHA512: f01a2bdecd936282ad575421189b17316c0bcefc49ee2c3227f4260c553f30b96b87fe02891a3a615b9ccb23f9df4a58019a5a19d9bf0bda9e0558dd4232b2f8
 
-Package: extract-xiso
-Version: 2.7.1-SR
-Architecture: aarch64
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash
-Recommends: 
-Installed-Size: 128
-Homepage: https://github.com/ArieSR91
-Description: Xbox iso extractor to .xbe format
-Filename: dists/metaverse/universe/binary-aarch64/extract-xiso_2.7.1-SR_aarch64.deb
-Size: 32756
-MD5Sum: a351cd8f0667db01898689016046177f
-SHA1: e50b39813c11425cca0170fbf9957fdf45380ba7
-SHA256: d8181d63e4ba69bf061af55bb0316c4f9b69606710241bc48555b4f7381591b2
-SHA512: 24b25f1af7a32a8a6f759cc47f0786491adcb734f219b1b4eecf0b0fa7d1ffbacb47e6ffd3721b3d7572ea44fc444e78ba4ca7e56f0c7ffa94c53f704b814a6f
-
 Package: highlight
 Version: 4.19.0-SR
 Priority: optional
@@ -122,4 +106,20 @@ MD5Sum: 10266e3343ed3e56688f646074dc1d73
 SHA1: 042800b96a5850810eb8e7fad1aa18c2c10f02e1
 SHA256: 64ce71ec4f8dbf30a625c85f28f437964ac244748ebc66d5f704c2943f2a3bba
 SHA512: e358bb633f7b7375b033678f9084c65597d638bec09f1d83d221daa16111570eb62fcdd494643fb82450411e7c44ff9c96ae0b999b70a8787492b84d1dc1ac1e
+
+Package: xiso
+Version: 2.7.1-SR
+Architecture: aarch64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: 
+Installed-Size: 128
+Homepage: https://github.com/ArieSR91
+Description: Xbox iso extractor to .xbe format
+Filename: dists/metaverse/universe/binary-aarch64/xiso_2.7.1-SR_aarch64.deb
+Size: 32740
+MD5Sum: da7f9ad227d71b30598c977e12b709f1
+SHA1: fb5dbef42b488e17963aaad15e047e7e3561bb2f
+SHA256: 3e2be01697415e5c859e83c806c5a4bb1792cda588a81fb335864fee4f4e47d2
+SHA512: fc7d182a8df441c2ebee824c738d70acd3d04968605f7887168e101a5f4543be4602f5245d09f4b80f0c7f931a3d5880718cc27ebed0e5fb0dfc96fa577bf532
 

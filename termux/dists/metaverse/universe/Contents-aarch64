@@ -103,7 +103,6 @@ data/data/com.termux/files/usr/share/man/man8/wesside-ng.8.gz                   
 data/data/com.termux/files/usr/lib/libaircrack-ce-wpa.so                         aircrack-ng
 data/data/com.termux/files/usr/lib/libaircrack-osdep.so                          aircrack-ng
 data/data/com.termux/files/usr/share/doc/aircrack-ng/LICENSE                     aircrack-ng
-data/data/com.termux/files/usr/bin/extract-xiso                                  extract-xiso
 data/data/com.termux/files/usr/bin/highlight                                     highlight
 data/data/com.termux/files/usr/etc/highlight/filetypes.conf                      highlight
 data/data/com.termux/files/usr/etc/highlight/lsp.conf                            highlight
@@ -2884,3 +2883,4 @@ data/data/com.termux/files/usr/share/wine/nls/normnfkc.nls                      
 data/data/com.termux/files/usr/share/wine/nls/normnfkd.nls                       wine-hangover
 data/data/com.termux/files/usr/share/wine/nls/sortdefault.nls                    wine-hangover
 data/data/com.termux/files/usr/share/wine/wine.inf                               wine-hangover
+data/data/com.termux/files/usr/bin/xiso                                          xiso
