@@ -16,22 +16,6 @@ SHA1: 70673b63f7726e729c7f93dc79ecfa4d9b9d1c81
 SHA256: afa2c278b98f5302472f3a0fabe9e4c3f4c81df76f281fa9d6f359692eaae6f2
 SHA512: a8ff940a9a42c8b3dc7b7456496b6e784af5f5c0ba4c7b32bd9e94e0f8657da6d5ededd7d33d70888ef1b2d7bf6bc56c07b39df5826b8aa122c0a300152e4e9e
 
-Package: extract-xiso
-Version: 2.7.1-SR
-Architecture: arm64
-Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
-Depends: bash
-Recommends: 
-Installed-Size: 90
-Homepage: https://github.com/ArieSR91
-Description: Xbox iso extractor to .xbe format
-Filename: dists/metaverse/universe/binary-arm64/extract-xiso_2.7.1-SR_arm64.deb
-Size: 15056
-MD5Sum: e33908a07e24569f0d0637b11f279781
-SHA1: 93b379db7140afb2a4fedcaf90f42b93acedcda5
-SHA256: 08ab2496062921eb6760d7fc670f8b7460b3f585d9f4235bafbca74e982a3c13
-SHA512: f1655b784aba85ba34f6ea3f4000cc03189ed78b625c4d71236a92ee0f538cb32281f9c392561fbdbf128630a8bc988e922f9d3e0ff8a87c933f6cedb7b08eff
-
 Package: hangover-libarm64ecfex
 Version: 10.10
 Architecture: arm64
@@ -213,4 +197,20 @@ MD5Sum: d58cef30a9c93525227d7a3adbc24524
 SHA1: 4068b2afea482f5de11470a76d7dc0a82c95165a
 SHA256: c2b8a541838ac498b77021d81e408996e08d2aa3b4c77c04fc8a103ded88e41e
 SHA512: 7019c14cbbb7780b9ab928893fe8739f2f0f2c236cefe259b5d993e700d02ce88c951a1441f0dbd13b0b706186a9754e92989f297c26f801b115c03e42410e34
+
+Package: xiso
+Version: 2.7.1-SR
+Architecture: arm64
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: bash
+Recommends: 
+Installed-Size: 90
+Homepage: https://github.com/ArieSR91
+Description: Xbox iso extractor to .xbe format
+Filename: dists/metaverse/universe/binary-arm64/xiso_2.7.1-SR_arm64.deb
+Size: 15060
+MD5Sum: 5e26253ad7adbdddd85f66e50388eea5
+SHA1: c7f70d59e3ef763570272b2e82e6f70055c04662
+SHA256: dead316c8bfee18a850ee3e4c3ce77952ffa09fe8c0a757e3e961f2393fa4252
+SHA512: 0178af9046da4f41908c3b1594998ae31b0d7c11bad0650d90021ac3e919729e32f445de7a044e92eb16853c3beee4a1588eba7eeda0331bf7e0900adc62fa0c
 

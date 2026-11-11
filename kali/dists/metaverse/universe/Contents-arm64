@@ -27,7 +27,6 @@ usr/share/doc/box64/CHANGELOG.md                                                
 usr/share/doc/box64/LICENSE                                                      box64
 usr/share/doc/box64/README.md                                                    box64
 usr/share/doc/box64/USAGE.md                                                     box64
-usr/local/bin/extract-xiso                                                       extract-xiso
 usr/lib/wine/aarch64-windows/libarm64ecfex.dll                                   hangover-libarm64ecfex
 usr/share/doc/hangover-libarm64ecfex/copyright                                   hangover-libarm64ecfex
 usr/lib/wine/aarch64-windows/libwow64fex.dll                                     hangover-libwow64fex
@@ -6433,3 +6432,4 @@ usr/local/bin/winepath                                                          
 usr/local/bin/wineserver                                                         wine-stable
 usr/local/bin/wmc                                                                wine-stable
 usr/local/bin/wrc                                                                wine-stable
+usr/local/bin/xiso                                                               xiso
