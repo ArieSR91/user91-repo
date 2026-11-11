@@ -1,5 +1,5 @@
 [![Deploy Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)](https://github.com/ArieSR91/user91-repo/actions/workflows/static.yml?query=branch%3Ametaverse)
-[![Repository Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FArieSR91%2Fuser91-repo%2Fmain%2Fstatus.json)](https://github.com/ArieSR91/user91-repo/actions/workflows/static.yml)
+[![Repository Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FArieSR91%2Fuser91-repo%2Fmain%2Fstatus.json%3Fv%3D2)](https://github.com/ArieSR91/user91-repo/actions/workflows/static.yml)
 # user91-repo
 Wellcome to my repository.
 
