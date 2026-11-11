@@ -1,5 +1,4 @@
 [![Deploy Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)](https://github.com/ArieSR91/user91-repo/actions/workflows/static.yml?query=branch%3Ametaverse)
-[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/ArieSR91/user91-repo/static.yml?style=flat-square&label=latest%20deploy)](https://github.com/ArieSR91/user91-repo/actions/workflows/static.yml?query=branch%3Ametaverse)
 # user91-repo
 Wellcome to my repository.
 
@@ -35,7 +34,6 @@ box86 (armhf) \
 blesh (all) \
 create-bin (all) \
 ddos (all) \
-extract-xiso (arm64) \
 fake-monitor (all) \
 google-cloud-shell (all) \
 hangover-libarm64ecfex (arm64) \
@@ -60,12 +58,12 @@ winebox (armhf, arm64) \
 wine-old (armhf) \
 wine-stable (armhf, arm64) \
 xfce4-battery-status (all) \
+xiso (arm64) \
 > youtube-download (all)
 #### Termux
 > aircrack-ng (arm, aarch64) \
 build-repo (all) \
 chdman (all) \
-extract-xiso (aarch64) \
 fake-sudo (all) \
 fonts-firacode (all) \
 fonts-hack (all) \
@@ -95,4 +93,5 @@ termux-desktop-xfce (all) \
 termux-fonts (all) \
 termux-user-dirs (all) \
 tiktok-download (all) \
-> wine-hangover (aarch64) 
+wine-hangover (aarch64) \
+> xiso (aarch64)
