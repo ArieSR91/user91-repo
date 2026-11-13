@@ -422,6 +422,22 @@ SHA1: 4cbc4dbde9fcc2e192b3a16d643cefc1f9759f1c
 SHA256: 368b3a9c9840f922e0386634c4e5f73f7915a587c4aae6e0bbee5eea813715a9
 SHA512: 520983414457879f511e4a6edd8ca1fda547349aee3639d97b6166de1d9736196a21d486413e065af3dfab507e9d8edcec2e19661c64848ac93477adf0ac0978
 
+Package: srtool
+Version: 1.4.7-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3
+Recommends: bc, highlight, ffmpeg, imagemagick
+Installed-Size: 101
+Homepage: 
+Description: srtool is a typing simulation like xdotool.
+Filename: dists/metaverse/universe/binary-all/srtool_1.4.7-SR_all.deb
+Size: 208104
+MD5Sum: 182086835c300ddcd54233d4b0e8b6f8
+SHA1: 444180eaf878b784aa9087e30fc479fbc680d30c
+SHA256: fb25082d53beb96777cb5277aa2ccffcf768d01ec12950d09e367e97da3dcf61
+SHA512: 8bbe940b4a9593e07d8935503c8f0fba8aad46af1f8f8796f8e2439873fbbf7b051ea3497768af7c18afb1019bd9d7df74ee3d747025d538e09693d08f9d6369
+
 Package: termux-desktop-lxqt
 Version: 1.2.0-SR
 Architecture: all

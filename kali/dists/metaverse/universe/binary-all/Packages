@@ -317,6 +317,22 @@ SHA1: 0b47406a19dead5491c762f3abd41d53b94e0fa2
 SHA256: bf73bb0d889e4eab80bb087823037935569a96e44f59be436b9eec8e9efcfc21
 SHA512: c40e0e80751a86e0af9e76ad525e641987c9c6020941c7861d7abce3c79219f652a4b723755c8bcdddc581d0aadb4ecc3b848543f96f974799b74dce65017527
 
+Package: srtool
+Version: 1.4.7-SR
+Architecture: all
+Maintainer: Arie-SR91 <syahri.ramadhan2022@gmail.com>
+Depends: python3
+Recommends: bc, highlight, ffmpeg, imagemagick
+Installed-Size: 68
+Homepage: 
+Description: srtool is a powerfull tools with many function.
+Filename: dists/metaverse/universe/binary-all/srtool_1.4.7-SR_all.deb
+Size: 207552
+MD5Sum: 66d8e5a5cfe07202ed6c2470a3427337
+SHA1: 6b3c2e671faa48f27c62c0f854c78c3911f92f2d
+SHA256: 3c95039d0b2597ef315e45aa5c8c084f4d2aafd7123862c654daa2028cc2d08e
+SHA512: 30e387e9f3182f08f108d0a9df9c3765955bce5b6014a11f3fa88d4d0a9bebce664088dfaee2e190cf45ee1bad69590fe863fab1438db0fd69f5a5bd6ca32e8f
+
 Package: tiktok-download
 Version: 1.3.0-SR
 Architecture: all
