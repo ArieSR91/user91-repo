@@ -327,11 +327,11 @@ Installed-Size: 735
 Homepage: https://github.com/ArieSR91
 Description: srtool is a powerfull tools with many function.
 Filename: dists/metaverse/universe/binary-all/srtool_1.4.7-SR_all.deb
-Size: 207552
-MD5Sum: 17addc7a000cbaa1e950ab13c85739a8
-SHA1: 95e799946d0bb610e803de654faa702fbace2e14
-SHA256: 1476896e13cb59ce5376889916f42c48b3e1880ca07edd30c2be662f9b88bc74
-SHA512: 5d2e972593cba3178d1c6216f501654fdc9830740e23644ab1de72329f53a22ce21fa3bc7652e47833647f950caa99fcdb5ee68c2a210c4275d90b1521e22b64
+Size: 207548
+MD5Sum: fc7972aaf2404928412d30d493b9f055
+SHA1: 39d878bd160d3a3e0796aafa4a583076ec911004
+SHA256: 9e68166cb6facd2498ba10d2a078af8217cb425208e4ac4753c65d178d7d0329
+SHA512: 3085978647edb11d92d740ffed48eab63faba6d203d5aa85dd23be13a6e6a237b3ebfcbae5921d6dbb4daf8f0af79d62e2974ec70f94a79200f7d739e839abeb
 
 Package: tiktok-download
 Version: 1.3.0-SR
