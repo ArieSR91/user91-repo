@@ -66412,6 +66412,7 @@ tmp/srtool/cleo/sa_pc/SASCM.NewOpcodes.ini                                      
 tmp/srtool/cleo/sa_pc/opcodes.txt                                                srtool
 usr/local/bin/srtool                                                             srtool
 usr/local/bin/tiktok-download                                                    tiktok-download
+usr/local/bin/tiktok-download                                                    tiktok-download
 etc/usbmount/mount.d/00_create_model_symlink                                     usbmount
 etc/usbmount/umount.d/00_remove_model_symlink                                    usbmount
 etc/usbmount/usbmount.conf                                                       usbmount
